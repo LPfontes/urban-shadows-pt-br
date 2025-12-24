@@ -6,6 +6,14 @@
     "minimum": "13",
     "verified": "13"
   },
+  "relationships": {
+    "requires": [
+      {
+        "id": "urban-shadows-pbta",
+        "type": "module"
+      }
+    ]
+  },
   "flags": {
     "canUpload": true
   },
