@@ -25,7 +25,7 @@
         "description": "Tabelas para gerar NPCs aleatórios, locais, rumores, facções e Locais neste núcleo",
         "position": "tables",
         "type": "LongText",
-        "value": "<p>@UUID[Compendium.urban-shadows-ptbr.tabelas-ptbr.RollTable.UF1F2A3C4T5I6O78]{Facções da Universidade}</p><p>@UUID[Compendium.urban-shadows-ptbr.tabelas-ptbr.RollTable.GLQHB9gTPBfuDjrX]{Locais da Universidade}</p><p>@UUID[Compendium.urban-shadows-ptbr.tabelas-ptbr.RollTable.UN1N2P3Q4R5S6T78]{NPCs da Universidade}</p><p>@UUID[Compendium.urban-shadows-ptbr.tabelas-ptbr.RollTable.UR1U2M3O4R5S6782]{Rumores da Universidade}</p>"
+        "value": "<p>@UUID[Compendium.urban-shadows-pt-br.tabelas-pt-br.RollTable.UF1F2A3C4T5I6O78]{Facções da Universidade}</p><p>@UUID[Compendium.urban-shadows-pt-br.tabelas-pt-br.RollTable.GLQHB9gTPBfuDjrX]{Locais da Universidade}</p><p>@UUID[Compendium.urban-shadows-pt-br.tabelas-pt-br.RollTable.UN1N2P3Q4R5S6T78]{NPCs da Universidade}</p><p>@UUID[Compendium.urban-shadows-pt-br.tabelas-pt-br.RollTable.UR1U2M3O4R5S6782]{Rumores da Universidade}</p>"
       },
       "description": {
         "label": "Descrição",
@@ -194,7 +194,7 @@
       "_id": "nirceYedpcuG5Pqs",
       "img": "icons/svg/aura.svg",
       "system": {
-        "description": "<p>Quando você <em><strong>@UUID[Compendium.urban-shadows-ptbr.movimentos-ptbr.Item.QA5lS7xT1yU4zV0w]{investigar as ruas}</strong></em> para procurar informações sobre fenômenos estranhos ou mágicos consultando seus contatos universitários, você pode rolar com <strong>MENTE</strong> em vez de Círculo quando consultar seus contatos na universidade. </p>",
+        "description": "<p>Quando você <em><strong>@UUID[Compendium.urban-shadows-pt-br.movimentos-pt-br.Item.QA5lS7xT1yU4zV0w]{investigar as ruas}</strong></em> para procurar informações sobre fenômenos estranhos ou mágicos consultando seus contatos universitários, você pode rolar com <strong>MENTE</strong> em vez de Círculo quando consultar seus contatos na universidade. </p>",
         "moveType": "hub",
         "rollFormula": "",
         "moveResults": {
@@ -229,7 +229,7 @@
       },
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.urban-shadows-ptbr.movimentos-ptbr.Item.G2kL5mM8nO1pP4qS",
+        "compendiumSource": "Compendium.urban-shadows-pt-br.movimentos-pt-br.Item.G2kL5mM8nO1pP4qS",
         "duplicateSource": null,
         "exportSource": null,
         "coreVersion": "13.347",
@@ -265,7 +265,7 @@
           "strongHit": {
             "key": "system.moveResults.strongHit.value",
             "label": "Sucesso Total",
-            "value": "<p>Num sucesso, o campus se curva à sua vontade e produz um local seguro disponível apenas para você e aqueles que você designar; ele dura até que a reunião ou acordo seja concluído. </p><p>Num 10+, o local está silenciosamente sintonizado com você; você nunca precisa marcar corrupção quando <em><strong>@UUID[Compendium.urban-shadows-ptbr.movimentos-ptbr.Item.Nx2iP4uQ8vR1wS7t]{liberar seu poder}</strong></em> lá dentro. </p>"
+            "value": "<p>Num sucesso, o campus se curva à sua vontade e produz um local seguro disponível apenas para você e aqueles que você designar; ele dura até que a reunião ou acordo seja concluído. </p><p>Num 10+, o local está silenciosamente sintonizado com você; você nunca precisa marcar corrupção quando <em><strong>@UUID[Compendium.urban-shadows-pt-br.movimentos-pt-br.Item.Nx2iP4uQ8vR1wS7t]{liberar seu poder}</strong></em> lá dentro. </p>"
           }
         },
         "uses": 0,
@@ -283,7 +283,7 @@
       },
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.urban-shadows-ptbr.movimentos-ptbr.Item.H3lM6nN9oP2qQ5rT",
+        "compendiumSource": "Compendium.urban-shadows-pt-br.movimentos-pt-br.Item.H3lM6nN9oP2qQ5rT",
         "duplicateSource": null,
         "exportSource": null,
         "coreVersion": "13.347",
@@ -337,7 +337,7 @@
       },
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.urban-shadows-ptbr.movimentos-ptbr.Item.I4mN7oO0pQ3rR6sU",
+        "compendiumSource": "Compendium.urban-shadows-pt-br.movimentos-pt-br.Item.I4mN7oO0pQ3rR6sU",
         "duplicateSource": null,
         "exportSource": null,
         "coreVersion": "13.347",

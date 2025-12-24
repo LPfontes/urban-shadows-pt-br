@@ -361,11 +361,11 @@
         "desc": "ESCOLHA DOIS:",
         "grantOn": 1, "advancement": 0, "repeatable": true,
         "choices": [
-          { "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.Q8sU1wY4zA7dE0hI", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
-          { "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.S0uW3yA6dC9fF2jK", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
-          { "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.O6qS9uW2xZ5bC8fG", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
-          { "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.4dUME8JD1dKthmSq", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
-          { "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.eZ7wIjFes5d2978m", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 }
+          { "uuid": "Compendium.urban-shadows-pt-br.manuais-pt-br.Item.Q8sU1wY4zA7dE0hI", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
+          { "uuid": "Compendium.urban-shadows-pt-br.manuais-pt-br.Item.S0uW3yA6dC9fF2jK", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
+          { "uuid": "Compendium.urban-shadows-pt-br.manuais-pt-br.Item.O6qS9uW2xZ5bC8fG", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
+          { "uuid": "Compendium.urban-shadows-pt-br.manuais-pt-br.Item.4dUME8JD1dKthmSq", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
+          { "uuid": "Compendium.urban-shadows-pt-br.manuais-pt-br.Item.eZ7wIjFes5d2978m", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 }
         ],
         "type": "multi", "granted": false
       },
@@ -374,10 +374,10 @@
         "desc": "Movimentos Iniciais",
         "grantOn": 0, "advancement": 0, "repeatable": true,
         "choices": [
-          { "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.KBSYLh9cv2K0PiFN", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
-          { "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.49yieposDWFOPjfp", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
-          { "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.gvAHOQlG8O5UNcO4", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
-          { "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.U2wY5bC8fE1hH4lM", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 }
+          { "uuid": "Compendium.urban-shadows-pt-br.manuais-pt-br.Item.KBSYLh9cv2K0PiFN", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
+          { "uuid": "Compendium.urban-shadows-pt-br.manuais-pt-br.Item.49yieposDWFOPjfp", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
+          { "uuid": "Compendium.urban-shadows-pt-br.manuais-pt-br.Item.gvAHOQlG8O5UNcO4", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
+          { "uuid": "Compendium.urban-shadows-pt-br.manuais-pt-br.Item.U2wY5bC8fE1hH4lM", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 }
         ],
         "type": "multi", "granted": false
       },
@@ -386,9 +386,9 @@
         "desc": "Tudo fornecido pelo seu benfeitor & Escolha dois:",
         "grantOn": 1, "advancement": 0, "repeatable": true,
         "choices": [
-          { "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.tnbVX7iO5pek2nw2", "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/crystal-ball.svg", "granted": false, "advancement": 0 },
-          { "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.PT9avmjve8g9nrCx", "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/secret-book.svg", "granted": false, "advancement": 0 },
-          { "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.1bf9dcd7f50d48d1", "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/primitive-necklace.svg", "granted": false, "advancement": 0 }
+          { "uuid": "Compendium.urban-shadows-pt-br.equipamentos-pt-br.Item.tnbVX7iO5pek2nw2", "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/crystal-ball.svg", "granted": false, "advancement": 0 },
+          { "uuid": "Compendium.urban-shadows-pt-br.equipamentos-pt-br.Item.PT9avmjve8g9nrCx", "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/secret-book.svg", "granted": false, "advancement": 0 },
+          { "uuid": "Compendium.urban-shadows-pt-br.equipamentos-pt-br.Item.1bf9dcd7f50d48d1", "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/primitive-necklace.svg", "granted": false, "advancement": 0 }
         ],
         "type": "multi", "granted": false
       }

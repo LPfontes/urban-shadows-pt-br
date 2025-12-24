@@ -805,7 +805,7 @@
         "repeatable": true,
         "choices": [
           {
-            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.0ceI5DbGhTsA19YP",
+            "uuid": "Compendium.urban-shadows-pt-br.manuais-pt-br.Item.0ceI5DbGhTsA19YP",
             "img": "icons/svg/aura.svg",
             "granted": false,
             "advancement": 0
@@ -822,25 +822,25 @@
         "repeatable": true,
         "choices": [
           {
-            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.OVJL4Bz9saDNxPw0",
+            "uuid": "Compendium.urban-shadows-pt-br.manuais-pt-br.Item.OVJL4Bz9saDNxPw0",
             "img": "icons/svg/aura.svg",
             "granted": false,
             "advancement": 0
           },
           {
-            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.fad3fd847c7c4ded",
+            "uuid": "Compendium.urban-shadows-pt-br.manuais-pt-br.Item.fad3fd847c7c4ded",
             "img": "icons/svg/aura.svg",
             "granted": false,
             "advancement": 0
           },
           {
-            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.CimKG6GWKFFHJyhy",
+            "uuid": "Compendium.urban-shadows-pt-br.manuais-pt-br.Item.CimKG6GWKFFHJyhy",
             "img": "icons/svg/aura.svg",
             "granted": false,
             "advancement": 0
           },
           {
-            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.jieNYKJB5obC4mcP",
+            "uuid": "Compendium.urban-shadows-pt-br.manuais-pt-br.Item.jieNYKJB5obC4mcP",
             "img": "icons/svg/aura.svg",
             "granted": false,
             "advancement": 0
@@ -857,13 +857,13 @@
         "repeatable": true,
         "choices": [
           {
-            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.41JxD0pVIReFWo12",
+            "uuid": "Compendium.urban-shadows-pt-br.manuais-pt-br.Item.41JxD0pVIReFWo12",
             "img": "icons/svg/aura.svg",
             "granted": false,
             "advancement": 0
           },
           {
-            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.1cd7e4cde6a94d46",
+            "uuid": "Compendium.urban-shadows-pt-br.manuais-pt-br.Item.1cd7e4cde6a94d46",
             "img": "icons/svg/aura.svg",
             "granted": false,
             "advancement": 0
@@ -880,13 +880,13 @@
         "repeatable": true,
         "choices": [
           {
-            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.eOmTPHPz6Akhp26L",
+            "uuid": "Compendium.urban-shadows-pt-br.equipamentos-pt-br.Item.eOmTPHPz6Akhp26L",
             "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/gym-bag.svg",
             "granted": false,
             "advancement": 0
           },
           {
-            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.jSbzUEBdBfUDzgQ7",
+            "uuid": "Compendium.urban-shadows-pt-br.equipamentos-pt-br.Item.jSbzUEBdBfUDzgQ7",
             "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/smartphone.svg",
             "granted": false,
             "advancement": 0
@@ -903,31 +903,31 @@
         "repeatable": true,
         "choices": [
           {
-            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.K4lL7mN0oP3qQ6rS",
+            "uuid": "Compendium.urban-shadows-pt-br.equipamentos-pt-br.Item.K4lL7mN0oP3qQ6rS",
             "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/pistol-gun.svg",
             "granted": false,
             "advancement": 0
           },
           {
-            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.61G1bKAZrUym18Ac",
+            "uuid": "Compendium.urban-shadows-pt-br.equipamentos-pt-br.Item.61G1bKAZrUym18Ac",
             "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/baseball-bat.svg",
             "granted": false,
             "advancement": 0
           },
           {
-            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.U79fjMPb4uuYb7zR",
+            "uuid": "Compendium.urban-shadows-pt-br.equipamentos-pt-br.Item.U79fjMPb4uuYb7zR",
             "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/butterfly-knife.svg",
             "granted": false,
             "advancement": 0
           },
           {
-            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.1HR3Awr120Z0vEXi",
+            "uuid": "Compendium.urban-shadows-pt-br.equipamentos-pt-br.Item.1HR3Awr120Z0vEXi",
             "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/machete.svg",
             "granted": false,
             "advancement": 0
           },
           {
-            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.03e743a1890c43f9",
+            "uuid": "Compendium.urban-shadows-pt-br.equipamentos-pt-br.Item.03e743a1890c43f9",
             "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/revolver.svg",
             "granted": false,
             "advancement": 0

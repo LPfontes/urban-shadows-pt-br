@@ -645,13 +645,13 @@
         "repeatable": true,
         "choices": [
           {
-            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.8fdc11bc6b9e4259",
+            "uuid": "Compendium.urban-shadows-pt-br.manuais-pt-br.Item.8fdc11bc6b9e4259",
             "img": "icons/svg/aura.svg",
             "granted": false,
             "advancement": 0
           },
           {
-            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.gaVbpcYqUTVAuNwu",
+            "uuid": "Compendium.urban-shadows-pt-br.manuais-pt-br.Item.gaVbpcYqUTVAuNwu",
             "img": "icons/svg/aura.svg",
             "granted": false,
             "advancement": 0
@@ -668,43 +668,43 @@
         "repeatable": true,
         "choices": [
           {
-            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.Gj6eXhLvE8Y9KjDs",
+            "uuid": "Compendium.urban-shadows-pt-br.manuais-pt-br.Item.Gj6eXhLvE8Y9KjDs",
             "img": "icons/svg/aura.svg",
             "granted": false,
             "advancement": 0
           },
           {
-            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.namFcgLrWq3GzBiI",
+            "uuid": "Compendium.urban-shadows-pt-br.manuais-pt-br.Item.namFcgLrWq3GzBiI",
             "img": "icons/svg/aura.svg",
             "granted": false,
             "advancement": 0
           },
           {
-            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.Wpcln02jgNak4JGH",
+            "uuid": "Compendium.urban-shadows-pt-br.manuais-pt-br.Item.Wpcln02jgNak4JGH",
             "img": "icons/svg/aura.svg",
             "granted": false,
             "advancement": 0
           },
           {
-            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.H2iI5jJ8kK1lL4mN",
+            "uuid": "Compendium.urban-shadows-pt-br.manuais-pt-br.Item.H2iI5jJ8kK1lL4mN",
             "img": "icons/svg/aura.svg",
             "granted": false,
             "advancement": 0
           },
           {
-            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.fB4AWqXfpPexEFev",
+            "uuid": "Compendium.urban-shadows-pt-br.manuais-pt-br.Item.fB4AWqXfpPexEFev",
             "img": "icons/svg/aura.svg",
             "granted": false,
             "advancement": 0
           },
           {
-            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.nzEtYWPo8zfrPgEH",
+            "uuid": "Compendium.urban-shadows-pt-br.manuais-pt-br.Item.nzEtYWPo8zfrPgEH",
             "img": "icons/svg/aura.svg",
             "granted": false,
             "advancement": 0
           },
           {
-            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.OxOl1wJWXph7NW0U",
+            "uuid": "Compendium.urban-shadows-pt-br.manuais-pt-br.Item.OxOl1wJWXph7NW0U",
             "img": "icons/svg/aura.svg",
             "granted": false,
             "advancement": 0
@@ -721,13 +721,13 @@
         "repeatable": true,
         "choices": [
           {
-            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.3US48kX8kaqUc5Le",
+            "uuid": "Compendium.urban-shadows-pt-br.manuais-pt-br.Item.3US48kX8kaqUc5Le",
             "img": "icons/svg/aura.svg",
             "granted": false,
             "advancement": 0
           },
           {
-            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.28c028e0f21a480f",
+            "uuid": "Compendium.urban-shadows-pt-br.manuais-pt-br.Item.28c028e0f21a480f",
             "img": "icons/svg/aura.svg",
             "granted": false,
             "advancement": 0
@@ -744,25 +744,25 @@
         "repeatable": true,
         "choices": [
           {
-            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.pLmcHJnSEFA7S4pe",
+            "uuid": "Compendium.urban-shadows-pt-br.equipamentos-pt-br.Item.pLmcHJnSEFA7S4pe",
             "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/city-car.svg",
             "granted": false,
             "advancement": 0
           },
           {
-            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.7NhQpHr6XyzkD69k",
+            "uuid": "Compendium.urban-shadows-pt-br.equipamentos-pt-br.Item.7NhQpHr6XyzkD69k",
             "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/smartphone.svg",
             "granted": false,
             "advancement": 0
           },
           {
-            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.lBJbPUDy109EZrNG",
+            "uuid": "Compendium.urban-shadows-pt-br.equipamentos-pt-br.Item.lBJbPUDy109EZrNG",
             "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/family-house.svg",
             "granted": false,
             "advancement": 0
           },
           {
-            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.7TIGuha5kp5VDkF1",
+            "uuid": "Compendium.urban-shadows-pt-br.equipamentos-pt-br.Item.7TIGuha5kp5VDkF1",
             "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/temple-gate.svg",
             "granted": false,
             "advancement": 0
@@ -779,19 +779,19 @@
         "repeatable": true,
         "choices": [
           {
-            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.MTHSObEuSjh33gsZ",
+            "uuid": "Compendium.urban-shadows-pt-br.equipamentos-pt-br.Item.MTHSObEuSjh33gsZ",
             "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/glock.svg",
             "granted": false,
             "advancement": 0
           },
           {
-            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.03e743a1890c43f9",
+            "uuid": "Compendium.urban-shadows-pt-br.equipamentos-pt-br.Item.03e743a1890c43f9",
             "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/revolver.svg",
             "granted": false,
             "advancement": 0
           },
           {
-            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.033846e28c11448d",
+            "uuid": "Compendium.urban-shadows-pt-br.equipamentos-pt-br.Item.033846e28c11448d",
             "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/katana.svg",
             "granted": false,
             "advancement": 0

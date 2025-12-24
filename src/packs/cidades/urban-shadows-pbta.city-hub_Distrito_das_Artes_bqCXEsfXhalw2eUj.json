@@ -25,7 +25,7 @@
         "description": "Tabelas para gerar NPCs aleatórios, locais, rumores, facções e Locais neste núcleo",
         "position": "tables",
         "type": "LongText",
-        "value": "<p>@UUID[Compendium.urban-shadows-ptbr.tabelas-ptbr.RollTable.KaEzcsEAqY84X0r6]{Locais do Distrito Artístico}</p><p>@UUID[Compendium.urban-shadows-ptbr.tabelas-ptbr.RollTable.AF1F2A3C4T5I6O78]{Facções do Distrito Artístico}</p><p>@UUID[Compendium.urban-shadows-ptbr.tabelas-ptbr.RollTable.FI6H7I8J9K0L1M23]{NPCs do Distrito Artístico}</p><p>@UUID[Compendium.urban-shadows-ptbr.tabelas-ptbr.RollTable.8UhsTWySAfWrMMB8]{Rumores do Distrito Artístico}</p>"
+        "value": "<p>@UUID[Compendium.urban-shadows-pt-br.tabelas-pt-br.RollTable.KaEzcsEAqY84X0r6]{Locais do Distrito Artístico}</p><p>@UUID[Compendium.urban-shadows-pt-br.tabelas-pt-br.RollTable.AF1F2A3C4T5I6O78]{Facções do Distrito Artístico}</p><p>@UUID[Compendium.urban-shadows-pt-br.tabelas-pt-br.RollTable.FI6H7I8J9K0L1M23]{NPCs do Distrito Artístico}</p><p>@UUID[Compendium.urban-shadows-pt-br.tabelas-pt-br.RollTable.8UhsTWySAfWrMMB8]{Rumores do Distrito Artístico}</p>"
       },
       "description": {
         "label": "Descrição",
@@ -118,7 +118,7 @@
       },
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.urban-shadows-ptbr.movimentos-ptbr.Item.C8fG1hH4iJ7kL0mN",
+        "compendiumSource": "Compendium.urban-shadows-pt-br.movimentos-pt-br.Item.C8fG1hH4iJ7kL0mN",
         "duplicateSource": null,
         "exportSource": null,
         "coreVersion": "13.347",
@@ -172,7 +172,7 @@
       },
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.urban-shadows-ptbr.movimentos-ptbr.Item.B7eF4hG9jK2lM6oQ",
+        "compendiumSource": "Compendium.urban-shadows-pt-br.movimentos-pt-br.Item.B7eF4hG9jK2lM6oQ",
         "duplicateSource": null,
         "exportSource": null,
         "coreVersion": "13.347",
@@ -191,7 +191,7 @@
       "_id": "qNkT7wkf55GV9IbG",
       "img": "icons/svg/aura.svg",
       "system": {
-        "description": "<p>Quando você <strong>@UUID[Compendium.urban-shadows-ptbr.movimentos-ptbr.Item.Jt8eL0qM4rN7sO3p]{persuadir um NPC}</strong> prometendo ajuda concreta na busca de seus sonhos, marque corrupção para tirar um 10+ em vez de rolar. </p><p>Se você não conseguir cumprir sua promessa até o fim da próxima sessão, marque outra corrupção.</p>",
+        "description": "<p>Quando você <strong>@UUID[Compendium.urban-shadows-pt-br.movimentos-pt-br.Item.Jt8eL0qM4rN7sO3p]{persuadir um NPC}</strong> prometendo ajuda concreta na busca de seus sonhos, marque corrupção para tirar um 10+ em vez de rolar. </p><p>Se você não conseguir cumprir sua promessa até o fim da próxima sessão, marque outra corrupção.</p>",
         "moveType": "hub",
         "rollFormula": "",
         "moveResults": {
@@ -226,7 +226,7 @@
       },
       "flags": {},
       "_stats": {
-        "compendiumSource": "Compendium.urban-shadows-ptbr.movimentos-ptbr.Item.D9hI2jJ5kL8mN1oP",
+        "compendiumSource": "Compendium.urban-shadows-pt-br.movimentos-pt-br.Item.D9hI2jJ5kL8mN1oP",
         "duplicateSource": null,
         "exportSource": null,
         "coreVersion": "13.347",

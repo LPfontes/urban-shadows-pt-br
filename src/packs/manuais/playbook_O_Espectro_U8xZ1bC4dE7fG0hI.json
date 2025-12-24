@@ -373,7 +373,7 @@
         "type": "multi",
         "repeatable": true,
         "choices": [
-          { "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.WgajJP9BJzz2mek1", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 }
+          { "uuid": "Compendium.urban-shadows-pt-br.manuais-pt-br.Item.WgajJP9BJzz2mek1", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 }
         ],
         "grantOn": 0, "granted": false, "advancement": 0
       },
@@ -383,11 +383,11 @@
         "type": "multi",
         "repeatable": true,
         "choices": [
-          { "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.M0rR4uU7xX0aC3fF", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
-          { "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.wX1jFOlCqtr4nN3G", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
-          { "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.K8nQ1sS4vV7wW0aC", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
-          { "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.L9qQ3tT6wW9zB2dE", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
-          { "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.UIm4NJ5oKzlqxB7P", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 }
+          { "uuid": "Compendium.urban-shadows-pt-br.manuais-pt-br.Item.M0rR4uU7xX0aC3fF", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
+          { "uuid": "Compendium.urban-shadows-pt-br.manuais-pt-br.Item.wX1jFOlCqtr4nN3G", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
+          { "uuid": "Compendium.urban-shadows-pt-br.manuais-pt-br.Item.K8nQ1sS4vV7wW0aC", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
+          { "uuid": "Compendium.urban-shadows-pt-br.manuais-pt-br.Item.L9qQ3tT6wW9zB2dE", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
+          { "uuid": "Compendium.urban-shadows-pt-br.manuais-pt-br.Item.UIm4NJ5oKzlqxB7P", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 }
         ],
         "grantOn": 1, "granted": false, "advancement": 0
       },
@@ -397,10 +397,10 @@
         "type": "multi",
         "repeatable": true,
         "choices": [
-          { "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.N1sS4vV7wW0aC3fF", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
-          { "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.O2tT6wW9zB2dE5fG", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
-          { "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.qtI3J3xLDvBal2l7", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
-          { "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.4xXzKTHlc3rXRSXX", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 }
+          { "uuid": "Compendium.urban-shadows-pt-br.manuais-pt-br.Item.N1sS4vV7wW0aC3fF", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
+          { "uuid": "Compendium.urban-shadows-pt-br.manuais-pt-br.Item.O2tT6wW9zB2dE5fG", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
+          { "uuid": "Compendium.urban-shadows-pt-br.manuais-pt-br.Item.qtI3J3xLDvBal2l7", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
+          { "uuid": "Compendium.urban-shadows-pt-br.manuais-pt-br.Item.4xXzKTHlc3rXRSXX", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 }
         ],
         "grantOn": 0, "granted": false, "advancement": 0
       }

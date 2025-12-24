@@ -404,12 +404,12 @@
         "type": "multi",
         "repeatable": true,
         "choices": [
-          { "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.B7kR3nY9pQ4sT2wL", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
-          { "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.F1jH9kL2Z5pX8qV3", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
-          { "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.V5mN8jK3zW6rX1cA", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
-          { "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.H2jQ7fR5L9pD4kZ3", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
-          { "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.M4pC2zV7nR6tJ3sQ", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
-          { "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.R6kT3yB8nU5pA1dC", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 }
+          { "uuid": "Compendium.urban-shadows-pt-br.manuais-pt-br.Item.B7kR3nY9pQ4sT2wL", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
+          { "uuid": "Compendium.urban-shadows-pt-br.manuais-pt-br.Item.F1jH9kL2Z5pX8qV3", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
+          { "uuid": "Compendium.urban-shadows-pt-br.manuais-pt-br.Item.V5mN8jK3zW6rX1cA", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
+          { "uuid": "Compendium.urban-shadows-pt-br.manuais-pt-br.Item.H2jQ7fR5L9pD4kZ3", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
+          { "uuid": "Compendium.urban-shadows-pt-br.manuais-pt-br.Item.M4pC2zV7nR6tJ3sQ", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
+          { "uuid": "Compendium.urban-shadows-pt-br.manuais-pt-br.Item.R6kT3yB8nU5pA1dC", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 }
         ],
         "grantOn": 1, "granted": false, "advancement": 0
       },
@@ -419,8 +419,8 @@
         "type": "multi",
         "repeatable": true,
         "choices": [
-          { "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.13ed0f1b3c434160", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
-          { "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.jxcu3IGIkTUUOMQA", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 }
+          { "uuid": "Compendium.urban-shadows-pt-br.manuais-pt-br.Item.13ed0f1b3c434160", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
+          { "uuid": "Compendium.urban-shadows-pt-br.manuais-pt-br.Item.jxcu3IGIkTUUOMQA", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 }
         ],
         "grantOn": 0, "granted": false, "advancement": 0
       },
@@ -430,10 +430,10 @@
         "type": "multi",
         "repeatable": true,
         "choices": [
-          { "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.wXS2VL8ghujNaAmO", "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/flatbed.svg", "granted": false, "advancement": 0 },
-          { "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.zdAq6oEtPvlN7R6J", "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/modern-city.svg", "granted": false, "advancement": 0 },
-          { "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/smartphone.svg", "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.jSbzUEBdBfUDzgQ7", "granted": false, "advancement": 0 },
-          { "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.lcXwb8IeDwMfD9zA", "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/abstract-099.svg", "granted": false, "advancement": 0 }
+          { "uuid": "Compendium.urban-shadows-pt-br.equipamentos-pt-br.Item.wXS2VL8ghujNaAmO", "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/flatbed.svg", "granted": false, "advancement": 0 },
+          { "uuid": "Compendium.urban-shadows-pt-br.equipamentos-pt-br.Item.zdAq6oEtPvlN7R6J", "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/modern-city.svg", "granted": false, "advancement": 0 },
+          { "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/smartphone.svg", "uuid": "Compendium.urban-shadows-pt-br.equipamentos-pt-br.Item.jSbzUEBdBfUDzgQ7", "granted": false, "advancement": 0 },
+          { "uuid": "Compendium.urban-shadows-pt-br.equipamentos-pt-br.Item.lcXwb8IeDwMfD9zA", "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/abstract-099.svg", "granted": false, "advancement": 0 }
         ],
         "grantOn": 0, "granted": false, "advancement": 0
       }
