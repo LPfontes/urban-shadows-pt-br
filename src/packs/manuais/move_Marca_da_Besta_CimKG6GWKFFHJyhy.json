@@ -1,0 +1,53 @@
+{
+  "folder": "yB0RDR4bfzvFKjGa",
+  "name": "A Marca da Fera",
+  "type": "move",
+  "_id": "CimKG6GWKFFHJyhy",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Ao marcar um edifício com seus símbolos ou sigilos, , role com <strong>ESPÍRITO</strong>.</p>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": "<p>Numa falha, sua tentativa de reivindicar o prédio desperta uma ameaça adormecida ou passiva que você não considerou; o MC lhe dirá quem você irritou com sua reivindicação impulsiva.</p>"
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Sucesso Parcial",
+        "value": "<p>Num sucesso, você reivindica o local pelos próximos dias. </p><p>Com 7-9, escolha 1. A qualquer distância, você pode:</p><ul><li>sentir quem está no prédio o tempo todo</li><li>controlar as portas, fechaduras e janelas</li><li>ocultar a localização ou função verdadeira do prédio</li></ul>"
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Sucesso Total",
+        "value": "<p>Num sucesso, você reivindica o local pelos próximos dias. </p><p>Com 10+, todos os 3. A qualquer distância, você pode:</p><ul><li>sentir quem está no prédio o tempo todo</li><li>controlar as portas, fechaduras e janelas</li><li>ocultar a localização ou função verdadeira do prédio</li></ul>"
+      }
+    },
+    "uses": 0,
+    "rollType": "spirit",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1733907156058,
+    "modifiedTime": 1756441703063,
+    "lastModifiedBy": "WynALakZJf661YU1",
+    "exportSource": null
+  },
+  "_key": "!items!CimKG6GWKFFHJyhy"
+}

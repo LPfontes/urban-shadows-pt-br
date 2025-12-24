@@ -1,0 +1,57 @@
+{
+    "folder":  "H9kL2nM5oP8qR3sT",
+    "name":  "Investimentos de Longo Prazo",
+    "type":  "move",
+    "_id":  "I4mN7oO0pQ3rR6sU",
+    "img":  "icons/svg/aura.svg",
+    "system": {
+    "description": "<p>Quando você <em><strong>estabelecer um novo programa, negócio ou empreendimento</strong></em> para realizar seus objetivos, gaste até três Dívidas; ganhe 1 reserva para cada Dívida gasta. Quando o tempo passar, você pode gastar seu domínio—1 por 1—para receber +1 (ou conceder +1 a outro PJ ou facção) em qualquer movimento de cidade ou de facção auxiliado pelo seu novo empreendimento.</p>",
+    "moveType": "hub",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": ""
+      },
+      "weakHit": {
+        "key": "system.moveResults.weakHit.value",
+        "label": "Sucesso Parcial",
+        "value": ""
+      },
+      "strongHit": {
+        "key": "system.moveResults.strongHit.value",
+        "label": "Sucesso Total",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+    "effects":  [
+
+                ],
+    "sort":  900000,
+    "ownership":  {
+                      "default":  0,
+                      "tolKXMkOd7JsM4Jk":  3
+                  },
+    "flags":  {
+
+              },
+    "_stats":  {
+                   "compendiumSource":  null,
+                   "duplicateSource":  null,
+                   "exportSource":  null,
+                   "coreVersion":  "13.347",
+                   "systemId":  "pbta",
+                   "systemVersion":  "1.1.21",
+                   "createdTime":  1748493194026,
+                   "modifiedTime":  1756434749458,
+                   "lastModifiedBy":  "WynALakZJf661YU1"
+               },
+    "_key":  "!items!I4mN7oO0pQ3rR6sU"
+}

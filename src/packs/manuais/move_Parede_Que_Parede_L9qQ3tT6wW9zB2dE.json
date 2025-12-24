@@ -1,0 +1,53 @@
+{
+  "folder": "8o7qAimGOKAnutBa",
+  "name": "Parede? Que Parede?",
+  "type": "move",
+  "_id": "L9qQ3tT6wW9zB2dE",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Você sempre tem uma abertura para <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.Hs7dK9pL3mN6oQ2r]{escapar de uma situação}</strong></em>. Você pode escolher uma opção adicional da lista para trazer alguém com você, mesmo que essa pessoa normalmente não conseguisse escapar. </p><p>Com uma falha, você—e quem quer que tenha trazido com você—acabam presos no espaço perigoso entre os mundos dos vivos e dos mortos.</p>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": ""
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Sucesso Parcial",
+        "value": ""
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Sucesso Total",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 150000,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.L9qQ3tT6wW9zB2dE",
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": 1733907156058,
+    "modifiedTime": 1756441869376,
+    "lastModifiedBy": "WynALakZJf661YU1",
+    "exportSource": null
+  },
+  "_key": "!items!L9qQ3tT6wW9zB2dE"
+}

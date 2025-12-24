@@ -1,0 +1,53 @@
+{
+  "folder": "J1lN4pR7sT0uV3xA",
+  "name": "Negócios, Como Sempre",
+  "type": "move",
+  "_id": "X5zA8eF1hH4kK7oP",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Quando o tempo passar — ou no início do jogo — role com <strong>MENTE</strong>.</p>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": "<p>Com uma falha, um membro da família ou amigo próximo te arrasta para um esquema que você preferiria ter evitado; gere um novo esquema com três complicações, e o MC lhe dirá que destino terrível pode recair sobre seu aliado caso você falhe em entregar.</p>"
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Sucesso Parcial",
+        "value": "<p>Com um sucesso, suas operações habituais geram um novo esquema ou fornecem uma oportunidade para avançar um de seus esquemas existentes, à sua escolha.</p>"
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Sucesso Total",
+        "value": "<p>Com um sucesso, suas operações habituais geram um novo esquema ou fornecem uma oportunidade para avançar um de seus esquemas existentes, à sua escolha.</p><p>Com 10+, você também escolhe 1:</p><ul><li>Um cliente leal revela os segredos de um PNJ poderoso, à sua escolha</li><li>Um PNJ que lhe deve uma Dívida aparece para cumprir sua obrigação</li><li>Um PNJ de Status 3 do seu Círculo lhe oferece uma Dívida pelos seus serviços</li></ul>"
+      }
+    },
+    "uses": 0,
+    "rollType": "mind",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.X5zA8eF1hH4kK7oP",
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1733907156058,
+    "modifiedTime": 1756440596186,
+    "lastModifiedBy": "WynALakZJf661YU1",
+    "exportSource": null
+  },
+  "_key": "!items!X5zA8eF1hH4kK7oP"
+}

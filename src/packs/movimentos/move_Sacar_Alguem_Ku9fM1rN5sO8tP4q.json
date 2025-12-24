@@ -1,0 +1,55 @@
+{
+    "folder":  "UQj0bckGnGOYfEHA",
+    "name":  "Sacar Alguém",
+    "type":  "move",
+    "_id":  "Ku9fM1rN5sO8tP4q",
+    "img":  "icons/svg/aura.svg",
+    "system": {
+"description": "<p>Quando você <em><strong>tentar sacar alguém</strong></em>, role com <strong>MENTE</strong>.</p>",    "moveType": "basic",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+"value": "<p>O MC diz a você que coisa interessante acontece.</p><p>Se você estiver no Círculo dele, faça uma pergunta adicional, mesmo numa falha.</p>"      },
+      "weakHit": {
+        "key": "system.moveResults.weakHit.value",
+        "label": "Sucesso Parcial",
+        "value": "<p>Com um sucesso, faça 2 perguntas. Com 7-9, eles fazem uma pergunta a você também. Se você estiver no Círculo dele, faça uma pergunta adicional.</p>"
+      },
+      "strongHit": {
+        "key": "system.moveResults.strongHit.value",
+        "label": "Sucesso Total",
+        "value": "<p>Com um sucesso, faça 2 perguntas. Se você estiver no Círculo dele, faça uma pergunta adicional.</p>"
+      }
+    },
+    "uses": 0,
+    "rollType": "mind",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": "<ul><li>quem está manipulando seu personagem?</li><li>qual é o problema do seu personagem com _____?</li><li>o que seu personagem espera conseguir de _____?</li><li>o que seu personagem teme que aconteça?</li><li>como eu poderia fazer seu personagem _____?</li><li>como eu poderia colocar seu personagem em Dívida comigo?</li></ul>"
+  },
+    "effects":  [
+
+                ],
+    "sort":  0,
+    "ownership":  {
+                      "default":  0,
+                      "tolKXMkOd7JsM4Jk":  3
+                  },
+    "flags":  {
+
+              },
+    "_stats":  {
+                   "compendiumSource":  null,
+                   "duplicateSource":  null,
+                   "exportSource":  null,
+                   "coreVersion":  "13.347",
+                   "systemId":  "pbta",
+                   "systemVersion":  "1.1.21",
+                   "createdTime":  1748493194026,
+                   "modifiedTime":  1756435523173,
+                   "lastModifiedBy":  "WynALakZJf661YU1"
+               },
+    "_key":  "!items!Ku9fM1rN5sO8tP4q"
+}

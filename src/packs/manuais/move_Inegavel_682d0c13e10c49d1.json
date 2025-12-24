@@ -1,0 +1,53 @@
+{
+  "folder": "Q0rS3tT6uU9vV2wW",
+  "name": "Não Serei Recusado",
+  "type": "move",
+  "_id": "682d0c13e10c49d1",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Quando alguém rolar um sucesso ao <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.WG1rY3dZ7eA0fB6c]{recusar-se a honrar uma Dívida}</strong></em> que você tenha <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.VF0qX2cY6dZ9eA5b]{cobrado}</strong></em> dele, você pode marcar corrupção para fazer com que a rolagem dele seja uma falha.</p>",
+    "moveType": "corruption",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": ""
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Sucesso Parcial",
+        "value": ""
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Sucesso Total",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1733907149533,
+    "modifiedTime": 1756439126244,
+    "lastModifiedBy": "WynALakZJf661YU1",
+    "exportSource": null
+  },
+  "_key": "!items!682d0c13e10c49d1"
+}

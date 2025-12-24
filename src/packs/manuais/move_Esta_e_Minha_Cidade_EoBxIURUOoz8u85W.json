@@ -1,0 +1,53 @@
+{
+  "folder": "UpKeNQxOrv4nSvGG",
+  "name": "Esta é a Minha Cidade",
+  "type": "move",
+  "_id": "EoBxIURUOoz8u85W",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Quando você marcar uma reunião com um indivíduo poderoso ou perigoso em um espaço mundano lotado (museu, restaurante, etc.), receba 2 reserva. Você pode gastar seu domínio, 1 por 1, para:</p><ul><li><p>criar uma abertura para você ou outro personagem <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.Hs7dK9pL3mN6oQ2r]{escapar de uma situação}</strong></em></p></li><li><p>receber +1 adiante para <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.Hs7dK9pL3mN6oQ2r]{escapar de uma situação}</strong></em></p></li><li><p>escolher pelo MC quando você <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.Hs7dK9pL3mN6oQ2r]{escapar de uma situação}</strong></em> e rolar um 7-9</p></li></ul>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": ""
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Sucesso Parcial",
+        "value": ""
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Sucesso Total",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.344",
+    "systemId": "pbta",
+    "systemVersion": "1.1.20",
+    "createdTime": 1733907149533,
+    "modifiedTime": 1748404246069,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "exportSource": null
+  },
+  "_key": "!items!EoBxIURUOoz8u85W"
+}

@@ -1,0 +1,53 @@
+{
+  "folder": "IbSH3P9hNhTyb12s",
+  "name": "Santuário",
+  "type": "move",
+  "_id": "gaVbpcYqUTVAuNwu",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Quando você for ao seu santuário em busca de um ingrediente de feitiço, relíquia ou tomo, role com <strong>ESPÍRITO</strong>.</p>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": "<p>Com uma falha, você não tem o que procura, mas conhece alguém de outro Círculo que provavelmente tem em estoque.</p>"
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Sucesso Parcial",
+        "value": "<p>Com 7-9, você tem algo próximo, mas é defeituoso ou falta algo significativo. </p>"
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Sucesso Total",
+        "value": "<p>Com 10+, você tem exatamente o que precisa. </p>"
+      }
+    },
+    "uses": 0,
+    "rollType": "spirit",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.344",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": 1733907149533,
+    "modifiedTime": 1748405524660,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "exportSource": null
+  },
+  "_key": "!items!gaVbpcYqUTVAuNwu"
+}

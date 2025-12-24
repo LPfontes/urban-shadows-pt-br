@@ -1,0 +1,373 @@
+{
+  "name": "Universidade",
+  "type": "urban-shadows-pbta.city-hub",
+  "_id": "fha09JNbFGp8twKa",
+  "img": "modules/urban-shadows-pbta/assets/cc-assets/header-bg.webp",
+  "system": {
+    "stats": {},
+    "attributes": {
+      "residents": {
+        "label": "Residentes",
+        "description": "NPCs importantes que vivem ou trabalham neste núcleo, incluindo relações de dívida",
+        "position": "connections",
+        "type": "LongText",
+        "value": "<table><thead><tr><th>Personagem do Jogador</th><th>Residentes</th><th>Facção</th><th>Por que eles devem a você?</th></tr></thead><tbody><tr><td></td><td>Professora Aoife Belenos, uma maga poderosa cujos seminários de literatura são aulas obrigatórias para aspirantes a feiticeiros</td><td>Poder</td><td></td></tr><tr><td></td><td>Yakov, um imortal transitório que vaga pelas ruas, caçando inimigos desconhecidos e antigos rivais</td><td>Poder</td><td></td></tr><tr><td></td><td>Nuriko Sato, uma jornalista aposentada cujo novo blog cobre apenas os eventos sobrenaturais mais importantes</td><td>Mortalis</td><td></td></tr><tr><td></td><td>Eloy Verde, um vendedor tímido de artefatos mágicos que possui uma livraria popular ao lado do campus universitário</td><td>Mortalis</td><td></td></tr><tr><td></td><td>Jovita, uma lobisomem cuja matilha comanda um estabelecimento de jogos subterrâneo com punhos de ferro e muitas garras</td><td>Noite</td><td></td></tr><tr><td></td><td>Lora Ziegler, uma vampira que espreita perto da biblioteca da universidade e outros locais do campus frequentados por estudantes isolados</td><td>Noite</td><td></td></tr><tr><td></td><td>Rupa Dey, uma fada encantadora que assume as ondas do rádio estudantil da madrugada quase todas as noites</td><td>Limiar</td><td></td></tr><tr><td></td><td>A Besta, um construto formidável que protege os terrenos da universidade de ameaças sobrenaturais</td><td>Limiar</td><td></td></tr></tbody></table>"
+      },
+      "relationships": {
+        "label": "Relacionamentos",
+        "description": "Perguntas de relacionamento dos PJs e conexões específicas para este núcleo",
+        "position": "connections",
+        "type": "LongText",
+        "value": "<table><thead><tr><th>Personagem do Jogador</th><th>Relacionamento</th></tr></thead><tbody><tr><td></td><td>Você tem um amante mortal que está cursando aulas noturnas na universidade enquanto trabalha em tempo integral nas proximidades. Por que ____________________ ameaçou expor seus segredos para ele?</td></tr><tr><td></td><td>Um amigo da universidade concordou em lhe dar uma quantia considerável de dinheiro para iniciar um novo negócio. Por que eles contam com suas conexões com ____________________ para que o empreendimento tenha sucesso?</td></tr><tr><td></td><td>Seu irmão voltou recentemente para a cidade depois de fugir de seus inimigos — e da própria cidade — há uma década. Por que ____________________ concordou em deixá-lo morar com ele perto da universidade, apesar do perigo em que ambos estão agora?</td></tr><tr><td></td><td>Uma matilha de lobisomens que atua nas proximidades assassinou um amigo seu no ano passado. Por que ____________________ concordou em ajudá-lo a obter sua vingança, não importa o custo?</td></tr><tr><td></td><td>Você e ____________________ tiveram um caso amoroso breve, mas apaixonado, no final do ano passado, que mantiveram em segredo até mesmo de seus amigos e aliados mais próximos. Por que você suspeita que ele(a) não foi honesto(a) com você sobre seus sentimentos?</td></tr><tr><td></td><td>____________________ precisa do seu apoio em sua candidatura a uma posição cobiçada de poder associada à universidade. O que ele(a) prometeu a você em troca?</td></tr><tr><td></td><td>____________________ está trabalhando com você para concluir uma pesquisa sobrenatural importante usando suas conexões com as instalações da universidade. Que segredo perigoso você tem escondido dele(a) sobre o trabalho de vocês juntos?</td></tr><tr><td></td><td>Você é cliente regular de um restaurante (de propriedade de uma facção de Poder) localizado perto da universidade. O que faz você e ____________________ voltarem sempre, não importa quão boa seja a concorrência em outros lugares?</td></tr></tbody></table>"
+      },
+      "tables": {
+        "label": "Tabelas",
+        "description": "Tabelas para gerar NPCs aleatórios, locais, rumores, facções e Locais neste núcleo",
+        "position": "tables",
+        "type": "LongText",
+        "value": "<p>@UUID[Compendium.urban-shadows-ptbr.tabelas-ptbr.RollTable.UF1F2A3C4T5I6O78]{Facções da Universidade}</p><p>@UUID[Compendium.urban-shadows-ptbr.tabelas-ptbr.RollTable.GLQHB9gTPBfuDjrX]{Locais da Universidade}</p><p>@UUID[Compendium.urban-shadows-ptbr.tabelas-ptbr.RollTable.UN1N2P3Q4R5S6T78]{NPCs da Universidade}</p><p>@UUID[Compendium.urban-shadows-ptbr.tabelas-ptbr.RollTable.UR1U2M3O4R5S6782]{Rumores da Universidade}</p>"
+      },
+      "description": {
+        "label": "Descrição",
+        "value": "<p><em>A Universidade é um foco de discurso político, pesquisa sobrenatural e estranhos fenômenos mágicos. Poder mantém um controle de ferro sobre esta seção da cidade — controlando as instituições que determinam o próprio futuro da cidade — mas muito acontece nas sombras que eles não podem alcançar. Os magos e imortais podem pensar que controlam o destino, mas a história da cidade é frequentemente escrita por aqueles com fomes mais mundanas...</em></p>",
+        "type": "LongText",
+        "position": "top"
+      },
+      "dominantCircle": {
+        "label": "Círculo Dominante",
+        "description": "Qual Círculo controla principalmente este núcleo?",
+        "customLabel": false,
+        "userLabel": false,
+        "playbook": null,
+        "limited": false,
+        "position": "top",
+        "type": "ListMany",
+        "condition": false,
+        "sort": false,
+        "options": {
+          "0": {
+            "label": "Mortalis",
+            "value": false
+          },
+          "1": {
+            "label": "Noite",
+            "value": false
+          },
+          "2": {
+            "label": "Poder",
+            "value": true
+          },
+          "3": {
+            "label": "Limiar",
+            "value": false
+          }
+        }
+      }
+    },
+    "attrLeft": {},
+    "attrTop": {},
+    "details": {
+      "notes": {
+        "label": "Notas",
+        "value": ""
+      }
+    },
+    "advancements": 0,
+    "playbook": {
+      "name": "",
+      "slug": "",
+      "uuid": ""
+    },
+    "resources": {
+      "forward": {
+        "value": 0
+      },
+      "ongoing": {
+        "value": 0
+      },
+      "hold": {
+        "value": 0
+      },
+      "rollFormula": ""
+    },
+    "customType": "urban-shadows-pbta.city-hub"
+  },
+  "prototypeToken": {
+    "name": "Universidade",
+    "displayName": 0,
+    "actorLink": true,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/urban-shadows-pbta/assets/cc-assets/header-bg.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "items": [
+    {
+      "folder": "H9kL2nM5oP8qR3sT",
+      "name": "Um Amigo no Departamento de Ciências",
+      "type": "move",
+      "_id": "nirceYedpcuG5Pqs",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Quando você <em><strong>@UUID[Compendium.urban-shadows-ptbr.movimentos-ptbr.Item.QA5lS7xT1yU4zV0w]{investigar as ruas}</strong></em> para procurar informações sobre fenômenos estranhos ou mágicos consultando seus contatos universitários, você pode rolar com <strong>MENTE</strong> em vez de Círculo quando consultar seus contatos na universidade. </p>",
+        "moveType": "hub",
+        "rollFormula": "",
+        "moveResults": {
+          "miss": {
+            "key": "system.moveResults.miss.value",
+            "label": "Falha",
+            "value": "<p>Numa falha, suas perguntas atraem a atenção de um velho inimigo procurando acertar as contas.</p>"
+          },
+          "weakHit": {
+            "key": "system.moveResults.weakHit.value",
+            "label": "Sucesso Parcial",
+            "value": "<p>Num sucesso, eles estão disponíveis e têm o que você precisa. Num 7-9, escolha 1:</p><ul><li>quem você está procurando está lidando com seus próprios problemas</li><li>o que você precisa é mais caro do que o esperado</li></ul>"
+          },
+          "strongHit": {
+            "key": "system.moveResults.strongHit.value",
+            "label": "Sucesso Total",
+            "value": "<p>Num sucesso, eles estão disponíveis e têm o que você precisa.</p>"
+          }
+        },
+        "uses": 0,
+        "rollType": "mind",
+        "rollMod": 0,
+        "actorType": "urban-shadows-pbta.city-hub",
+        "choices": ""
+      },
+      "effects": [],
+      "sort": 600000,
+      "ownership": {
+        "default": 0,
+        "tolKXMkOd7JsM4Jk": 3,
+        "WynALakZJf661YU1": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.urban-shadows-ptbr.movimentos-ptbr.Item.G2kL5mM8nO1pP4qS",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.347",
+        "systemId": "pbta",
+        "systemVersion": "1.1.21",
+        "createdTime": 1756435078990,
+        "modifiedTime": 1756435078990,
+        "lastModifiedBy": "WynALakZJf661YU1"
+      },
+      "_key": "!actors.items!fha09JNbFGp8twKa.nirceYedpcuG5Pqs"
+    },
+    {
+      "folder": "H9kL2nM5oP8qR3sT",
+      "name": "Bem-Vindo ao Meu Escritório",
+      "type": "move",
+      "_id": "VIqZnFdUEUOjzGFl",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Quando você <em><strong>realizar um ritual para garantir um local isolado no campus para uma reunião ou acordo</strong></em>, role com <strong>ESPÍRITO</strong>.</p>",
+        "moveType": "hub",
+        "rollFormula": "",
+        "moveResults": {
+          "miss": {
+            "key": "system.moveResults.miss.value",
+            "label": "Falha",
+            "value": "<p>Numa falha, sua tentativa de deformar a realidade para atender às suas necessidades resulta em algo perigoso perfurando o véu entre os mundos.</p>"
+          },
+          "weakHit": {
+            "key": "system.moveResults.weakHit.value",
+            "label": "Sucesso Parcial",
+            "value": "<p>Num sucesso, o campus se curva à sua vontade e produz um local seguro disponível apenas para você e aqueles que você designar; ele dura até que a reunião ou acordo seja concluído.</p>"
+          },
+          "strongHit": {
+            "key": "system.moveResults.strongHit.value",
+            "label": "Sucesso Total",
+            "value": "<p>Num sucesso, o campus se curva à sua vontade e produz um local seguro disponível apenas para você e aqueles que você designar; ele dura até que a reunião ou acordo seja concluído. </p><p>Num 10+, o local está silenciosamente sintonizado com você; você nunca precisa marcar corrupção quando <em><strong>@UUID[Compendium.urban-shadows-ptbr.movimentos-ptbr.Item.Nx2iP4uQ8vR1wS7t]{liberar seu poder}</strong></em> lá dentro. </p>"
+          }
+        },
+        "uses": 0,
+        "rollType": "spirit",
+        "rollMod": 0,
+        "actorType": "urban-shadows-pbta.city-hub",
+        "choices": ""
+      },
+      "effects": [],
+      "sort": 800000,
+      "ownership": {
+        "default": 0,
+        "tolKXMkOd7JsM4Jk": 3,
+        "WynALakZJf661YU1": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.urban-shadows-ptbr.movimentos-ptbr.Item.H3lM6nN9oP2qQ5rT",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.347",
+        "systemId": "pbta",
+        "systemVersion": "1.1.21",
+        "createdTime": 1756435084029,
+        "modifiedTime": 1756435084029,
+        "lastModifiedBy": "WynALakZJf661YU1"
+      },
+      "_key": "!actors.items!fha09JNbFGp8twKa.VIqZnFdUEUOjzGFl"
+    },
+    {
+      "folder": "H9kL2nM5oP8qR3sT",
+      "name": "Investimentos de Longa Prazo",
+      "type": "move",
+      "_id": "rJK10vbLn7H5jlDd",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Quando você <em><strong>estabelecer um novo programa, negócio ou empreendimento</strong></em> para atingir seus objetivos, gaste até três Dívidas; guarde 1 para cada Dívida gasta. Quando o tempo passar, você pode gastar seu domínio—1 por 1—para receber +1 (ou dar +1 a outro PJ ou facção) em qualquer movimento de cidade ou facção auxiliado por seu novo empreendimento.</p>",
+        "moveType": "hub",
+        "rollFormula": "",
+        "moveResults": {
+          "miss": {
+            "key": "system.moveResults.miss.value",
+            "label": "Falha",
+            "value": ""
+          },
+          "weakHit": {
+            "key": "system.moveResults.weakHit.value",
+            "label": "Sucesso Parcial",
+            "value": ""
+          },
+          "strongHit": {
+            "key": "system.moveResults.strongHit.value",
+            "label": "Sucesso Total",
+            "value": ""
+          }
+        },
+        "uses": 0,
+        "rollType": "",
+        "rollMod": 0,
+        "actorType": "urban-shadows-pbta.city-hub",
+        "choices": ""
+      },
+      "effects": [],
+      "sort": 900000,
+      "ownership": {
+        "default": 0,
+        "tolKXMkOd7JsM4Jk": 3,
+        "WynALakZJf661YU1": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.urban-shadows-ptbr.movimentos-ptbr.Item.I4mN7oO0pQ3rR6sU",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.347",
+        "systemId": "pbta",
+        "systemVersion": "1.1.21",
+        "createdTime": 1756435089775,
+        "modifiedTime": 1756435089775,
+        "lastModifiedBy": "WynALakZJf661YU1"
+      },
+      "_key": "!actors.items!fha09JNbFGp8twKa.rJK10vbLn7H5jlDd"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tolKXMkOd7JsM4Jk": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1750883525316,
+    "modifiedTime": 1750883724575,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+  },
+  "_key": "!actors!fha09JNbFGp8twKa"
+}

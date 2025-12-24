@@ -1,0 +1,53 @@
+{
+  "folder": "8o7qAimGOKAnutBa",
+  "name": "Movimento de Trauma: Comungar com Âncoras",
+  "type": "move",
+  "_id": "qtI3J3xLDvBal2l7",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Quando você <em><strong>comungar com uma de suas âncoras</strong></em>, role com <strong>ESPÍRITO</strong>.</p>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": "<p>Com uma falha, você limpa apenas 1-trauma; algo ameaçando a âncora interrompe sua mediação.</p>"
+      },
+      "weakHit": {
+        "key": "system.moveResults.weakHit.value",
+        "label": "Sucesso Parcial",
+        "value": "<p>Com um sucesso, sua âncora acalma sua psique fraturada; limpe 2-trauma.</p>"
+      },
+      "strongHit": {
+        "key": "system.moveResults.strongHit.value",
+        "label": "Sucesso Total",
+        "value": "<p>Com um sucesso, sua âncora acalma sua psique fraturada; limpe 2-trauma. </p><p>Com 10+, sua comunhão revela uma maneira de resolver a âncora; limpe todo o trauma.</p>"
+      }
+    },
+    "uses": 0,
+    "rollType": "spirit",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tolKXMkOd7JsM4Jk": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.344",
+    "systemId": "pbta",
+    "systemVersion": "1.1.20",
+    "createdTime": 1748398188258,
+    "modifiedTime": 1748404787995,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "exportSource": null
+  },
+  "_key": "!items!qtI3J3xLDvBal2l7"
+}

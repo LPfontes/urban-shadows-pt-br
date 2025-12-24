@@ -1,0 +1,415 @@
+{
+  "name": "O Oráculo",
+  "type": "playbook",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<section class=\"playbook-description\"><h1 class=\"playbook-title\">O Oráculo</h1><p class=\"playbook-intro\">O futuro está sempre em movimento, como um grande rio nos arrastando para nossos fins inevitáveis. Há alguns que podem se erguer acima da superfície para ver o que nos espera, olhando para um futuro incerto e aterrorizante. Esses oráculos são abençoados com a visão... e amaldiçoados pelo que veem.</p><h2>Movimentos do Oráculo</h2><p><strong>ESCOLHA DOIS:</strong></p>...",
+    "slug": "the-oracle",
+    "actorType": "character",
+    "stats": {
+      "blood": {
+        "label": "Sangue",
+        "value": 0,
+        "steps": { "value": 0, "max": 3 }
+      },
+      "heart": {
+        "label": "Coração",
+        "value": -1,
+        "steps": { "value": 0, "max": 3 }
+      },
+      "mind": {
+        "label": "Mente",
+        "value": 1,
+        "steps": { "value": 0, "max": 3 }
+      },
+      "spirit": {
+        "label": "Espírito",
+        "value": 1,
+        "steps": { "value": 0, "max": 3 }
+      },
+      "mortalis": {
+        "label": "Mortalis",
+        "value": 1,
+        "steps": { "value": 0, "max": 3 }
+      },
+      "night": {
+        "label": "Noite",
+        "value": -1,
+        "steps": { "value": 0, "max": 3 }
+      },
+      "power": {
+        "label": "Poder",
+        "value": 1,
+        "steps": { "value": 0, "max": 3 }
+      },
+      "wild": {
+        "label": "Selva",
+        "value": 0,
+        "steps": { "value": 0, "max": 3 }
+      }
+    },
+    "statsDetail": "(Adicione 1 a um Atributo e um a um Círculo)",
+    "attributes": {
+      "corruption": {
+        "label": "Corrupção",
+        "description": "GATILHO: Quando você oferece uma profecia falsa — ou mente sobre os detalhes de uma verdadeira — marque corrupção.",
+        "type": "Clock",
+        "value": 0,
+        "max": 5,
+        "choices": [ { "value": 0, "options": {} } ],
+        "custom": false,
+        "path": "attributes",
+        "options": {}
+      },
+      "letItOut": {
+        "label": "Habilidades de Extravasar",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<ul><li><p>descobrir a verdade essencial de uma coisa ou pessoa em sua presença</p></li><li><p>torcer os fios do destino para ajudar ou atrapalhar um PdM em sua presença</p></li><li><p>assustar ou impressionar alguém com o conhecimento de seu passado</p></li><li><p>canalizar uma profecia poderosa do além sobre um personagem presente</p></li></ul>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "max": null,
+        "options": {},
+        "description": "PARA ATIVAR ESTAS HABILIDADES"
+      },
+      "debts": {
+        "label": "Dívidas",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<ul><li><p>Alguém ajuda a decifrar suas visões com percepções únicas. Você deve 2 Dívidas a essa pessoa.</p></li><li><p>Você teve uma visão sombria sobre alguém, mas deu orientações erradas. Você deve uma Dívida a essa pessoa.</p></li><li><p>Alguém interferiu em seu destino. Essa pessoa lhe deve uma Dívida. Diga se você a perdoou — ela lhe deve outra Dívida se você ainda guardar rancor pelas ações dela.</p></li></ul>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "advancements": {
+        "label": "Avanços",
+        "description": "Disponíveis no início do jogo:",
+        "type": "ListMany",
+        "options": {
+          "0": { "label": "+1 Status (máx+1)", "value": false },
+          "1": { "label": "+1 Status (máx+1)", "value": false },
+          "2": { "label": "+1 Status (máx+1)", "value": false },
+          "3": { "label": "um novo movimento de Oráculo", "value": false },
+          "4": { "label": "um novo movimento de Oráculo", "value": false },
+          "5": { "label": "um movimento de outro playbook", "value": false },
+          "6": { "label": "um movimento de outro playbook", "value": false },
+          "7": { "label": "mudar seu Círculo", "value": false }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": { "value": false, "label": "+1 Status (máx+1)" },
+              "1": { "value": false, "label": "+1 Status (máx+1)" },
+              "2": { "value": false, "label": "+1 Status (máx+1)" },
+              "3": { "value": false, "label": "um novo movimento de Oráculo" },
+              "4": { "value": false, "label": "um novo movimento de Oráculo" },
+              "5": { "value": false, "label": "um movimento de outro playbook" },
+              "6": { "value": false, "label": "um movimento de outro playbook" },
+              "7": { "value": false, "label": "mudar seu Círculo" }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "value": "",
+        "max": null
+      },
+      "expertAdvancements": {
+        "label": "Avanços de Especialista",
+        "description": "Após cinco avanços, você pode selecionar:",
+        "type": "ListMany",
+        "options": {
+          "0": { "label": "+1 em qualquer Círculo (máx+3)", "value": false },
+          "1": { "label": "+1 em qualquer Círculo (máx+3)", "value": false },
+          "2": { "label": "obter Status de Círculo-2", "value": false },
+          "3": { "label": "obter um santuário", "value": false },
+          "4": { "label": "avançar 3 movimentos básicos", "value": false },
+          "5": { "label": "avançar 3 movimentos básicos", "value": false },
+          "6": { "label": "mudar para um novo playbook", "value": false },
+          "7": { "label": "aposentar seu personagem em segurança", "value": false }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": { "value": false, "label": "+1 em qualquer Círculo (máx+3)" },
+              "1": { "value": false, "label": "+1 em qualquer Círculo (máx+3)" },
+              "2": { "value": false, "label": "obter Status de Círculo-2" },
+              "3": { "value": false, "label": "obter um santuário" },
+              "4": { "value": false, "label": "avançar 3 movimentos básicos" },
+              "5": { "value": false, "label": "avançar 3 movimentos básicos" },
+              "6": { "value": false, "label": "mudar para um novo playbook" },
+              "7": { "value": false, "label": "aposentar seu personagem em segurança" }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "value": "",
+        "max": null
+      },
+      "corruptionAdvances": {
+        "label": "Avanços de Corrupção",
+        "description": "A corrupção representa seu personagem deslizando para as piores partes de sua natureza. Conforme sua corrupção aumenta, seus poderes crescem...",
+        "type": "ListMany",
+        "options": {
+          "0": { "label": "ganhe +1 em qualquer atributo (máx+3)", "value": false },
+          "1": { "label": "ganhe +1 em qualquer atributo (máx+3)", "value": false },
+          "2": { "label": "ganhe um novo movimento de corrupção", "value": false },
+          "3": { "label": "ganhe um novo movimento de corrupção", "value": false },
+          "4": { "label": "ganhe um novo movimento de corrupção do seu ou de outro playbook", "value": false },
+          "5": { "label": "aposente seu personagem; ele pode retornar como uma Ameaça", "value": false }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": { "label": "ganhe +1 em qualquer atributo (máx+3)", "value": false },
+              "1": { "label": "ganhe +1 em qualquer atributo (máx+3)", "value": false },
+              "2": { "label": "ganhe um novo movimento de corrupção", "value": false },
+              "3": { "label": "ganhe um novo movimento de corrupção", "value": false },
+              "4": { "label": "ganhe um novo movimento de corrupção do seu ou de outro playbook", "value": false },
+              "5": { "label": "aposente seu personagem; ele pode retornar como uma Ameaça", "value": false }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "value": "",
+        "max": null
+      },
+      "lookOne": {
+        "label": "Aparência Um",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          { "value": "<p>andrógino</p>", "options": {} },
+          { "value": "<p>conformista</p>", "options": {} },
+          { "value": "<p>mutável</p>", "options": {} },
+          { "value": "<p>não-conformista</p>", "options": {} }
+        ],
+        "custom": false, "path": "details", "max": null, "options": {}, "description": "Escolha um"
+      },
+      "lookTwo": {
+        "label": "Aparência Dois",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          { "value": "<p>Asiático ou Sul-Asiático</p>", "options": {} },
+          { "value": "<p>Negro</p>", "options": {} },
+          { "value": "<p>Hispânico/ Latino</p>", "options": {} },
+          { "value": "<p>Indígena</p>", "options": {} },
+          { "value": "<p>Oriente Médio</p>", "options": {} },
+          { "value": "<p>Branco</p>", "options": {} },
+          { "value": "<p>Outro: <fill in=\"\" yourself=\"\" later=\"\"></fill></p>", "options": {} }
+        ],
+        "custom": false, "path": "details", "max": null, "options": {}, "description": "Escolha um"
+      },
+      "lookThree": {
+        "label": "Aparência Três",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          { "value": "<p>roupas casuais</p>", "options": {} },
+          { "value": "<p>roupas coloridas</p>", "options": {} },
+          { "value": "<p>roupas sujas</p>", "options": {} },
+          { "value": "<p>roupas reveladoras</p>", "options": {} }
+        ],
+        "custom": false, "path": "details", "max": null, "options": {}, "description": "Escolha um"
+      },
+      "demeanor": {
+        "label": "Postura",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          { "value": "<p>distante</p>", "options": {} },
+          { "value": "<p>manipuladora</p>", "options": {} },
+          { "value": "<p>paranoica</p>", "options": {} },
+          { "value": "<p>calmante</p>", "options": {} }
+        ],
+        "custom": false, "path": "details", "max": null, "options": {}, "description": "Escolha um"
+      },
+      "questionOne": {
+        "label": "Pergunta Um",
+        "value": "",
+        "type": "LongText",
+        "choices": [ { "value": "<p>Quantos anos você tinha quando suas visões começaram?</p>", "options": {} } ],
+        "custom": false, "path": "details", "max": null, "options": {}, "description": ""
+      },
+      "questionTwo": {
+        "label": "Pergunta Dois",
+        "value": "",
+        "type": "LongText",
+        "choices": [ { "value": "<p>Há quanto tempo você está na cidade?</p>", "options": {} } ],
+        "custom": false, "path": "details", "max": null, "options": {}, "description": ""
+      },
+      "questionThree": {
+        "label": "Pergunta Três",
+        "value": "",
+        "type": "LongText",
+        "choices": [ { "value": "<p>Como você originalmente convenceu seu benfeitor a confiar em você e em suas visões?</p>", "options": {} } ],
+        "custom": false, "path": "details", "max": null, "options": {}, "description": ""
+      },
+      "questionFour": {
+        "label": "Pergunta Quatro",
+        "value": "",
+        "type": "LongText",
+        "choices": [ { "value": "<p>Quem busca afastar você do seu serviço?</p>", "options": {} } ],
+        "custom": false, "path": "details", "max": null, "options": {}, "description": ""
+      },
+      "questionFive": {
+        "label": "Pergunta Cinco",
+        "value": "",
+        "type": "LongText",
+        "choices": [ { "value": "<p>Quais sinais indicam que sua profecia está se aproximando?</p>", "options": {} } ],
+        "custom": false, "path": "details", "max": null, "options": {}, "description": ""
+      },
+      "TheOracleBenefactor": {
+        "label": "SEU BENFEITOR",
+        "description": "Você tem um benfeitor, um PdM poderoso cujo destino está entrelaçado ao seu; você entrou para o serviço dele como resultado de suas visões proféticas, mas agora ele exige cada vez mais de você e de seus poderes. Nomeie o Círculo dele — Mortalis, Noite, Poder ou Selva — e escolha a profecia que os une, duas qualidades e dois defeitos: (Pergunte ao MC que tipo de vida seu benfeitor lhe proporcionou após fazer suas escolhas. A continuidade da generosidade dele depende de quão bem você serve aos interesses dele.)",
+        "value": "<p><b>NOME:</b> </p><p><b>CÍRCULO:</b> </p>",
+        "type": "LongText",
+        "choices": [ { "value": "<p><b>NOME:</b> </p><p><b>CÍRCULO:</b> </p>", "options": {} } ],
+        "custom": false, "path": "attributes"
+      },
+      "TheOracleBenefactorProphecy": {
+        "label": "SUA PROFECIA (Escolha uma):",
+        "description": "",
+        "type": "ListMany",
+        "options": {
+          "0": { "label": "somente ele pode guiá-lo às respostas místicas que você busca", "value": false },
+          "1": { "label": "somente ele pode protegê-lo de um destino sombrio que você previu", "value": false },
+          "2": { "label": "somente ele pode destruir um inimigo excepcionalmente maligno dentro de seu próprio Círculo", "value": false },
+          "3": { "label": "somente ele deve desempenhar um papel crítico na guerra contra uma escuridão iminente", "value": false }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": { "label": "somente ele pode guiá-lo às respostas místicas que você busca", "value": false },
+              "1": { "label": "somente ele pode protegê-lo de um destino sombrio que você previu", "value": false },
+              "2": { "label": "somente ele pode destruir um inimigo excepcionalmente maligno dentro de seu próprio Círculo", "value": false },
+              "3": { "label": "somente ele deve desempenhar um papel crítico na guerra contra uma escuridão iminente", "value": false }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false, "path": "attributes"
+      },
+      "TheOracleBenefactorStrengths": {
+        "label": "QUALIDADES (Escolha duas):",
+        "description": "",
+        "type": "ListMany",
+        "options": {
+          "0": { "label": "ele é um membro Status-3 de seu Círculo", "value": false },
+          "1": { "label": "ele fala com a verdade e honra sua palavra", "value": false },
+          "2": { "label": "ele detém um poder sobrenatural significativo", "value": false },
+          "3": { "label": "seus lacaios são disciplinados e leais", "value": false }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": { "label": "ele é um membro Status-3 de seu Círculo", "value": false },
+              "1": { "label": "ele fala com a verdade e honra sua palavra", "value": false },
+              "2": { "label": "ele detém um poder sobrenatural significativo", "value": false },
+              "3": { "label": "seus lacaios são disciplinados e leais", "value": false }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false, "path": "attributes"
+      },
+      "TheOracleBenefactorFlaws": {
+        "label": "DEFEITOS (Escolha dois):",
+        "description": "",
+        "type": "ListMany",
+        "options": {
+          "0": { "label": "ele é terrivelmente violento e cruel", "value": false },
+          "1": { "label": "ele possui defesas contra sua visão", "value": false },
+          "2": { "label": "ele está em guerra com inimigos poderosos", "value": false },
+          "3": { "label": "ele está loucamente apaixonado por você", "value": false }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": { "label": "ele é terrivelmente violento e cruel", "value": false },
+              "1": { "label": "ele possui defesas contra sua visão", "value": false },
+              "2": { "label": "ele está em guerra com inimigos poderosos", "value": false },
+              "3": { "label": "ele está loucamente apaixonado por você", "value": false }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false, "path": "attributes"
+      }
+    },
+    "choiceSets": [
+      {
+        "title": "MOVIMENTOS DE ORÁCULO",
+        "desc": "ESCOLHA DOIS:",
+        "grantOn": 1, "advancement": 0, "repeatable": true,
+        "choices": [
+          { "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.Q8sU1wY4zA7dE0hI", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
+          { "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.S0uW3yA6dC9fF2jK", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
+          { "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.O6qS9uW2xZ5bC8fG", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
+          { "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.4dUME8JD1dKthmSq", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
+          { "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.eZ7wIjFes5d2978m", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 }
+        ],
+        "type": "multi", "granted": false
+      },
+      {
+        "title": "MOVIMENTOS DE ORÁCULO",
+        "desc": "Movimentos Iniciais",
+        "grantOn": 0, "advancement": 0, "repeatable": true,
+        "choices": [
+          { "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.KBSYLh9cv2K0PiFN", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
+          { "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.49yieposDWFOPjfp", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
+          { "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.gvAHOQlG8O5UNcO4", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
+          { "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.U2wY5bC8fE1hH4lM", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 }
+        ],
+        "type": "multi", "granted": false
+      },
+      {
+        "title": "Equipamento Inicial",
+        "desc": "Tudo fornecido pelo seu benfeitor & Escolha dois:",
+        "grantOn": 1, "advancement": 0, "repeatable": true,
+        "choices": [
+          { "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.tnbVX7iO5pek2nw2", "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/crystal-ball.svg", "granted": false, "advancement": 0 },
+          { "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.PT9avmjve8g9nrCx", "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/secret-book.svg", "granted": false, "advancement": 0 },
+          { "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.1bf9dcd7f50d48d1", "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/primitive-necklace.svg", "granted": false, "advancement": 0 }
+        ],
+        "type": "multi", "granted": false
+      }
+    ]
+  },
+  "effects": [],
+  "folder": "K2mO5qS8tU1vX4zA",
+  "ownership": { "default": 0, "MZpJvwT3EQwBniAB": 3 },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1733907141240,
+    "modifiedTime": 1757806216660,
+    "lastModifiedBy": "WynALakZJf661YU1",
+    "exportSource": null
+  },
+  "_id": "90bc9296bbd74afe",
+  "sort": 0,
+  "_key": "!items!90bc9296bbd74afe"
+}

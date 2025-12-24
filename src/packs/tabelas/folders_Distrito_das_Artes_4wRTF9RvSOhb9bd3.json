@@ -1,0 +1,17 @@
+{
+  "type": "RollTable",
+  "folder": null,
+  "name": "Distrito das Artes",
+  "color": null,
+  "sorting": "a",
+  "_id": "4wRTF9RvSOhb9bd3",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21"
+  },
+  "_key": "!folders!4wRTF9RvSOhb9bd3"
+}

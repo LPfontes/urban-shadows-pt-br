@@ -1,0 +1,23 @@
+{
+  "name": "Movimentos de Corrupção do Sanguessuga",
+  "sorting": "a",
+  "folder": "0x74AgDRViQaXCdG",
+  "type": "Item",
+  "_id": "K6nN9oP2qQ5rS8tT",
+  "description": "",
+  "sort": 100000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.344",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": null,
+    "modifiedTime": 1748304138822,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "exportSource": null
+  },
+  "_key": "!folders!K6nN9oP2qQ5rS8tT"
+}

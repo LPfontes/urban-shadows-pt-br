@@ -1,0 +1,963 @@
+{
+  "name": "O Lobo",
+  "type": "playbook",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<section class=\"playbook-description\"><h1 class=\"playbook-title\">O Lobo</h1><p class=\"playbook-intro\">Primal, mortal e impressionante. Poucas coisas no mundo se comparam à implacabilidade ou força bruta do lobisomem. Aqueles amaldiçoados por uma mordida ou nascidos em uma linhagem carregam uma grande fúria dentro de si. Mas a fúria, como toda emoção, pode ser temperada e forjada em algo maior...</p><h2>Movimentos do Lobo</h2><p><strong>VOCÊ RECEBE ESTE:</strong></p><div class=\"move\"><p><span class=\"move-name\">Vem com o Território</span></p><div class=\"move-description\"><p>Se você estiver patrulhando ativamente seu território quando o tempo passar — ou no início do jogo — role com Sangue. Com 10+, seu território está seguro e os problemas estão no mínimo; receba +1 contínuo quando sair pelas ruas em seu território. Com 7-9, um de seus problemas vem à tona (sua escolha), junto com uma oportunidade de lidar com ele. Com uma falha, ou se você não estiver cuidando do seu território, as coisas dão errado e seus problemas são rápidos e furiosos.</p></div></div><p><strong>E ESCOLHA MAIS UM:</strong></p><div class=\"move\"><p><span class=\"move-name\">Cão Alfa</span></p><div class=\"move-description\"><p>Quando você persuadir um NPC em seu território com ameaças ou promessas, role com Sangue em vez de Coração.</p></div></div><div class=\"move\"><p><span class=\"move-name\">Imprudente</span></p><div class=\"move-description\"><p>Se você pular direto para o perigo sem se precaver, você recebe armadura+1. Se você estiver liderando um grupo, ele também recebe armadura+1.</p></div></div><div class=\"move\"><p><span class=\"move-name\">Farejador</span></p><div class=\"move-description\"><p>Quando você caçar alguém, role com Sangue. Com um sucesso, você sabe exatamente onde encontrá-lo e pode seguir seu cheiro até lá. Com 10+, você o encontra sozinho ou vulnerável; receba +1 adiante contra ele.</p></div></div><div class=\"move\"><p><span class=\"move-name\">Marca da Besta</span></p><div class=\"move-description\"><p>Quando você marcar um prédio com seus sinais ou sigilos, role com Espírito. Com um sucesso, você reivindica o local pelos próximos dias. Com 10+, escolha todos os 3. Com 7-9, escolha 1. A qualquer distância, você pode:</p><ul class=\"abilities-list\"><li>sentir quem está no prédio o tempo todo</li><li>controlar as portas, fechaduras e janelas</li><li>ocultar a localização ou verdadeira função do prédio</li></ul></div></div><h3>Habilidades de Romper os Limites</h3><ul class=\"abilities-list\"><li>curar 2-dano instantaneamente, começando com dano crítico</li><li>transformar-se de uma forma para a outra sem ver a lua</li><li>realizar um feito feroz de força e velocidade lupina</li><li>aprimorar seus sentidos lupinos para níveis sobrenaturais</li></ul><h2>A Transformação</h2><p>Por padrão, você pode se transformar em sua forma de lobo — à vontade — à vista da lua: você ganha armamento natural (2-dano), armadura-1 e todas as qualidades e fraquezas que você escolher abaixo.</p><h3>Escolha 3 Qualidades:</h3><div style=\"margin:15px 0\"><div><p>Você é massivo: ganhe armadura+1 e dano+1</p></div><div><p>Você é selvagem: seu dano ignora armadura (ip) e é brutal</p></div><div><p>Você é versátil: receba +1 contínuo para romper os limites</p></div><div><p>Você é veloz: receba +1 contínuo para escapar</p></div><div><p>Você é astuto: receba +1 contínuo para manter a calma</p></div><div><p>Você é firme: você luta como um grupo pequeno contra grupos</p></div></div><h3>Escolha 3 Fraquezas:</h3><div style=\"margin:15px 0\"><div><p>Armas de prata ignoram sua armadura e causam dano+1</p></div><div><p>Às vezes você perde o controle enquanto transformado</p></div><div><p>Às vezes você se transforma quando está estressado ou com raiva</p></div><div><p>A transformação é breve; você volta ao normal no fim de uma cena</p></div><div><p>A transformação é violenta e dolorosa; sofra 1-dano (ip)</p></div><div><p>A transformação atrai a atenção de criaturas sobrenaturais</p></div></div><h2>Seu Território</h2><p>Você reivindicou uma área da cidade como sua. Por padrão, seu território cobre um ou dois quarteirões da cidade e tem o problema: +crime.</p><h2>Corrupção</h2><div class=\"corruption-track\"><p><strong>CORRUPÇÃO</strong></p><div class=\"corruption-boxes\"><p></p></div></div><p><strong>GATILHO:</strong> Quando você destruir uma ameaça ao seu território em vez de expulsá-la, marque corrupção.</p><h2>Criação de Personagem</h2><div class=\"stats-grid\"><div class=\"stat-section\"><h3>Atributos Iniciais</h3><p>Sangue 1, Coração -1, Mente 0, Espírito 1</p><h3>Círculos Iniciais</h3><p>Mortalis 0, Noite 1, Poder -1, Limiar 1</p><h3>Status Inicial</h3><p>Mortalis 0, Noite 1, Poder 0, Limiar 0</p></div><div class=\"stat-section\"><h3>Equipamento Inicial</h3><p>Uma mochila com seus pertences pessoais, um celular vagabundo.</p><p>Escolha duas armas práticas:</p><ul class=\"simple-list\"><li>Revólver de cano curto (2-dano perto/próximo barulhenta recarga ocultável)</li><li>Beretta 9mm (2-dano próximo barulhenta ocultável)</li><li>Canivete butterfly (2-dano manual ocultável)</li><li>Facão (3-dano próximo brutal)</li><li>Taco de beisebol (2-dano próximo atordoante)</li></ul></div></div></section>",
+    "slug": "o-lobo",
+    "actorType": "character",
+    "stats": {
+      "blood": {
+        "label": "Sangue",
+        "value": 1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "heart": {
+        "label": "Coração",
+        "value": -1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "mind": {
+        "label": "Mente",
+        "value": 0,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "spirit": {
+        "label": "Espírito",
+        "value": 1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "mortalis": {
+        "label": "Mortalis",
+        "value": 0,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "night": {
+        "label": "Noite",
+        "value": 1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "power": {
+        "label": "Poder",
+        "value": -1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "wild": {
+        "label": "Limiar",
+        "value": 1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      }
+    },
+    "statsDetail": "(Adicione 1 a um dos Atributos e um dos Círculos)",
+    "attributes": {
+      "corruption": {
+        "label": "Corrupção",
+        "description": "GATILHO: Quando você destruir uma ameaça ao seu território em vez de expulsá-la, marque corrupção.",
+        "type": "Clock",
+        "value": 0,
+        "max": 5,
+        "choices": [
+          {
+            "value": 0,
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "options": {}
+      },
+      "letItOut": {
+        "label": "Habilidades de Romper os Limites",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<ul><li><p>curar 2-dano instantaneamente, começando com dano crítico</p></li><li><p>transformar-se de uma forma para a outra sem ver a lua</p></li><li><p>realizar um feito feroz de força e velocidade lupina</p></li><li><p>aprimorar seus sentidos lupinos para níveis sobrenaturais</p></li></ul>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "max": null,
+        "options": {},
+        "description": "PARA ATIVAR ESSAS HABILIDADES"
+      },
+      "debts": {
+        "label": "Dívidas",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<ul><li><p>Alguém interveio em seu favor quando você cruzou com uma figura poderosa de outro Círculo. Você deve uma Dívida a essa pessoa.</p></li><li><p>Alguém te contratou para um trabalho e você estragou tudo. Diga a eles por que outra obrigação atrapalhou. Você deve uma Dívida a eles.</p></li><li><p>Alguém vive em seu território, beneficiando-se de sua proteção. Eles devem uma Dívida a você.</p></li></ul>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "advancements": {
+        "label": "Avanços",
+        "description": "Disponível no início do jogo:",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "+1 Status (máx+1)",
+            "value": false
+          },
+          "1": {
+            "label": "+1 Status (máx+1)",
+            "value": false
+          },
+          "2": {
+            "label": "+1 Status (máx+1)",
+            "value": false
+          },
+          "3": {
+            "label": "um novo movimento do Lobo",
+            "value": false
+          },
+          "4": {
+            "label": "um novo movimento do Lobo",
+            "value": false
+          },
+          "5": {
+            "label": "juntar-se ou liderar uma alcateia de lobos",
+            "value": false
+          },
+          "6": {
+            "label": "um movimento de outro manual",
+            "value": false
+          },
+          "7": {
+            "label": "mudar seu Círculo",
+            "value": false
+          }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "+1 Status (máx+1)",
+                "value": false
+              },
+              "1": {
+                "label": "+1 Status (máx+1)",
+                "value": false
+              },
+              "2": {
+                "label": "+1 Status (máx+1)",
+                "value": false
+              },
+              "3": {
+                "label": "um novo movimento do Lobo",
+                "value": false
+              },
+              "4": {
+                "label": "um novo movimento do Lobo",
+                "value": false
+              },
+              "5": {
+                "label": "juntar-se ou liderar uma alcateia de lobos",
+                "value": false
+              },
+              "6": {
+                "label": "um movimento de outro manual",
+                "value": false
+              },
+              "7": {
+                "label": "mudar seu Círculo",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "value": "",
+        "max": null
+      },
+      "expertAdvancements": {
+        "label": "Avanços de Especialista",
+        "description": "Após cinco avanços, você pode selecionar:",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "+1 qualquer Círculo (máx+3)",
+            "value": false
+          },
+          "1": {
+            "label": "+1 qualquer Círculo (máx+3)",
+            "value": false
+          },
+          "2": {
+            "label": "obter Status de Círculo-2",
+            "value": false
+          },
+          "3": {
+            "label": "avançar quatro movimentos básicos",
+            "value": false
+          },
+          "4": {
+            "label": "apagar uma cicatriz",
+            "value": false
+          },
+          "5": {
+            "label": "apagar uma cicatriz",
+            "value": false
+          },
+          "6": {
+            "label": "aposentar seu personagem em segurança",
+            "value": false
+          },
+          "7": {
+            "label": "mudar para um novo manual",
+            "value": false
+          }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "value": false,
+                "label": "+1 qualquer Círculo (máx+3)"
+              },
+              "1": {
+                "value": false,
+                "label": "+1 qualquer Círculo (máx+3)"
+              },
+              "2": {
+                "value": false,
+                "label": "obter Status de Círculo-2"
+              },
+              "3": {
+                "value": false,
+                "label": "avançar quatro movimentos básicos"
+              },
+              "4": {
+                "value": false,
+                "label": "apagar uma cicatriz"
+              },
+              "5": {
+                "value": false,
+                "label": "apagar uma cicatriz"
+              },
+              "6": {
+                "value": false,
+                "label": "aposentar seu personagem em segurança"
+              },
+              "7": {
+                "value": false,
+                "label": "mudar para um novo manual"
+              }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "value": "",
+        "max": null
+      },
+      "corruptionAdvances": {
+        "label": "Avanços de Corrupção",
+        "description": "A Corrupção representa seu personagem deslizando em direção às piores partes de sua natureza. Conforme sua corrupção aumenta, seus poderes só crescem...",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "receba +1 em qualquer atributo (máx+3)",
+            "value": false
+          },
+          "1": {
+            "label": "receba +1 em qualquer atributo (máx+3)",
+            "value": false
+          },
+          "2": {
+            "label": "receba um novo movimento de corrupção",
+            "value": false
+          },
+          "3": {
+            "label": "receba um novo movimento de corrupção",
+            "value": false
+          },
+          "4": {
+            "label": "receba um novo movimento de corrupção de outro manual ou do seu próprio",
+            "value": false
+          },
+          "5": {
+            "label": "aposente seu personagem; ele pode retornar como uma Ameaça",
+            "value": false
+          }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "receba +1 em qualquer atributo (máx+3)",
+                "value": false
+              },
+              "1": {
+                "label": "receba +1 em qualquer atributo (máx+3)",
+                "value": false
+              },
+              "2": {
+                "label": "receba um novo movimento de corrupção",
+                "value": false
+              },
+              "3": {
+                "label": "receba um novo movimento de corrupção",
+                "value": false
+              },
+              "4": {
+                "label": "receba um novo movimento de corrupção de outro manual ou do seu próprio",
+                "value": false
+              },
+              "5": {
+                "label": "aposente seu personagem; ele pode retornar como uma Ameaça",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "value": "",
+        "max": null
+      },
+      "lookOne": {
+        "label": "Visual Um",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>andrógino</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>conforme</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>mutável</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>não-conforme</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": "Escolha um"
+      },
+      "lookTwo": {
+        "label": "Visual Dois",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>Asiático ou Sul-Asiático</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Negro</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Hispânico/ Latino</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Indígena</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Oriente Médio</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Branco</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Outro: <preencha você mesmo depois></fill></p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": "Escolha um"
+      },
+      "lookThree": {
+        "label": "Visual Três",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>roupas largas</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>roupas escuras</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>roupas sujas</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>roupas táticas</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": "Escolha um"
+      },
+      "demeanor": {
+        "label": "Comportamento",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>agressivo</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>feroz</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>inquieto</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>violento</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": "Escolha um"
+      },
+      "questionOne": {
+        "label": "Pergunta Um",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>Quando você experimentou a mudança pela primeira vez?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "questionTwo": {
+        "label": "Pergunta Dois",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>Há quanto tempo você está na cidade?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "questionThree": {
+        "label": "Pergunta Três",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>Qual é a melhor parte da sua outra forma?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "questionFour": {
+        "label": "Pergunta Quatro",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>Quem é a pessoa mais importante no seu território?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "questionFive": {
+        "label": "Pergunta Cinco",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>Do que você precisa desesperadamente?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "TheWolfTerritory1": {
+        "label": "SEU TERRITÓRIO",
+        "description": "Você reivindicou uma área da cidade como sua. Por padrão, seu território cobre um ou dois quarteirões da cidade e tem o problema: +crime. ESCOLHA 2:",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "Seu território abrange vários quarteirões que você possui há anos (adicione a bênção: +influência)",
+            "value": false
+          },
+          "1": {
+            "label": "As pessoas em seu território trabalham duro para manter as ruas seguras (remova +crime)",
+            "value": false
+          },
+          "2": {
+            "label": "Você é amplamente aceito como o protetor deste lugar (adicione a bênção: +apoiado)",
+            "value": false
+          },
+          "3": {
+            "label": "Seu território inclui terrenos abertos para você vagar e caçar (adicione a bênção: +santuário)",
+            "value": false
+          },
+          "4": {
+            "label": "Você fez um acordo com alguém, ou algo, para proteger seu território quando você não estiver por perto (adicione a bênção: +guardião)",
+            "value": false
+          }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "Seu território abrange vários quarteirões que você possui há anos (adicione a bênção: +influência)",
+                "value": false
+              },
+              "1": {
+                "label": "As pessoas em seu território trabalham duro para manter as ruas seguras (remova +crime)",
+                "value": false
+              },
+              "2": {
+                "label": "Você é amplamente aceito como o protetor deste lugar (adicione a bênção: +apoiado)",
+                "value": false
+              },
+              "3": {
+                "label": "Seu território inclui terrenos abertos para você vagar e caçar (adicione a bênção: +santuário)",
+                "value": false
+              },
+              "4": {
+                "label": "Você fez um acordo com alguém, ou algo, para proteger seu território quando você não estiver por perto (adicione a bênção: +guardião)",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes"
+      },
+      "TheWolfTerritory2": {
+        "label": "",
+        "description": "ESCOLHA 2:",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "Seu território deve fidelidade a alguém mais poderoso que você (adicione problema: +obrigações)",
+            "value": false
+          },
+          "1": {
+            "label": "Um NPC de Status-3 quer seu território e está trabalhando para consegui-lo (adicione problema: +invasão)",
+            "value": false
+          },
+          "2": {
+            "label": "Mortais na área estão tentando ativamente revitalizar negócios e infraestrutura locais (adicione problema: +agitação)",
+            "value": false
+          },
+          "3": {
+            "label": "Seu território é atormentado por uma presença mística ou sobrenatural (adicione problema: +assombrado)",
+            "value": false
+          },
+          "4": {
+            "label": "Você ofereceu proteção dentro do seu território a alguém, e agora os problemas deles são seus (adicione problema: +fidelidade)",
+            "value": false
+          }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "Seu território deve fidelidade a alguém mais poderoso que você (adicione problema: +obrigações)",
+                "value": false
+              },
+              "1": {
+                "label": "Um NPC de Status-3 quer seu território e está trabalhando para consegui-lo (adicione problema: +invasão)",
+                "value": false
+              },
+              "2": {
+                "label": "Mortais na área estão tentando ativamente revitalizar negócios e infraestrutura locais (adicione problema: +agitação)",
+                "value": false
+              },
+              "3": {
+                "label": "Seu território é atormentado por uma presença mística ou sobrenatural (adicione problema: +assombrado)",
+                "value": false
+              },
+              "4": {
+                "label": "Você ofereceu proteção dentro do seu território a alguém, e agora os problemas deles são seus (adicione problema: +fidelidade)",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes"
+      },
+      "TheWolfTransformationQualities": {
+        "label": "A TRANSFORMAÇÃO",
+        "description": "Por padrão, você pode se transformar em sua forma de lobo — à vontade — à vista da lua: você ganha armamento natural (2-dano), armadura-1 e todas as qualidades e fraquezas que você escolher abaixo. ESCOLHA 3 QUALIDADES:",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "Você é massivo: ganhe armadura+1 e dano+1",
+            "value": false
+          },
+          "1": {
+            "label": "Você é selvagem: seu dano ignora armadura (ip) e é brutal",
+            "value": false
+          },
+          "2": {
+            "label": "Você é versátil: receba +1 contínuo para romper os limites",
+            "value": false
+          },
+          "3": {
+            "label": "Você é veloz: receba +1 contínuo para escapar",
+            "value": false
+          },
+          "4": {
+            "label": "Você é astuto: receba +1 contínuo para manter a calma",
+            "value": false
+          },
+          "5": {
+            "label": "Você é firme: você luta como um grupo pequeno contra grupos",
+            "value": false
+          }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "Você é massivo: ganhe armadura+1 e dano+1",
+                "value": false
+              },
+              "1": {
+                "label": "Você é selvagem: seu dano ignora armadura (ip) e é brutal",
+                "value": false
+              },
+              "2": {
+                "label": "Você é versátil: receba +1 contínuo para romper os limites",
+                "value": false
+              },
+              "3": {
+                "label": "Você é veloz: receba +1 contínuo para escapar",
+                "value": false
+              },
+              "4": {
+                "label": "Você é astuto: receba +1 contínuo para manter a calma",
+                "value": false
+              },
+              "5": {
+                "label": "Você é firme: você luta como um grupo pequeno contra grupos",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes"
+      },
+      "TheWolfTransformationWeaknesses": {
+        "label": "",
+        "description": "ESCOLHA 3 FRAQUEZAS:",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "Armas de prata ignoram sua armadura e causam dano+1",
+            "value": false
+          },
+          "1": {
+            "label": "Às vezes você perde o controle enquanto transformado",
+            "value": false
+          },
+          "2": {
+            "label": "Às vezes você se transforma quando está estressado ou com raiva",
+            "value": false
+          },
+          "3": {
+            "label": "A transformação é breve; você volta ao normal no fim de uma cena",
+            "value": false
+          },
+          "4": {
+            "label": "A transformação é violenta e dolorosa; sofra 1-dano (ip)",
+            "value": false
+          },
+          "5": {
+            "label": "A transformação atrai a atenção de criaturas sobrenaturais",
+            "value": false
+          }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "Armas de prata ignoram sua armadura e causam dano+1",
+                "value": false
+              },
+              "1": {
+                "label": "Às vezes você perde o controle enquanto transformado",
+                "value": false
+              },
+              "2": {
+                "label": "Às vezes você se transforma quando está estressado ou com raiva",
+                "value": false
+              },
+              "3": {
+                "label": "A transformação é breve; você volta ao normal no fim de uma cena",
+                "value": false
+              },
+              "4": {
+                "label": "A transformação é violenta e dolorosa; sofra 1-dano (ip)",
+                "value": false
+              },
+              "5": {
+                "label": "A transformação atrai a atenção de criaturas sobrenaturais",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes"
+      }
+    },
+    "choiceSets": [
+      {
+        "title": "MOVIMENTOS DO LOBO",
+        "desc": "VOCÊ RECEBE ESTE:",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.0ceI5DbGhTsA19YP",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
+      },
+      {
+        "title": "E ESCOLHA MAIS TRÊS:",
+        "desc": "",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.OVJL4Bz9saDNxPw0",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.fad3fd847c7c4ded",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.CimKG6GWKFFHJyhy",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.jieNYKJB5obC4mcP",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
+      },
+      {
+        "title": "Movimentos Iniciais do LOBO",
+        "desc": "",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.41JxD0pVIReFWo12",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.1cd7e4cde6a94d46",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
+      },
+      {
+        "title": "Equipamento Inicial",
+        "desc": "",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.eOmTPHPz6Akhp26L",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/gym-bag.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.jSbzUEBdBfUDzgQ7",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/smartphone.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
+      },
+      {
+        "title": "Equipamento Inicial",
+        "desc": "Escolha duas armas práticas:",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.K4lL7mN0oP3qQ6rS",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/pistol-gun.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.61G1bKAZrUym18Ac",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/baseball-bat.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.U79fjMPb4uuYb7zR",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/butterfly-knife.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.1HR3Awr120Z0vEXi",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/machete.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.03e743a1890c43f9",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/revolver.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 1,
+        "granted": false,
+        "advancement": 0
+      }
+    ]
+  },
+  "effects": [],
+  "folder": "7ayqTUH8GpSQrvSf",
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1733907141240,
+    "modifiedTime": 1757828089040,
+    "lastModifiedBy": "WynALakZJf661YU1",
+    "exportSource": null
+  },
+  "_id": "MdVmLn0FBUm08rQC",
+  "sort": 100000,
+  "_key": "!items!MdVmLn0FBUm08rQC"
+}

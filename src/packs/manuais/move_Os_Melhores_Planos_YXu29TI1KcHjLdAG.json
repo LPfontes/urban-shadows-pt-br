@@ -1,0 +1,53 @@
+{
+  "folder": "SnCfqM8uN9psoa5w",
+  "name": "Os Melhores Planos",
+  "type": "move",
+  "_id": "YXu29TI1KcHjLdAG",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Quando você elaborar um plano com alguém, role com <strong>MENTE</strong>. </p>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": "<p>Com uma falha, receba 1 reserva, mas seu plano encontra alguma oposição desastrosa logo no início.</p>"
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Sucesso Parcial",
+        "value": "<p>Com 7-9, receba 2 reserva. Você pode gastar seu domínio—1 por 1—independentemente da distância, enquanto o plano está em andamento para:</p><ul><li>Adicionar +1 à rolagem de alguém (após rolar)</li><li>Ignorar todo o dano que alguém sofre de um único ataque</li><li>Garantir que seu povo tenha o equipamento exato de que precisa em mãos</li></ul>"
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Sucesso Total",
+        "value": "<p>Com 10+, receba 3 reserva. Você pode gastar seu domínio—1 por 1—independentemente da distância, enquanto o plano está em andamento para:</p><ul><li>Adicionar +1 à rolagem de alguém (após rolar)</li><li>Ignorar todo o dano que alguém sofre de um único ataque</li><li>Garantir que seu povo tenha o equipamento exato de que precisa em mãos</li></ul>"
+      }
+    },
+    "uses": 0,
+    "rollType": "mind",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.344",
+    "systemId": "pbta",
+    "systemVersion": "1.1.20",
+    "createdTime": 1733907149533,
+    "modifiedTime": 1748405469736,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "exportSource": null
+  },
+  "_key": "!items!YXu29TI1KcHjLdAG"
+}

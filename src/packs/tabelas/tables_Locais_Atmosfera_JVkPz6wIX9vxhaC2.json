@@ -1,0 +1,200 @@
+{
+  "folder": "SphrtkLd76JB9Qi7",
+  "name": "Atmosfera dos Locais do Distrito das Artes",
+  "_id": "JVkPz6wIX9vxhaC2",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [2, 2],
+      "_id": "gAxRMxpmrQAXB3W1",
+      "name": "secretiva",
+      "img": "icons/svg/d20-black.svg",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20"
+      },
+      "_key": "!tables.results!JVkPz6wIX9vxhaC2.gAxRMxpmrQAXB3W1"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [3, 3],
+      "_id": "YOQMbps7Rjl0VQrv",
+      "name": "confortante",
+      "img": "icons/svg/d20-black.svg",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20"
+      },
+      "_key": "!tables.results!JVkPz6wIX9vxhaC2.YOQMbps7Rjl0VQrv"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [4, 4],
+      "_id": "wqX1SGsv0OhLhECG",
+      "name": "imaculada",
+      "img": "icons/svg/d20-black.svg",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20"
+      },
+      "_key": "!tables.results!JVkPz6wIX9vxhaC2.wqX1SGsv0OhLhECG"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [5, 5],
+      "_id": "VRjA0mnlBNZ3lm9J",
+      "name": "fantasiosa",
+      "img": "icons/svg/d20-black.svg",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20"
+      },
+      "_key": "!tables.results!JVkPz6wIX9vxhaC2.VRjA0mnlBNZ3lm9J"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [6, 6],
+      "_id": "HxRWzFIBlbijE3dc",
+      "name": "convidativa",
+      "img": "icons/svg/d20-black.svg",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20"
+      },
+      "_key": "!tables.results!JVkPz6wIX9vxhaC2.HxRWzFIBlbijE3dc"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [7, 7],
+      "_id": "CrAZt7ava877CHaL",
+      "name": "de má reputação",
+      "img": "icons/svg/d20-black.svg",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20"
+      },
+      "_key": "!tables.results!JVkPz6wIX9vxhaC2.CrAZt7ava877CHaL"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [8, 8],
+      "_id": "LLkUT73NWKKou6xs",
+      "name": "solidária",
+      "img": "icons/svg/d20-black.svg",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20"
+      },
+      "_key": "!tables.results!JVkPz6wIX9vxhaC2.LLkUT73NWKKou6xs"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [9, 9],
+      "_id": "UwWbsYdeEZUta6zO",
+      "name": "politizada",
+      "img": "icons/svg/d20-black.svg",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20"
+      },
+      "_key": "!tables.results!JVkPz6wIX9vxhaC2.UwWbsYdeEZUta6zO"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [10, 10],
+      "_id": "qyfEGbKRfabNshqg",
+      "name": "encantadora",
+      "img": "icons/svg/d20-black.svg",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20"
+      },
+      "_key": "!tables.results!JVkPz6wIX9vxhaC2.qyfEGbKRfabNshqg"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [11, 11],
+      "_id": "fUkStuAnPck8E9BD",
+      "name": "exclusiva",
+      "img": "icons/svg/d20-black.svg",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20"
+      },
+      "_key": "!tables.results!JVkPz6wIX9vxhaC2.fUkStuAnPck8E9BD"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [12, 12],
+      "_id": "iXzl35A6bbBM5sVr",
+      "name": "alegre",
+      "img": "icons/svg/d20-black.svg",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20"
+      },
+      "_key": "!tables.results!JVkPz6wIX9vxhaC2.iXzl35A6bbBM5sVr"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tolKXMkOd7JsM4Jk": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "pbta",
+    "systemVersion": "1.1.20"
+  },
+  "formula": "2d6",
+  "_key": "!tables!JVkPz6wIX9vxhaC2"
+}

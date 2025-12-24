@@ -1,0 +1,36 @@
+{
+  "folder": null,
+  "name": "Revólver de cano curto",
+  "type": "equipment",
+  "_id": "03e743a1890c43f9",
+  "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/revolver.svg",
+  "system": {
+    "description": "(2-ferimento perto/próximo barulhento recarga ocultável)",
+    "uses": 0,
+    "quantity": 1,
+    "weight": 0,
+    "tags": "[{\"value\":\"2-ferimento\"},{\"value\":\"US2E.Tags.equipment.reload.value\",\"editable\":false,\"description\":\"US2E.Tags.equipment.reload.description\"},{\"value\":\"US2E.Tags.equipment.concealable.value\",\"editable\":false,\"description\":\"US2E.Tags.equipment.concealable.description\"},{\"value\":\"US2E.Tags.equipment.close.value\",\"editable\":false,\"description\":\"US2E.Tags.equipment.close.description\"},{\"value\":\"US2E.Tags.equipment.near.value\",\"editable\":false,\"description\":\"US2E.Tags.equipment.near.description\"},{\"value\":\"US2E.Tags.equipment.loud.value\",\"editable\":false,\"description\":\"US2E.Tags.equipment.loud.description\"}]",
+    "itemType": "",
+    "equipmentType": "gear",
+    "actorType": "character"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.P9qQ2rS5tT8uU1vV",
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1733907152038,
+    "modifiedTime": 1756448608964,
+    "lastModifiedBy": "WynALakZJf661YU1",
+    "exportSource": null
+  },
+  "_key": "!items!03e743a1890c43f9"
+}

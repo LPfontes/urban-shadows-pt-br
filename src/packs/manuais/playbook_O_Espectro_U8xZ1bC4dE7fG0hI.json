@@ -1,0 +1,427 @@
+{
+  "name": "O Espectro",
+  "type": "playbook",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<section class=\"playbook-description\"><h1 class=\"playbook-title\">O Espectro</h1><p class=\"playbook-intro\">Poltergeists, fantasmas, espíritos — eles são nossos medos secretos e sonhos não realizados, cada um o eco de alguém que morreu. Eles são a plateia para nossas dores secretas e prazeres culpados.</p><h2>Movimentos do Espectro</h2><p><strong>VOCÊ RECEBE ESTE:</strong></p>...",
+    "slug": "the-spectre",
+    "actorType": "character",
+    "stats": {
+      "blood": {
+        "label": "Sangue",
+        "value": 1,
+        "steps": { "value": 0, "max": 3 }
+      },
+      "heart": {
+        "label": "Coração",
+        "value": 0,
+        "steps": { "value": 0, "max": 3 }
+      },
+      "mind": {
+        "label": "Mente",
+        "value": -1,
+        "steps": { "value": 0, "max": 3 }
+      },
+      "spirit": {
+        "label": "Espírito",
+        "value": 1,
+        "steps": { "value": 0, "max": 3 }
+      },
+      "mortalis": {
+        "label": "Mortalis",
+        "value": 0,
+        "steps": { "value": 0, "max": 3 }
+      },
+      "night": {
+        "label": "Noite",
+        "value": 1,
+        "steps": { "value": 0, "max": 3 }
+      },
+      "power": {
+        "label": "Poder",
+        "value": 1,
+        "steps": { "value": 0, "max": 3 }
+      },
+      "wild": {
+        "label": "Selva",
+        "value": -1,
+        "steps": { "value": 0, "max": 3 }
+      }
+    },
+    "statsDetail": "(Adicione 1 a um Atributo e um a um Círculo)",
+    "attributes": {
+      "corruption": {
+        "label": "Corrupção",
+        "description": "GATILHO: Quando você testemunha uma cena de violência ou vitimização e não faz nada, marque trauma e corrupção.",
+        "type": "Clock",
+        "value": 0,
+        "max": 5,
+        "choices": [ { "value": 0, "options": {} } ],
+        "custom": false,
+        "path": "attributes",
+        "options": {}
+      },
+      "letItOut": {
+        "label": "Habilidades de Extravasar",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<ul><li><p>viajar instantaneamente para uma de suas âncoras, não importa a distância</p></li><li><p>assumir o controle de uma máquina ou veículo possuindo sua forma mecânica</p></li><li><p>liberar uma explosão psíquica de energia ectoplásmica (2 de dano, área, perto, perfura armadura)</p></li><li><p>seguir um mortal comum — não importa para onde ele vá</p></li></ul>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "max": null,
+        "options": {},
+        "description": "PARA ATIVAR ESTAS HABILIDADES"
+      },
+      "debts": {
+        "label": "Dívidas",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<ul><li><p>Alguém, ou o antepassado de alguém, esteve envolvido em sua morte. Essa pessoa lhe deve uma Dívida.</p></li><li><p>Alguém está vigiando ativamente uma de suas âncoras. Pergunte por que essa pessoa concordou em mantê-la segura. Você deve 2 Dívidas a ela.</p></li><li><p>Alguém quase destruiu uma de suas âncoras uma vez, talvez por acidente ou descuido. Pergunte o que aconteceu. Essa pessoa lhe deve 2 Dívidas.</p></li></ul>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "advancements": {
+        "label": "Avanços",
+        "description": "Disponíveis no início do jogo:",
+        "type": "ListMany",
+        "options": {
+          "0": { "label": "+1 Status (máx+1)", "value": false },
+          "1": { "label": "+1 Status (máx+1)", "value": false },
+          "2": { "label": "+1 Status (máx+1)", "value": false },
+          "3": { "label": "um novo movimento de Espectro", "value": false },
+          "4": { "label": "um novo movimento de Espectro", "value": false },
+          "5": { "label": "um movimento de outro playbook", "value": false },
+          "6": { "label": "um movimento de outro playbook", "value": false },
+          "7": { "label": "mudar seu Círculo", "value": false }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": { "value": false, "label": "+1 Status (máx+1)" },
+              "1": { "value": false, "label": "+1 Status (máx+1)" },
+              "2": { "value": false, "label": "+1 Status (máx+1)" },
+              "3": { "value": false, "label": "um novo movimento de Espectro" },
+              "4": { "value": false, "label": "um novo movimento de Espectro" },
+              "5": { "value": false, "label": "um movimento de outro playbook" },
+              "6": { "value": false, "label": "um movimento de outro playbook" },
+              "7": { "value": false, "label": "mudar seu Círculo" }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "value": "",
+        "max": null
+      },
+      "expertAdvancements": {
+        "label": "Avanços de Especialista",
+        "description": "Após cinco avanços, você pode selecionar:",
+        "type": "ListMany",
+        "options": {
+          "0": { "label": "+1 em qualquer Círculo (máx+3)", "value": false },
+          "1": { "label": "+1 em qualquer Círculo (máx+3)", "value": false },
+          "2": { "label": "obter Status de Círculo-2", "value": false },
+          "3": { "label": "apagar uma cicatriz", "value": false },
+          "4": { "label": "avançar 3 movimentos básicos", "value": false },
+          "5": { "label": "avançar 3 movimentos básicos", "value": false },
+          "6": { "label": "resolver uma de suas âncoras", "value": false },
+          "7": { "label": "mudar para um novo playbook", "value": false }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": { "value": false, "label": "+1 em qualquer Círculo (máx+3)" },
+              "1": { "value": false, "label": "+1 em qualquer Círculo (máx+3)" },
+              "2": { "value": false, "label": "obter Status de Círculo-2" },
+              "3": { "value": false, "label": "apagar uma cicatriz" },
+              "4": { "value": false, "label": "avançar 3 movimentos básicos" },
+              "5": { "value": false, "label": "avançar 3 movimentos básicos" },
+              "6": { "value": false, "label": "resolver uma de suas âncoras" },
+              "7": { "value": false, "label": "mudar para um novo playbook" }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "value": "",
+        "max": null
+      },
+      "corruptionAdvances": {
+        "label": "Avanços de Corrupção",
+        "description": "A corrupção representa seu personagem deslizando para as piores partes de sua natureza. Conforme sua corrupção aumenta, seus poderes crescem...",
+        "type": "ListMany",
+        "options": {
+          "0": { "label": "ganhe +1 em qualquer atributo (máx+3)", "value": false },
+          "1": { "label": "ganhe +1 em qualquer atributo (máx+3)", "value": false },
+          "2": { "label": "ganhe um novo movimento de corrupção", "value": false },
+          "3": { "label": "ganhe um novo movimento de corrupção", "value": false },
+          "4": { "label": "ganhe um novo movimento de corrupção do seu ou de outro playbook", "value": false },
+          "5": { "label": "aposente seu personagem; ele pode retornar como uma Ameaça", "value": false }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": { "label": "ganhe +1 em qualquer atributo (máx+3)", "value": false },
+              "1": { "label": "ganhe +1 em qualquer atributo (máx+3)", "value": false },
+              "2": { "label": "ganhe um novo movimento de corrupção", "value": false },
+              "3": { "label": "ganhe um novo movimento de corrupção", "value": false },
+              "4": { "label": "ganhe um novo movimento de corrupção do seu ou de outro playbook", "value": false },
+              "5": { "label": "aposente seu personagem; ele pode retornar como uma Ameaça", "value": false }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "value": "",
+        "max": null
+      },
+      "lookOne": {
+        "label": "Aparência Um",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          { "value": "<p>andrógino</p>", "options": {} },
+          { "value": "<p>conformista</p>", "options": {} },
+          { "value": "<p>mutável</p>", "options": {} },
+          { "value": "<p>não-conformista</p>", "options": {} }
+        ],
+        "custom": false, "path": "details", "max": null, "options": {}, "description": "Escolha um"
+      },
+      "lookTwo": {
+        "label": "Aparência Dois",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          { "value": "<p>Asiático ou Sul-Asiático</p>", "options": {} },
+          { "value": "<p>Negro</p>", "options": {} },
+          { "value": "<p>Hispânico/ Latino</p>", "options": {} },
+          { "value": "<p>Indígena</p>", "options": {} },
+          { "value": "<p>Oriente Médio</p>", "options": {} },
+          { "value": "<p>Branco</p>", "options": {} },
+          { "value": "<p>Outro: <fill in=\"\" yourself=\"\" later=\"\"></fill></p>", "options": {} }
+        ],
+        "custom": false, "path": "details", "max": null, "options": {}, "description": "Escolha um"
+      },
+      "lookThree": {
+        "label": "Aparência Três",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          { "value": "<p>roupas manchadas de sangue</p>", "options": {} },
+          { "value": "<p>roupas escuras</p>", "options": {} },
+          { "value": "<p>roupas cotidianas</p>", "options": {} },
+          { "value": "<p>roupas vintage</p>", "options": {} }
+        ],
+        "custom": false, "path": "details", "max": null, "options": {}, "description": "Escolha um"
+      },
+      "demeanor": {
+        "label": "Postura",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          { "value": "<p>antiquada</p>", "options": {} },
+          { "value": "<p>confusa</p>", "options": {} },
+          { "value": "<p>mansa</p>", "options": {} },
+          { "value": "<p>volátil</p>", "options": {} }
+        ],
+        "custom": false, "path": "details", "max": null, "options": {}, "description": "Escolha um"
+      },
+      "questionOne": {
+        "label": "Pergunta Um",
+        "value": "",
+        "type": "LongText",
+        "choices": [ { "value": "<p>Quais memórias você ainda guarda de sua morte?</p>", "options": {} } ],
+        "custom": false, "path": "details", "max": null, "options": {}, "description": ""
+      },
+      "questionTwo": {
+        "label": "Pergunta Dois",
+        "value": "",
+        "type": "LongText",
+        "choices": [ { "value": "<p>Há quanto tempo você está na cidade?</p>", "options": {} } ],
+        "custom": false, "path": "details", "max": null, "options": {}, "description": ""
+      },
+      "questionThree": {
+        "label": "Pergunta Três",
+        "value": "",
+        "type": "LongText",
+        "choices": [ { "value": "<p>Quem cuida de você quando seu trauma o sobrecarrega?</p>", "options": {} } ],
+        "custom": false, "path": "details", "max": null, "options": {}, "description": ""
+      },
+      "questionFour": {
+        "label": "Pergunta Quatro",
+        "value": "",
+        "type": "LongText",
+        "choices": [ { "value": "<p>Que lugar na cidade ainda faz você se sentir vivo?</p>", "options": {} } ],
+        "custom": false, "path": "details", "max": null, "options": {}, "description": ""
+      },
+      "questionFive": {
+        "label": "Pergunta Cinco",
+        "value": "",
+        "type": "LongText",
+        "choices": [ { "value": "<p>Qual de suas âncoras foi ameaçada mais recentemente?</p>", "options": {} } ],
+        "custom": false, "path": "details", "max": null, "options": {}, "description": ""
+      },
+      "TheSpectreTrauma": {
+        "label": "TRAUMA",
+        "description": "Seu senso de identidade foi estilhaçado pela sua morte, deixando-o traumatizado. Você começa cada sessão com pelo menos 2-trauma marcado, mas pode limpá-lo — e qualquer trauma adicional que receber — por meio de movimentos de trauma. Se você preencher sua trilha de trauma, o MC pode pedir que você realize um movimento de trauma a qualquer momento, mas você sempre pode escolher qual movimento de trauma fará no momento.<br>A primeira vez que você sofrer dano em uma cena, marque trauma; quando estiver com o dano cheio, seu corpo se dispersa. Marque trauma para se recompor em alguns dias em uma de suas âncoras, ou marque 3-trauma para se recompor imediatamente em uma âncora à escolha do MC. Se você não puder marcar trauma enquanto estiver destruído, o MC decide como/quando você se recompõe.",
+        "type": "Clock",
+        "value": 0,
+        "max": 5,
+        "choices": [ { "value": 0, "options": {} } ],
+        "custom": false,
+        "path": "attributes"
+      },
+      "TheSpectreAnchors": {
+        "label": "ÂNCORAS",
+        "description": "Você tem várias âncoras na cidade — lugares, pessoas ou objetos importantes que o impedem de seguir em frente. Você pode ter a oportunidade de dar descanso a uma âncora, mas elas também podem ser arruinadas ou destruídas. ESCOLHA 4: Quando uma de suas âncoras é colocada em perigo, você sabe; marque trauma e receba +1 contínuo em todos os movimentos até vê-la em segurança. Quando você resolve uma âncora, limpe sua trilha de trauma e apague um avanço de corrupção; quando uma âncora é destruída ou arruinada, preencha sua trilha de trauma e receba um avanço de corrupção.",
+        "type": "ListMany",
+        "options": {
+          "0": { "label": "um membro da família ou herdeiro, inconsciente de sua existência", "value": false },
+          "1": { "label": "uma testemunha de sua morte, ligada a você pelo acaso ou destino", "value": false },
+          "2": { "label": "um animal de estimação amigável, companheiro constante em sua pós-vida", "value": false },
+          "3": { "label": "uma posse querida de sua juventude, passada para um novo dono", "value": false },
+          "4": { "label": "um marco de seu sucesso em vida, agora reivindicado por outro", "value": false },
+          "5": { "label": "um item relacionado à sua morte, marcando sombriamente seu fim violento", "value": false },
+          "6": { "label": "um local de importância pessoal, uma lembrança de um amor passado", "value": false },
+          "7": { "label": "um espaço onde você costumava morar ou trabalhar, abandonado pelo mundo", "value": false }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": { "label": "um membro da família ou herdeiro, inconsciente de sua existência", "value": false },
+              "1": { "label": "uma testemunha de sua morte, ligada a você pelo acaso ou destino", "value": false },
+              "2": { "label": "um animal de estimação amigável, companheiro constante em sua pós-vida", "value": false },
+              "3": { "label": "uma posse querida de sua juventude, passada para um novo dono", "value": false },
+              "4": { "label": "um marco de seu sucesso em vida, agora reivindicado por outro", "value": false },
+              "5": { "label": "um item relacionado à sua morte, marcando sombriamente seu fim violento", "value": false },
+              "6": { "label": "um local de importância pessoal, uma lembrança de um amor passado", "value": false },
+              "7": { "label": "um espaço onde você costumava morar ou trabalhar, abandonado pelo mundo", "value": false }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes"
+      },
+      "TheSpectrePassingOn": {
+        "label": "PARTINDO",
+        "description": "Quando sua última âncora é resolvida ou destruída, você parte; escolha uma bênção ou assombração que você concede à cidade para cada uma de suas âncoras que foi resolvida ou destruída, respectivamente. Se todas as quatro âncoras forem destruídas, você não parte, mas é engolido pelo esquecimento e inflige todas as três assombrações. BÊNÇONS",
+        "type": "ListMany",
+        "options": {
+          "0": { "label": "você inspira um PdM a perdoar alguém que o prejudicou, encerrando um conflito de longa data", "value": false },
+          "1": { "label": "você purifica ou restaura um lugar querido que todos consideravam arruinado ou sem reparo", "value": false },
+          "2": { "label": "você cura ou restaura alguém que você feriu ou prejudicou no passado", "value": false },
+          "3": { "label": "você revela a um PdM a verdade sobre sua morte e partida", "value": false }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": { "label": "você inspira um PdM a perdoar alguém que o prejudicou, encerrando um conflito de longa data", "value": false },
+              "1": { "label": "você purifica ou restaura um lugar querido que todos consideravam arruinado ou sem reparo", "value": false },
+              "2": { "label": "você cura ou restaura alguém que você feriu ou prejudicou no passado", "value": false },
+              "3": { "label": "você revela a um PdM a verdade sobre sua morte e partida", "value": false }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes"
+      },
+      "TheSpectrePassingOn2": {
+        "label": "",
+        "description": "ASSOMBRAÇÕES:",
+        "type": "ListMany",
+        "options": {
+          "0": { "label": "você deixa para trás um reflexo psíquico de seu medo e raiva, uma coisa terrível que caça mortais à noite", "value": false },
+          "1": { "label": "você impregna um objeto com um poder de pesadelo; o MC escolhe quem acaba com o item amaldiçoado", "value": false },
+          "2": { "label": "você leva um PdM próximo a você a uma espiral de decadência", "value": false }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": { "label": "você deixa para trás um reflexo psíquico de seu medo e raiva, uma coisa terrível que caça mortais à noite", "value": false },
+              "1": { "label": "você impregna um objeto com um poder de pesadelo; o MC escolhe quem acaba com o item amaldiçoado", "value": false },
+              "2": { "label": "você leva um PdM próximo a você a uma espiral de decadência", "value": false }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes"
+      }
+    },
+    "choiceSets": [
+      {
+        "title": "MOVIMENTOS DE ESPECTRO",
+        "desc": "VOCÊ RECEBE ESTE:",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          { "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.WgajJP9BJzz2mek1", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 }
+        ],
+        "grantOn": 0, "granted": false, "advancement": 0
+      },
+      {
+        "title": "MOVIMENTOS DE ESPECTRO",
+        "desc": "E ESCOLHA MAIS DOIS:",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          { "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.M0rR4uU7xX0aC3fF", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
+          { "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.wX1jFOlCqtr4nN3G", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
+          { "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.K8nQ1sS4vV7wW0aC", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
+          { "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.L9qQ3tT6wW9zB2dE", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
+          { "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.UIm4NJ5oKzlqxB7P", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 }
+        ],
+        "grantOn": 1, "granted": false, "advancement": 0
+      },
+      {
+        "title": "Movimentos Iniciais do ESPECTRO",
+        "desc": "",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          { "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.N1sS4vV7wW0aC3fF", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
+          { "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.O2tT6wW9zB2dE5fG", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
+          { "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.qtI3J3xLDvBal2l7", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
+          { "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.4xXzKTHlc3rXRSXX", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 }
+        ],
+        "grantOn": 0, "granted": false, "advancement": 0
+      }
+    ]
+  },
+  "effects": [],
+  "folder": "D1gI4lL8oO1rR4uW",
+  "ownership": { "default": 0, "MZpJvwT3EQwBniAB": 3 },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1733907141240,
+    "modifiedTime": 1750907105045,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "exportSource": null
+  },
+  "_id": "U8xZ1bC4dE7fG0hI",
+  "sort": 100000,
+  "_key": "!items!U8xZ1bC4dE7fG0hI"
+}

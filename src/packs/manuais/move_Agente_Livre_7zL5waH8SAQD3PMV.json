@@ -1,0 +1,53 @@
+{
+  "folder": "wAX4WZcFQ38pGtjN",
+  "name": "Agente Livre",
+  "type": "move",
+  "_id": "7zL5waH8SAQD3PMV",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Marque corrupção para <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.WG1rY3dZ7eA0fB6c]{recusar honrar uma Dívida}</strong></em> devida a alguém fora do seu Círculo como se tivesse rolado um 10+.</p>",
+    "moveType": "corruption",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": ""
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Sucesso Parcial",
+        "value": ""
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Sucesso Total",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.344",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": 1733907149533,
+    "modifiedTime": 1748405230985,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "exportSource": null
+  },
+  "_key": "!items!7zL5waH8SAQD3PMV"
+}

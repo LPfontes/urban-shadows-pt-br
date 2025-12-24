@@ -1,0 +1,36 @@
+{
+  "folder": null,
+  "name": "Instrumentos Rituais",
+  "type": "equipment",
+  "_id": "1bf9dcd7f50d48d1",
+  "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/primitive-necklace.svg",
+  "system": {
+    "description": "(ou seja, um athame, um pentáculo, etc.)",
+    "uses": 0,
+    "quantity": 1,
+    "weight": 0,
+    "tags": "",
+    "itemType": "",
+    "equipmentType": "gear",
+    "actorType": "character"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.A8dF1iI5lL8oO1rT",
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": 1733907152038,
+    "modifiedTime": 1750826639812,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "exportSource": null
+  },
+  "_key": "!items!1bf9dcd7f50d48d1"
+}

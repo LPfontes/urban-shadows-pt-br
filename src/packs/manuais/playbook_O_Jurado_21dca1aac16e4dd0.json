@@ -1,0 +1,962 @@
+{
+  "name": "O Jurado",
+  "type": "playbook",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<section class=\"playbook-description\"><h1 class=\"playbook-title\">O Jurado</h1><p class=\"playbook-intro\">As maquinações do Poder dependem de muitos para manter as engrenagens girando, mas de ninguém tanto quanto daqueles que juraram servir às muitas facções do Poder—academias, abadias e conselhos. No entanto, não importa qual juramento fundamente seu serviço, esses jurados devem tomar suas próprias decisões sobre controle, lealdade e justiça...</p><h2>Movimentos de Jurado</h2><p><strong>ESCOLHA DOIS:</strong></p><div class=\"move\"><p><span class=\"move-name\">Proteger e Servir</span></p><div class=\"move-description\"><p>Quando você ler uma situação tensa, role com Mente. Com um sucesso, faça perguntas ao MC; receba +1 constante quando agir de acordo com as respostas. Com 10+, faça 2. Com 7-9, faça 1.</p><ul class=\"abilities-list\"><li>onde está minha rota de fuga / entrada / passagem?</li><li>qual inimigo é mais vulnerável a mim?</li><li>ao que eu deveria estar atento?</li><li>qual é a verdadeira posição do meu inimigo?</li><li>quem aqui não é confiável?</li></ul><p> Com uma falha, você reconhece uma fraqueza em sua própria posição ou preparações que deveria ter previsto.</p></div></div><div class=\"move\"><p><span class=\"move-name\">Difícil de Despistar</span></p><div class=\"move-description\"><p>Quando você seguir um PdM pelas ruas da cidade, role com Mente. Com um sucesso, aonde ele for, você segue. Com 7-9, você encontra algum problema no caminho; lide com isso rapidamente ou perca o rastro. Com uma falha, sua presa o leva exatamente onde ela quer; prepare-se para as mandíbulas da armadilha se fechando.</p></div></div><div class=\"move\"><p><span class=\"move-name\">Ardiloso</span></p><div class=\"move-description\"><p>Receba +1 Mente (máx+3).</p></div></div><div class=\"move\"><p><span class=\"move-name\">Polícia de Verdade</span></p><div class=\"move-description\"><p>Quando você der um nome aos bois ou estudar um santuário, ponto de encontro ou local de poder, role com Mente em vez do Círculo relevante. Você sempre pode fazer uma pergunta adicional ao MC sobre a pessoa ou local em questão, mesmo com uma falha.</p></div></div><div class=\"move\"><p><span class=\"move-name\">Xadrez, Não Damas</span></p><div class=\"move-description\"><p>Quando você recorrer à violência com qualquer tipo de vantagem séria—números, posição, surpresa, etc.—e obtiver um sucesso, diga à sua oposição qual opção ela não pode escolher da lista dela antes de ela escolher.</p></div></div><h3>Habilidades de Liberar</h3><ul class=\"abilities-list\"><li>destruir um feitiço mágico, ilusão ou encantamento com um toque</li><li>cobrir-se com uma armadura mágica; gaste-a para ignorar todo dano uma vez</li><li>derrubar todos os inimigos menores em sua vizinhança com uma explosão de força elemental</li><li>forçar alguém a responder suas perguntas com a verdade por uma cena</li></ul><h2>Seu Juramento</h2><p>Você jurou servir a uma influente facção do Poder, uma organização que confia em você para proteger seus membros, punir seus inimigos e defender seus domínios.</p><h3>Seus Mestres</h3><p>Você serve (escolha um):</p><div style=\"margin:15px 0\"><div><p>uma abadia de oráculos precientes</p></div><div><p>um conselho de magos arrogantes</p></div><div><p>uma ordem de imortais secretos</p></div><div><p>uma academia de estudiosos religiosos</p></div><div><p>um conventículo de divindades terrenas</p></div></div><h3>Você está encarregado de (escolha dois):</h3><div style=\"margin:15px 0\"><div><p>proteger e policiar seus membros</p></div><div><p>recuperar artefatos e tomos perdidos</p></div><div><p>investigar ameaças e problemas</p></div><div><p>destruir aqueles que os frustrariam</p></div><div><p>negociar com seus aliados e vassalos</p></div></div><h2>Seus Votos</h2><p>Quando você quebrar um de seus votos, marque corrupção. Quando você pegar um avanço de corrupção, risque um de seus votos—ele não o obriga mais. <strong>Você deve... (escolha 5):</strong></p><div style=\"margin:15px 0\"><div><p>...nunca invadir a propriedade de outro</p></div><div><p>...nunca dar o primeiro golpe</p></div><div><p>...nunca mentir sobre sua identidade ou propósito</p></div><div><p>...nunca revelar os segredos da sua facção</p></div><div><p>...sempre evitar danos colaterais</p></div><div><p>...sempre proteger membros do Poder de danos</p></div><div><p>...sempre frustrar os inimigos de seus mestres</p></div><div><p>...sempre tomar aquilo que seus mestres desejam</p></div></div><h2>Sua Arma Lendária</h2><p>Seus mestres lhe deram uma arma (3-dano mítica ancorada) para empunhar, um artefato lendário de uma era há muito perdida. <strong>Escolha um:</strong></p><div style=\"margin:15px 0\"><div><p>uma espada empunhada por reis legítimos (ler uma pessoa)</p></div><div><p>uma lança roubada do próprio céu (liberar)</p></div><div><p>um cajado imbuído com feitiçaria furtiva (escapar de uma situação)</p></div><div><p>uma faca cortada de aço demoníaco (enganar, distrair ou ludibriar)</p></div><div><p>um machado forjado no sangue de deuses (recorrer à violência)</p></div><div><p>um martelo abençoado por magia de outro mundo (manter a calma)</p></div></div><h2>Corrupção</h2><div class=\"corruption-track\"><p><strong>CORRUPÇÃO</strong></p><div class=\"corruption-boxes\"><p></p></div></div><p><strong>GATILHO:</strong> Quando você quebrar um de seus votos ou trabalhar contra seus mestres, marque corrupção.</p><div class=\"move\"><p><span class=\"move-name\">À Frente do Jogo</span></p><div class=\"move-description\"><p>Você recebe +1 Mente (máx+4). Sempre que você rolar com Mente e tirar um 12+, marque corrupção.</p></div></div><div class=\"move\"><p><span class=\"move-name\">Informantes</span></p><div class=\"move-description\"><p>Marque corrupção para rolar com Mente em vez do Status de Círculo relevante quando consultar seus contatos. Com uma falha, marque corrupção novamente—então escolha entre responder à pergunta difícil do seu contato ou dever a ele uma Dívida.</p></div></div><div class=\"move\"><p><span class=\"move-name\">Estudante das Artes</span></p><div class=\"move-description\"><p>Escolha três Feitiços. Marque corrupção para ganhar dois domínios que você pode usar para lançar esses feitiços.</p></div></div><div class=\"move\"><p><span class=\"move-name\">Assuntos Infernais</span></p><div class=\"move-description\"><p>Quando você recorrer à violência, você pode marcar corrupção para obter um 10+ em vez de rolar.</p></div></div><h2>Criação de Personagem</h2><div class=\"stats-grid\"><div class=\"stat-section\"><h3>Atributos Iniciais</h3><p>Sangue 1, Coração 0, Mente 1, Espírito -1</p><h3>Círculos Iniciais</h3><p>Mortais -1, Noite 0, Poder 1, Feras 1</p><h3>Status Inicial</h3><p>Mortais 0, Noite 0, Poder 1, Feras 0</p></div><div class=\"stat-section\"><h3>Equipamento Inicial</h3><p>Uma casa ou apartamento luxuoso, um carro chique, um smartphone caro</p><p>Uma arma secundária à escolha:</p><ul class=\"simple-list\"><li>Beretta 9mm (2-dano perto barulhenta ocultável)</li><li>Faca de caça (2-dano mão)</li><li>Escopeta de cano serrado (2-dano próximo barulhenta recarga brutal ocultável)</li></ul></div></div><div class=\"debt-section\"><h3>Dívidas Iniciais</h3><ul class=\"simple-list\"><li>Alguém lhe dá informações sobre um Círculo que você não entende. Você deve a ele uma Dívida.</li><li>Você secretamente ajudou alguém a obter justiça por um mal feito contra ele. Ele lhe deve uma Dívida. Diga a ele por que você ajudou.</li><li>Seu serviço o forçou a punir ou matar o aliado ou amigo de alguém em nome de seus mestres. Você deve a ele uma Dívida.</li></ul></div></section>",
+    "slug": "the-sworn",
+    "actorType": "character",
+    "stats": {
+      "blood": {
+        "label": "Sangue",
+        "value": 1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "heart": {
+        "label": "Coração",
+        "value": 0,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "mind": {
+        "label": "Mente",
+        "value": 1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "spirit": {
+        "label": "Espírito",
+        "value": -1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "mortalis": {
+        "label": "Mortais",
+        "value": -1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "night": {
+        "label": "Noite",
+        "value": 0,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "power": {
+        "label": "Poder",
+        "value": 1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "wild": {
+        "label": "Feras",
+        "value": 1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      }
+    },
+    "statsDetail": "(Adicione 1 a um dos Atributos e a um dos Círculos)",
+    "attributes": {
+      "corruption": {
+        "label": "Corrupção",
+        "description": "GATILHO: Quando você quebrar um de seus votos ou trabalhar contra seus mestres, marque corrupção.",
+        "type": "Clock",
+        "value": 0,
+        "max": 5,
+        "choices": [
+          {
+            "value": 0,
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "options": {}
+      },
+      "letItOut": {
+        "label": "Habilidades de Liberar",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<ul><li><p>destruir um feitiço mágico, ilusão ou encantamento com um toque</p></li><li><p>cobrir-se com uma armadura mágica; gaste-a para ignorar todo dano uma vez</p></li><li><p>derrubar todos os inimigos menores em sua vizinhança com uma explosão de força elemental</p></li><li><p>forçar alguém a responder suas perguntas com a verdade por uma cena</p></li></ul>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "max": null,
+        "options": {},
+        "description": "PARA ATIVAR ESSAS HABILIDADES"
+      },
+      "debts": {
+        "label": "Dívidas",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<ul><li><p>Alguém lhe dá informações sobre um Círculo que você não entende. Você deve a ele uma Dívida.</p></li><li><p>Você secretamente ajudou alguém a obter justiça por um mal feito contra ele. Ele lhe deve uma Dívida. Diga a ele por que você ajudou.</p></li><li><p>Seu serviço o forçou a punir ou matar o aliado ou amigo de alguém em nome de seus mestres. Você deve a ele uma Dívida.</p></li></ul>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "advancements": {
+        "label": "Avanços",
+        "description": "Disponível no início do jogo:",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "+1 Status (máx+1)",
+            "value": false
+          },
+          "1": {
+            "label": "+1 Status (máx+1)",
+            "value": false
+          },
+          "2": {
+            "label": "+1 Status (máx+1)",
+            "value": false
+          },
+          "3": {
+            "label": "um novo movimento de Jurado",
+            "value": false
+          },
+          "4": {
+            "label": "um novo movimento de Jurado",
+            "value": false
+          },
+          "5": {
+            "label": "um movimento de outro playbook",
+            "value": false
+          },
+          "6": {
+            "label": "um movimento de outro playbook",
+            "value": false
+          },
+          "7": {
+            "label": "Status de Poder: 2",
+            "value": false
+          }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "+1 Status (máx+1)",
+                "value": false
+              },
+              "1": {
+                "label": "+1 Status (máx+1)",
+                "value": false
+              },
+              "2": {
+                "label": "+1 Status (máx+1)",
+                "value": false
+              },
+              "3": {
+                "label": "um novo movimento de Jurado",
+                "value": false
+              },
+              "4": {
+                "label": "um novo movimento de Jurado",
+                "value": false
+              },
+              "5": {
+                "label": "um movimento de outro playbook",
+                "value": false
+              },
+              "6": {
+                "label": "um movimento de outro playbook",
+                "value": false
+              },
+              "7": {
+                "label": "Status de Poder: 2",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "value": "",
+        "max": null
+      },
+      "expertAdvancements": {
+        "label": "Avanços de Especialista",
+        "description": "Após cinco avanços, você pode selecionar:",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "+1 qualquer Círculo (máx+3)",
+            "value": false
+          },
+          "1": {
+            "label": "+1 qualquer Círculo (máx+3)",
+            "value": false
+          },
+          "2": {
+            "label": "+1 qualquer Círculo (máx+3)",
+            "value": false
+          },
+          "3": {
+            "label": "apagar uma cicatriz",
+            "value": false
+          },
+          "4": {
+            "label": "avançar 3 movimentos básicos",
+            "value": false
+          },
+          "5": {
+            "label": "avançar 3 movimentos básicos",
+            "value": false
+          },
+          "6": {
+            "label": "mudar para um novo playbook",
+            "value": false
+          },
+          "7": {
+            "label": "aposentar seu personagem em segurança",
+            "value": false
+          }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "value": false,
+                "label": "+1 qualquer Círculo (máx+3)"
+              },
+              "1": {
+                "value": false,
+                "label": "+1 qualquer Círculo (máx+3)"
+              },
+              "2": {
+                "value": false,
+                "label": "+1 qualquer Círculo (máx+3)"
+              },
+              "3": {
+                "value": false,
+                "label": "apagar uma cicatriz"
+              },
+              "4": {
+                "value": false,
+                "label": "avançar 3 movimentos básicos"
+              },
+              "5": {
+                "value": false,
+                "label": "avançar 3 movimentos básicos"
+              },
+              "6": {
+                "value": false,
+                "label": "mudar para um novo playbook"
+              },
+              "7": {
+                "value": false,
+                "label": "aposentar seu personagem em segurança"
+              }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "value": "",
+        "max": null
+      },
+      "corruptionAdvances": {
+        "label": "Avanços de Corrupção",
+        "description": "A Corrupção representa seu personagem deslizando para as piores partes de sua natureza. À medida que sua corrupção aumenta, seus poderes apenas crescem...",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "receba +1 em qualquer atributo (máx+3)",
+            "value": false
+          },
+          "1": {
+            "label": "receba +1 em qualquer atributo (máx+3)",
+            "value": false
+          },
+          "2": {
+            "label": "pegue um novo movimento de corrupção",
+            "value": false
+          },
+          "3": {
+            "label": "pegue um novo movimento de corrupção",
+            "value": false
+          },
+          "4": {
+            "label": "pegue um novo movimento de corrupção de outro playbook ou do seu próprio",
+            "value": false
+          },
+          "5": {
+            "label": "aposente seu personagem; ele pode retornar como uma Ameaça",
+            "value": false
+          }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "receba +1 em qualquer atributo (máx+3)",
+                "value": false
+              },
+              "1": {
+                "label": "receba +1 em qualquer atributo (máx+3)",
+                "value": false
+              },
+              "2": {
+                "label": "pegue um novo movimento de corrupção",
+                "value": false
+              },
+              "3": {
+                "label": "pegue um novo movimento de corrupção",
+                "value": false
+              },
+              "4": {
+                "label": "pegue um novo movimento de corrupção de outro playbook ou do seu próprio",
+                "value": false
+              },
+              "5": {
+                "label": "aposente seu personagem; ele pode retornar como uma Ameaça",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "value": "",
+        "max": null
+      },
+      "lookOne": {
+        "label": "Aparência Um",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>andrógeno</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>conforme</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>fluido</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>não-conforme</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": "Escolha um"
+      },
+      "lookTwo": {
+        "label": "Aparência Dois",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>Asiático ou Sul-Asiático</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Negro</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Hispânico/Latino</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Indígena</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Oriente Médio</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Branco</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Outro: <fill in=\"\" yourself=\"\" later=\"\"></fill></p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": "Escolha um"
+      },
+      "lookThree": {
+        "label": "Aparência Três",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>roupas casuais</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>roupas desgrenhadas</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>roupas caras</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>roupas rituais</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": "Escolha um"
+      },
+      "demeanor": {
+        "label": "Comportamento",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>astuto</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>emocional</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>obcecado</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>estoico</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": "Escolha um"
+      },
+      "questionOne": {
+        "label": "Questão Um",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>Por que você fez seu juramento?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "questionTwo": {
+        "label": "Questão Dois",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>Há quanto tempo você está na cidade?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "questionThree": {
+        "label": "Questão Três",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>Quem treinou você nos caminhos de sua ordem?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "questionFour": {
+        "label": "Questão Quatro",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>O que marca você como diferente dos mestres que você serve?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "questionFive": {
+        "label": "Questão Cinco",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>O desaparecimento de quem você está investigando?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "TheSwornOathMasters": {
+        "label": "SEUS MESTRES Você serve (escolha um):",
+        "description": "Você jurou servir a uma influente facção do Poder, uma organização que confia em você para proteger seus membros, punir seus inimigos e defender seus domínios. Diga ao seu MC para criar seus mestres como uma facção de Tamanho-3, Força-3 dentro do Poder. Pergunte a ele o que você sabe sobre a estrutura, cultura e ativos da organização.",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "uma abadia de oráculos precientes",
+            "value": false
+          },
+          "1": {
+            "label": "um conselho de magos arrogantes",
+            "value": false
+          },
+          "2": {
+            "label": "uma ordem de imortais secretos",
+            "value": false
+          },
+          "3": {
+            "label": "uma academia de estudiosos religiosos",
+            "value": false
+          },
+          "4": {
+            "label": "um conventículo de divindades terrenas",
+            "value": false
+          }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "uma abadia de oráculos precientes",
+                "value": false
+              },
+              "1": {
+                "label": "um conselho de magos arrogantes",
+                "value": false
+              },
+              "2": {
+                "label": "uma ordem de imortais secretos",
+                "value": false
+              },
+              "3": {
+                "label": "uma academia de estudiosos religiosos",
+                "value": false
+              },
+              "4": {
+                "label": "um conventículo de divindades terrenas",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes"
+      },
+      "TheSwornOathCharged": {
+        "label": "VOCÊ ESTÁ ENCARREGADO DE (Escolha dois):",
+        "description": "",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "proteger e policiar seus membros",
+            "value": false
+          },
+          "1": {
+            "label": "recuperar artefatos e tomos perdidos",
+            "value": false
+          },
+          "2": {
+            "label": "investigar ameaças e problemas",
+            "value": false
+          },
+          "3": {
+            "label": "destruir aqueles que os frustrariam",
+            "value": false
+          },
+          "4": {
+            "label": "negociar com seus aliados e vassalos",
+            "value": false
+          }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "proteger e policiar seus membros",
+                "value": false
+              },
+              "1": {
+                "label": "recuperar artefatos e tomos perdidos",
+                "value": false
+              },
+              "2": {
+                "label": "investigar ameaças e problemas",
+                "value": false
+              },
+              "3": {
+                "label": "destruir aqueles que os frustrariam",
+                "value": false
+              },
+              "4": {
+                "label": "negociar com seus aliados e vassalos",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes"
+      },
+      "TheSwornVows": {
+        "label": "SEUS VOTOS Você deve... (escolha 5):",
+        "description": "Quando você quebrar um de seus votos, marque corrupção. Quando você pegar um avanço de corrupção, risque um de seus votos—ele não o obriga mais. Se você riscar todos os votos, seu juramento está quebrado—mude de playbook imediatamente.",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "...nunca invadir a propriedade de outro",
+            "value": false
+          },
+          "1": {
+            "label": "...nunca dar o primeiro golpe",
+            "value": false
+          },
+          "2": {
+            "label": "...nunca mentir sobre sua identidade ou propósito",
+            "value": false
+          },
+          "3": {
+            "label": "...nunca revelar os segredos da sua facção",
+            "value": false
+          },
+          "4": {
+            "label": "...sempre evitar danos colaterais",
+            "value": false
+          },
+          "5": {
+            "label": "...sempre proteger membros do Poder de danos",
+            "value": false
+          },
+          "6": {
+            "label": "...sempre frustrar os inimigos de seus mestres",
+            "value": false
+          },
+          "7": {
+            "label": "...sempre tomar aquilo que seus mestres desejam",
+            "value": false
+          }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "...nunca invadir a propriedade de outro",
+                "value": false
+              },
+              "1": {
+                "label": "...nunca dar o primeiro golpe",
+                "value": false
+              },
+              "2": {
+                "label": "...nunca mentir sobre sua identidade ou propósito",
+                "value": false
+              },
+              "3": {
+                "label": "...nunca revelar os segredos da sua facção",
+                "value": false
+              },
+              "4": {
+                "label": "...sempre evitar danos colaterais",
+                "value": false
+              },
+              "5": {
+                "label": "...sempre proteger membros do Poder de danos",
+                "value": false
+              },
+              "6": {
+                "label": "...sempre frustrar os inimigos de seus mestres",
+                "value": false
+              },
+              "7": {
+                "label": "...sempre tomar aquilo que seus mestres desejam",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes"
+      },
+      "TheSwornOathWeapon": {
+        "label": "SUA ARMA LENDÁRIA Escolha uma:",
+        "description": "Seus mestres lhe deram uma arma (3-dano mítica ancorada) para empunhar, um artefato lendário de uma era há muito perdida. Enquanto você portar este armamento lendário, avance o movimento nomeado. Quando você empunhar a arma a serviço de seus mestres, você pode rolar com Mente em vez de Espírito quando manter a calma. Mas sua arma—assim como seu juramento—está ligada à sua lealdade. Se seu juramento for quebrado, a arma será perdida para você, até mesmo traindo você para garantir que saia de seu serviço.",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "uma espada empunhada por reis legítimos (ler uma pessoa)",
+            "value": false
+          },
+          "1": {
+            "label": "uma faca cortada de aço demoníaco (enganar, distrair ou ludibriar)",
+            "value": false
+          },
+          "2": {
+            "label": "uma lança roubada do próprio céu (liberar)",
+            "value": false
+          },
+          "3": {
+            "label": "um machado forjado no sangue de deuses (recorrer à violência)",
+            "value": false
+          },
+          "4": {
+            "label": "um cajado imbuído com feitiçaria furtiva (escapar de uma situação)",
+            "value": false
+          },
+          "5": {
+            "label": "um martelo abençoado por magia de outro mundo (manter a calma)",
+            "value": false
+          }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "uma espada empunhada por reis legítimos (ler uma pessoa)",
+                "value": false
+              },
+              "1": {
+                "label": "uma faca cortada de aço demoníaco (enganar, distrair ou ludibriar)",
+                "value": false
+              },
+              "2": {
+                "label": "uma lança roubada do próprio céu (liberar)",
+                "value": false
+              },
+              "3": {
+                "label": "um machado forjado no sangue de deuses (recorrer à violência)",
+                "value": false
+              },
+              "4": {
+                "label": "um cajado imbuído com feitiçaria furtiva (escapar de uma situação)",
+                "value": false
+              },
+              "5": {
+                "label": "um martelo abençoado por magia de outro mundo (manter a calma)",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes"
+      }
+    },
+    "choiceSets": [
+      {
+        "title": "MOVIMENTOS DE JURADO",
+        "desc": "ESCOLHA DOIS:",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.iQGJbo4OUye8oJ57",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.B5eG8hH1iI4jJ7kK",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.Y4DxqwFjIBSKMlfk",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.A4dE7fG0hH3kK6nN",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.Z3kK6nN0qQ3tT6wY",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 1,
+        "granted": false,
+        "advancement": 0
+      },
+      {
+        "title": "Movimentos Iniciais de JURADO",
+        "desc": "",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.e8466720f02748b2",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.oJMTh3qH3i4V3SwK",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
+      },
+      {
+        "title": "EQUIPAMENTO INICIAL",
+        "desc": "",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.lfiYwkArOhE61rrL",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/race-car.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.45BahRXdoh9sigR5",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/modern-city.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/smartphone.svg",
+            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.hzja5WHwvYV0N2uk",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
+      },
+      {
+        "title": "EQUIPAMENTO INICIAL",
+        "desc": "Uma arma secundária à escolha:",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.K4lL7mN0oP3qQ6rS",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/pistol-gun.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.L5mN8oP1qQ4rS7tT",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/bowie-knife.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.M6oP9qQ2rS5tT8uU",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/sawed-off-shotgun.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 1,
+        "granted": false,
+        "advancement": 0
+      }
+    ]
+  },
+  "effects": [],
+  "folder": "V9yA2bC5dE8fG1hH",
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1733907141240,
+    "modifiedTime": 1757806837467,
+    "lastModifiedBy": "WynALakZJf661YU1",
+    "exportSource": null
+  },
+  "_id": "21dca1aac16e4dd0",
+  "sort": 100000,
+  "_key": "!items!21dca1aac16e4dd0"
+}

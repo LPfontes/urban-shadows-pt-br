@@ -1,0 +1,53 @@
+{
+  "folder": "L3nP6rT9uW2xZ5bC",
+  "name": "Lealdade Dupla",
+  "type": "move",
+  "_id": "Q8sU1wY4zA7dE0hI",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Você é conhecido como um aliado do mundo mortal; pegue Mortalis como um segundo Círculo. Você pode ganhar até Status-2 em Mortalis, e pode fazer um movimento de cidade adicional a cada turno de facção usando seu novo Status. Se você fizer uso deste movimento adicional, o MC lhe dirá que problema mortal bate à sua porta após a passagem do tempo, procurando por sua ajuda...</p>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": ""
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Sucesso Parcial",
+        "value": ""
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Sucesso Total",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1733907149533,
+    "modifiedTime": 1756441432233,
+    "lastModifiedBy": "WynALakZJf661YU1",
+    "exportSource": null
+  },
+  "_key": "!items!Q8sU1wY4zA7dE0hI"
+}

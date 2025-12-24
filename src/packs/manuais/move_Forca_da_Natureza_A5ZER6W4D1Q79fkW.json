@@ -1,0 +1,53 @@
+{
+  "folder": "hfW50eZcSZh23Lls",
+  "name": "Força da Natureza",
+  "type": "move",
+  "_id": "A5ZER6W4D1Q79fkW",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Você recebe +1 em <strong>SANGUE</strong> (máx+4). Sempre que você rolar com <strong>SANGUE</strong> e tirar 12+, marque corrupção.</p>",
+    "moveType": "corruption",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": ""
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Sucesso Parcial",
+        "value": ""
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Sucesso Total",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.344",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": 1733907149533,
+    "modifiedTime": 1733907149533,
+    "lastModifiedBy": "MZpJvwT3EQwBniAB",
+    "exportSource": null
+  },
+  "_key": "!items!A5ZER6W4D1Q79fkW"
+}

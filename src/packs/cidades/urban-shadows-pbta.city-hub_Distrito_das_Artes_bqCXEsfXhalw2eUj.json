@@ -1,0 +1,356 @@
+{
+  "name": "Distrito Artístico",
+  "type": "urban-shadows-pbta.city-hub",
+  "_id": "bqCXEsfXhalw2eUj",
+  "img": "modules/urban-shadows-pbta/assets/cc-assets/header-bg.webp",
+  "system": {
+    "stats": {},
+    "attributes": {
+      "residents": {
+        "label": "Residentes",
+        "description": "NPCs importantes que vivem ou trabalham neste núcleo, incluindo relações de dívida",
+        "position": "connections",
+        "type": "LongText",
+        "value": "<table><thead><tr><th>Personagem do Jogador</th><th>Residentes</th><th>Facção</th><th>Por que eles devem a você?</th></tr></thead><tbody><tr><td></td><td>Ryan Swift, um diabrete hedonista cuja linha de moda de luxo deforma lentamente os corpos daqueles que vestem suas criações</td><td>Limiar</td><td></td></tr><tr><td></td><td>Kai, um membro poderoso de uma organização criminosa demoníaca e proprietário de um bar gay local popular no Limiar</td><td>Limiar</td><td></td></tr><tr><td></td><td>Mark Zheng, um oráculo carismático e negociante de arte cujos clientes o contratam por sua habilidade estranha de farejar talento... e segredos</td><td>Poder</td><td></td></tr><tr><td></td><td>Moshe Klienman, um mago de rua que se vendeu e agora usa seus grafites mágicos para fazer propaganda para corporações ricas</td><td>Poder</td><td></td></tr><tr><td></td><td>Adelaide, uma lobisomem animada que comanda uma popular barraca de cupcakes; os cupcakes coloridos permitem que você faça uma pergunta aos mortos</td><td>Noite</td><td></td></tr><tr><td></td><td>Ana Dombrowski, uma vampira que publicamente \"assassina\" e \"ressuscita\" vítimas em sua performance artística sangrenta e com ingressos esgotados</td><td>Noite</td><td></td></tr><tr><td></td><td>Anoushka Chockalingam, uma dona de galeria de arte que colecionou uma variedade de artefatos, até mesmo um que permite caminhar nos sonhos</td><td>Mortalis</td><td></td></tr><tr><td></td><td>Elias Ben-Ezra, um caçador de demônios aposentado; ele encontrou seu nicho fazendo esculturas profundamente perturbadoras de suas antigas presas</td><td>Mortalis</td><td></td></tr></tbody></table>"
+      },
+      "relationships": {
+        "label": "Relacionamentos",
+        "description": "Perguntas de relacionamento dos PJs e conexões específicas para este núcleo",
+        "position": "connections",
+        "type": "LongText",
+        "value": "<table><thead><tr><th>Personagem do Jogador</th><th>Relacionamento</th></tr></thead><tbody><tr><td></td><td>Sua arte tem aparecido em galerias de prestígio... mas não foi você quem a colocou lá. ____________________ era a única pessoa além de você com acesso ao seu trabalho. Como você planeja confrontá-la?</td></tr><tr><td></td><td>Você tem fornecido a ____________________ uma substância mágica ilícita há algum tempo. Por que você começou a alterar a composição e como ele(a) descobriu?</td></tr><tr><td></td><td>Você admira ____________________ de longe. Começou como admiração pelo trabalho, mas agora alguns poderiam chamar de obsessão. Que item pessoal ele(a) descobriu que você roubou?</td></tr><tr><td></td><td>Você namorou ____________________ por anos até que ele(a) te vendeu para vampiros poderosos. Por que ambos estão agendados para testemunhar na frente desses mesmos vampiros esta semana?</td></tr><tr><td></td><td>Seu amigo foi preso há algumas semanas em um protesto por um policial vampiro. Ele não foi visto desde então e você acha que ____________________ sabe algo sobre o paradeiro dele. Como você planeja fazê-lo(a) falar?</td></tr><tr><td></td><td>____________________ prometeu ajudar a tornar suas aspirações artísticas realidade. O que te faz hesitar em aceitar a oferta?</td></tr><tr><td></td><td>Você tem colaborado com ____________________ há anos, e sempre pensou na arte de vocês como um esforço conjunto. Qual decisão importante ele(a) tomou sem te consultar?</td></tr><tr><td></td><td>A arte de ____________________ é assustadoramente similar à do seu irmão, que você pensava ter morrido anos atrás, e pequenas coisas que ele(a) diz fazem você pensar que sabe mais do que está revelando. Que vantagem você planeja usar para fazê-lo(a) te contar a verdade?</td></tr></tbody></table>"
+      },
+      "tables": {
+        "label": "Tabelas",
+        "description": "Tabelas para gerar NPCs aleatórios, locais, rumores, facções e Locais neste núcleo",
+        "position": "tables",
+        "type": "LongText",
+        "value": "<p>@UUID[Compendium.urban-shadows-ptbr.tabelas-ptbr.RollTable.KaEzcsEAqY84X0r6]{Locais do Distrito Artístico}</p><p>@UUID[Compendium.urban-shadows-ptbr.tabelas-ptbr.RollTable.AF1F2A3C4T5I6O78]{Facções do Distrito Artístico}</p><p>@UUID[Compendium.urban-shadows-ptbr.tabelas-ptbr.RollTable.FI6H7I8J9K0L1M23]{NPCs do Distrito Artístico}</p><p>@UUID[Compendium.urban-shadows-ptbr.tabelas-ptbr.RollTable.8UhsTWySAfWrMMB8]{Rumores do Distrito Artístico}</p>"
+      },
+      "description": {
+        "label": "Descrição",
+        "value": "<p><em>No Distrito Artístico, cores giram, estouram e fervem; o Limiar prospera aqui, caminhando na linha tênue entre paixão artística e assimilação corporativa. Músicos de rua ficam nas esquinas com nada além de suas aspirações e um estojo de violão surrado, enquanto os ricos se misturam com donos de galerias sobrecarregados e artistas vaidosos. Sonhos são a moeda do distrito artístico... apenas tome cuidado para não deixar os seus caírem nas mãos erradas.</em></p>",
+        "type": "LongText",
+        "position": "top"
+      },
+      "dominantCircle": {
+        "label": "Círculo Dominante",
+        "description": "Qual Círculo controla principalmente este núcleo?",
+        "customLabel": false,
+        "userLabel": false,
+        "playbook": null,
+        "limited": false,
+        "position": "top",
+        "type": "ListMany",
+        "condition": false,
+        "sort": false,
+        "options": {
+          "0": {
+            "label": "Mortalis",
+            "value": false
+          },
+          "1": {
+            "label": "Noite",
+            "value": false
+          },
+          "2": {
+            "label": "Poder",
+            "value": false
+          },
+          "3": {
+            "label": "Limiar",
+            "value": true
+          }
+        }
+      }
+    },
+    "attrLeft": {},
+    "attrTop": {},
+    "details": {
+      "notes": {
+        "label": "Notas",
+        "value": ""
+      }
+    },
+    "tags": "",
+    "customType": "urban-shadows-pbta.city-hub"
+  },
+  "items": [
+    {
+      "folder": "H9kL2nM5oP8qR3sT",
+      "name": "O Caos é uma Escada",
+      "type": "move",
+      "_id": "cYSwoSTU4xY2jHuT",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<h3>Movimento de Núcleo: Distrito Artístico</h3><p>Quando você <em><strong>fizer pose por influência</strong></em> na frente de NPCs bem conectados, role com <strong>MENTE</strong>.</p>",
+        "moveType": "hub",
+        "rollFormula": "",
+        "moveResults": {
+          "miss": {
+            "key": "system.moveResults.miss.value",
+            "label": "Falha",
+            "value": "<p>Numa falha, sua falsa modéstia atrai a atenção de um rival a quem você deve uma Dívida desconfortavelmente grande; receba -1 contínuo ao <em><strong>recusar-se a honrar suas Dívidas</strong></em> com qualquer pessoa do Círculo dele até que o tempo passe.</p>"
+          },
+          "weakHit": {
+            "key": "system.moveResults.weakHit.value",
+            "label": "Sucesso Parcial",
+            "value": "<p>Num sucesso, eles compram seu estratagema; receba +1 de Status com um Círculo relevante até que o tempo passe ou sua decepção seja revelada. </p><p>Num 7-9, eles exigem que você prove seu valor ou arrisque retribuição. </p>"
+          },
+          "strongHit": {
+            "key": "system.moveResults.strongHit.value",
+            "label": "Sucesso Total",
+            "value": "<p>Num sucesso, eles compram seu estratagema; receba +1 de Status com um Círculo relevante até que o tempo passe ou sua decepção seja revelada. </p>"
+          }
+        },
+        "uses": 0,
+        "rollType": "mind",
+        "rollMod": 0,
+        "actorType": "urban-shadows-pbta.city-hub",
+        "choices": ""
+      },
+      "effects": [],
+      "sort": 200000,
+      "ownership": {
+        "default": 0,
+        "tolKXMkOd7JsM4Jk": 3,
+        "WynALakZJf661YU1": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.urban-shadows-ptbr.movimentos-ptbr.Item.C8fG1hH4iJ7kL0mN",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.347",
+        "systemId": "pbta",
+        "systemVersion": "1.1.21",
+        "createdTime": 1756434929007,
+        "modifiedTime": 1756434929007,
+        "lastModifiedBy": "WynALakZJf661YU1"
+      },
+      "_key": "!actors.items!bqCXEsfXhalw2eUj.cYSwoSTU4xY2jHuT"
+    },
+    {
+      "folder": "H9kL2nM5oP8qR3sT",
+      "name": "Mobilização",
+      "type": "move",
+      "_id": "WE1EbPZbmmbltT0Y",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Quando você <em><strong>organizar um protesto</strong></em>, role com o Círculo de seus companheiros organizadores. </p>",
+        "moveType": "hub",
+        "rollFormula": "",
+        "moveResults": {
+          "miss": {
+            "key": "system.moveResults.miss.value",
+            "label": "Falha",
+            "value": "<p>Numa falha, alguém em quem você confiava vaza seus segredos para um inimigo perigoso.</p>"
+          },
+          "weakHit": {
+            "key": "system.moveResults.weakHit.value",
+            "label": "Sucesso Parcial",
+            "value": "<p>Num sucesso, seu protesto coloca pressão sobre um NPC poderoso de sua escolha; ele recebe -1 contínuo durante o próximo turno de facção. </p>"
+          },
+          "strongHit": {
+            "key": "system.moveResults.strongHit.value",
+            "label": "Sucesso Total",
+            "value": "<p>Num sucesso, seu protesto coloca pressão sobre um NPC poderoso de sua escolha; ele recebe -1 contínuo durante o próximo turno de facção. </p><p>Num 10+, o líder de outra facção se interessa pela sua causa e entrega uma Dívida, recursos poderosos ou informações secretas que ajudam sua causa. </p>"
+          }
+        },
+        "uses": 0,
+        "rollType": "ask",
+        "rollMod": 0,
+        "actorType": "urban-shadows-pbta.city-hub",
+        "choices": ""
+      },
+      "effects": [],
+      "sort": 100000,
+      "ownership": {
+        "default": 0,
+        "tolKXMkOd7JsM4Jk": 3,
+        "WynALakZJf661YU1": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.urban-shadows-ptbr.movimentos-ptbr.Item.B7eF4hG9jK2lM6oQ",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.347",
+        "systemId": "pbta",
+        "systemVersion": "1.1.21",
+        "createdTime": 1756434930465,
+        "modifiedTime": 1756434930465,
+        "lastModifiedBy": "WynALakZJf661YU1"
+      },
+      "_key": "!actors.items!bqCXEsfXhalw2eUj.WE1EbPZbmmbltT0Y"
+    },
+    {
+      "folder": "H9kL2nM5oP8qR3sT",
+      "name": "Promessas, Promessas",
+      "type": "move",
+      "_id": "qNkT7wkf55GV9IbG",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Quando você <strong>@UUID[Compendium.urban-shadows-ptbr.movimentos-ptbr.Item.Jt8eL0qM4rN7sO3p]{persuadir um NPC}</strong> prometendo ajuda concreta na busca de seus sonhos, marque corrupção para tirar um 10+ em vez de rolar. </p><p>Se você não conseguir cumprir sua promessa até o fim da próxima sessão, marque outra corrupção.</p>",
+        "moveType": "hub",
+        "rollFormula": "",
+        "moveResults": {
+          "miss": {
+            "key": "system.moveResults.miss.value",
+            "label": "Falha",
+            "value": ""
+          },
+          "weakHit": {
+            "key": "system.moveResults.weakHit.value",
+            "label": "Sucesso Parcial",
+            "value": ""
+          },
+          "strongHit": {
+            "key": "system.moveResults.strongHit.value",
+            "label": "Sucesso Total",
+            "value": ""
+          }
+        },
+        "uses": 0,
+        "rollType": "",
+        "rollMod": 0,
+        "actorType": "urban-shadows-pbta.city-hub",
+        "choices": ""
+      },
+      "effects": [],
+      "sort": 300000,
+      "ownership": {
+        "default": 0,
+        "tolKXMkOd7JsM4Jk": 3,
+        "WynALakZJf661YU1": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.urban-shadows-ptbr.movimentos-ptbr.Item.D9hI2jJ5kL8mN1oP",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.347",
+        "systemId": "pbta",
+        "systemVersion": "1.1.21",
+        "createdTime": 1756434931759,
+        "modifiedTime": 1756434931759,
+        "lastModifiedBy": "WynALakZJf661YU1"
+      },
+      "_key": "!actors.items!bqCXEsfXhalw2eUj.qNkT7wkf55GV9IbG"
+    }
+  ],
+  "prototypeToken": {
+    "name": "Distrito Artístico",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/urban-shadows-pbta/assets/cc-assets/header-bg.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tolKXMkOd7JsM4Jk": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1750835604082,
+    "modifiedTime": 1750837445592,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+  },
+  "_key": "!actors!bqCXEsfXhalw2eUj"
+}

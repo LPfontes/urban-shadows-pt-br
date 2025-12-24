@@ -1,0 +1,57 @@
+{
+    "folder":  "lZu6QJ3wkQKTDbDF",
+    "name":  "Dar Nome aos Bois",
+    "type":  "move",
+    "_id":  "Pz4kR6wS0xT3yU9v",
+    "img":  "icons/svg/aura.svg",
+    "system": {
+    "description": "<p>Quando você <em><strong>der um nome a um rosto </strong>ou vice-versa</em>, role com o <strong>Círculo</strong> dele.</p>",
+    "moveType": "circle",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": "<p>Com uma falha, você não os conhece ou você deve a eles, à escolha do MC.</p>"
+      },
+      "weakHit": {
+        "key": "system.moveResults.weakHit.value",
+        "label": "Sucesso Parcial",
+        "value": "<p>Com um sucesso, você conhece a reputação deles; o MC dirá o que a maioria das pessoas sabe sobre eles.</p>"
+      },
+      "strongHit": {
+        "key": "system.moveResults.strongHit.value",
+        "label": "Sucesso Total",
+        "value": "<p>Com um sucesso, você conhece a reputação deles; o MC dirá o que a maioria das pessoas sabe sobre eles.</p><p>Com 10+, você já lidou com eles antes; aprenda algo interessante e útil sobre eles ou eles lhe devem uma Dívida, à sua escolha.</p>"
+      }
+    },
+    "uses": 0,
+    "rollType": "ask",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+    "effects":  [
+
+                ],
+    "sort":  0,
+    "ownership":  {
+                      "default":  0,
+                      "tolKXMkOd7JsM4Jk":  3
+                  },
+    "flags":  {
+
+              },
+    "_stats":  {
+                   "compendiumSource":  null,
+                   "duplicateSource":  null,
+                   "exportSource":  null,
+                   "coreVersion":  "13.347",
+                   "systemId":  "pbta",
+                   "systemVersion":  "1.1.21",
+                   "createdTime":  1748493194026,
+                   "modifiedTime":  1756442080963,
+                   "lastModifiedBy":  "WynALakZJf661YU1"
+               },
+    "_key":  "!items!Pz4kR6wS0xT3yU9v"
+}

@@ -1,0 +1,53 @@
+{
+  "folder": "L3nP6rT9uW2xZ5bC",
+  "name": "Intimidade do Oráculo",
+  "type": "move",
+  "_id": "U2wY5bC8fE1hH4lM",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Quando você compartilhar um momento de intimidade—física ou emocional—com outra pessoa, você ganha uma visão específica e clara sobre o futuro dessa pessoa. Marque corrupção para fazer ao MC até duas perguntas de acompanhamento; ele deve responder honestamente.</p>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": ""
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Sucesso Parcial",
+        "value": ""
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Sucesso Total",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 175000,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.F8iL1oO4qR7tU0wZ",
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1733907156058,
+    "modifiedTime": 1756442039988,
+    "lastModifiedBy": "WynALakZJf661YU1",
+    "exportSource": null
+  },
+  "_key": "!items!U2wY5bC8fE1hH4lM"
+}

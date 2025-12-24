@@ -1,0 +1,75 @@
+{
+  "id": "urban-shadows-pt-br",
+  "title": "Urban Shadows PT-BR",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "cidades-pt-br",
+      "label": "Cidades (PT-BR)",
+      "path": "packs/cidades",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pbta",
+      "flags": {}
+    },
+    {
+      "name": "manuais-pt-br",
+      "label": "Manuais (PT-BR)",
+      "path": "packs/manuais",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pbta",
+      "flags": {}
+    },
+    {
+      "name": "movimentos-pt-br",
+      "label": "Movimentos (PT-BR)",
+      "path": "packs/movimentos",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pbta",
+      "flags": {}
+    },
+    {
+      "name": "equipamentos-pt-br",
+      "label": "Equipamento (PT-BR)",
+      "path": "packs/equipamentos",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pbta",
+      "flags": {}
+    },
+    {
+      "name": "tabelas-pt-br",
+      "label": "Tabelas (PT-BR)",
+      "path": "packs/tabelas",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pbta",
+      "flags": {}
+    }
+  ],
+  "description": ""
+}

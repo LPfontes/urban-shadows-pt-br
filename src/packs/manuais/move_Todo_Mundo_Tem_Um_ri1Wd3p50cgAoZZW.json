@@ -1,0 +1,53 @@
+{
+  "folder": "C4eG7iK0lM3nO6qS",
+  "name": "Todo Mundo Tem Uma",
+  "type": "move",
+  "_id": "ri1Wd3p50cgAoZZW",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Toque alguém e marque corrupção para amaldiçoá-lo com uma vulnerabilidade elemental. Todo dano de uma fonte que você selecionar (fogo, aço, ferro, etc.) é tratado como +1 dano e ap.</p>",
+    "moveType": "corruption",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": ""
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Sucesso Parcial",
+        "value": ""
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Sucesso Total",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.344",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": 1733907149533,
+    "modifiedTime": 1749878170295,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "exportSource": null
+  },
+  "_key": "!items!ri1Wd3p50cgAoZZW"
+}

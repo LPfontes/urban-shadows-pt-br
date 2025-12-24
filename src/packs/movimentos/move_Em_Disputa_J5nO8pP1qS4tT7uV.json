@@ -1,0 +1,57 @@
+{
+    "folder":  "H9kL2nM5oP8qR3sT",
+    "name":  "Em Disputa",
+    "type":  "move",
+    "_id":  "J5nO8pP1qS4tT7uV",
+    "img":  "icons/svg/aura.svg",
+    "system": {
+    "description": "<p>Quando você <em><strong>fizer um saque rápido de algo útil nas ruas ou lojas do centro</strong></em>, diga o que você busca e role com <strong>SANGUE</strong>. </p>",
+    "moveType": "hub",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": "<p>Com uma falha, você põe as mãos em algo próximo do que queria, mas a vítima do seu roubo leva para o lado pessoal; um de seus aliados próximos torna-se um alvo adicional da ira dela até que o tempo passe.</p>"
+      },
+      "weakHit": {
+        "key": "system.moveResults.weakHit.value",
+        "label": "Sucesso Parcial",
+        "value": "<p>Com um sucesso, você toma o que quer à força. </p><p>Com 7-9, você avista alguém que vai lhe causar problemas saindo da cena com provas do seu delito.</p>"
+      },
+      "strongHit": {
+        "key": "system.moveResults.strongHit.value",
+        "label": "Sucesso Total",
+        "value": "<p>Com um sucesso, você toma o que quer à força.</p>"
+      }
+    },
+    "uses": 0,
+    "rollType": "blood",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+    "effects":  [
+
+                ],
+    "sort":  1000000,
+    "ownership":  {
+                      "default":  0,
+                      "tolKXMkOd7JsM4Jk":  3
+                  },
+    "flags":  {
+
+              },
+    "_stats":  {
+                   "compendiumSource":  null,
+                   "duplicateSource":  null,
+                   "exportSource":  null,
+                   "coreVersion":  "13.347",
+                   "systemId":  "pbta",
+                   "systemVersion":  "1.1.21",
+                   "createdTime":  1748493194026,
+                   "modifiedTime":  1756434470408,
+                   "lastModifiedBy":  "WynALakZJf661YU1"
+               },
+    "_key":  "!items!J5nO8pP1qS4tT7uV"
+}

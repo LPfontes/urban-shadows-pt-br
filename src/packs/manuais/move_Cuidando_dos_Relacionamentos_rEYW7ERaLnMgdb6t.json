@@ -1,0 +1,53 @@
+{
+  "folder": "UpKeNQxOrv4nSvGG",
+  "name": "Cuidado dos Relacionamentos",
+  "type": "move",
+  "_id": "rEYW7ERaLnMgdb6t",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Quando você cuidar de seus relacionamentos mortais durante o turno de facção, não faça outros movimentos de cidade e role com <strong>Coração</strong>.</p>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": "<p>Com uma falha, um de seus laços mortais exige que você sacrifique parte de sua nova vida para mantê-los por perto; gerencie o conflito ou perca o relacionamento.</p>"
+      },
+      "weakHit": {
+        "key": "system.moveResults.weakHit.value",
+        "label": "Sucesso Parcial",
+        "value": "<p>Com um sucesso, um dos mortais mais próximos de você oferece uma maneira de aprofundar seu vínculo; limpe um avanço de corrupção se concordar com o que propõem.</p><p>Com 7-9, concordar não é tão simples; o que pedem de você ameaça expô-los à parte de sua vida que você manteve oculta.</p>"
+      },
+      "strongHit": {
+        "key": "system.moveResults.strongHit.value",
+        "label": "Sucesso Total",
+        "value": "<p>Com um sucesso, um dos mortais mais próximos de você oferece uma maneira de aprofundar seu vínculo; limpe um avanço de corrupção se concordar com o que propõem.</p>"
+      }
+    },
+    "uses": 0,
+    "rollType": "heart",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tolKXMkOd7JsM4Jk": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.344",
+    "systemId": "pbta",
+    "systemVersion": "1.1.20",
+    "createdTime": 1748404297836,
+    "modifiedTime": 1748404313276,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "exportSource": null
+  },
+  "_key": "!items!rEYW7ERaLnMgdb6t"
+}

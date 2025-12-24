@@ -1,0 +1,49 @@
+{
+  "folder": null,
+  "name": "Favor de [Nome do PJ]",
+  "type": "equipment",
+  "_id": "DEF456GHI789",
+  "img": "icons/svg/coins.svg",
+  "system": {
+    "description": "<p><strong>Devedor:</strong> [Nome do PJ]</p><p><strong>Natureza:</strong> Proteção do tribunal da Corte Noturna</p><p><strong>Gravidade:</strong> Moderada</p><p><strong>Notas:</strong> Eu intercedi por eles quando foram acusados de violar o acordo de neutralidade da Corte Noturna. Eles me devem um favor significativo em troca.</p>",
+    "uses": 0,
+    "quantity": 1,
+    "weight": 0,
+    "tags": "[{\"value\":\"dívida\"},{\"value\":\"moderada\"},{\"value\":\"devida a mim\"}]",
+    "itemType": "",
+    "equipmentType": "debt",
+    "actorType": "character"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "urban-shadows-pbta": {
+      "debt": {
+        "creditorId": null,
+        "creditorName": "Personagem Atual",
+        "debtorId": null,
+        "debtorName": "[Nome do PJ]",
+        "nature": "Proteção do tribunal da Corte Noturna",
+        "severity": "moderate",
+        "dateCreated": "2025-01-07",
+        "notes": "Eu intercedi por eles quando foram acusados de violar o acordo de neutralidade da Corte Noturna.",
+        "linkedDebtId": "ABC123DEF456"
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "pbta",
+    "systemVersion": "1.1.20",
+    "createdTime": 1748600000000,
+    "modifiedTime": 1748600000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!DEF456GHI789"
+}

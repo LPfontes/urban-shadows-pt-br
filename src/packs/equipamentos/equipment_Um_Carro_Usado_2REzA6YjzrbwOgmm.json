@@ -1,0 +1,37 @@
+{
+  "folder": null,
+  "name": "Um carro usado",
+  "type": "equipment",
+  "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/city-car.svg",
+  "system": {
+    "description": "",
+    "uses": 0,
+    "quantity": 1,
+    "weight": 0,
+    "tags": "",
+    "itemType": "",
+    "equipmentType": "gear",
+    "actorType": "character"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3,
+    "tolKXMkOd7JsM4Jk": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pbta",
+    "systemVersion": "1.1.20",
+    "createdTime": 1748486364218,
+    "modifiedTime": 1750826542997,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+  },
+  "_id": "2REzA6YjzrbwOgmm",
+  "sort": 600000,
+  "_key": "!items!2REzA6YjzrbwOgmm"
+}

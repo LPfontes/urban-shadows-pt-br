@@ -1,0 +1,794 @@
+{
+  "name": "O Desperto",
+  "type": "playbook",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<section class=\"playbook\"><h1 class=\"playbook-title\">O Desperto</h1><p class=\"playbook-intro\">A maioria das pessoas não tem ideia do que acontece nas sombras da cidade, permanecendo ignorantes sobre os monstros que caminham entre nós. Aqueles despertos para o mundo como ele realmente é não conseguem evitar sentir a atração da escuridão...</p><h2>Movimentos do Desperto</h2><p><strong>ESCOLHA TRÊS:</strong></p>...",
+    "slug": "the-aware",
+    "actorType": "character",
+    "stats": {
+      "blood": {
+        "label": "Sangue",
+        "value": 0,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "heart": {
+        "label": "Coração",
+        "value": 1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "mind": {
+        "label": "Mente",
+        "value": -1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "spirit": {
+        "label": "Espírito",
+        "value": 1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "mortalis": {
+        "label": "Mundano",
+        "value": 1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "night": {
+        "label": "Noite",
+        "value": 0,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "power": {
+        "label": "Poder",
+        "value": 1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "wild": {
+        "label": "Selva",
+        "value": -1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      }
+    },
+    "statsDetail": "(Adicione 1 a um dos Atributos e um dos Círculos)",
+    "attributes": {
+      "corruption": {
+        "label": "Corrupção",
+        "description": "GATILHO: Quando você ignora seus compromissos ou relacionamentos mortais para lidar com o sobrenatural, marque corrupção.",
+        "type": "Clock",
+        "value": 0,
+        "max": 5,
+        "choices": [
+          {
+            "value": 0,
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "options": {}
+      },
+      "letItOut": {
+        "label": "Habilidades de Soltar as Rédeas",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<ul><li><p>ganhar acesso a um local seguro ou trancado</p></li><li><p>atrair atenção mortal imediata para uma pessoa ou situação</p></li><li><p>notar uma pista ou vantagem anteriormente ignorada na área imediata</p></li><li><p>convencer um PDM a agir com base em sua bondade, papel social ou interesse próprio</p></li></ul>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "max": null,
+        "options": {},
+        "description": "PARA ATIVAR ESTAS HABILIDADES"
+      },
+      "debts": {
+        "label": "Dívidas",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<ul><li><p>Alguém se tornou seu amigo muito antes de você descobrir o sobrenatural... e escondeu propositalmente a existência dele de você quando importava. Eles te devem uma Dívida.</p></li><li><p>Alguém tolera suas perguntas sobre o sobrenatural. Você deve a eles uma Dívida.</p></li><li><p>Você está usando podres que tem sobre alguém para conseguir a ajuda dessa pessoa para desmantelar um esquema sobrenatural que visa mortais inocentes. Você deve a eles uma Dívida.</p></li></ul>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "advancements": {
+        "label": "Avanços",
+        "description": "Disponíveis no início do jogo:",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "+1 em um Atributo (máx+3)",
+            "value": false
+          },
+          "1": {
+            "label": "+1 em um Atributo (máx+3)",
+            "value": false
+          },
+          "2": {
+            "label": "+1 em um Círculo (máx+3)",
+            "value": false
+          },
+          "3": {
+            "label": "um novo movimento de Desperto",
+            "value": false
+          },
+          "4": {
+            "label": "um novo movimento de Desperto",
+            "value": false
+          },
+          "5": {
+            "label": "um movimento de outro arquétipo",
+            "value": false
+          },
+          "6": {
+            "label": "um movimento de outro arquétipo",
+            "value": false
+          },
+          "7": {
+            "label": "abrir um novo relacionamento mortal",
+            "value": false
+          }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "+1 em um Atributo (máx+3)",
+                "value": false
+              },
+              "1": {
+                "label": "+1 em um Atributo (máx+3)",
+                "value": false
+              },
+              "2": {
+                "label": "+1 em um Círculo (máx+3)",
+                "value": false
+              },
+              "3": {
+                "label": "um novo movimento de Desperto",
+                "value": false
+              },
+              "4": {
+                "label": "um novo movimento de Desperto",
+                "value": false
+              },
+              "5": {
+                "label": "um movimento de outro arquétipo",
+                "value": false
+              },
+              "6": {
+                "label": "um movimento de outro arquétipo",
+                "value": false
+              },
+              "7": {
+                "label": "abrir um novo relacionamento mortal",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "value": "",
+        "max": null
+      },
+      "expertAdvancements": {
+        "label": "Avanços de Especialista",
+        "description": "Após cinco avanços, você pode selecionar:",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "+1 em qualquer Círculo (máx+3)",
+            "value": false
+          },
+          "1": {
+            "label": "+1 em qualquer Círculo (máx+3)",
+            "value": false
+          },
+          "2": {
+            "label": "Status de Círculo Mundano: 2",
+            "value": false
+          },
+          "3": {
+            "label": "apagar uma cicatriz",
+            "value": false
+          },
+          "4": {
+            "label": "mudar seu Círculo",
+            "value": false
+          },
+          "5": {
+            "label": "avançar 3 movimentos básicos",
+            "value": false
+          },
+          "6": {
+            "label": "avançar 3 movimentos básicos",
+            "value": false
+          },
+          "7": {
+            "label": "mudar para um novo arquétipo",
+            "value": false
+          }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "value": false,
+                "label": "+1 em qualquer Círculo (máx+3)"
+              },
+              "1": {
+                "value": false,
+                "label": "+1 em qualquer Círculo (máx+3)"
+              },
+              "2": {
+                "value": false,
+                "label": "obter Status de Círculo-2"
+              },
+              "3": {
+                "value": false,
+                "label": "apagar uma cicatriz"
+              },
+              "4": {
+                "value": false,
+                "label": "mudar seu Círculo"
+              },
+              "5": {
+                "value": false,
+                "label": "avançar 3 movimentos básicos"
+              },
+              "6": {
+                "value": false,
+                "label": "avançar 3 movimentos básicos"
+              },
+              "7": {
+                "value": false,
+                "label": "mudar para um novo arquétipo"
+              }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "value": "",
+        "max": null
+      },
+      "corruptionAdvances": {
+        "label": "Avanços de Corrupção",
+        "description": "A Corrupção representa seu personagem deslizando para as piores partes de sua natureza. Conforme sua corrupção aumenta, seus poderes apenas crescem...",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "+1 em qualquer atributo (máx+3)",
+            "value": false
+          },
+          "1": {
+            "label": "+1 em qualquer atributo (máx+3)",
+            "value": false
+          },
+          "2": {
+            "label": "receber um novo movimento de corrupção",
+            "value": false
+          },
+          "3": {
+            "label": "receber um novo movimento de corrupção",
+            "value": false
+          },
+          "4": {
+            "label": "receber um novo movimento de corrupção do seu arquétipo ou de outro",
+            "value": false
+          },
+          "5": {
+            "label": "aposentar seu personagem; ele pode retornar como uma Ameaça",
+            "value": false
+          }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "+1 em qualquer atributo (máx+3)",
+                "value": false
+              },
+              "1": {
+                "label": "+1 em qualquer atributo (máx+3)",
+                "value": false
+              },
+              "2": {
+                "label": "receber um novo movimento de corrupção",
+                "value": false
+              },
+              "3": {
+                "label": "receber um novo movimento de corrupção",
+                "value": false
+              },
+              "4": {
+                "label": "receber um novo movimento de corrupção do seu arquétipo ou de outro",
+                "value": false
+              },
+              "5": {
+                "label": "aposentar seu personagem; ele pode retornar como uma Ameaça",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "value": "",
+        "max": null
+      },
+      "lookOne": {
+        "label": "Aparência Um",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>andrógino</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>conformista</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>mutável</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>não-conformista</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": "Escolha um"
+      },
+      "lookTwo": {
+        "label": "Aparência Dois",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>Asiático ou Sul-Asiático</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Negro</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Hispânico/ Latino</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Indígena</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Oriente Médio</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Branco</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Outro: <preencha você mesmo depois></p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": "Escolha um"
+      },
+      "lookThree": {
+        "label": "Aparência Três",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>roupas de marca</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>esporte fino</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>roupas comuns</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>uniformizado</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": "Escolha um"
+      },
+      "demeanor": {
+        "label": "Postura",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>agressiva</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>charmosa</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>controlada</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>paranoica</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": "Escolha uma"
+      },
+      "questionOne": {
+        "label": "Pergunta Um",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>Como você descobriu o sobrenatural?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "questionTwo": {
+        "label": "Pergunta Dois",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>Há quanto tempo você está na cidade?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "questionThree": {
+        "label": "Pergunta Três",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>Qual compromisso mortal impede você de deixar sua vida antiga para trás?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "questionFour": {
+        "label": "Pergunta Quatro",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>De qual aspiração mortal você desistiu?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "questionFive": {
+        "label": "Pergunta Cinco",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>Qual facção ou pessoa poderosa você está investigando atualmente?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "TheAware": {
+        "label": "Relacionamentos Mortais",
+        "description": "Enquanto você caminha no limiar entre o mundo mortal e o sobrenatural, seus amigos e familiares estão firmemente presos às realidades mundanas da vida cotidiana. (Quando um de seus relacionamentos mortais chegar ao fim por qualquer motivo — eles te cortarem, eles morrerem, deixarem a cidade, você pedir para pararem de te contatar, etc. — marque imediatamente um avanço de corrupção. Se perder um relacionamento mortal fizer você aposentar seu personagem devido à corrupção, diga ao MC quem você mais culpa pela perda; seu personagem perseguirá a pessoa responsável como uma Ameaça até que a “justiça” seja feita.) Escolha 3:",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "Um irmão mais novo que depende de você para transporte e conselhos",
+            "value": false
+          },
+          "1": {
+            "label": "Um parceiro(a) leal que espera você em casa até a meia-noite",
+            "value": false
+          },
+          "2": {
+            "label": "Um melhor amigo em dificuldades que está sempre se metendo em brigas confusas",
+            "value": false
+          },
+          "3": {
+            "label": "Um chefe exigente que chama você para trabalhar em horários inconvenientes",
+            "value": false
+          },
+          "4": {
+            "label": "Um pai/mãe idoso(a) que sempre sabe quando você está mentindo",
+            "value": false
+          },
+          "5": {
+            "label": "Um ex-parceiro(a) possessivo que se preocupa constantemente com você",
+            "value": false
+          }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "Um irmão mais novo que depende de você para transporte e conselhos",
+                "value": false
+              },
+              "1": {
+                "label": "Um parceiro(a) leal que espera você em casa até a meia-noite",
+                "value": false
+              },
+              "2": {
+                "label": "Um melhor amigo em dificuldades que está sempre se metendo em brigas confusas",
+                "value": false
+              },
+              "3": {
+                "label": "Um chefe exigente que chama você para trabalhar em horários inconvenientes",
+                "value": false
+              },
+              "4": {
+                "label": "Um pai/mãe idoso(a) que sempre sabe quando você está mentindo",
+                "value": false
+              },
+              "5": {
+                "label": "Um ex-parceiro(a) possessivo que se preocupa constantemente com você",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes"
+      }
+    },
+    "choiceSets": [
+      {
+        "title": "MOVIMENTOS DO DESPERTO",
+        "desc": "ESCOLHA TRÊS:",
+        "type": "multi",
+        "repeatable": false,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.playbooks-ptbr.Item.izLmUAMU5Rtxzjij",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.n0pXNthS5xh1hY18",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.Be7FZqN6XgEuHwKm",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.bPJ1yAeTzEMQuRob",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.oVFVXHMMrjcuH04M",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.EoBxIURUOoz8u85W",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 1,
+        "granted": false,
+        "advancement": 0
+      },
+      {
+        "title": "Movimentos Iniciais do DESPERTO",
+        "desc": "",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.UgtltRnqjXXe7R2f",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.9dZrgaPwJ63ZfuUa",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.OqkXmOBq4MEmGjDV",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.rEYW7ERaLnMgdb6t",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
+      },
+      {
+        "title": "Equipamento Inicial",
+        "desc": "",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.hzja5WHwvYV0N2uk",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/smartphone.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.2REzA6YjzrbwOgmm",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/city-car.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.yTKVPS4StFWX0mK7",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/modern-city.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
+      },
+      {
+        "title": "Equipamento Inicial: Uma arma de autodefesa",
+        "desc": "Escolha Uma",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.K4lL7mN0oP3qQ6rS",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/pistol-gun.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.MzcQgdjQbpLiO6bE",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/switchblade.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.IBq8TZkFFa4WMCzq",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/electric.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.P5fFVwsQW8trEVGa",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/gym-bag.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 1,
+        "granted": false,
+        "advancement": 0
+      }
+    ]
+  },
+  "effects": [],
+  "folder": "aEdEKaOhyuR3hW54",
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1733907141240,
+    "modifiedTime": 1750906935904,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "exportSource": null
+  },
+  "_id": "vsERpK9xGVXcNa6i",
+  "sort": 0,
+  "_key": "!items!vsERpK9xGVXcNa6i"
+}

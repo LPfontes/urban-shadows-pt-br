@@ -1,0 +1,53 @@
+{
+  "folder": "8o7qAimGOKAnutBa",
+  "name": "Não Ser Ignorado",
+  "type": "move",
+  "_id": "UIm4NJ5oKzlqxB7P",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Quando você <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.Oy3jQ5vR9wS2xT8u]{atrapalhar alguém}</strong></em>, considere um resultado 10+ em vez de rolar.</p><p>Se você <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.Lv0gN2sO6tP9uQ5r]{ludibriar}</strong></em> alguém com uma exibição sobrenatural óbvia, role com <strong>ESPÍRITO</strong> em vez de <strong>MENTE</strong>.</p>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": "<p>O MC lhe diz que coisa interessante acontece.</p>"
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Sucesso Parcial",
+        "value": "<p>Com um sucesso, eles são enganados, pelo menos por um momento. Com 7-9, escolha 2:</p><ul><li>você cria uma oportunidade</li><li>você expõe uma fraqueza ou falha</li><li>você os confunde por algum tempo</li><li>você evita mais envolvimento</li></ul>"
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Sucesso Total",
+        "value": "<p>Com um sucesso, eles são enganados, pelo menos por um momento. Com 10+, escolha 3:</p><ul><li>você cria uma oportunidade</li><li>você expõe uma fraqueza ou falha</li><li>você os confunde por algum tempo</li><li>você evita mais envolvimento</li></ul>"
+      }
+    },
+    "uses": 0,
+    "rollType": "spirit",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.UIm4NJ5oKzlqxB7P",
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1733907156058,
+    "modifiedTime": 1756441880562,
+    "lastModifiedBy": "WynALakZJf661YU1",
+    "exportSource": null
+  },
+  "_key": "!items!UIm4NJ5oKzlqxB7P"
+}

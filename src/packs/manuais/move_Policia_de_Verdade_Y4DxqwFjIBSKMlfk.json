@@ -1,0 +1,53 @@
+{
+  "folder": "W0aC3fF6gG9hH2iI",
+  "name": "Polícia Genuína",
+  "type": "move",
+  "_id": "Y4DxqwFjIBSKMlfk",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Quando você <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.Pz4kR6wS0xT3yU9v]{colocar um nome em um rosto}</strong></em> ou estudar um santuário, ponto de encontro ou lugar de poder, role com <strong>MENTE</strong> em vez do Círculo relevante. Você sempre pode fazer uma pergunta adicional ao MC sobre a pessoa ou lugar em questão, mesmo em uma falha.</p>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": "<p>Com uma falha, você não os conhece ou você deve a eles, escolha do MC.</p>"
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Sucesso Parcial",
+        "value": "<p>Com um sucesso, você conhece a reputação deles; o MC lhe dirá o que a maioria das pessoas sabe sobre eles.</p>"
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Sucesso Total",
+        "value": "<p>Com um sucesso, você conhece a reputação deles; o MC lhe dirá o que a maioria das pessoas sabe sobre eles.</p><p>Com 10+, você já lidou com eles antes; aprenda algo interessante e útil sobre eles ou eles lhe devem uma Dívida, sua escolha.</p>"
+      }
+    },
+    "uses": 0,
+    "rollType": "mind",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.Y4DxqwFjIBSKMlfk",
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1733907156058,
+    "modifiedTime": 1756442127263,
+    "lastModifiedBy": "WynALakZJf661YU1",
+    "exportSource": null
+  },
+  "_key": "!items!Y4DxqwFjIBSKMlfk"
+}

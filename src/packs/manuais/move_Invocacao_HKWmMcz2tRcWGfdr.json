@@ -1,0 +1,53 @@
+{
+  "folder": "67b98e674f1346b5",
+  "name": "Invocação",
+  "type": "move",
+  "_id": "HKWmMcz2tRcWGfdr",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Você pode <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.VF0qX2cY6dZ9eA5b]{cobrar uma Dívida}</strong></em> com alguém para aparecer na presença dele; outros podem <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.VF0qX2cY6dZ9eA5b]{cobrar uma Dívida}</strong></em> com você para que você apareça também. <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.WG1rY3dZ7eA0fB6c]{Recusar-se a honrar a Dívida}</strong></em> com sucesso cancela a invocação completamente.</p>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": ""
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Sucesso Parcial",
+        "value": ""
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Sucesso Total",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1733907156058,
+    "modifiedTime": 1756440232537,
+    "lastModifiedBy": "WynALakZJf661YU1",
+    "exportSource": null
+  },
+  "_key": "!items!HKWmMcz2tRcWGfdr"
+}

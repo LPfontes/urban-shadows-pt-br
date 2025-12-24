@@ -1,0 +1,48 @@
+{
+  "folder": "F7hJ0lN3oP6qR9tW",
+  "name": "Por Aqui!",
+  "type": "move",
+  "_id": "H2jQ7fR5L9pD4kZ3",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Quando você liderar pessoas para fora do perigo, role com <strong>SANGUE</strong>.</p>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": "<p>Com uma falha, todos estão seguros, menos você; você é deixado para trás... e a saída se fecha para você.</p>"
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Sucesso Parcial",
+        "value": "<p>Com 7-9, você se machuca ou um deles se machuca (sua escolha).</p>"
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Sucesso Total",
+        "value": "<p>Com 10+, todos vocês escapam em segurança.</p>"
+      }
+    },
+    "uses": 0,
+    "rollType": "blood",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {},
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.344",
+    "systemId": "pbta",
+    "systemVersion": "1.1.20",
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!H2jQ7fR5L9pD4kZ3"
+}

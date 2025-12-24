@@ -1,0 +1,57 @@
+{
+    "folder":  "XH2sZ4eA8fB1gC5d",
+    "name":  "Vasculhar a Cidade",
+    "type":  "move",
+    "_id":  "DN8yF0kG4lH7mI1j",
+    "img":  "icons/svg/aura.svg",
+    "system": {
+    "description": "<p>Quando uma facção <em><strong>vasculhar a cidade em busca de informações úteis</strong></em>—conhecimento oculto raro, as fraquezas de outra facção, a localização de um artefato—role com o <strong>Tamanho</strong> dela.</p>",
+    "moveType": "",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": "<p>Com uma falha, um membro da facção investigadora acaba morto ou desaparecido... mas não antes de passar alguma informação vital resultante da busca para um dos PJs.</p>"
+      },
+      "weakHit": {
+        "key": "system.moveResults.weakHit.value",
+        "label": "Sucesso Parcial",
+        "value": "<p>Com um sucesso, eles descobrem alguns detalhes cruciais, o suficiente para pedir a um PJ ou PDM notável que investigue mais a fundo. Com 7-9, eles também escolhem 2:</p><ul><li>eles atraem a atenção de uma facção rival</li><li>eles têm que tornar vulnerável um recurso que controlam</li><li>eles recebem -1 contínuo até o fim do próximo turno de facção</li></ul>"
+      },
+      "strongHit": {
+        "key": "system.moveResults.strongHit.value",
+        "label": "Sucesso Total",
+        "value": "<p>Com um sucesso, eles descobrem alguns detalhes cruciais, o suficiente para pedir a um PJ ou PDM notável que investigue mais a fundo. Com 10+, eles também escolhem 1:</p><ul><li>eles atraem a atenção de uma facção rival</li><li>eles têm que tornar vulnerável um recurso que controlam</li><li>eles recebem -1 contínuo até o fim do próximo turno de facção</li></ul>"
+      }
+    },
+    "uses": 0,
+    "rollType": "prompt",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+    "effects":  [
+
+                ],
+    "sort":  0,
+    "ownership":  {
+                      "default":  0,
+                      "tolKXMkOd7JsM4Jk":  3
+                  },
+    "flags":  {
+
+              },
+    "_stats":  {
+                   "compendiumSource":  null,
+                   "duplicateSource":  null,
+                   "exportSource":  null,
+                   "coreVersion":  "13.347",
+                   "systemId":  "pbta",
+                   "systemVersion":  "1.1.21",
+                   "createdTime":  1748493194026,
+                   "modifiedTime":  1756438583266,
+                   "lastModifiedBy":  "WynALakZJf661YU1"
+               },
+    "_key":  "!items!DN8yF0kG4lH7mI1j"
+}

@@ -1,0 +1,53 @@
+{
+  "folder": "L3nP6rT9uW2xZ5bC",
+  "name": "Ler a Superfície",
+  "type": "move",
+  "_id": "4dUME8JD1dKthmSq",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Quando você tocar alguém e tentar ler seus pensamentos superficiais, role com <strong>ESPÍRITO</strong>. </p>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": "<p>Com uma falha, você inflige 1-dano (pf) neles e em si mesmo.</p>"
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Sucesso Parcial",
+        "value": "<p>Com um sucesso, faça perguntas ao jogador da lista abaixo. </p><p>Com 7-9, faça 1 pergunta:</p><ul><li>o que você está pensando agora?</li><li>quem ou o que você está protegendo?</li><li>quais segredos você está mantendo atualmente?</li><li>qual é a sua dor oculta?</li></ul>"
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Sucesso Total",
+        "value": "<p>Com um sucesso, faça perguntas ao jogador da lista abaixo. </p><p>Com 10+, faça 3 perguntas:</p><ul><li>o que você está pensando agora?</li><li>quem ou o que você está protegendo?</li><li>quais segredos você está mantendo atualmente?</li><li>qual é a sua dor oculta?</li></ul>"
+      }
+    },
+    "uses": 0,
+    "rollType": "spirit",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.344",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": 1733907149533,
+    "modifiedTime": 1748405072044,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "exportSource": null
+  },
+  "_key": "!items!4dUME8JD1dKthmSq"
+}

@@ -1,0 +1,36 @@
+{
+  "folder": null,
+  "name": "Objetos de adivinhação",
+  "type": "equipment",
+  "_id": "tnbVX7iO5pek2nw2",
+  "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/crystal-ball.svg",
+  "system": {
+    "description": "um conjunto de ferramentas usadas para práticas de adivinhação, como bolas de cristal, cartas de tarô ou runas. Esses objetos são frequentemente utilizados por videntes, médiuns ou praticantes de magia para obter insights sobre o futuro, comunicar-se com espíritos ou acessar conhecimentos ocultos.",
+    "uses": 0,
+    "quantity": 1,
+    "weight": 0,
+    "tags": "",
+    "itemType": "",
+    "equipmentType": "gear",
+    "actorType": "character"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.Z7cE0hH4kK7nN0qS",
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": 1733907152038,
+    "modifiedTime": 1750826574446,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "exportSource": null
+  },
+  "_key": "!items!tnbVX7iO5pek2nw2"
+}

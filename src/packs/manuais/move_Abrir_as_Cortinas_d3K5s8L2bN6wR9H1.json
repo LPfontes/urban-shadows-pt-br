@@ -1,0 +1,49 @@
+{
+  "folder": "B3dF6hJ9kL2mN5pR",
+  "name": "Erguer o Véu",
+  "type": "move",
+  "_id": "d3K5s8L2bN6wR9H1",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Quando você <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.Hs7dK9pL3mN6oQ2r]{escapar de uma situação}</strong></em>, adicione esta opção à lista:</p><ul><li>você escapa para sua terra natal, para o bem ou para o mal</li></ul>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": ""
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Sucesso Parcial",
+        "value": ""
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Sucesso Total",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {},
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "lastModifiedBy": "WynALakZJf661YU1",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "modifiedTime": 1756440047261
+  },
+  "_key": "!items!d3K5s8L2bN6wR9H1"
+}

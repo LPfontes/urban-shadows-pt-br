@@ -1,0 +1,23 @@
+{
+  "name": "Movimentos de Corrupção do Lobo",
+  "sorting": "a",
+  "folder": "7ayqTUH8GpSQrvSf",
+  "type": "Item",
+  "_id": "hfW50eZcSZh23Lls",
+  "description": "",
+  "sort": 100000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.344",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": null,
+    "modifiedTime": 1748405300954,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "exportSource": null
+  },
+  "_key": "!folders!hfW50eZcSZh23Lls"
+}

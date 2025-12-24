@@ -1,0 +1,57 @@
+{
+    "folder":  "UQj0bckGnGOYfEHA",
+    "name":  "Recorrer à Violência",
+    "type":  "move",
+    "_id":  "U21jUxWWz3lhDTau",
+    "img":  "icons/svg/aura.svg",
+    "system": {
+    "description": "<p>Quando você <em><strong>partir para a violência</strong></em>, role com <strong>SANGUE</strong>.</p>",
+    "moveType": "basic",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": "<p>O MC diz a você que coisa interessante acontece.</p>"
+      },
+      "weakHit": {
+        "key": "system.moveResults.weakHit.value",
+        "label": "Sucesso Parcial",
+        "value": "<p>Com um sucesso, você inflige ferimento conforme estabelecido e sua oposição escolhe um:</p><ul><li>eles infligem ferimento em você</li><li>eles colocam você em uma situação ruim</li><li>eles criam uma abertura para fugir</li></ul>"
+      },
+      "strongHit": {
+        "key": "system.moveResults.strongHit.value",
+        "label": "Sucesso Total",
+        "value": "<p>Com um sucesso, você inflige ferimento conforme estabelecido e sua oposição escolhe um:</p><ul><li>eles infligem ferimento em você</li><li>eles colocam você em uma situação ruim</li><li>eles criam uma abertura para fugir</li></ul><p>Com 10+, você também escolhe um:</p><ul><li>você inflige ferimento terrível</li><li>você toma algo deles</li><li>você cria uma oportunidade para um aliado</li></ul>"
+      }
+    },
+    "uses": 0,
+    "rollType": "blood",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+    "effects":  [
+
+                ],
+    "sort":  0,
+    "ownership":  {
+                      "default":  0,
+                      "tolKXMkOd7JsM4Jk":  3
+                  },
+    "flags":  {
+
+              },
+    "_stats":  {
+                   "compendiumSource":  null,
+                   "duplicateSource":  null,
+                   "exportSource":  null,
+                   "coreVersion":  "13.344",
+                   "systemId":  "pbta",
+                   "systemVersion":  "1.1.20",
+                   "createdTime":  1748493194026,
+                   "modifiedTime":  1748493681109,
+                   "lastModifiedBy":  "tolKXMkOd7JsM4Jk"
+               },
+    "_key":  "!items!U21jUxWWz3lhDTau"
+}

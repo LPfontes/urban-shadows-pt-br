@@ -1,0 +1,37 @@
+{
+  "folder": null,
+  "name": "Taser",
+  "type": "equipment",
+  "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/electric.svg",
+  "system": {
+    "description": "",
+    "uses": 0,
+    "quantity": 1,
+    "weight": 0,
+    "tags": "[{\"value\":\"s-ferimento\"},{\"value\":\"US2E.Tags.equipment.hand.value\",\"editable\":false,\"description\":\"US2E.Tags.equipment.hand.description\"}]",
+    "itemType": "",
+    "equipmentType": "gear",
+    "actorType": "character"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3,
+    "tolKXMkOd7JsM4Jk": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1748486370395,
+    "modifiedTime": 1756448725406,
+    "lastModifiedBy": "WynALakZJf661YU1"
+  },
+  "_id": "IBq8TZkFFa4WMCzq",
+  "sort": 300000,
+  "_key": "!items!IBq8TZkFFa4WMCzq"
+}

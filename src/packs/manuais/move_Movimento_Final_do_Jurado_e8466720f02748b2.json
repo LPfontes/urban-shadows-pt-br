@@ -1,0 +1,53 @@
+{
+  "folder": "W0aC3fF6gG9hH2iI",
+  "name": "Movimento Final do Jurado",
+  "type": "move",
+  "_id": "e8466720f02748b2",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Quando você morrer, ofereça sua arma lendária à pessoa em quem você mais confia. Se ela aceitar, vincule-a a três votos da sua lista como se ela tivesse jurado a você.</p>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": ""
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Sucesso Parcial",
+        "value": ""
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Sucesso Total",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.E8hK1nN4oP7qQ0rS",
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": 1733907156058,
+    "modifiedTime": 1756441902102,
+    "lastModifiedBy": "WynALakZJf661YU1",
+    "exportSource": null
+  },
+  "_key": "!items!e8466720f02748b2"
+}

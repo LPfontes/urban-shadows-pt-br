@@ -1,0 +1,57 @@
+{
+    "folder":  "UQj0bckGnGOYfEHA",
+    "name":  "Persuadir um PDM",
+    "type":  "move",
+    "_id":  "Jt8eL0qM4rN7sO3p",
+    "img":  "icons/svg/aura.svg",
+    "system": {
+    "description": "<p>Quando você <em><strong>persuadir um PDM com sedução, promessas ou ameaças</strong></em>, role com <strong>CORAÇÃO</strong>.</p>",
+    "moveType": "basic",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": "<p>O MC diz a você que coisa interessante acontece.</p>"
+      },
+      "weakHit": {
+        "key": "system.moveResults.weakHit.value",
+        "label": "Sucesso Parcial",
+        "value": "<p>Com um sucesso, eles entendem seu ponto de vista e fazem o que você pede. Com 7-9, eles contrapropoem ou exigem pagamento—uma Dívida, um favor, recursos—antes de concordar em prosseguir.</p><p>Se você cobrar uma Dívida com o PDM antes de rolar, adicione +3 ao seu total (máx +4).</p>"
+      },
+      "strongHit": {
+        "key": "system.moveResults.strongHit.value",
+        "label": "Sucesso Total",
+        "value": "<p>Com um sucesso, eles entendem seu ponto de vista e fazem o que você pede.</p><p>Se você cobrar uma Dívida com o PDM antes de rolar, adicione +3 ao seu total (máx +4).</p>"
+      }
+    },
+    "uses": 0,
+    "rollType": "heart",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+    "effects":  [
+
+                ],
+    "sort":  0,
+    "ownership":  {
+                      "default":  0,
+                      "tolKXMkOd7JsM4Jk":  3
+                  },
+    "flags":  {
+
+              },
+    "_stats":  {
+                   "compendiumSource":  null,
+                   "duplicateSource":  null,
+                   "exportSource":  null,
+                   "coreVersion":  "13.344",
+                   "systemId":  "pbta",
+                   "systemVersion":  "1.1.20",
+                   "createdTime":  1748493194026,
+                   "modifiedTime":  1748493681109,
+                   "lastModifiedBy":  "tolKXMkOd7JsM4Jk"
+               },
+    "_key":  "!items!Jt8eL0qM4rN7sO3p"
+}

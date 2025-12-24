@@ -1,0 +1,49 @@
+{
+  "folder": null,
+  "name": "Favor Devido a Marcus",
+  "type": "equipment",
+  "_id": "ABC123DEF456",
+  "img": "icons/svg/coins.svg",
+  "system": {
+    "description": "<p><strong>Credor:</strong> Marcus Blackwood</p><p><strong>Natureza:</strong> Proteção do tribunal da Corte Noturna</p><p><strong>Gravidade:</strong> Moderada</p><p><strong>Notas:</strong> Marcus intercedeu por mim quando fui acusado de violar o acordo de neutralidade da Corte Noturna. Devo a ele um favor significativo em troca.</p>",
+    "uses": 0,
+    "quantity": 1,
+    "weight": 0,
+    "tags": "[{\"value\":\"dívida\"},{\"value\":\"moderada\"},{\"value\":\"Marcus Blackwood\"}]",
+    "itemType": "",
+    "equipmentType": "debt",
+    "actorType": "character"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "urban-shadows-pbta": {
+      "debt": {
+        "creditorId": null,
+        "creditorName": "Marcus Blackwood",
+        "debtorId": null,
+        "debtorName": "Personagem Atual",
+        "nature": "Proteção do tribunal da Corte Noturna",
+        "severity": "moderate",
+        "dateCreated": "2025-01-07",
+        "notes": "Marcus intercedeu por mim quando fui acusado de violar o acordo de neutralidade da Corte Noturna.",
+        "linkedDebtId": "DEF456GHI789"
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.344",
+    "systemId": "pbta",
+    "systemVersion": "1.1.20",
+    "createdTime": 1748600000000,
+    "modifiedTime": 1748600000000,
+    "lastModifiedBy": null
+  },
+  "_key": "!items!ABC123DEF456"
+}

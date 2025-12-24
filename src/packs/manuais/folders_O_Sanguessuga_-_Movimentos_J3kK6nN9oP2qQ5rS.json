@@ -1,0 +1,23 @@
+{
+  "name": "Movimentos de Sanguessuga",
+  "sorting": "a",
+  "folder": "0x74AgDRViQaXCdG",
+  "type": "Item",
+  "_id": "J3kK6nN9oP2qQ5rS",
+  "description": "",
+  "sort": 300000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.344",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": null,
+    "modifiedTime": 1748304143527,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "exportSource": null
+  },
+  "_key": "!folders!J3kK6nN9oP2qQ5rS"
+}

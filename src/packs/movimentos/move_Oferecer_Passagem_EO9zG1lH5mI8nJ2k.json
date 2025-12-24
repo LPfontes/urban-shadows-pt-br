@@ -1,0 +1,57 @@
+{
+    "folder":  "XH2sZ4eA8fB1gC5d",
+    "name":  "Oferecer Passagem",
+    "type":  "move",
+    "_id":  "EO9zG1lH5mI8nJ2k",
+    "img":  "icons/svg/aura.svg",
+    "system": {
+    "description": "<p>Quando uma facção <em><strong>oferece passagem a alguém</strong></em>—para dentro ou para fora da cidade—role com o <strong>Tamanho</strong> dela.</p>",
+    "moveType": "",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": "<p>Com uma falha, a passagem desencadeia um conflito entre a facção e seus próprios aliados antes que possa ser concluída; alguém vem até um dos PJs em busca de ajuda para negociar uma trégua.</p>"
+      },
+      "weakHit": {
+        "key": "system.moveResults.weakHit.value",
+        "label": "Sucesso Parcial",
+        "value": "<p>Com um sucesso, o caminho se abre, não importa quem se oponha; escolha 1:</p><ul><li>o viajante sai; ele fica fora de alcance até que escolha retornar</li><li>o viajante entra; a facção ganha um recurso poderoso</li></ul><p>Com 7-9, a passagem ofende um PDM de Status 3 que busca tributo pela invasão; a facção deve realizar um favor—dedicando um movimento de facção no próximo turno de facção—sacrificar um recurso, ou arriscar uma guerra aberta.</p>"
+      },
+      "strongHit": {
+        "key": "system.moveResults.strongHit.value",
+        "label": "Sucesso Total",
+        "value": "<p>Com um sucesso, o caminho se abre, não importa quem se oponha; escolha 1:</p><ul><li>o viajante sai; ele fica fora de alcance até que escolha retornar</li><li>o viajante entra; a facção ganha um recurso poderoso</li></ul>"
+      }
+    },
+    "uses": 0,
+    "rollType": "prompt",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+    "effects":  [
+
+                ],
+    "sort":  0,
+    "ownership":  {
+                      "default":  0,
+                      "tolKXMkOd7JsM4Jk":  3
+                  },
+    "flags":  {
+
+              },
+    "_stats":  {
+                   "compendiumSource":  null,
+                   "duplicateSource":  null,
+                   "exportSource":  null,
+                   "coreVersion":  "13.347",
+                   "systemId":  "pbta",
+                   "systemVersion":  "1.1.21",
+                   "createdTime":  1748493194026,
+                   "modifiedTime":  1756438611601,
+                   "lastModifiedBy":  "WynALakZJf661YU1"
+               },
+    "_key":  "!items!EO9zG1lH5mI8nJ2k"
+}

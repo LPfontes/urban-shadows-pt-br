@@ -1,0 +1,53 @@
+{
+  "folder": "c964cbbeaafc4d29",
+  "name": "De Volta ao Jogo",
+  "type": "move",
+  "_id": "s8jdzgSfTh1NGojD",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Pegue duas habilidades de outro manual. Quando você <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.Nx2iP4uQ8vR1wS7t]{liberar}</strong></em> para usar essas habilidades, você não pode escolher evitar corrupção em um 10+.</p>",
+    "moveType": "corruption",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": ""
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Sucesso Parcial",
+        "value": ""
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Sucesso Total",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1733907149533,
+    "modifiedTime": 1756443053538,
+    "lastModifiedBy": "WynALakZJf661YU1",
+    "exportSource": null
+  },
+  "_key": "!items!s8jdzgSfTh1NGojD"
+}

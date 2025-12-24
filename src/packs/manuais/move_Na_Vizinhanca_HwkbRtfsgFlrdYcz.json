@@ -1,0 +1,53 @@
+{
+  "folder": "J3kK6nN9oP2qQ5rS",
+  "name": "Na Vizinhança",
+  "type": "move",
+  "_id": "HwkbRtfsgFlrdYcz",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Quando você <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.QA5lS7xT1yU4zV0w]{sair pelas ruas}</strong></em> com alguém que lhe deve uma Dívida, você pode invocar uma Dívida antes de rolar para adicionar +3 à sua rolagem. Se obtiver um sucesso, você também os pega no meio de uma situação comprometedora ou vulnerável; receba +1 constante contra eles durante a cena.</p>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": ""
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Sucesso Parcial",
+        "value": ""
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Sucesso Total",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 106250,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.R3bC6dE9fG2hH5iI",
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1733907156058,
+    "modifiedTime": 1756442935809,
+    "lastModifiedBy": "WynALakZJf661YU1",
+    "exportSource": null
+  },
+  "_key": "!items!HwkbRtfsgFlrdYcz"
+}

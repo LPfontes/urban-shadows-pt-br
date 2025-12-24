@@ -1,0 +1,48 @@
+{
+  "folder": "F7hJ0lN3oP6qR9tW",
+  "name": "Vigie-os de Perto",
+  "type": "move",
+  "_id": "M4pC2zV7nR6tJ3sQ",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Quando você observar atentamente uma pessoa ou criatura sobrenatural, role com <strong>SANGUE</strong>.</p>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": "<p>Com uma falha, alguém tira vantagem de sua atenção desviada e age contra você antes que você perceba.</p>"
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Sucesso Parcial",
+        "value": "<p>Com um sucesso, o MC lhe dirá um pouco sobre a natureza dela e pelo menos uma fraqueza ou falha incomum; receba +1 contínuo quando tirar vantagem dessas vulnerabilidades únicas.</p>"
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Sucesso Total",
+        "value": "<p>Com um sucesso, o MC lhe dirá um pouco sobre a natureza dela e pelo menos uma fraqueza ou falha incomum; receba +1 contínuo quando tirar vantagem dessas vulnerabilidades únicas.</p><p>Com 10+, faça uma pergunta de acompanhamento, o MC responderá honestamente.</p>"
+      }
+    },
+    "uses": 0,
+    "rollType": "blood",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {},
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.344",
+    "systemId": "pbta",
+    "systemVersion": "1.1.20",
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!M4pC2zV7nR6tJ3sQ"
+}

@@ -1,0 +1,319 @@
+{
+  "name": "Prefeitura",
+  "type": "urban-shadows-pbta.city-hub",
+  "_id": "Z52ZeDLiQFNf6lpf",
+  "img": "modules/urban-shadows-pbta/assets/cc-assets/header-bg.webp",
+  "system": {
+    "stats": {},
+    "attributes": {
+      "residents": {
+        "label": "Residentes",
+        "description": "NPCs importantes que vivem ou trabalham neste núcleo, incluindo relações de dívida",
+        "position": "connections",
+        "type": "LongText",
+        "value": "<table><thead><tr><th>Personagem do Jogador</th><th>Residentes</th><th>Facção</th><th>Por que eles devem a você?</th></tr></thead><tbody><tr><td></td><td>Kissa Abioye, uma jornalista investigativa que escreve duas versões de cada história; uma para o público e outra para todo o resto</td><td>Mortalis</td><td></td></tr><tr><td></td><td>Diego Perez, um Promotor Assistente pagando sua dívida demoníaca um caso de cada vez</td><td>Mortalis</td><td></td></tr><tr><td></td><td>Max Mickey, um motorista feérico de aplicativo cujos \"atalhos\" evitam o trânsito, e às vezes partes da realidade</td><td>Limiar</td><td></td></tr><tr><td></td><td>Gemma Howard, uma diabrete que transforma má publicidade em oportunidades de ouro por uma taxa modesta</td><td>Limiar</td><td></td></tr><tr><td></td><td>Louis Laveau, um lacaio encarregado de ajudar dignitários visitantes da Noite a satisfazer seus desejos mais sombrios</td><td>Noite</td><td></td></tr><tr><td></td><td>Jeri, um zelador fantasma que vaga pelos corredores à noite, coletando lixo... e segredos</td><td>Noite</td><td></td></tr><tr><td></td><td>Ethel Stewart-Wilson, uma estenógrafa do tribunal que digita as transcrições oficiais antes mesmo de acontecerem</td><td>Poder</td><td></td></tr><tr><td></td><td>Herbert Okland IV, diretor da penitenciária da cidade e gerente de um bloco secreto que abriga os piores inimigos de Poder</td><td>Poder</td><td></td></tr></tbody></table>"
+      },
+      "relationships": {
+        "label": "Relacionamentos",
+        "description": "Perguntas de relacionamento dos PJs e conexões específicas para este núcleo",
+        "position": "connections",
+        "type": "LongText",
+        "value": "<table><thead><tr><th>Personagem do Jogador</th><th>Relacionamento</th></tr></thead><tbody><tr><td></td><td>Você acorda no sofá de ____________________, lutando para lembrar o que aconteceu na noite passada e por que está usando um anel mágico... o que ele(a) te disse para preencher as lacunas?</td></tr><tr><td></td><td>Você e ____________________ foram colocados em um júri mundano por um membro de Status 3 do seu Círculo para garantir secretamente um veredito de culpa contra o peão mortal de alguém. O que você fez quando soube que o acusado é inocente?</td></tr><tr><td></td><td>O cadáver de um aliado próximo é encontrado com o nome de ____________________ escrito na palma da mão. Por que você o apagou antes que mais alguém percebesse?</td></tr><tr><td></td><td>Você tem tido um caso com ____________________ há algum tempo, ambos traindo alguém que amam. Por que vocês culpam um ao outro por finalmente terem sido pegos?</td></tr><tr><td></td><td>Você deu a ____________________ alguns segredos sujos para ajudá-lo(a) a descarrilar a campanha de um candidato a prefeito anormalmente popular. Como vocês dois planejam revelar essa informação?</td></tr><tr><td></td><td>Sua estadia na cadeia do condado foi encurtada por ____________________. O que ele(a) teve que prometer que você faria para ganhar sua liberdade?</td></tr><tr><td></td><td>Você foi proibido de ver um detento fortemente restrito sem a escolta de ____________________. Por que você precisa tão desesperadamente falar com o prisioneiro?</td></tr><tr><td></td><td>Você compareceu a um baile de arrecadação de fundos extravagante sob falsos pretextos. Que atividades secretas você estava realizando quando encontrou ____________________ no evento?</td></tr></tbody></table>"
+      },
+      "tables": {
+        "label": "Tabelas",
+        "description": "Tabelas para gerar NPCs aleatórios, locais, rumores, facções e Locais neste núcleo",
+        "position": "tables",
+        "type": "LongText",
+        "value": "<p>@UUID[Compendium.urban-shadows-ptbr.tabelas-ptbr.RollTable.CF1F2A3C4T5I6O78]{Facções da Prefeitura}</p><p>@UUID[Compendium.urban-shadows-ptbr.tabelas-ptbr.RollTable.RdjiLdFCfnbCq9D5]{Locais da Prefeitura}</p><p>@UUID[Compendium.urban-shadows-ptbr.tabelas-ptbr.RollTable.CH1N2P3Q4R5S6T78]{NPCs da Prefeitura}</p><p>@UUID[Compendium.urban-shadows-ptbr.tabelas-ptbr.RollTable.CHR1U2M3O4R5S678]{Rumores da Prefeitura}</p>"
+      },
+      "description": {
+        "label": "Descrição",
+        "value": "<p><em>A burocracia ata a todos; Mortalis mantém influência na Prefeitura sabendo onde a fita é mais fraca — e quem precisa ser cortado para passar por ela. De dia, políticos comuns fazem \"o trabalho\" do \"povo\"; à noite, feéricos conspiradores fazem acordos atrás de portas protegidas e corretores de poder imortais esperam em garagens vazias para dar sua palavra. Você não pode lutar contra a prefeitura, mas alguém com influência sempre pode te encaixar na agenda pelo preço certo.</em></p>",
+        "type": "LongText",
+        "position": "top"
+      },
+      "dominantCircle": {
+        "label": "Círculo Dominante",
+        "description": "Qual Círculo controla principalmente este núcleo?",
+        "customLabel": false,
+        "userLabel": false,
+        "playbook": null,
+        "limited": false,
+        "position": "top",
+        "type": "ListMany",
+        "condition": false,
+        "sort": false,
+        "options": {
+          "0": {
+            "label": "Mortalis",
+            "value": true
+          },
+          "1": {
+            "label": "Noite",
+            "value": false
+          },
+          "2": {
+            "label": "Poder",
+            "value": false
+          },
+          "3": {
+            "label": "Limiar",
+            "value": false
+          }
+        }
+      }
+    },
+    "attrLeft": {},
+    "attrTop": {},
+    "details": {
+      "notes": {
+        "label": "Notas",
+        "value": ""
+      }
+    },
+    "advancements": 0,
+    "playbook": {
+      "name": "",
+      "slug": "",
+      "uuid": ""
+    },
+    "resources": {
+      "forward": {
+        "value": 0
+      },
+      "ongoing": {
+        "value": 0
+      },
+      "hold": {
+        "value": 0
+      },
+      "rollFormula": ""
+    },
+    "customType": "urban-shadows-pbta.city-hub"
+  },
+  "prototypeToken": {
+    "name": "Prefeitura",
+    "displayName": 0,
+    "actorLink": true,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/urban-shadows-pbta/assets/cc-assets/header-bg.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "items": [
+    {
+      "folder": "H9kL2nM5oP8qR3sT",
+      "name": "Formulários e Licenças Adequados",
+      "type": "move",
+      "_id": "CEhYUxVoecHh2fGy",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Quando você <em><strong>enterrar alguém em papelada confusa</strong></em> manipulando funcionários da cidade, role com <strong>CORAÇÃO</strong>. </p>",
+        "moveType": "hub",
+        "rollFormula": "",
+        "moveResults": {
+          "miss": {
+            "key": "system.moveResults.miss.value",
+            "label": "Falha",
+            "value": "<p>Numa falha, suas maquinações são custosas e impotentes; um NPC de Status 3 também se interessa por seus esquemas como resultado de sua intromissão incompetente.</p>"
+          },
+          "weakHit": {
+            "key": "system.moveResults.weakHit.value",
+            "label": "Sucesso Parcial",
+            "value": "<p>Num sucesso, você atrai atenção municipal indesejada para os negócios deles; eles recebem -1 contínuo em movimentos durante o turno de facção até retornarem ao anonimato. </p>"
+          },
+          "strongHit": {
+            "key": "system.moveResults.strongHit.value",
+            "label": "Sucesso Total",
+            "value": "<p>Num sucesso, você atrai atenção municipal indesejada para os negócios deles; eles recebem -1 contínuo em movimentos durante o turno de facção até retornarem ao anonimato. </p><p>Num 10+, você convence seus agentes na prefeitura de que está fazendo um favor a eles; receba uma Dívida sobre eles também. </p>"
+          }
+        },
+        "uses": 0,
+        "rollType": "heart",
+        "rollMod": 0,
+        "actorType": "urban-shadows-pbta.city-hub",
+        "choices": ""
+      },
+      "effects": [],
+      "sort": 500000,
+      "ownership": {
+        "default": 0,
+        "tolKXMkOd7JsM4Jk": 3,
+        "WynALakZJf661YU1": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.urban-shadows-ptbr.movimentos-ptbr.Item.F1jK4lL7mN0oO3pR",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.347",
+        "systemId": "pbta",
+        "systemVersion": "1.1.21",
+        "createdTime": 1756435041250,
+        "modifiedTime": 1756435041250,
+        "lastModifiedBy": "WynALakZJf661YU1"
+      },
+      "_key": "!actors.items!Z52ZeDLiQFNf6lpf.CEhYUxVoecHh2fGy"
+    },
+    {
+      "folder": "H9kL2nM5oP8qR3sT",
+      "name": "O Preço dos Segredos",
+      "type": "move",
+      "_id": "kQvy544xUh9VaZMH",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Quando você <em><strong>chantagear um NPC poderoso com provas de seus atos sujos</strong></em>, role com seu Status no Círculo dele. </p>",
+        "moveType": "hub",
+        "rollFormula": "",
+        "moveResults": {
+          "miss": {
+            "key": "system.moveResults.miss.value",
+            "label": "Falha",
+            "value": "<p>Numa falha, eles pagam para ver seu blefe e fazem você, ou sua fonte, pagar o preço.</p>"
+          },
+          "weakHit": {
+            "key": "system.moveResults.weakHit.value",
+            "label": "Sucesso Parcial",
+            "value": "<p>Num sucesso, guarde 2. </p><p>Gaste seu domínio—1 por 1—como se estivesse gastando uma Dívida (pedindo um favor moderado, adicionando +3 à sua rolagem ao <em><strong>@UUID[Compendium.urban-shadows-ptbr.movimentos-ptbr.Item.Jt8eL0qM4rN7sO3p]{persuadi-los}</strong></em>, etc.) ao interagir com seu alvo. Uma vez que você tenha usado o último de seu domínio, receba -1 contínuo em movimentos visando-os até que o tempo passe. </p>"
+          },
+          "strongHit": {
+            "key": "system.moveResults.strongHit.value",
+            "label": "Sucesso Total",
+            "value": "<p>Num 10+ guarde 3. </p><p>Gaste seu domínio—1 por 1—como se estivesse gastando uma Dívida (pedindo um favor moderado, adicionando +3 à sua rolagem ao persuadi-los, etc.) ao interagir com seu alvo. Uma vez que você tenha usado o último de seu domínio, receba -1 contínuo em movimentos visando-os até que o tempo passe. </p>"
+          }
+        },
+        "uses": 0,
+        "rollType": "ask",
+        "rollMod": 0,
+        "actorType": "urban-shadows-pbta.city-hub",
+        "choices": ""
+      },
+      "effects": [],
+      "sort": 400000,
+      "ownership": {
+        "default": 0,
+        "tolKXMkOd7JsM4Jk": 3,
+        "WynALakZJf661YU1": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.urban-shadows-ptbr.movimentos-ptbr.Item.E0iJ3kK6lM9nN2oQ",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.347",
+        "systemId": "pbta",
+        "systemVersion": "1.1.21",
+        "createdTime": 1756435043119,
+        "modifiedTime": 1756435043119,
+        "lastModifiedBy": "WynALakZJf661YU1"
+      },
+      "_key": "!actors.items!Z52ZeDLiQFNf6lpf.kQvy544xUh9VaZMH"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tolKXMkOd7JsM4Jk": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1750882859222,
+    "modifiedTime": 1750883209066,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+  },
+  "_key": "!actors!Z52ZeDLiQFNf6lpf"
+}

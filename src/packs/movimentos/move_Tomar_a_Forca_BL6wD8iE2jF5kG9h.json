@@ -1,0 +1,57 @@
+{
+    "folder":  "XH2sZ4eA8fB1gC5d",
+    "name":  "Tomar à Força",
+    "type":  "move",
+    "_id":  "BL6wD8iE2jF5kG9h",
+    "img":  "icons/svg/aura.svg",
+    "system": {
+    "description": "<p>Quando uma facção <em><strong>tomar um recurso vulnerável à força</strong></em>, role com a <strong>Força</strong> dela.</p>",
+    "moveType": "",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": "<p>Com uma falha, o ataque resulta na destruição total da coisa que a facção atacante tentou tomar; o MC escolhe apenas um da lista, e alguém vem até um dos PJs procurando ajuda para obter justiça ou vingança.</p>"
+      },
+      "weakHit": {
+        "key": "system.moveResults.weakHit.value",
+        "label": "Sucesso Parcial",
+        "value": "<p>Com um sucesso, eles tomam posse dele, apreendendo-o ou transformando-o para seus próprios propósitos. Com 7-9, eles escolhem um:</p><ul><li>eles não sacrificam um líder ou aliado</li><li>eles não causam danos colaterais sérios</li><li>eles não sofrem um ataque de retaliação imediato</li></ul>"
+      },
+      "strongHit": {
+        "key": "system.moveResults.strongHit.value",
+        "label": "Sucesso Total",
+        "value": "<p>Com um sucesso, eles tomam posse dele, apreendendo-o ou transformando-o para seus próprios propósitos. Com 10+, todos os três:</p><ul><li>eles não sacrificam um líder ou aliado</li><li>eles não causam danos colaterais sérios</li><li>eles não sofrem um ataque de retaliação imediato</li></ul>"
+      }
+    },
+    "uses": 0,
+    "rollType": "prompt",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+    "effects":  [
+
+                ],
+    "sort":  0,
+    "ownership":  {
+                      "default":  0,
+                      "tolKXMkOd7JsM4Jk":  3
+                  },
+    "flags":  {
+
+              },
+    "_stats":  {
+                   "compendiumSource":  null,
+                   "duplicateSource":  null,
+                   "exportSource":  null,
+                   "coreVersion":  "13.347",
+                   "systemId":  "pbta",
+                   "systemVersion":  "1.1.21",
+                   "createdTime":  1748493194026,
+                   "modifiedTime":  1756438628641,
+                   "lastModifiedBy":  "WynALakZJf661YU1"
+               },
+    "_key":  "!items!BL6wD8iE2jF5kG9h"
+}

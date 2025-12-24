@@ -1,0 +1,702 @@
+{
+  "name": "O Feérico",
+  "type": "playbook",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<section class=\"playbook-description\"><h1 class=\"playbook-title\">A Fada</h1><p class=\"playbook-intro\">Volúveis e enigmáticas, as fadas são impossíveis para um mortal entender completamente. Seus caminhos são repletos de tradição, honra e, acima de tudo, barganhas. Elas não apenas apreciam essas virtudes; elas as personificam.</p><h2>Movimentos da Fada</h2><p><strong>VOCÊ RECEBE ESTE:</strong></p>...",
+    "slug": "the-fae",
+    "actorType": "character",
+    "stats": {
+      "blood": {
+        "label": "Sangue",
+        "value": -1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "heart": {
+        "label": "Coração",
+        "value": 1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "mind": {
+        "label": "Mente",
+        "value": 0,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "spirit": {
+        "label": "Espírito",
+        "value": 1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "mortalis": {
+        "label": "Mundano",
+        "value": 0,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "night": {
+        "label": "Noite",
+        "value": -1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "power": {
+        "label": "Poder",
+        "value": 1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "wild": {
+        "label": "Selva",
+        "value": 1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      }
+    },
+    "statsDetail": "(Adicione 1 a um dos Atributos e um dos Círculos)",
+    "attributes": {
+      "corruption": {
+        "label": "Corrupção",
+        "description": "GATILHO: Quando você quebra uma promessa ou juramento que fez, marque corrupção.",
+        "type": "Clock",
+        "value": 0,
+        "max": 5,
+        "choices": [
+          {
+            "value": 0,
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "options": {}
+      },
+      "letItOut": {
+        "label": "Habilidades de Soltar as Rédeas",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<ul><li>invocar uma tempestade elemental da sua corte (2-dano perto área pf)</li><li>aparecer para os outros como alguém que você tocou anteriormente</li><li>compelir os elementos da sua corte a revelarem o que viram</li><li>criar um link telepático entre você e outro por uma cena</li></ul>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "max": null,
+        "options": {},
+        "description": "PARA ATIVAR ESTAS HABILIDADES"
+      },
+      "debts": {
+        "label": "Dívidas",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<ul><li>Alguém interrompeu um ritual raro da sua corte para ganho pessoal, manchando sua reputação com seu monarca. Essa pessoa te deve uma Dívida.</li><li>Você está mantendo algo escondido em nome de outra pessoa de um membro poderoso do Círculo dela. Pergunte a ela o porquê. Ela te deve uma Dívida.</li><li>Você confiou a alguém uma tarefa importante e perigosa. Pergunte a essa pessoa se ela teve sucesso ou falhou. Se teve sucesso, você deve a ela uma Dívida. Se falhou, ela te deve uma Dívida.</li></ul>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "advancements": {
+        "label": "Avanços",
+        "description": "Disponíveis no início do jogo:",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "+1 Status (máx +1)",
+            "value": false
+          },
+          "1": {
+            "label": "+1 Status (máx +1)",
+            "value": false
+          },
+          "2": {
+            "label": "+1 Status (máx +1)",
+            "value": false
+          },
+          "3": {
+            "label": "um novo movimento de Fada",
+            "value": false
+          },
+          "4": {
+            "label": "um novo movimento de Fada",
+            "value": false
+          },
+          "5": {
+            "label": "um movimento de outro playbook",
+            "value": false
+          },
+          "6": {
+            "label": "um movimento de outro playbook",
+            "value": false
+          },
+          "7": {
+            "label": "mudar seu Círculo",
+            "value": false
+          }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "+1 Status (máx +1)",
+                "value": false
+              },
+              "1": {
+                "label": "+1 Status (máx +1)",
+                "value": false
+              },
+              "2": {
+                "label": "+1 Status (máx +1)",
+                "value": false
+              },
+              "3": {
+                "label": "um novo movimento de Fada",
+                "value": false
+              },
+              "4": {
+                "label": "um novo movimento de Fada",
+                "value": false
+              },
+              "5": {
+                "label": "um movimento de outro playbook",
+                "value": false
+              },
+              "6": {
+                "label": "um movimento de outro playbook",
+                "value": false
+              },
+              "7": {
+                "label": "mudar seu Círculo",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "value": "",
+        "max": null
+      },
+      "expertAdvancements": {
+        "label": "Avanços de Especialista",
+        "description": "Após cinco avanços, você pode selecionar:",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "+1 em qualquer Círculo (máx +3)",
+            "value": false
+          },
+          "1": {
+            "label": "+1 em qualquer Círculo (máx +3)",
+            "value": false
+          },
+          "2": {
+            "label": "obter Status de Círculo-2",
+            "value": false
+          },
+          "3": {
+            "label": "apagar uma cicatriz",
+            "value": false
+          },
+          "4": {
+            "label": "avançar 3 movimentos básicos",
+            "value": false
+          },
+          "5": {
+            "label": "avançar 3 movimentos básicos",
+            "value": false
+          },
+          "6": {
+            "label": "mudar para um novo playbook",
+            "value": false
+          },
+          "7": {
+            "label": "aposentar seu personagem em segurança",
+            "value": false
+          }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "value": false,
+                "label": "+1 em qualquer Círculo (máx +3)"
+              },
+              "1": {
+                "value": false,
+                "label": "+1 em qualquer Círculo (máx +3)"
+              },
+              "2": {
+                "value": false,
+                "label": "obter Status de Círculo-2"
+              },
+              "3": {
+                "value": false,
+                "label": "adquirir um título de cavaleiro"
+              },
+              "4": {
+                "value": false,
+                "label": "avançar 3 movimentos básicos"
+              },
+              "5": {
+                "value": false,
+                "label": "avançar 3 movimentos básicos"
+              },
+              "6": {
+                "value": false,
+                "label": "aposentar seu personagem em segurança"
+              },
+              "7": {
+                "value": false,
+                "label": "mudar para um novo playbook"
+              }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "value": "",
+        "max": null
+      },
+      "corruptionAdvances": {
+        "label": "Avanços de Corrupção",
+        "description": "A Corrupção representa seu personagem deslizando para as piores partes de sua natureza. Conforme sua corrupção aumenta, seus poderes apenas crescem...",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "+1 em qualquer atributo (máx +3)",
+            "value": false
+          },
+          "1": {
+            "label": "+1 em qualquer atributo (máx +3)",
+            "value": false
+          },
+          "2": {
+            "label": "receber um novo movimento de corrupção",
+            "value": false
+          },
+          "3": {
+            "label": "receber um novo movimento de corrupção",
+            "value": false
+          },
+          "4": {
+            "label": "receber um novo movimento de corrupção do seu playbook ou de outro",
+            "value": false
+          },
+          "5": {
+            "label": "aposentar seu personagem; ele pode retornar como uma Ameaça",
+            "value": false
+          }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "+1 em qualquer atributo (máx +3)",
+                "value": false
+              },
+              "1": {
+                "label": "+1 em qualquer atributo (máx +3)",
+                "value": false
+              },
+              "2": {
+                "label": "receber um novo movimento de corrupção",
+                "value": false
+              },
+              "3": {
+                "label": "receber um novo movimento de corrupção",
+                "value": false
+              },
+              "4": {
+                "label": "receber um novo movimento de corrupção do seu playbook ou de outro",
+                "value": false
+              },
+              "5": {
+                "label": "aposentar seu personagem; ele pode retornar como uma Ameaça",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "value": "",
+        "max": null
+      },
+      "TheFaePowers": {
+        "label": "PODERES FEÉRICOS",
+        "description": "Escolha três:",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "Carícia da Natureza: Seu toque cura 2-dano, começando por dano crítico; feridas fecham, ossos se remendam, etc. Você não pode usar este poder em si mesmo.",
+            "value": false
+          },
+          "1": {
+            "label": "Fenecer: Você pode imbuir seu toque com o poder de matar (3-dano íntimo pf). O efeito é instantaneamente compreendido pelo alvo como um ataque e deixa uma marca ou cicatriz desagradável no ponto de contato.",
+            "value": false
+          },
+          "2": {
+            "label": "Glamoures: Você cria ilusões para enganar os sentidos. Os efeitos não duram muito, mas são convincentes. Você não pode se disfarçar ou ocultar a si mesmo ou suas ações com esses truques.",
+            "value": false
+          },
+          "3": {
+            "label": "Troca de Forma: Você pode mudar sua forma para a de um animal pequeno — um pássaro, um rato, uma cobra, um peixe, etc. — por uma cena. Até três pessoas que você designar ainda podem entender sua fala, mas todos os outros percebem você latindo, chilreando, etc.",
+            "value": false
+          },
+          "4": {
+            "label": "Caos Mental (Bedlam): Você pode tocar um alvo vulnerável para colocá-lo em um estado emocional específico (sua escolha) pela cena. Marque corrupção para ter essa emoção direcionada a um alvo de sua escolha.",
+            "value": false
+          }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "Carícia da Natureza: Seu toque cura 2-dano, começando por dano crítico; feridas fecham, ossos se remendam, etc. Você não pode usar este poder em si mesmo.",
+                "value": false
+              },
+              "1": {
+                "label": "Fenecer: Você pode imbuir seu toque com o poder de matar (3-dano íntimo pf). O efeito é instantaneamente compreendido pelo alvo como um ataque e deixa uma marca ou cicatriz desagradável no ponto de contato.",
+                "value": false
+              },
+              "2": {
+                "label": "Glamoures: Você cria ilusões para enganar os sentidos. Os efeitos não duram muito, mas são convincentes. Você não pode se disfarçar ou ocultar a si mesmo ou suas ações com esses truques.",
+                "value": false
+              },
+              "3": {
+                "label": "Troca de Forma: Você pode mudar sua forma para a de um animal pequeno — um pássaro, um rato, uma cobra, um peixe, etc. — por uma cena. Até três pessoas que você designar ainda podem entender sua fala, mas todos os outros percebem você latindo, chilreando, etc.",
+                "value": false
+              },
+              "4": {
+                "label": "Caos Mental (Bedlam): Você pode tocar um alvo vulnerável para colocá-lo em um estado emocional específico (sua escolha) pela cena. Marque corrupção para ter essa emoção direcionada a um alvo de sua escolha.",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes"
+      },
+      "TheFaeCourtCourtIs": {
+        "label": "SUA CORTE",
+        "description": "Você pertence a uma corte feérica, presidida por um monarca a quem jurou lealdade. Seu monarca detém 2 Dívidas sobre você; diga ao MC quais favores ele lhe concedeu para ganhar tais títulos. Sua corte é...",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "barroca e formal",
+            "value": false
+          },
+          "1": {
+            "label": "selvagem e rebelde",
+            "value": false
+          },
+          "2": {
+            "label": "distante e fria",
+            "value": false
+          },
+          "3": {
+            "label": "misteriosa e exótica",
+            "value": false
+          }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "barroca e formal",
+                "value": false
+              },
+              "1": {
+                "label": "selvagem e rebelde",
+                "value": false
+              },
+              "2": {
+                "label": "distante e fria",
+                "value": false
+              },
+              "3": {
+                "label": "misteriosa e exótica",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes"
+      },
+      "TheFaeCourtMonarchsStanding": {
+        "label": "",
+        "description": "O status do seu monarca é representado por...",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "uma coroa, magicamente imbuída com a autoridade real da sua corte",
+            "value": false
+          },
+          "1": {
+            "label": "um cetro, forjado a partir dos elementos da sua corte",
+            "value": false
+          },
+          "2": {
+            "label": "uma aura mágica, impossível de esconder mesmo por magias feéricas",
+            "value": false
+          },
+          "3": {
+            "label": "um assento de poder, capaz de convocar toda a sua corte",
+            "value": false
+          }
+        },
+        "choices": [
+          {
+            "value": "",
+            "options": {
+              "0": {
+                "label": "uma coroa, magicamente imbuída com a autoridade real da sua corte",
+                "value": false
+              },
+              "1": {
+                "label": "um cetro, forjado a partir dos elementos da sua corte",
+                "value": false
+              },
+              "2": {
+                "label": "uma aura mágica, impossível de esconder mesmo por magias feéricas",
+                "value": false
+              },
+              "3": {
+                "label": "um assento de poder, capaz de convocar toda a sua corte",
+                "value": false
+              }
+            }
+          }
+        ],
+        "custom": false,
+        "path": "attributes"
+      },
+      "TheFaeCourtRival": {
+        "label": "",
+        "description": "Seu rival é...",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "um irmão invejoso; você deve a ele uma Dívida pela sua lealdade",
+            "value": false
+          },
+          "1": {
+            "label": "um antigo amante; você deve a ele uma Dívida pela sua gentileza",
+            "value": false
+          },
+          "2": {
+            "label": "um velho mentor; você deve a ele uma Dívida pela sua tutela",
+            "value": false
+          },
+          "3": {
+            "label": "um par desdenhoso; você deve a ele uma Dívida pela sua paciência",
+            "value": false
+          }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "um irmão invejoso; você deve a ele uma Dívida pela sua lealdade",
+                "value": false
+              },
+              "1": {
+                "label": "um antigo amante; você deve a ele uma Dívida pela sua gentileza",
+                "value": false
+              },
+              "2": {
+                "label": "um velho mentor; você deve a ele uma Dívida pela sua tutela",
+                "value": false
+              },
+              "3": {
+                "label": "um par desdenhoso; você deve a ele uma Dívida pela sua paciência",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes"
+      }
+    },
+    "choiceSets": [
+      {
+        "title": "MOVIMENTOS DE FADA",
+        "desc": "VOCÊ RECEBE ESTE:",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.k9J4s2L8q1M7v0X3",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
+      },
+      {
+        "title": "MOVIMENTOS DE FADA",
+        "desc": "E ESCOLHA MAIS DOIS:",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.Y5n8P3tR6uQ2oX9Z",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.d3K5s8L2bN6wR9H1",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.m2W7aK9bH5rL6pT4",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.Q1r8T4xY5uP7kL2M",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.Z8p4J7v3Q6kM2nR5",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 1,
+        "granted": false,
+        "advancement": 0
+      },
+      {
+        "title": "Movimentos Iniciais de FADA",
+        "desc": "",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.RoBtbwCqcWOkqSa7",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.9e7162c1b3194086",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
+      },
+      {
+        "title": "Equipamento Inicial",
+        "desc": "Roupas que alternam entre a moda mortal e trajes feéricos, um símbolo de sua terra natal, um smartphone que às vezes recebe chamadas do outro lado:",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.yXC9SxjRxYo6Ww5Z",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/city-car.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/family-house.svg",
+            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.lBJbPUDy109EZrNG",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.HZbbbpRVzY68EOu5",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/colombian-statue.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.hzja5WHwvYV0N2uk",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/smartphone.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.g9PgEqTItk2pyXTT",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/triorb.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
+      }
+    ]
+  },
+  "effects": [],
+  "folder": "k9L2mN5pR8tX1vY4",
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1733907141240,
+    "modifiedTime": 1757805516052,
+    "lastModifiedBy": "WynALakZJf661YU1",
+    "exportSource": null
+  },
+  "_id": "f8a2b3c4d5e6f7g8",
+  "sort": 0,
+  "_key": "!items!f8a2b3c4d5e6f7g8"
+}

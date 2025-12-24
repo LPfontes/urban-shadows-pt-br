@@ -1,0 +1,200 @@
+{
+  "folder": "Lrap9MtfJyxSz98n",
+  "name": "Objetivo das Facções do Distrito das Artes",
+  "_id": "AF2A3C4T5I6O7N89",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [2, 2],
+      "_id": "AfA1C2T3I4O5N6S7",
+      "name": "aprender através de colaborações sobrenaturais (Mortalis)",
+      "img": "icons/svg/d20-black.svg",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20"
+      },
+      "_key": "!tables.results!AF2A3C4T5I6O7N89.AfA1C2T3I4O5N6S7"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [3, 3],
+      "_id": "BfA2C3T4I5O6N7S8",
+      "name": "manter conhecimentos perigosos em segredo e segurança (Noite)",
+      "img": "icons/svg/d20-black.svg",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20"
+      },
+      "_key": "!tables.results!AF2A3C4T5I6O7N89.BfA2C3T4I5O6N7S8"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [4, 4],
+      "_id": "CfA3C4T5I6O7N8S9",
+      "name": "encobrir a verdade sobrenatural (Noite)",
+      "img": "icons/svg/d20-black.svg",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20"
+      },
+      "_key": "!tables.results!AF2A3C4T5I6O7N89.CfA3C4T5I6O7N8S9"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [5, 5],
+      "_id": "DfA4C5T6I7O8N9SA",
+      "name": "manipular humanos para que cumpram suas ordens (Noite)",
+      "img": "icons/svg/d20-black.svg",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20"
+      },
+      "_key": "!tables.results!AF2A3C4T5I6O7N89.DfA4C5T6I7O8N9SA"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [6, 6],
+      "_id": "EfA5C6T7I8O9NASB",
+      "name": "proteger seus antigos modos de vida (Selvagem)",
+      "img": "icons/svg/d20-black.svg",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20"
+      },
+      "_key": "!tables.results!AF2A3C4T5I6O7N89.EfA5C6T7I8O9NASB"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [7, 7],
+      "_id": "FfA6C7T8I9OANBSC",
+      "name": "criar e explorar novos contratos (Selvagem)",
+      "img": "icons/svg/d20-black.svg",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20"
+      },
+      "_key": "!tables.results!AF2A3C4T5I6O7N89.FfA6C7T8I9OANBSC"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [8, 8],
+      "_id": "GfA7C8T9IAONBSCD",
+      "name": "dar as boas-vindas à cidade a outros de sua espécie (Selvagem)",
+      "img": "icons/svg/d20-black.svg",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20"
+      },
+      "_key": "!tables.results!AF2A3C4T5I6O7N89.GfA7C8T9IAONBSCD"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [9, 9],
+      "_id": "HfA8C9TAIBONCSDE",
+      "name": "adquirir e lucrar com novas propriedades (Poder)",
+      "img": "icons/svg/d20-black.svg",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20"
+      },
+      "_key": "!tables.results!AF2A3C4T5I6O7N89.HfA8C9TAIBONCSDE"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [10, 10],
+      "_id": "IfA9CATBICONDSEF",
+      "name": "encontrar e atrair seres poderosos para o seu lado (Poder)",
+      "img": "icons/svg/d20-black.svg",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20"
+      },
+      "_key": "!tables.results!AF2A3C4T5I6O7N89.IfA9CATBICONDSEF"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [11, 11],
+      "_id": "JfA0CBTCIDONESTG",
+      "name": "permanecer oculto de inimigos formidáveis (Poder)",
+      "img": "icons/svg/d20-black.svg",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20"
+      },
+      "_key": "!tables.results!AF2A3C4T5I6O7N89.JfA0CBTCIDONESTG"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [12, 12],
+      "_id": "KfA1CCTDIEONFSTU",
+      "name": "manter a paz entre facções rivais (Mortalis)",
+      "img": "icons/svg/d20-black.svg",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20"
+      },
+      "_key": "!tables.results!AF2A3C4T5I6O7N89.KfA1CCTDIEONFSTU"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tolKXMkOd7JsM4Jk": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.344",
+    "systemId": "pbta",
+    "systemVersion": "1.1.20"
+  },
+  "formula": "2d6",
+  "_key": "!tables!AF2A3C4T5I6O7N89"
+}

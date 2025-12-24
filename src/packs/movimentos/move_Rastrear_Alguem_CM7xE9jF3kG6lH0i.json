@@ -1,0 +1,57 @@
+{
+    "folder":  "XH2sZ4eA8fB1gC5d",
+    "name":  "Rastrear Alguém",
+    "type":  "move",
+    "_id":  "CM7xE9jF3kG6lH0i",
+    "img":  "icons/svg/aura.svg",
+    "system": {
+    "description": "<p>Quando uma facção tenta <em><strong>rastrear um personagem de Status-1 ou Status-2 dentro da cidade</strong></em>, role.</p><ul><li>Se a facção tiver um recurso relevante, adicione +1</li><li>Se a presa for do mesmo Círculo, adicione +1</li><li>Se a facção for Tamanho-1 ou Força-1, subtraia 1</li><li>Se a presa estiver se escondendo ativamente, subtraia 1</li></ul>",
+    "moveType": "",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": "<p><strong>Se a presa for um PDM:</strong> Com uma falha, as tentativas da facção de rastreá-los têm sucesso, mas seus agentes fazem uma bagunça e permitem que a presa escape.</p><p><strong>Se a presa for um PJ:</strong> Com uma falha, alguém próximo ao PJ o avisa cedo sobre a busca da facção... e sobre uma oportunidade ou fraqueza que o PJ pode explorar.</p>"
+      },
+      "weakHit": {
+        "key": "system.moveResults.weakHit.value",
+        "label": "Sucesso Parcial",
+        "value": "<p><strong>Se a presa for um PDM:</strong> Com 7-9, a facção encontra sua presa; eles a atacam, sequestram ou confrontam com algum custo.</p><p><strong>Se a presa for um PJ:</strong> Com 7-9, a facção rastreia sua localização, mas o PJ tem tempo para se preparar para as forças limitadas que vêm em sua direção.</p>"
+      },
+      "strongHit": {
+        "key": "system.moveResults.strongHit.value",
+        "label": "Sucesso Total",
+        "value": "<p><strong>Se a presa for um PDM:</strong> Com 10+, eles pegam a presa exposta ou vulnerável; a facção pode agir sobre a presa impunemente.</p><p><strong>Se a presa for um PJ:</strong> Com 10+, a facção rastreadora leva a melhor sobre sua presa; eles encurralam o PJ com força avassaladora ou planejamento cuidadoso que lhe deixa pouco espaço para evitar seus perseguidores.</p>"
+      }
+    },
+    "uses": 0,
+    "rollType": "prompt",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+    "effects":  [
+
+                ],
+    "sort":  0,
+    "ownership":  {
+                      "default":  0,
+                      "tolKXMkOd7JsM4Jk":  3
+                  },
+    "flags":  {
+
+              },
+    "_stats":  {
+                   "compendiumSource":  null,
+                   "duplicateSource":  null,
+                   "exportSource":  null,
+                   "coreVersion":  "13.347",
+                   "systemId":  "pbta",
+                   "systemVersion":  "1.1.21",
+                   "createdTime":  1748493194026,
+                   "modifiedTime":  1756438530903,
+                   "lastModifiedBy":  "WynALakZJf661YU1"
+               },
+    "_key":  "!items!CM7xE9jF3kG6lH0i"
+}

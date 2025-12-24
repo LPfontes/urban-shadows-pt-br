@@ -1,0 +1,53 @@
+{
+  "folder": "v8rCzpKWoYbgqrH6",
+  "name": "Vínculo",
+  "type": "move",
+  "_id": "Gj6eXhLvE8Y9KjDs",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Gaste 1 reserva para vincular telepaticamente até dois personagens em sua presença por algumas horas, permitindo que eles se comuniquem entre si—e com você—independentemente da distância. Você pode gastar domínio adicional—1 por 1—para adicionar mais personagens a essa rede, mesmo que os outros membros não estejam presentes.</p>",
+    "moveType": "spells",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": ""
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Sucesso Parcial",
+        "value": ""
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Sucesso Total",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 106250,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1733907156058,
+    "modifiedTime": 1756441858021,
+    "lastModifiedBy": "WynALakZJf661YU1",
+    "exportSource": null
+  },
+  "_key": "!items!Gj6eXhLvE8Y9KjDs"
+}

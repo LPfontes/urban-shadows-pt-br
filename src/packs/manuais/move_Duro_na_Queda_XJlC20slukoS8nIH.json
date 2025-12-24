@@ -1,0 +1,53 @@
+{
+  "folder": "67b98e674f1346b5",
+  "name": "Osso Duro de Roer",
+  "type": "move",
+  "_id": "XJlC20slukoS8nIH",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Você recebe armadura-1; fontes abençoadas ou sagradas ignoram essa armadura completamente. Armas projetadas para atordoar ou prejudicar você não têm efeito, a menos que sejam abençoadas ou sagradas. Você não requer atenção médica ou assistência mágica para curar danos que sofreu, e você limpa dano crítico como se fosse dano leve ou grave—uma caixa a cada poucos dias.</p>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": ""
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Sucesso Parcial",
+        "value": ""
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Sucesso Total",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.344",
+    "systemId": "pbta",
+    "systemVersion": "1.1.20",
+    "createdTime": 1733907149533,
+    "modifiedTime": 1748405307374,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "exportSource": null
+  },
+  "_key": "!items!XJlC20slukoS8nIH"
+}

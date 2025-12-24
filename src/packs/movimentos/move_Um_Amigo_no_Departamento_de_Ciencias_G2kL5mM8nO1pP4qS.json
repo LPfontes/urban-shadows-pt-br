@@ -1,0 +1,57 @@
+{
+    "folder":  "H9kL2nM5oP8qR3sT",
+    "name":  "Um Amigo no Departamento de Ciências",
+    "type":  "move",
+    "_id":  "G2kL5mM8nO1pP4qS",
+    "img":  "icons/svg/aura.svg",
+    "system": {
+    "description": "<p>Quando você <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.QA5lS7xT1yU4zV0w]{cair na noite}</strong></em> para procurar informações sobre fenômenos estranhos ou mágicos consultando seus contatos universitários, você pode rolar com <strong>MENTE</strong> em vez de Círculo ao consultar seus contatos na universidade.</p>",
+    "moveType": "hub",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": "<p>Em uma falha, suas perguntas atraem a atenção de um velho inimigo procurando acertar as contas.</p>"
+      },
+      "weakHit": {
+        "key": "system.moveResults.weakHit.value",
+        "label": "Sucesso Parcial",
+        "value": "<p>Com um sucesso, eles estão disponíveis e têm o que você precisa. Com 7-9, escolha 1:</p><ul><li>quem você procura está lidando com seus próprios problemas</li><li>o que você precisa custa mais caro do que o previsto</li></ul>"
+      },
+      "strongHit": {
+        "key": "system.moveResults.strongHit.value",
+        "label": "Sucesso Total",
+        "value": "<p>Com um sucesso, eles estão disponíveis e têm o que você precisa.</p>"
+      }
+    },
+    "uses": 0,
+    "rollType": "mind",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+    "effects":  [
+
+                ],
+    "sort":  600000,
+    "ownership":  {
+                      "default":  0,
+                      "tolKXMkOd7JsM4Jk":  3
+                  },
+    "flags":  {
+
+              },
+    "_stats":  {
+                   "compendiumSource":  null,
+                   "duplicateSource":  null,
+                   "exportSource":  null,
+                   "coreVersion":  "13.347",
+                   "systemId":  "pbta",
+                   "systemVersion":  "1.1.21",
+                   "createdTime":  1748493194026,
+                   "modifiedTime":  1756434645896,
+                   "lastModifiedBy":  "WynALakZJf661YU1"
+               },
+    "_key":  "!items!G2kL5mM8nO1pP4qS"
+}

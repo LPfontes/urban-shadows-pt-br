@@ -1,0 +1,57 @@
+{
+    "folder":  "lZu6QJ3wkQKTDbDF",
+    "name":  "Estudar um Local de Poder",
+    "type":  "move",
+    "_id":  "RB6mT8yU2zV5aW1x",
+    "img":  "icons/svg/aura.svg",
+    "system": {
+    "description": "<p>Quando você <em><strong>estudar um santuário, ponto de encontro ou lugar de poder</strong></em>, role com o <strong>Círculo</strong> que o controla.</p>",
+    "moveType": "circle",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": "<p>O MC diz a você que coisa interessante acontece.</p>"
+      },
+      "weakHit": {
+        "key": "system.moveResults.weakHit.value",
+        "label": "Sucesso Parcial",
+        "value": "<p>Com um sucesso, você vê abaixo da superfície para a realidade oculta; o MC revelará uma área, PDM ou item localizado lá dentro que não é o que parece.</p>"
+      },
+      "strongHit": {
+        "key": "system.moveResults.strongHit.value",
+        "label": "Sucesso Total",
+        "value": "<p>Com um sucesso, você vê abaixo da superfície para a realidade oculta; o MC revelará uma área, PDM ou item localizado lá dentro que não é o que parece. </p><p>Com 10+, sua percepção revela muito sobre a política e os esquemas do Círculo; faça uma pergunta ao MC sobre o Círculo e receba +1 adiante ao agir sobre a resposta.</p>"
+      }
+    },
+    "uses": 0,
+    "rollType": "ask",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+    "effects":  [
+
+                ],
+    "sort":  0,
+    "ownership":  {
+                      "default":  0,
+                      "tolKXMkOd7JsM4Jk":  3
+                  },
+    "flags":  {
+
+              },
+    "_stats":  {
+                   "compendiumSource":  null,
+                   "duplicateSource":  null,
+                   "exportSource":  null,
+                   "coreVersion":  "13.347",
+                   "systemId":  "pbta",
+                   "systemVersion":  "1.1.21",
+                   "createdTime":  1748493194026,
+                   "modifiedTime":  1756435795905,
+                   "lastModifiedBy":  "WynALakZJf661YU1"
+               },
+    "_key":  "!items!RB6mT8yU2zV5aW1x"
+}

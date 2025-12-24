@@ -1,0 +1,57 @@
+{
+    "folder":  "UQj0bckGnGOYfEHA",
+    "name":  "Ludibriar, Distrair ou Enganar",
+    "type":  "move",
+    "_id":  "Lv0gN2sO6tP9uQ5r",
+    "img":  "icons/svg/aura.svg",
+    "system": {
+    "description": "<p>Quando você <em><strong>tentar tapear, distrair ou enganar alguém</strong></em>, role com <strong>MENTE</strong>.</p>",
+    "moveType": "basic",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": "<p>O MC diz a você que coisa interessante acontece.</p>"
+      },
+      "weakHit": {
+        "key": "system.moveResults.weakHit.value",
+        "label": "Sucesso Parcial",
+        "value": "<p>Com um sucesso, eles são enganados, pelo menos por um momento. Com 7-9, escolha 2:</p><ul><li>você cria uma oportunidade</li><li>você expõe uma fraqueza ou defeito</li><li>você os confunde por algum tempo</li><li>você evita maiores problemas</li></ul>"
+      },
+      "strongHit": {
+        "key": "system.moveResults.strongHit.value",
+        "label": "Sucesso Total",
+        "value": "<p>Com um sucesso, eles são enganados, pelo menos por um momento. Com 10+, escolha 3:</p><ul><li>você cria uma oportunidade</li><li>você expõe uma fraqueza ou defeito</li><li>você os confunde por algum tempo</li><li>você evita maiores problemas</li></ul>"
+      }
+    },
+    "uses": 0,
+    "rollType": "mind",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+    "effects":  [
+
+                ],
+    "sort":  0,
+    "ownership":  {
+                      "default":  0,
+                      "tolKXMkOd7JsM4Jk":  3
+                  },
+    "flags":  {
+
+              },
+    "_stats":  {
+                   "compendiumSource":  null,
+                   "duplicateSource":  null,
+                   "exportSource":  null,
+                   "coreVersion":  "13.344",
+                   "systemId":  "pbta",
+                   "systemVersion":  "1.1.20",
+                   "createdTime":  1748493194026,
+                   "modifiedTime":  1748493681109,
+                   "lastModifiedBy":  "tolKXMkOd7JsM4Jk"
+               },
+    "_key":  "!items!Lv0gN2sO6tP9uQ5r"
+}

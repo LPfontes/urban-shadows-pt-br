@@ -1,0 +1,56 @@
+{
+    "folder":  "XH2sZ4eA8fB1gC5d",
+    "name":  "Provocar um Oponente",
+    "type":  "move",
+    "_id":  "AK5vC7hD1iE4jF8g",
+    "img":  "icons/svg/aura.svg",
+    "system": {
+"description": "<p>Quando uma facção tenta provocar um oponente a cometer um erro, role com a diferença entre as Forças das duas facções.</p>",    "moveType": "",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": "<p>Com uma falha, o alvo percebe o esquema; alguém da facção alvo vem a um dos PJs pedir ajuda para virar o jogo contra a facção instigadora.</p>"
+      },
+      "weakHit": {
+        "key": "system.moveResults.weakHit.value",
+        "label": "Sucesso Parcial",
+        "value": "<p>Com 7-9, o alvo evita o pior da armadilha, mas causa problemas suficientes para se envergonhar; eles recebem -1 contínuo em Força até restabelecerem sua reputação.</p>"
+      },
+      "strongHit": {
+        "key": "system.moveResults.strongHit.value",
+        "label": "Sucesso Total",
+        "value": "<p>Com 10+, o alvo morde a isca; a facção instigadora desfere um golpe terrível, destrói um recurso vulnerável ou mina um relacionamento ou aliança chave.</p>"
+      }
+    },
+    "uses": 0,
+    "rollType": "prompt",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+    "effects":  [
+
+                ],
+    "sort":  0,
+    "ownership":  {
+                      "default":  0,
+                      "tolKXMkOd7JsM4Jk":  3
+                  },
+    "flags":  {
+
+              },
+    "_stats":  {
+                   "compendiumSource":  null,
+                   "duplicateSource":  null,
+                   "exportSource":  null,
+                   "coreVersion":  "13.347",
+                   "systemId":  "pbta",
+                   "systemVersion":  "1.1.21",
+                   "createdTime":  1748493194026,
+                   "modifiedTime":  1756438460890,
+                   "lastModifiedBy":  "WynALakZJf661YU1"
+               },
+    "_key":  "!items!AK5vC7hD1iE4jF8g"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "urban-shadows-ptbr",
+  "version": "1.0.0",
+  "description": "Urban Shadows PT-BR Translation",
+  "type": "module",
+  "scripts": {
+    "build:packs": "node pullJSONtoLDB.mjs"
+  },
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^1.0.0"
+  }
+}

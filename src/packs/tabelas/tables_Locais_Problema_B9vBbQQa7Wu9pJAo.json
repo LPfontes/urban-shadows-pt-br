@@ -1,0 +1,204 @@
+{
+  "folder": "SphrtkLd76JB9Qi7",
+  "name": "Problemas dos Locais do Distrito das Artes",
+  "_id": "B9vBbQQa7Wu9pJAo",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [2, 2],
+      "_id": "XDBiLeB9CBUIO1ij",
+      "name": "assombrado",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20"
+      },
+      "_key": "!tables.results!B9vBbQQa7Wu9pJAo.XDBiLeB9CBUIO1ij"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [3, 3],
+      "_id": "Rp1AGkjFgM9LqnWD",
+      "name": "não confiável",
+      "img": "icons/svg/d20-black.svg",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20"
+      },
+      "_key": "!tables.results!B9vBbQQa7Wu9pJAo.Rp1AGkjFgM9LqnWD"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [4, 4],
+      "_id": "W6GKpwgX5esW8NRA",
+      "name": "xenofóbico",
+      "img": "icons/svg/d20-black.svg",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20"
+      },
+      "_key": "!tables.results!B9vBbQQa7Wu9pJAo.W6GKpwgX5esW8NRA"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [5, 5],
+      "_id": "D6dpa3Yqcjm73KZr",
+      "name": "pirateado",
+      "img": "icons/svg/d20-black.svg",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20"
+      },
+      "_key": "!tables.results!B9vBbQQa7Wu9pJAo.D6dpa3Yqcjm73KZr"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [6, 6],
+      "_id": "oHYn9Oyq2ZZyngkv",
+      "name": "competitivo",
+      "img": "icons/svg/d20-black.svg",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20"
+      },
+      "_key": "!tables.results!B9vBbQQa7Wu9pJAo.oHYn9Oyq2ZZyngkv"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [7, 7],
+      "_id": "6Adq0brlhjMD2GIz",
+      "name": "subfinanciado",
+      "img": "icons/svg/d20-black.svg",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20"
+      },
+      "_key": "!tables.results!B9vBbQQa7Wu9pJAo.6Adq0brlhjMD2GIz"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [8, 8],
+      "_id": "pRmkbd8hSv6yB5Sc",
+      "name": "exploratório",
+      "img": "icons/svg/d20-black.svg",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20"
+      },
+      "_key": "!tables.results!B9vBbQQa7Wu9pJAo.pRmkbd8hSv6yB5Sc"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [9, 9],
+      "_id": "zGb1SwC1dh3L5Z7F",
+      "name": "caro",
+      "img": "icons/svg/d20-black.svg",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20"
+      },
+      "_key": "!tables.results!B9vBbQQa7Wu9pJAo.zGb1SwC1dh3L5Z7F"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [10, 10],
+      "_id": "OnySuzaPHHtF9qIv",
+      "name": "polarizador",
+      "img": "icons/svg/d20-black.svg",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20"
+      },
+      "_key": "!tables.results!B9vBbQQa7Wu9pJAo.OnySuzaPHHtF9qIv"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [11, 11],
+      "_id": "S7gljvDsSWSTs0Ig",
+      "name": "fraudulento",
+      "img": "icons/svg/d20-black.svg",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20"
+      },
+      "_key": "!tables.results!B9vBbQQa7Wu9pJAo.S7gljvDsSWSTs0Ig"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [12, 12],
+      "_id": "mzd9j09EvimMXxJ2",
+      "name": "instável",
+      "img": "icons/svg/d20-black.svg",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20"
+      },
+      "_key": "!tables.results!B9vBbQQa7Wu9pJAo.mzd9j09EvimMXxJ2"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tolKXMkOd7JsM4Jk": 3
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.345",
+    "systemId": "pbta",
+    "systemVersion": "1.1.20",
+    "createdTime": 1748581947337,
+    "modifiedTime": 1750815041774,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+  },
+  "formula": "2d6",
+  "_key": "!tables!B9vBbQQa7Wu9pJAo"
+}

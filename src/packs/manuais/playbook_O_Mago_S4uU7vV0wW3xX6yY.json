@@ -1,0 +1,827 @@
+{
+  "name": "O Mago",
+  "type": "playbook",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<section class=\"playbook-description\"><h1 class=\"playbook-title\">O Mago</h1><p class=\"playbook-intro\">Magos estão entre os mais mortais e poderosos de todos os humanos. Sua habilidade de remodelar o mundo ao seu redor lhes concede poderes tremendos. Mas nada corrompe tanto quanto o poder...</p><h2>Movimentos do Mago</h2><p><strong>VOCÊ RECEBE ESTES:</strong></p><div class=\"move\"><p><span class=\"move-name\">Canalização</span></p><div class=\"move-description\"><p>Quando você canalizar e reunir suas magias, role com Espírito. Com 10+, receba 3 reserva. Com 7-9, receba 3 reserva e escolha 1 da lista abaixo. Com uma falha, receba 1 reserva, mas você não pode canalizar novamente nesta cena.</p><ul class=\"abilities-list\"><li>Receba -1 contínuo até descansar</li><li>Sofra 1-dano (ip)</li><li>Marque corrupção</li></ul><p> Seu domínio dura até que você o gaste ou a cena termine. Você pode gastá-lo para lançar qualquer feitiço que possua conforme os detalhes do feitiço.</p></div></div><div class=\"move\"><p><span class=\"move-name\">Sanctum Sanctorum</span></p><div class=\"move-description\"><p>Quando você for ao seu santuário em busca de um ingrediente de feitiço, relíquia ou tomo, role com Espírito. Com 10+, você tem exatamente o que precisa. Com 7-9, você tem algo próximo, mas é defeituoso ou falta algo significativo. Com uma falha, você não tem o que procura, mas conhece alguém de outro Círculo que provavelmente tem em estoque.</p></div></div><h3>Habilidades de Romper os Limites</h3><ul class=\"abilities-list\"><li>desviar ou redirecionar um golpe iminente antes que ele atinja</li><li>realizar um feito de força ou precisão telecinética</li><li>detectar a presença e a função de itens mágicos ou feitiços</li><li>remodelar a essência ou a natureza de um objeto exposto ou feitiço mágico</li></ul><h2>Seu Protegido</h2><p>Um membro de Status-3 do seu Círculo encarregou você de cuidar de um protegido importante. Ele vive e faz as refeições com você; a segurança dele é seu dever juramentado.</p><h2>Seu Santuário</h2><p>Escolha e sublinhe 4 recursos do seu santuário:</p><div style=\"margin:15px 0\"><div><p>um assistente extremamente experiente</p></div><div><p>um campo de testes</p></div><div><p>armadilhas mágicas</p></div><div><p>uma biblioteca de tomos antigos</p></div><div><p>um punhado de relíquias antigas</p></div><div><p>uma prisão mística</p></div><div><p>proteções mágicas</p></div><div><p>um portal para outra dimensão</p></div><div><p>um círculo de foco</p></div><div><p>um boticário</p></div></div><h2>Seus Feitiços</h2><p><strong>Escolha três:</strong></p><div style=\"margin:15px 0\"><div><p><strong>Rastreamento:</strong> Gaste 1 reserva para descobrir a localização de uma pessoa específica</p></div><div><p><strong>Atordoar:</strong> Gaste 1 reserva para alvejar alguém com energia psíquica (dano-s)</p></div><div><p><strong>Elo:</strong> Gaste 1 reserva para ligar telepaticamente até dois personagens</p></div><div><p><strong>Escudo:</strong> Gaste 1 reserva para fornecer armadura+1 a você ou alguém próximo</p></div><div><p><strong>Véu:</strong> Gaste 1 reserva para tornar-se invisível à visão</p></div><div><p><strong>Teletransporte:</strong> Gaste 1 reserva para se teletransportar a uma curta distância</p></div><div><p><strong>Bugiganga:</strong> Gaste 1 reserva para produzir um objeto pequeno e mundano</p></div></div><h2>Corrupção</h2><div class=\"corruption-track\"><p><strong>CORRUPÇÃO</strong></p><div class=\"corruption-boxes\"><p></p></div></div><p><strong>GATILHO:</strong> Quando você ignorar um pedido genuíno de ajuda de alguém vulnerável, marque corrupção.</p><h2>Criação de Personagem</h2><div class=\"stats-grid\"><div class=\"stat-section\"><h3>Atributos Iniciais</h3><p>Sangue 0, Coração -1, Mente 1, Espírito 1</p><h3>Círculos Iniciais</h3><p>Mortalis 0, Noite -1, Poder 1, Limiar 1</p><h3>Status Inicial</h3><p>Mortalis 0, Noite 0, Poder 1, Limiar 0</p></div><div class=\"stat-section\"><h3>Equipamento Inicial</h3><p>Um apartamento bom ou casa simples, um carro caindo aos pedaços, um smartphone decente e um santuário (detalhe).</p><p>Uma arma útil à escolha:</p><ul class=\"simple-list\"><li>Revólver de cano curto (2-dano perto/próximo barulhenta recarga ocultável)</li><li>Glock 9mm (2-dano próximo barulhenta ocultável)</li><li>Espada (3-dano próximo brutal)</li></ul></div></div></section>",
+    "slug": "o-mago",
+    "actorType": "character",
+    "stats": {
+      "blood": {
+        "label": "Sangue",
+        "value": 0,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "heart": {
+        "label": "Coração",
+        "value": -1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "mind": {
+        "label": "Mente",
+        "value": 1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "spirit": {
+        "label": "Espírito",
+        "value": 1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "mortalis": {
+        "label": "Mortalis",
+        "value": 0,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "night": {
+        "label": "Noite",
+        "value": -1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "power": {
+        "label": "Poder",
+        "value": 1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "wild": {
+        "label": "Limiar",
+        "value": 1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      }
+    },
+    "statsDetail": "(Adicione 1 a um dos Atributos e um dos Círculos)",
+    "attributes": {
+      "corruption": {
+        "label": "Corrupção",
+        "description": "GATILHO: Quando você ignorar um pedido genuíno de ajuda de alguém vulnerável, marque corrupção.",
+        "type": "Clock",
+        "value": 0,
+        "max": 5,
+        "choices": [
+          {
+            "value": 0,
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "options": {}
+      },
+      "letItOut": {
+        "label": "Habilidades de Romper os Limites",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<ul><li><p>desviar ou redirecionar um golpe iminente antes que ele atinja</p></li><li><p>realizar um feito de força ou precisão telecinética</p></li><li><p>detectar a presença e a função de itens mágicos ou feitiços</p></li><li><p>remodelar a essência ou a natureza de um objeto exposto ou feitiço mágico</p></li></ul>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "max": null,
+        "options": {},
+        "description": "PARA ATIVAR ESSAS HABILIDADES"
+      },
+      "debts": {
+        "label": "Dívidas",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<ul><li><p>Alguém tentou seu protegido para longe de você e para o perigo. Pergunte o que custou ao seu protegido para retornar a você. Eles lhe devem uma Dívida.</p></li><li><p>Alguém é seu recurso quando você se mete em problemas, fornecendo informações ou força bruta para resolver as coisas. Você deve a eles 2 Dívidas.</p></li><li><p>Você está ajudando alguém a guardar um segredo perigoso de membros poderosos do Círculo dele. Eles lhe devem uma Dívida.</p></li></ul>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "advancements": {
+        "label": "Avanços",
+        "description": "Disponível no início do jogo:",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "+1 Status (máx+1)",
+            "value": false
+          },
+          "1": {
+            "label": "+1 Status (máx+1)",
+            "value": false
+          },
+          "2": {
+            "label": "+1 Status (máx+1)",
+            "value": false
+          },
+          "3": {
+            "label": "adicionar 2 recursos ao seu santuário",
+            "value": false
+          },
+          "4": {
+            "label": "aprender mais 3 feitiços",
+            "value": false
+          },
+          "5": {
+            "label": "um movimento de outro manual",
+            "value": false
+          },
+          "6": {
+            "label": "um movimento de outro manual",
+            "value": false
+          },
+          "7": {
+            "label": "mudar seu Círculo",
+            "value": false
+          }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "+1 Status (máx+1)",
+                "value": false
+              },
+              "1": {
+                "label": "+1 Status (máx+1)",
+                "value": false
+              },
+              "2": {
+                "label": "+1 Status (máx+1)",
+                "value": false
+              },
+              "3": {
+                "label": "adicionar 2 recursos ao seu santuário",
+                "value": false
+              },
+              "4": {
+                "label": "aprender mais 3 feitiços",
+                "value": false
+              },
+              "5": {
+                "label": "um movimento de outro manual",
+                "value": false
+              },
+              "6": {
+                "label": "um movimento de outro manual",
+                "value": false
+              },
+              "7": {
+                "label": "mudar seu Círculo",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "value": "",
+        "max": null
+      },
+      "expertAdvancements": {
+        "label": "Avanços de Especialista",
+        "description": "Após cinco avanços, você pode selecionar:",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "+1 qualquer Círculo (máx+3)",
+            "value": false
+          },
+          "1": {
+            "label": "+1 qualquer Círculo (máx+3)",
+            "value": false
+          },
+          "2": {
+            "label": "obter Status de Círculo-2",
+            "value": false
+          },
+          "3": {
+            "label": "vincular-se a um familiar",
+            "value": false
+          },
+          "4": {
+            "label": "avançar 3 movimentos básicos",
+            "value": false
+          },
+          "5": {
+            "label": "avançar 3 movimentos básicos",
+            "value": false
+          },
+          "6": {
+            "label": "aposentar seu personagem em segurança",
+            "value": false
+          },
+          "7": {
+            "label": "mudar para um novo manual",
+            "value": false
+          }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "value": false,
+                "label": "+1 qualquer Círculo (máx+3)"
+              },
+              "1": {
+                "value": false,
+                "label": "+1 qualquer Círculo (máx+3)"
+              },
+              "2": {
+                "value": false,
+                "label": "obter Status de Círculo-2"
+              },
+              "3": {
+                "value": false,
+                "label": "vincular-se a um familiar"
+              },
+              "4": {
+                "value": false,
+                "label": "avançar 3 movimentos básicos"
+              },
+              "5": {
+                "value": false,
+                "label": "avançar 3 movimentos básicos"
+              },
+              "6": {
+                "value": false,
+                "label": "aposentar seu personagem em segurança"
+              },
+              "7": {
+                "value": false,
+                "label": "mudar para um novo manual"
+              }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "value": "",
+        "max": null
+      },
+      "corruptionAdvances": {
+        "label": "Avanços de Corrupção",
+        "description": "A Corrupção representa seu personagem deslizando em direção às piores partes de sua natureza. Conforme sua corrupção aumenta, seus poderes só crescem...",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "receba +1 em qualquer atributo (máx+3)",
+            "value": false
+          },
+          "1": {
+            "label": "receba +1 em qualquer atributo (máx+3)",
+            "value": false
+          },
+          "2": {
+            "label": "receba um novo movimento de corrupção",
+            "value": false
+          },
+          "3": {
+            "label": "receba um novo movimento de corrupção",
+            "value": false
+          },
+          "4": {
+            "label": "receba um novo movimento de corrupção de outro manual ou do seu próprio",
+            "value": false
+          },
+          "5": {
+            "label": "aposente seu personagem; ele pode retornar como uma Ameaça",
+            "value": false
+          }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "receba +1 em qualquer atributo (máx+3)",
+                "value": false
+              },
+              "1": {
+                "label": "receba +1 em qualquer atributo (máx+3)",
+                "value": false
+              },
+              "2": {
+                "label": "receba um novo movimento de corrupção",
+                "value": false
+              },
+              "3": {
+                "label": "receba um novo movimento de corrupção",
+                "value": false
+              },
+              "4": {
+                "label": "receba um novo movimento de corrupção de outro manual ou do seu próprio",
+                "value": false
+              },
+              "5": {
+                "label": "aposente seu personagem; ele pode retornar como uma Ameaça",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "value": "",
+        "max": null
+      },
+      "lookOne": {
+        "label": "Visual Um",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>andrógino</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>conforme</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>mutável</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>não-conforme</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": "Escolha um"
+      },
+      "lookTwo": {
+        "label": "Visual Dois",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>Asiático ou Sul-Asiático</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Negro</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Hispânico/ Latino</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Indígena</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Oriente Médio</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Branco</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Outro: <preencha você mesmo depois></fill></p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": "Escolha um"
+      },
+      "lookThree": {
+        "label": "Visual Três",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>roupas arcaicas</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>roupas casuais</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>roupas caras</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>roupas rituais</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": "Escolha um"
+      },
+      "demeanor": {
+        "label": "Comportamento",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>sobrecarregado</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>distante</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>desgrenhado</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>ameaçador</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": "Escolha um"
+      },
+      "questionOne": {
+        "label": "Pergunta Um",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>Como você aprendeu a usar magia?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "questionTwo": {
+        "label": "Pergunta Dois",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>Há quanto tempo você está na cidade?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "questionThree": {
+        "label": "Pergunta Três",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>Que erro mantém você acordado à noite?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "questionFour": {
+        "label": "Pergunta Quatro",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>O que você sacrificou pelo seu poder?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "questionFive": {
+        "label": "Pergunta Cinco",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>Que conflito você está tentando mediar?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "TheWizardSanctum": {
+        "label": "SEU SANTUÁRIO",
+        "description": "",
+        "type": "LongText",
+        "value": "<p>Escolha e sublinhe 4 recursos do seu santuário:</p> <ul> <li>um assistente extremamente experiente</li> <li>um campo de testes</li> <li>armadilhas mágicas</li> <li>uma biblioteca de tomos antigos</li> <li>um punhado de relíquias antigas</li> <li>uma prisão mística</li> <li>proteções mágicas</li> <li>um portal para outra dimensão</li> <li>um círculo de foco</li> <li>um boticário</li> </ul> <p>Escolha e sublinhe 2 desvantagens do seu Santuário:</p> <ul> <li>é amaldiçoado por um proprietário anterior</li> <li>atrai atenção de outro mundo</li> <li>contém muitas substâncias voláteis</li> <li>sua localização é conhecida por muitos</li> <li>sempre falta uma peça ou ingrediente chave</li> <li>é difícil para você acessar</li> <li>contém segredos desconhecidos até para você</li> </ul> <p>Quando você for ao seu santuário para trabalhar em algo, o MC lhe dirá, \"Claro, sem problemas, mas…\" e então de 1 a 4 das seguintes opções:</p> <ul> <li>Vai levar horas/dias/semanas/meses de trabalho ou tempo de recuperação</li> <li>Primeiro você terá que invocar/construir/fabricar ________</li> <li>Você precisará dos serviços de ________ para completá-lo</li> <li>Você precisa de um ingrediente ou material raro e caro</li> <li>Só funcionará por pouco tempo e pode não ser confiável</li> <li>Vai significar expor qualquer um por perto a sérias consequências</li> <li>Seu santuário não tem ________; adicione isso e você poderá completá-lo</li> <li>Exigirá uma parte de você mesmo ou sacrifício comparável</li> <li>Você deve viajar para ________ a fim de completá-lo</li> </ul> <p>O MC pode combinar qualquer conjunto de requisitos ou oferecer dois conjuntos de custos para a mesma tarefa. Uma vez que os requisitos sejam cumpridos, o trabalho está concluído. O MC irá definir as estatísticas, revelar alguma informação ou o que for necessário agora que você terminou.</p>",
+        "choices": [
+          {
+            "value": "<p>Escolha e sublinhe 4 recursos do seu santuário:</p> <ul> <li>um assistente extremamente experiente</li> <li>um campo de testes</li> <li>armadilhas mágicas</li> <li>uma biblioteca de tomos antigos</li> <li>um punhado de relíquias antigas</li> <li>uma prisão mística</li> <li>proteções mágicas</li> <li>um portal para outra dimensão</li> <li>um círculo de foco</li> <li>um boticário</li> </ul> <p>Escolha e sublinhe 2 desvantagens do seu Santuário:</p> <ul> <li>é amaldiçoado por um proprietário anterior</li> <li>atrai atenção de outro mundo</li> <li>contém muitas substâncias voláteis</li> <li>sua localização é conhecida por muitos</li> <li>sempre falta uma peça ou ingrediente chave</li> <li>é difícil para você acessar</li> <li>contém segredos desconhecidos até para você</li> </ul> <p>Quando você for ao seu santuário para trabalhar em algo, o MC lhe dirá, \"Claro, sem problemas, mas…\" e então de 1 a 4 das seguintes opções:</p> <ul> <li>Vai levar horas/dias/semanas/meses de trabalho ou tempo de recuperação</li> <li>Primeiro você terá que invocar/construir/fabricar ________</li> <li>Você precisará dos serviços de ________ para completá-lo</li> <li>Você precisa de um ingrediente ou material raro e caro</li> <li>Só funcionará por pouco tempo e pode não ser confiável</li> <li>Vai significar expor qualquer um por perto a sérias consequências</li> <li>Seu santuário não tem ________; adicione isso e você poderá completá-lo</li> <li>Exigirá uma parte de você mesmo ou sacrifício comparável</li> <li>Você deve viajar para ________ a fim de completá-lo</li> </ul> <p>O MC pode combinar qualquer conjunto de requisitos ou oferecer dois conjuntos de custos para a mesma tarefa. Uma vez que os requisitos sejam cumpridos, o trabalho está concluído. O MC irá definir as estatísticas, revelar alguma informação ou o que for necessário agora que você terminou.</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes"
+      },
+      "TheWizardWardProtection": {
+        "label": "SEU PROTEGIDO",
+        "description": "Um membro de Status-3 do seu Círculo encarregou você de cuidar de um protegido importante. Ele vive e faz as refeições com você; a segurança dele é seu dever juramentado. Escolha 2 de cada lista abaixo. POR QUE ELE PRECISA DE PROTEÇÃO?",
+        "type": "ListMany",
+        "options": {
+          "0": {}
+        },
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "value": false,
+                "label": "Eles são a chave para um ritual proibido ou catástrofe mágica"
+              },
+              "1": {
+                "value": false,
+                "label": "Eles são herdeiros de uma posição poderosa ou herança"
+              },
+              "2": {
+                "value": false,
+                "label": "Eles são o filho secreto de um inimigo influente e poderoso"
+              },
+              "3": {
+                "value": false,
+                "label": "Eles são um mago talentoso precisando de um professor e guardião"
+              }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes"
+      },
+      "TheWizardWardArrangement": {
+        "label": "",
+        "description": "POR QUE VOCÊ CONCORDOU COM ESSE ARRANJO?",
+        "type": "ListMany",
+        "options": {
+          "0": {}
+        },
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "value": false,
+                "label": "Você está apaixonado pelo protegido (ou pelo membro de Status-3)"
+              },
+              "1": {
+                "value": false,
+                "label": "Sua filiação a uma facção compele seu acordo"
+              },
+              "2": {
+                "value": false,
+                "label": "Você e seu protegido estão sobrenaturalmente ligados"
+              },
+              "3": {
+                "value": false,
+                "label": "Você espera se redimir de um fracasso passado"
+              }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes"
+      }
+    },
+    "choiceSets": [
+      {
+        "title": "MOVIMENTOS DO MAGO",
+        "desc": "VOCÊ RECEBE ESTES:",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.8fdc11bc6b9e4259",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.gaVbpcYqUTVAuNwu",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
+      },
+      {
+        "title": "SEUS FEITIÇOS",
+        "desc": "escolha três:",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.Gj6eXhLvE8Y9KjDs",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.namFcgLrWq3GzBiI",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.Wpcln02jgNak4JGH",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.H2iI5jJ8kK1lL4mN",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.fB4AWqXfpPexEFev",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.nzEtYWPo8zfrPgEH",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.OxOl1wJWXph7NW0U",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 1,
+        "granted": false,
+        "advancement": 0
+      },
+      {
+        "title": "Movimentos Iniciais do MAGO",
+        "desc": "",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.3US48kX8kaqUc5Le",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.28c028e0f21a480f",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
+      },
+      {
+        "title": "Equipamento Inicial",
+        "desc": "",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.pLmcHJnSEFA7S4pe",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/city-car.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.7NhQpHr6XyzkD69k",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/smartphone.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.lBJbPUDy109EZrNG",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/family-house.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.7TIGuha5kp5VDkF1",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/temple-gate.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
+      },
+      {
+        "title": "Equipamento Inicial",
+        "desc": "Uma arma útil à escolha:",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.MTHSObEuSjh33gsZ",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/glock.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.03e743a1890c43f9",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/revolver.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.033846e28c11448d",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/katana.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 1,
+        "granted": false,
+        "advancement": 0
+      }
+    ]
+  },
+  "effects": [],
+  "folder": "V25gvO7K7VAFw0NO",
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1733907141240,
+    "modifiedTime": 1757883202895,
+    "lastModifiedBy": "WynALakZJf661YU1",
+    "exportSource": null
+  },
+  "_id": "S4uU7vV0wW3xX6yY",
+  "sort": 100000,
+  "_key": "!items!S4uU7vV0wW3xX6yY"
+}

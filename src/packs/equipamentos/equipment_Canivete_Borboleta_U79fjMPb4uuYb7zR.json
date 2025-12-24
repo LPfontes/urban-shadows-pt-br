@@ -1,0 +1,36 @@
+{
+  "folder": null,
+  "name": "Faca Borboleta",
+  "type": "equipment",
+  "_id": "U79fjMPb4uuYb7zR",
+  "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/butterfly-knife.svg",
+  "system": {
+    "description": "(2-ferimento toque ocultável)",
+    "uses": 0,
+    "quantity": 1,
+    "weight": 0,
+    "tags": "[{\"value\":\"2-ferimento\"},{\"value\":\"US2E.Tags.equipment.hand.value\",\"editable\":false,\"description\":\"US2E.Tags.equipment.hand.description\"},{\"value\":\"US2E.Tags.equipment.concealable.value\",\"editable\":false,\"description\":\"US2E.Tags.equipment.concealable.description\"}]",
+    "itemType": "",
+    "equipmentType": "gear",
+    "actorType": "character"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.K5lL8mN1oP4qQ7rS",
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1733907152038,
+    "modifiedTime": 1756448342642,
+    "lastModifiedBy": "WynALakZJf661YU1",
+    "exportSource": null
+  },
+  "_key": "!items!U79fjMPb4uuYb7zR"
+}

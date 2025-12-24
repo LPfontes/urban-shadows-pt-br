@@ -1,0 +1,929 @@
+{
+  "name": "O Sanguessuga",
+  "type": "playbook",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<section class=\"playbook-description\"><h1 class=\"playbook-title\">O Vampiro</h1><p class=\"playbook-intro\">Sangue, carne ou emoções — seja do que for que um vampiro se alimente, eles mantêm teias de influência e operam a partir de portos seguros enquanto navegam pela política sobrenatural.</p><h2>Movimentos do Vampiro</h2><p><strong>VOCÊ RECEBE ESTE:</strong></p><div class=\"move\"><p><span class=\"move-name\">Fome Eterna</span></p><div class=\"move-description\"><p>Você tem fome de sangue humano, carne ou emoções; escolha um. Quando você se alimentar de alguém, role com Sangue. Com 10+, escolha todos os 3. Com 7-9, escolha 2:</p><ul class=\"abilities-list\"><li>Você cura 1-dano ou recebe +1 adiante</li><li>Você aprende um segredo sobre sua presa</li><li>Sua presa não sofre 3-dano (ip)</li></ul><p> Com uma falha, sua fome leva a melhor sobre você, e todos sofrem.</p></div></div><p><strong>E ESCOLHA MAIS DOIS:</strong></p><div class=\"move\"><p><span class=\"move-name\">Sempre Bem-Vindo</span></p><div class=\"move-description\"><p>Quando você tentar entrar furtivamente em um local restrito manipulando um subordinado ou guarda, role com seu Status no Círculo dele. Com um sucesso, eles abrem o caminho para você, apesar de suas dúvidas.</p></div></div><div class=\"move\"><p><span class=\"move-name\">Sangue Frio</span></p><div class=\"move-description\"><p>Quando você mantiver a calma ao desrespeitar as convenções e expectativas sociais mortais, role com Sangue em vez de Espírito.</p></div></div><div class=\"move\"><p><span class=\"move-name\">Mantenha os Amigos Por Perto</span></p><div class=\"move-description\"><p>Quando você sondar alguém ajudando-o a saciar uma fome verdadeira, receba um 10+ em vez de rolar. Se eles estiverem em seu Círculo, receba +1 contínuo para agir sobre as respostas às suas perguntas até que o tempo passe.</p></div></div><div class=\"move\"><p><span class=\"move-name\">Aterrorizante</span></p><div class=\"move-description\"><p>Receba +1 SANGUE (máx+3).</p></div></div><div class=\"move\"><p><span class=\"move-name\">Na Vizinhança</span></p><div class=\"move-description\"><p>Quando você for para as ruas com alguém que lhe deve uma Dívida, você pode invocar uma Dívida antes de rolar para adicionar +3 à sua rolagem. Se obtiver um sucesso, você também os pega no meio de uma situação comprometedora ou vulnerável.</p></div></div><h3>Habilidades de Romper os Limites</h3><ul class=\"abilities-list\"><li>criar uma oportunidade de escapar, ignorando todas as amarras mortais</li><li>realizar um feito fantástico de força ou agilidade vampírica</li><li>estender seus sentidos vampíricos por um curto período de tempo</li><li>exibir sua dominância; NPCs de Status baixo fogem, PCs devem manter a calma</li></ul><h2>Sua Teia</h2><p>Quando alguém vem até você para pedir um favor, buscar conselhos, negociar informações ou ameaçar seus interesses, eles entram em sua teia e lhe devem uma Dívida... mesmo se você não oferecer nada em troca.</p><h2>Seu Porto Seguro</h2><p>Você tem um lugar seguro — um refúgio — protegido de perigos externos, localizado dentro de um porto seguro maior. Seu porto seguro é um marco público da comunidade:</p><div style=\"margin:15px 0\"><div><p>uma boate chamativa</p></div><div><p>uma biblioteca antiquada</p></div><div><p>um teatro restaurado</p></div><div><p>um hotel histórico</p></div><div><p>um restaurante enorme</p></div><div><p>uma estação de transporte público</p></div><div><p>um hospital religioso</p></div><div><p>um mercado ao ar livre</p></div></div><h2>Corrupção</h2><div class=\"corruption-track\"><p><strong>CORRUPÇÃO</strong></p><div class=\"corruption-boxes\"><p></p></div></div><p><strong>GATILHO:</strong> Quando você se alimentar de uma vítima relutante, marque corrupção.</p><h2>Criação de Personagem</h2><div class=\"stats-grid\"><div class=\"stat-section\"><h3>Atributos Iniciais</h3><p>Sangue 1, Coração 1, Mente 0, Espírito -1</p><h3>Círculos Iniciais</h3><p>Mortalis 1, Noite 1, Poder -1, Limiar 0</p><h3>Status Inicial</h3><p>Mortalis 0, Noite 1, Poder 0, Limiar 0</p></div><div class=\"stat-section\"><h3>Equipamento Inicial</h3><p>Um apartamento isolado, um carro confortável, um smartphone.</p><p>Uma arma estilosa à escolha:</p><ul class=\"simple-list\"><li>Duas Colt Double Eagles (3-dano perto barulhenta)</li><li>Espada (3-dano próximo brutal)</li><li>Walther PPK (2-dano próximo/perto recarga ocultável)</li></ul></div></div></section>",
+    "slug": "o-vampiro",
+    "actorType": "character",
+    "stats": {
+      "blood": {
+        "label": "Sangue",
+        "value": 1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "heart": {
+        "label": "Coração",
+        "value": 1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "mind": {
+        "label": "Mente",
+        "value": 0,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "spirit": {
+        "label": "Espírito",
+        "value": -1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "mortalis": {
+        "label": "Mortalis",
+        "value": 1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "night": {
+        "label": "Noite",
+        "value": 1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "power": {
+        "label": "Poder",
+        "value": -1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "wild": {
+        "label": "Limiar",
+        "value": 0,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      }
+    },
+    "statsDetail": "(Adicione 1 a um dos Atributos e um dos Círculos)",
+    "attributes": {
+      "corruption": {
+        "label": "Corrupção",
+        "description": "GATILHO: Quando você se alimentar de uma vítima relutante, marque corrupção.",
+        "type": "Clock",
+        "value": 0,
+        "max": 5,
+        "choices": [
+          {
+            "value": 0,
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "options": {}
+      },
+      "letItOut": {
+        "label": "Habilidades de Romper os Limites",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<ul><li><p>criar uma oportunidade de escapar, ignorando todas as amarras mortais</p></li><li><p>realizar um feito fantástico de força ou agilidade vampírica</p></li><li><p>estender seus sentidos vampíricos por um curto período de tempo</p></li><li><p>exibir sua dominância; NPCs de Status baixo fogem, PCs devem manter a calma</p></li></ul>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "max": null,
+        "options": {},
+        "description": "PARA ATIVAR ESSAS HABILIDADES"
+      },
+      "debts": {
+        "label": "Dívidas",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<ul><li><p>Alguém garante que você se alimente regularmente, sem atrair muita atenção. Você deve a essa pessoa 2 Dívidas.</p></li><li><p>Alguém confia em você para obter sua dose. Pergunte o que você fornece que mantém essa pessoa sã. Ela lhe deve uma Dívida; adicione-a à sua teia.</p></li><li><p>Alguém recentemente o entregou a um de seus inimigos. Você evitou o pior dos ataques, mas seu traidor lhe deve uma Dívida; adicione-o à sua teia.</p></li></ul>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "advancements": {
+        "label": "Avanços",
+        "description": "Disponível no início do jogo:",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "+1 Status (máx+1)",
+            "value": false
+          },
+          "1": {
+            "label": "+1 Status (máx+1)",
+            "value": false
+          },
+          "2": {
+            "label": "+1 Status (máx+1)",
+            "value": false
+          },
+          "3": {
+            "label": "um novo movimento do Vampiro",
+            "value": false
+          },
+          "4": {
+            "label": "um novo movimento do Vampiro",
+            "value": false
+          },
+          "5": {
+            "label": "um movimento de outro manual",
+            "value": false
+          },
+          "6": {
+            "label": "um movimento de outro manual",
+            "value": false
+          },
+          "7": {
+            "label": "mudar seu Círculo",
+            "value": false
+          }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "+1 Status (máx+1)",
+                "value": false
+              },
+              "1": {
+                "label": "+1 Status (máx+1)",
+                "value": false
+              },
+              "2": {
+                "label": "+1 Status (máx+1)",
+                "value": false
+              },
+              "3": {
+                "label": "um novo movimento do Vampiro",
+                "value": false
+              },
+              "4": {
+                "label": "um novo movimento do Vampiro",
+                "value": false
+              },
+              "5": {
+                "label": "um movimento de outro manual",
+                "value": false
+              },
+              "6": {
+                "label": "um movimento de outro manual",
+                "value": false
+              },
+              "7": {
+                "label": "mudar seu Círculo",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "value": "",
+        "max": null
+      },
+      "expertAdvancements": {
+        "label": "Avanços de Especialista",
+        "description": "Após cinco avanços, você pode selecionar:",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "+1 qualquer Círculo (máx+3)",
+            "value": false
+          },
+          "1": {
+            "label": "+1 qualquer Círculo (máx+3)",
+            "value": false
+          },
+          "2": {
+            "label": "obter Status de Círculo-2",
+            "value": false
+          },
+          "3": {
+            "label": "apagar uma cicatriz",
+            "value": false
+          },
+          "4": {
+            "label": "avançar 3 movimentos básicos",
+            "value": false
+          },
+          "5": {
+            "label": "avançar 3 movimentos básicos",
+            "value": false
+          },
+          "6": {
+            "label": "aposentar seu personagem em segurança",
+            "value": false
+          },
+          "7": {
+            "label": "mudar para um novo manual",
+            "value": false
+          }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "value": false,
+                "label": "+1 qualquer Círculo (máx+3)"
+              },
+              "1": {
+                "value": false,
+                "label": "+1 qualquer Círculo (máx+3)"
+              },
+              "2": {
+                "value": false,
+                "label": "obter Status de Círculo-2"
+              },
+              "3": {
+                "value": false,
+                "label": "apagar uma cicatriz"
+              },
+              "4": {
+                "value": false,
+                "label": "avançar 3 movimentos básicos"
+              },
+              "5": {
+                "value": false,
+                "label": "avançar 3 movimentos básicos"
+              },
+              "6": {
+                "value": false,
+                "label": "aposentar seu personagem em segurança"
+              },
+              "7": {
+                "value": false,
+                "label": "mudar para um novo manual"
+              }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "value": "",
+        "max": null
+      },
+      "corruptionAdvances": {
+        "label": "Avanços de Corrupção",
+        "description": "A Corrupção representa seu personagem deslizando em direção às piores partes de sua natureza. Conforme sua corrupção aumenta, seus poderes só crescem...",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "receba +1 em qualquer atributo (máx+3)",
+            "value": false
+          },
+          "1": {
+            "label": "receba +1 em qualquer atributo (máx+3)",
+            "value": false
+          },
+          "2": {
+            "label": "receba um novo movimento de corrupção",
+            "value": false
+          },
+          "3": {
+            "label": "receba um novo movimento de corrupção",
+            "value": false
+          },
+          "4": {
+            "label": "receba um novo movimento de corrupção de outro manual ou do seu próprio",
+            "value": false
+          },
+          "5": {
+            "label": "aposente seu personagem; ele pode retornar como uma Ameaça",
+            "value": false
+          }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "receba +1 em qualquer atributo (máx+3)",
+                "value": false
+              },
+              "1": {
+                "label": "receba +1 em qualquer atributo (máx+3)",
+                "value": false
+              },
+              "2": {
+                "label": "receba um novo movimento de corrupção",
+                "value": false
+              },
+              "3": {
+                "label": "receba um novo movimento de corrupção",
+                "value": false
+              },
+              "4": {
+                "label": "receba um novo movimento de corrupção de outro manual ou do seu próprio",
+                "value": false
+              },
+              "5": {
+                "label": "aposente seu personagem; ele pode retornar como uma Ameaça",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "value": "",
+        "max": null
+      },
+      "lookOne": {
+        "label": "Visual Um",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>andrógino</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>conforme</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>mutável</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>não-conforme</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": "Escolha um"
+      },
+      "lookTwo": {
+        "label": "Visual Dois",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>Asiático ou Sul-Asiático</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Negro</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Hispânico/ Latino</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Indígena</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Oriente Médio</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Branco</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Outro: <preencha você mesmo depois></fill></p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": "Escolha um"
+      },
+      "lookThree": {
+        "label": "Visual Três",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>roupas que ocultam</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>roupas formais</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>roupas comuns</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>roupas vintage</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": "Escolha um"
+      },
+      "demeanor": {
+        "label": "Comportamento",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>antiquado</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>feroz</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>sedutor</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>volátil</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": "Escolha um"
+      },
+      "questionOne": {
+        "label": "Pergunta Um",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>Quando você se tornou um vampiro?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "questionTwo": {
+        "label": "Pergunta Dois",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>Há quanto tempo você está na cidade?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "questionThree": {
+        "label": "Pergunta Três",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>Como você mantém seus desejos sob controle?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "questionFour": {
+        "label": "Pergunta Quatro",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>Como você adquiriu seu refúgio?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "questionFive": {
+        "label": "Pergunta Cinco",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>Em qual acordo você está investido agora?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "TheVampWeb": {
+        "label": "SUA TEIA",
+        "description": "",
+        "type": "LongText",
+        "value": "<p>Quando alguém vem até você para pedir um favor, buscar conselhos, negociar informações ou ameaçar seus interesses, eles entram em sua teia e lhe devem uma Dívida... mesmo se você não oferecer nada em troca. As pessoas só saem da sua teia quando não lhe devem mais Dívidas. Quando alguém está em sua teia, você ganha o seguinte:</p><ul><li>Receba +1 contínuo para ajudar ou atrapalhar essa pessoa</li><li>Adicione a seguinte opção sempre que sondar essa pessoa: \"qual é a verdadeira fome do seu personagem?\"</li><li>Gaste uma Dívida (antes de rolar) ao persuadir essa pessoa para avançar Persuadir para a rolagem, além de adicionar +3 ao seu total</li></ul><p>Quando o tempo passa — ou no início do jogo — escolha alguém em sua teia e aprenda um segredo sobre essa pessoa que ela preferiria manter enterrado. Marque corrupção para fazer uma pergunta de acompanhamento sobre a resposta; o jogador dela deve responder honestamente.</p>",
+        "choices": [
+          {
+            "value": "<p>Quando alguém vem até você para pedir um favor, buscar conselhos, negociar informações ou ameaçar seus interesses, eles entram em sua teia e lhe devem uma Dívida... mesmo se você não oferecer nada em troca. As pessoas só saem da sua teia quando não lhe devem mais Dívidas. Quando alguém está em sua teia, você ganha o seguinte:</p><ul><li>Receba +1 contínuo para ajudar ou atrapalhar essa pessoa</li><li>Adicione a seguinte opção sempre que sondar essa pessoa: \"qual é a verdadeira fome do seu personagem?\"</li><li>Gaste uma Dívida (antes de rolar) ao persuadir essa pessoa para avançar Persuadir para a rolagem, além de adicionar +3 ao seu total</li></ul><p>Quando o tempo passa — ou no início do jogo — escolha alguém em sua teia e aprenda um segredo sobre essa pessoa que ela preferiria manter enterrado. Marque corrupção para fazer uma pergunta de acompanhamento sobre a resposta; o jogador dela deve responder honestamente.</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes"
+      },
+      "TheVampHarbor": {
+        "label": "SEU PORTO SEGURO",
+        "description": "Você tem um lugar seguro — um refúgio — protegido de perigos externos, localizado dentro de um porto seguro maior. Seu refúgio é um abrigo reforçado com rações de emergência e um vetor de fuga; quando alguém entra voluntariamente em seu refúgio, adicione-o à sua teia. Seu porto seguro é um marco público da comunidade (Escolha um):",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "uma boate chamativa",
+            "value": false
+          },
+          "1": {
+            "label": "um restaurante enorme",
+            "value": false
+          },
+          "2": {
+            "label": "uma biblioteca antiquada",
+            "value": false
+          },
+          "3": {
+            "label": "uma estação de transporte público",
+            "value": false
+          },
+          "4": {
+            "label": "um teatro restaurado",
+            "value": false
+          },
+          "5": {
+            "label": "um hospital religioso",
+            "value": false
+          },
+          "6": {
+            "label": "um hotel histórico",
+            "value": false
+          },
+          "7": {
+            "label": "um mercado ao ar livre",
+            "value": false
+          }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "uma boate chamativa",
+                "value": false
+              },
+              "1": {
+                "label": "um restaurante enorme",
+                "value": false
+              },
+              "2": {
+                "label": "uma biblioteca antiquada",
+                "value": false
+              },
+              "3": {
+                "label": "uma estação de transporte público",
+                "value": false
+              },
+              "4": {
+                "label": "um teatro restaurado",
+                "value": false
+              },
+              "5": {
+                "label": "um hospital religioso",
+                "value": false
+              },
+              "6": {
+                "label": "um hotel histórico",
+                "value": false
+              },
+              "7": {
+                "label": "um mercado ao ar livre",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes"
+      },
+      "TheVampHarborAdvantages": {
+        "label": "",
+        "description": "ESCOLHA 2 VANTAGENS:",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "seu porto seguro é popular entre mortais comuns, dando-lhe fácil acesso a presas desavisadas",
+            "value": false
+          },
+          "1": {
+            "label": "seu porto seguro abriga uma maneira de descartar corpos rapidamente, atraindo pouca ou nenhuma suspeita",
+            "value": false
+          },
+          "2": {
+            "label": "seu porto seguro é controlado diretamente por um NPC aliado de Status 3 da Noite, concedendo-lhe algumas proteções limitadas",
+            "value": false
+          },
+          "3": {
+            "label": "seu porto seguro permite um espaço para entreter e fascinar admiradores, trazendo um fluxo constante de presentes e favores",
+            "value": false
+          },
+          "4": {
+            "label": "seu porto seguro é operado por carniçais leais a você, trazendo notícias de qualquer coisa que ouçam ou vejam",
+            "value": false
+          }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "seu porto seguro é popular entre mortais comuns, dando-lhe fácil acesso a presas desavisadas",
+                "value": false
+              },
+              "1": {
+                "label": "seu porto seguro abriga uma maneira de descartar corpos rapidamente, atraindo pouca ou nenhuma suspeita",
+                "value": false
+              },
+              "2": {
+                "label": "seu porto seguro é controlado diretamente por um NPC aliado de Status 3 da Noite, concedendo-lhe algumas proteções limitadas",
+                "value": false
+              },
+              "3": {
+                "label": "seu porto seguro permite um espaço para entreter e fascinar admiradores, trazendo um fluxo constante de presentes e favores",
+                "value": false
+              },
+              "4": {
+                "label": "seu porto seguro é operado por carniçais leais a você, trazendo notícias de qualquer coisa que ouçam ou vejam",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes"
+      },
+      "TheVampHarborDangers": {
+        "label": "",
+        "description": "ESCOLHA 2 PERIGOS:",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "seu porto seguro fica dentro do território de um lorde vampiro de Status 3; ele frequentemente exige tributos e Dívidas",
+            "value": false
+          },
+          "1": {
+            "label": "seu porto seguro é o lar de várias entidades fantasmagóricas; elas variam de levemente irritantes a profundamente perigosas",
+            "value": false
+          },
+          "2": {
+            "label": "seu porto seguro atraiu a atenção de um grupo dedicado de caçadores mortais; eles podem agir em breve",
+            "value": false
+          },
+          "3": {
+            "label": "seu porto seguro está constantemente movimentado, dia e noite; aqueles que o frequentam tornam a segurança estrita impossível",
+            "value": false
+          },
+          "4": {
+            "label": "seu porto seguro está intimamente ligado a vários mortais com quem você se importa; eles foram empurrados para o mundo sobrenatural por sua não-vida",
+            "value": false
+          }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "seu porto seguro fica dentro do território de um lorde vampiro de Status 3; ele frequentemente exige tributos e Dívidas",
+                "value": false
+              },
+              "1": {
+                "label": "seu porto seguro é o lar de várias entidades fantasmagóricas; elas variam de levemente irritantes a profundamente perigosas",
+                "value": false
+              },
+              "2": {
+                "label": "seu porto seguro atraiu a atenção de um grupo dedicado de caçadores mortais; eles podem agir em breve",
+                "value": false
+              },
+              "3": {
+                "label": "seu porto seguro está constantemente movimentado, dia e noite; aqueles que o frequentam tornam a segurança estrita impossível",
+                "value": false
+              },
+              "4": {
+                "label": "seu porto seguro está intimamente ligado a vários mortais com quem você se importa; eles foram empurrados para o mundo sobrenatural por sua não-vida",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes"
+      }
+    },
+    "choiceSets": [
+      {
+        "title": "MOVIMENTOS DO VAMPIRO",
+        "desc": "VOCÊ RECEBE ESTE:",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.M8oP1qQ4rS7tT0uU",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
+      },
+      {
+        "title": "E ESCOLHA MAIS DOIS:",
+        "desc": "",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.N9oP2qQ5rS8tT1uU",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.O0uU3vV6wW9xX2yY",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.HwkbRtfsgFlrdYcz",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.z4N5gOpNl4yDtuTY",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.Q2wW5xX8yY1zZ4aA",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 1,
+        "granted": false,
+        "advancement": 0
+      },
+      {
+        "title": "Movimentos Iniciais do VAMPIRO",
+        "desc": "",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.uNpgcYYgBru32GfI",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.T5vV8wW1xX4yY7zZ",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
+      },
+      {
+        "title": "Equipamento Inicial",
+        "desc": "",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.yXC9SxjRxYo6Ww5Z",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/city-car.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.BTxE2INmDJFUM5EV",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/modern-city.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.hzja5WHwvYV0N2uk",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/smartphone.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
+      },
+      {
+        "title": "Equipamento Inicial",
+        "desc": "Uma arma estilosa à escolha:",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.wZehIb6GrC9FNoyl",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/colt-m1911.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.033846e28c11448d",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/katana.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.cbc685c9269449d6",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/walther-ppk.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 1,
+        "granted": false,
+        "advancement": 0
+      }
+    ]
+  },
+  "effects": [],
+  "folder": "0x74AgDRViQaXCdG",
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1733907141240,
+    "modifiedTime": 1757827391998,
+    "lastModifiedBy": "WynALakZJf661YU1",
+    "exportSource": null
+  },
+  "_id": "15dGntKnpgDgUUYD",
+  "sort": 0,
+  "_key": "!items!15dGntKnpgDgUUYD"
+}

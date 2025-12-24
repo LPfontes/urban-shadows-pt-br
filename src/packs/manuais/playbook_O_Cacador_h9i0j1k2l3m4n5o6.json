@@ -1,0 +1,460 @@
+{
+  "name": "O Caçador",
+  "type": "playbook",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<section class=\"playbook-description\"><h1 class=\"playbook-title\">O Caçador</h1><p class=\"playbook-intro\">Determinado e destemido, o Caçador é um mortal que assumiu uma causa contra a escuridão ao seu redor, juntando-se à luta ao lado de outros caçadores na noite. Eles carregam um fardo pesado, que eventualmente esmagaria qualquer um. Por quanto tempo eles conseguirão evitar se tornar aquilo que caçam?</p><h2>Movimentos do Caçador</h2><p><strong>ESCOLHA TRÊS:</strong></p>...",
+    "slug": "the-hunter",
+    "actorType": "character",
+    "stats": {
+      "blood": {
+        "label": "Sangue",
+        "value": 1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "heart": {
+        "label": "Coração",
+        "value": -1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "mind": {
+        "label": "Mente",
+        "value": 1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "spirit": {
+        "label": "Espírito",
+        "value": 0,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "mortalis": {
+        "label": "Mortalis",
+        "value": 1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "night": {
+        "label": "Noite",
+        "value": 1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "power": {
+        "label": "Poder",
+        "value": 0,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "wild": {
+        "label": "Selva",
+        "value": -1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      }
+    },
+    "statsDetail": "(Adicione 1 a um Atributo e 1 a um Círculo)",
+    "attributes": {
+      "corruption": {
+        "label": "Corrupção",
+        "description": "GATILHO: Quando você fere ou coloca em grande perigo uma pessoa inocente, marque corrupção.",
+        "type": "Clock",
+        "value": 0,
+        "max": 5,
+        "choices": [
+          {
+            "value": 0,
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "options": {}
+      },
+      "letItOut": {
+        "label": "Habilidades de Extravasar",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<ul><li><p>rastrear alguém ou algo pela cidade com informações ou trilhas limitadas</p></li><li><p>tratar um objeto mundano como uma arma (2 de dano, brutal) ou armadura-1 por uma cena</p></li><li><p>improvisar um explosivo (3 de dano, barulhento, fogo) ou bomba de fumaça (dano-s, barulhento, fumaça)</p></li><li><p>forçar um inimigo vulnerável a fugir da sua presença e entregar uma mensagem</p><p></p></li></ul>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "max": null,
+        "options": {},
+        "description": "PARA ATIVAR ESTAS HABILIDADES"
+      },
+      "debts": {
+        "label": "Dívidas",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<ul><li><p>Alguém te ajuda a relaxar e te mantém são, apesar dos horrores de suas caçadas. Você deve a essa pessoa uma Dívida.</p></li><li><p>Suas caçadas provocaram a ira de uma pessoa poderosa; alguém ajudou a acalmar as coisas. Você deve a essa pessoa uma Dívida.</p></li><li><p>Alguém te recrutou para protegê-lo de algo perigoso. Essa pessoa te deve uma Dívida.</p></li></ul>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "advancements": {
+        "label": "Avanços",
+        "description": "Disponíveis no início do jogo:",
+        "type": "ListMany",
+        "options": {
+          "0": { "label": "+1 em um Círculo (máx +1)", "value": false },
+          "1": { "label": "+1 em um Círculo (máx +1)", "value": false },
+          "2": { "label": "+1 em um Círculo (máx +1)", "value": false },
+          "3": { "label": "um novo movimento de Caçador", "value": false },
+          "4": { "label": "um novo movimento de Caçador", "value": false },
+          "5": { "label": "um movimento de outro playbook", "value": false },
+          "6": { "label": "um movimento de outro playbook", "value": false },
+          "7": { "label": "mudar seu Círculo", "value": false }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": { "label": "+1 em um Círculo (máx +1)", "value": false },
+              "1": { "label": "+1 em um Círculo (máx +1)", "value": false },
+              "2": { "label": "+1 em um Círculo (máx +1)", "value": false },
+              "3": { "label": "um novo movimento de Caçador", "value": false },
+              "4": { "label": "um novo movimento de Caçador", "value": false },
+              "5": { "label": "um movimento de outro playbook", "value": false },
+              "6": { "label": "um movimento de outro playbook", "value": false },
+              "7": { "label": "mudar seu Círculo", "value": false }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "value": "",
+        "max": null
+      },
+      "expertAdvancements": {
+        "label": "Avanços de Especialista",
+        "description": "Após cinco avanços, você pode selecionar:",
+        "type": "ListMany",
+        "options": {
+          "0": { "label": "+1 em qualquer Círculo (máx +3)", "value": false },
+          "1": { "label": "+1 em qualquer Círculo (máx +3)", "value": false },
+          "2": { "label": "obter Status de Círculo-2", "value": false },
+          "3": { "label": "apagar uma cicatriz", "value": false },
+          "4": { "label": "avançar 3 movimentos básicos", "value": false },
+          "5": { "label": "avançar 3 movimentos básicos", "value": false },
+          "6": { "label": "mudar para um novo playbook", "value": false },
+          "7": { "label": "aposentar seu personagem em segurança", "value": false }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": { "value": false, "label": "+1 em qualquer Círculo (máx +3)" },
+              "1": { "value": false, "label": "+1 em qualquer Círculo (máx +3)" },
+              "2": { "value": false, "label": "obter Status de Círculo-2" },
+              "3": { "value": false, "label": "apagar uma cicatriz" },
+              "4": { "value": false, "label": "obter uma oficina" },
+              "5": { "value": false, "label": "avançar 3 movimentos básicos" },
+              "6": { "value": false, "label": "avançar 3 movimentos básicos" },
+              "7": { "value": false, "label": "mudar para um novo playbook" }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "value": "",
+        "max": null
+      },
+      "corruptionAdvances": {
+        "label": "Avanços de Corrupção",
+        "description": "A corrupção representa seu personagem deslizando para as piores partes de sua natureza. Conforme sua corrupção aumenta, seus poderes crescem...",
+        "type": "ListMany",
+        "options": {
+          "0": { "label": "tomar +1 em qualquer atributo (máx +3)", "value": false },
+          "1": { "label": "tomar +1 em qualquer atributo (máx +3)", "value": false },
+          "2": { "label": "tomar um novo movimento de corrupção", "value": false },
+          "3": { "label": "tomar um novo movimento de corrupção", "value": false },
+          "4": { "label": "tomar um novo movimento de corrupção do seu ou de outro playbook", "value": false },
+          "5": { "label": "aposentar seu personagem; ele pode retornar como uma Ameaça", "value": false }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": { "label": "tomar +1 em qualquer atributo (máx +3)", "value": false },
+              "1": { "label": "tomar +1 em qualquer atributo (máx +3)", "value": false },
+              "2": { "label": "tomar um novo movimento de corrupção", "value": false },
+              "3": { "label": "tomar um novo movimento de corrupção", "value": false },
+              "4": { "label": "tomar um novo movimento de corrupção do seu ou de outro playbook", "value": false },
+              "5": { "label": "aposentar seu personagem; ele pode retornar como uma Ameaça", "value": false }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "value": "",
+        "max": null
+      },
+      "lookOne": {
+        "label": "Aparência Um",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          { "value": "<p>andrógino</p>", "options": {} },
+          { "value": "<p>conformista</p>", "options": {} },
+          { "value": "<p>mutável</p>", "options": {} },
+          { "value": "<p>não-conformista</p>", "options": {} }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": "Escolha um"
+      },
+      "lookTwo": {
+        "label": "Aparência Dois",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          { "value": "<p>Asiático ou Sul-Asiático</p>", "options": {} },
+          { "value": "<p>Negro</p>", "options": {} },
+          { "value": "<p>Hispânico/ Latino</p>", "options": {} },
+          { "value": "<p>Indígena</p>", "options": {} },
+          { "value": "<p>Oriente Médio</p>", "options": {} },
+          { "value": "<p>Branco</p>", "options": {} },
+          { "value": "<p>Outro: <fill in=\"\" yourself=\"\" later=\"\"></fill></p>", "options": {} }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": "Escolha um"
+      },
+      "lookThree": {
+        "label": "Aparência Três",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          { "value": "<p>roupas casuais</p>", "options": {} },
+          { "value": "<p>roupas escuras</p>", "options": {} },
+          { "value": "<p>roupas sujas</p>", "options": {} },
+          { "value": "<p>roupas táticas</p>", "options": {} }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": "Escolha um"
+      },
+      "demeanor": {
+        "label": "Postura",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          { "value": "<p>calculista</p>", "options": {} },
+          { "value": "<p>distante</p>", "options": {} },
+          { "value": "<p>amigável</p>", "options": {} },
+          { "value": "<p>volátil</p>", "options": {} }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": "Escolha um"
+      },
+      "questionOne": {
+        "label": "Pergunta Um",
+        "value": "",
+        "type": "LongText",
+        "choices": [ { "value": "<p>Qual tragédia pessoal te levou a caçar?</p>", "options": {} } ],
+        "custom": false, "path": "details", "max": null, "options": {}, "description": ""
+      },
+      "questionTwo": {
+        "label": "Pergunta Dois",
+        "value": "",
+        "type": "LongText",
+        "choices": [ { "value": "<p>Há quanto tempo você está na cidade?</p>", "options": {} } ],
+        "custom": false, "path": "details", "max": null, "options": {}, "description": ""
+      },
+      "questionThree": {
+        "label": "Pergunta Três",
+        "value": "",
+        "type": "LongText",
+        "choices": [ { "value": "<p>Por qual abate impressionante você é infame?</p>", "options": {} } ],
+        "custom": false, "path": "details", "max": null, "options": {}, "description": ""
+      },
+      "questionFour": {
+        "label": "Pergunta Quatro",
+        "value": "",
+        "type": "LongText",
+        "choices": [ { "value": "<p>Do que aqueles que você caça te chamam pelas costas?</p>", "options": {} } ],
+        "custom": false, "path": "details", "max": null, "options": {}, "description": ""
+      },
+      "questionFive": {
+        "label": "Pergunta Cinco",
+        "value": "",
+        "type": "LongText",
+        "choices": [ { "value": "<p>Quem infligiu a ferida que ainda te assombra?</p>", "options": {} } ],
+        "custom": false, "path": "details", "max": null, "options": {}, "description": ""
+      },
+      "TheHunterSocietyPrey": {
+        "label": "SUA SOCIEDADE",
+        "description": "Você pertence a uma sociedade de caçadores, uma afiliação de companheiros mortais que perseguem presas perigosas para proteger o mundo mortal do sobrenatural. Diga ao seu MC para definir sua sociedade como uma facção de Tamanho-2 e Força-2 dentro do Mortalis. QUAL É A SUA PRESA?",
+        "type": "ListMany",
+        "options": {
+          "0": { "label": "vampiros que se alimentam dos fracos e coagidos", "value": false },
+          "1": { "label": "demônios que corrompem os bons e os justos", "value": false },
+          "2": { "label": "anjos que subjugam a vontade dos fiéis", "value": false },
+          "3": { "label": "fantasmas que assolam as vidas dos inocentes", "value": false },
+          "4": { "label": "magos que abusam de seu poder e autoridade", "value": false }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": { "label": "vampiros que se alimentam dos fracos e coagidos", "value": false },
+              "1": { "label": "demônios que corrompem os bons e os justos", "value": false },
+              "2": { "label": "anjos que subjugam a vontade dos fiéis", "value": false },
+              "3": { "label": "fantasmas que assolam as vidas dos inocentes", "value": false },
+              "4": { "label": "magos que abusam de seu poder e autoridade", "value": false }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes"
+      },
+      "TheHunterSocietySacrifice": {
+        "label": "",
+        "description": "O QUE VOCÊ SACRIFICOU PARA SE JUNTAR?",
+        "type": "ListMany",
+        "options": {
+          "0": { "label": "minha alma, para sempre maculada por rituais mágicos", "value": false },
+          "1": { "label": "minha família, para sempre removida da minha vida", "value": false },
+          "2": { "label": "minha infância, para sempre perdida em meu treinamento", "value": false },
+          "3": { "label": "meu corpo, para sempre marcado por cerimônias", "value": false }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": { "label": "minha alma, para sempre maculada por rituais mágicos", "value": false },
+              "1": { "label": "minha família, para sempre removida da minha vida", "value": false },
+              "2": { "label": "minha infância, para sempre perdida em meu treinamento", "value": false },
+              "3": { "label": "meu corpo, para sempre marcado por cerimônias", "value": false }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes"
+      },
+      "TheHunterSocietyGather": {
+        "label": "",
+        "description": "ONDE SUA SOCIEDADE SE REÚNE?",
+        "type": "ListMany",
+        "options": {
+          "0": { "label": "um hotel chique e caro", "value": false },
+          "1": { "label": "um bar de quinta ou antro de apostas", "value": false },
+          "2": { "label": "um sindicato ou salão de veteranos", "value": false },
+          "3": { "label": "solo religioso sagrado", "value": false }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": { "label": "um hotel chique e caro", "value": false },
+              "1": { "label": "um bar de quinta ou antro de apostas", "value": false },
+              "2": { "label": "um sindicato ou salão de veteranos", "value": false },
+              "3": { "label": "solo religioso sagrado", "value": false }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes"
+      }
+    },
+    "choiceSets": [
+      {
+        "title": "MOVIMENTOS DE CAÇADOR",
+        "desc": "ESCOLHA TRÊS:",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          { "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.B7kR3nY9pQ4sT2wL", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
+          { "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.F1jH9kL2Z5pX8qV3", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
+          { "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.V5mN8jK3zW6rX1cA", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
+          { "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.H2jQ7fR5L9pD4kZ3", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
+          { "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.M4pC2zV7nR6tJ3sQ", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
+          { "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.R6kT3yB8nU5pA1dC", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 }
+        ],
+        "grantOn": 1, "granted": false, "advancement": 0
+      },
+      {
+        "title": "Movimentos Iniciais do CAÇADOR",
+        "desc": "",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          { "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.13ed0f1b3c434160", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
+          { "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.jxcu3IGIkTUUOMQA", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 }
+        ],
+        "grantOn": 0, "granted": false, "advancement": 0
+      },
+      {
+        "title": "Equipamento Inicial",
+        "desc": "Também encontre ou crie seu \"Arsenal\": 3 armas personalizadas",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          { "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.wXS2VL8ghujNaAmO", "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/flatbed.svg", "granted": false, "advancement": 0 },
+          { "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.zdAq6oEtPvlN7R6J", "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/modern-city.svg", "granted": false, "advancement": 0 },
+          { "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/smartphone.svg", "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.jSbzUEBdBfUDzgQ7", "granted": false, "advancement": 0 },
+          { "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.lcXwb8IeDwMfD9zA", "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/abstract-099.svg", "granted": false, "advancement": 0 }
+        ],
+        "grantOn": 0, "granted": false, "advancement": 0
+      }
+    ]
+  },
+  "effects": [],
+  "folder": "E6gI9kM2nO5pQ8sV",
+  "ownership": { "default": 0, "MZpJvwT3EQwBniAB": 3 },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1733907141240,
+    "modifiedTime": 1757805050347,
+    "lastModifiedBy": "WynALakZJf661YU1",
+    "exportSource": null
+  },
+  "_id": "h9i0j1k2l3m4n5o6",
+  "sort": 0,
+  "_key": "!items!h9i0j1k2l3m4n5o6"
+}

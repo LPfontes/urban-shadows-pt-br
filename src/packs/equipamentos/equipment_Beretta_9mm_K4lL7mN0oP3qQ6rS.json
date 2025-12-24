@@ -1,0 +1,37 @@
+{
+  "folder": null,
+  "name": "Beretta 9mm",
+  "type": "equipment",
+  "_id": "K4lL7mN0oP3qQ6rS",
+  "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/pistol-gun.svg",
+  "system": {
+    "description": "(2-ferimento próximo barulhento ocultável)",
+    "uses": 0,
+    "quantity": 1,
+    "weight": 0,
+    "tags": "[{\"value\":\"2-ferimento\"},{\"value\":\"US2E.Tags.equipment.near.value\",\"editable\":false,\"description\":\"US2E.Tags.equipment.near.description\"},{\"value\":\"US2E.Tags.equipment.loud.value\",\"editable\":false,\"description\":\"US2E.Tags.equipment.loud.description\"},{\"value\":\"US2E.Tags.equipment.concealable.value\",\"editable\":false,\"description\":\"US2E.Tags.equipment.concealable.description\"}]",
+    "itemType": "",
+    "equipmentType": "gear",
+    "actorType": "character"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3,
+    "tolKXMkOd7JsM4Jk": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.K4lL7mN0oP3qQ6rS",
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1748486441549,
+    "modifiedTime": 1756448151596,
+    "lastModifiedBy": "WynALakZJf661YU1"
+  },
+  "_key": "!items!K4lL7mN0oP3qQ6rS"
+}

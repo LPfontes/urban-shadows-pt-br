@@ -1,0 +1,53 @@
+{
+  "folder": "L3nP6rT9uW2xZ5bC",
+  "name": "Psicometria",
+  "type": "move",
+  "_id": "O6qS9uW2xZ5bC8fG",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Quando você examinar um objeto interessante, role com <strong>ESPÍRITO</strong>. </p>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": "<p>Com uma falha, faça 1 pergunta, mas as respostas que você recebe o sobrecarregam; receba -1 adiante para a cena.</p>"
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Sucesso Parcial",
+        "value": "<p>Com um sucesso, faça perguntas ao MC da lista abaixo.</p><p>Com 7-9, faça 1 pergunta:</p>"
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Sucesso Total",
+        "value": "<p>Com um sucesso, faça perguntas ao MC da lista abaixo. </p><p>Com 10+, faça 3 perguntas:</p>"
+      }
+    },
+    "uses": 0,
+    "rollType": "spirit",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": "<ul><li>qual é a história deste objeto?</li><li>quais banimentos, proteções ou limites estão ligados a este objeto?</li><li>a onde este objeto pertence?</li><li>quais segredos ou mistérios este objeto testemunhou?</li><li>quais emoções fortes estiveram mais recentemente perto deste objeto?</li></ul>"
+  },
+  "effects": [],
+  "sort": 150000,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.O6qS9uW2xZ5bC8fG",
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1733907156058,
+    "modifiedTime": 1756441037503,
+    "lastModifiedBy": "WynALakZJf661YU1",
+    "exportSource": null
+  },
+  "_key": "!items!O6qS9uW2xZ5bC8fG"
+}

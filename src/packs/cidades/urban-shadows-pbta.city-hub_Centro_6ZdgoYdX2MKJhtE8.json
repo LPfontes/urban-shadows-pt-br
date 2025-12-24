@@ -1,0 +1,319 @@
+{
+  "name": "Centro",
+  "type": "urban-shadows-pbta.city-hub",
+  "_id": "6ZdgoYdX2MKJhtE8",
+  "img": "modules/urban-shadows-pbta/assets/cc-assets/header-bg.webp",
+  "system": {
+    "stats": {},
+    "attributes": {
+      "residents": {
+        "label": "Residentes",
+        "description": "NPCs importantes que vivem ou trabalham neste núcleo, incluindo relações de dívida",
+        "position": "connections",
+        "type": "LongText",
+        "value": "<table><thead><tr><th>Personagem do Jogador</th><th>Residentes</th><th>Facção</th><th>Por que eles devem a você?</th></tr></thead><tbody><tr><td></td><td>Maya Lopez, uma oráculo que trabalha no mercado do centro com um talento especial para prever o caminho de seus inimigos para a ruína</td><td>Poder</td><td></td></tr><tr><td></td><td>Sra. Lane, uma maga e proprietária de um hotel cinco estrelas exclusivo que vive de fofocas</td><td>Poder</td><td></td></tr><tr><td></td><td>Dinesh Chopra, um caçador que mantém seu quarteirão de boutiques uma zona livre de vampiros a qualquer custo</td><td>Mortalis</td><td></td></tr><tr><td></td><td>Cyril Callas, um famoso investigador paranormal que dá conselhos \"gratuitos\" do conforto do ponto de ônibus de seu apartamento</td><td>Mortalis</td><td></td></tr><tr><td></td><td>Taan, um vampiro comedor de carne com um apetite particular por turistas errantes que ele luta para controlar</td><td>Noite</td><td></td></tr><tr><td></td><td>Gi Riddle, uma fantasma barulhenta que trabalha no centro como guia turística de bares assombrados</td><td>Noite</td><td></td></tr><tr><td></td><td>Blessing, uma fada cujos discursos apaixonados sobre a crise ecológica podem ser ouvidos do lado de fora do aquário a qualquer hora do dia</td><td>Limiar</td><td></td></tr><tr><td></td><td>Akiko Tanaka, uma maculada com um histórico impressionante de coletar contratos demoníacos entre empreendedores locais</td><td>Limiar</td><td></td></tr></tbody></table>"
+      },
+      "relationships": {
+        "label": "Relacionamentos",
+        "description": "Perguntas de relacionamento dos PJs e conexões específicas para este núcleo",
+        "position": "connections",
+        "type": "LongText",
+        "value": "<table><thead><tr><th>Personagem do Jogador</th><th>Relacionamento</th></tr></thead><tbody><tr><td></td><td>Recentemente você se apaixonou por um(a) dono(a) de loja de sucesso no centro, mas ainda não terminou seu relacionamento com ____________________. Por que você hesita em terminar as coisas, mesmo que a faísca tenha sumido?</td></tr><tr><td></td><td>Enquanto fazia um trabalho de entrega para alguns dos restaurantes demoníacos mais populares do centro, você pegou ____________________ em uma situação escandalosa. O que ele(a) ofereceu para comprar seu silêncio e por que ainda não é o suficiente?</td></tr><tr><td></td><td>____________________ tornou-se recentemente o proprietário de um artefato lendário que você tenta obter há anos. Ele(a) se recusou a se separar dele, mas você está determinado a mudar a mente dele(a). Como?</td></tr><tr><td></td><td>Um colega seu tornou-se recentemente alvo de um fantasma poderoso. Por que ____________________ concordou em prestar seus serviços para garantir a segurança de seu colega de trabalho?</td></tr><tr><td></td><td>Seu ex-cônjuge ainda mora com você, embora você tenha pedido para ele sair repetidas vezes. Por que ____________________ concordou em ajudá-lo a removê-lo das instalações, mesmo se (ou quando?) as coisas ficarem feias?</td></tr><tr><td></td><td>Você e ____________________ vão fazer compras no mercado feérico todo domingo. Que esquema do submundo vocês dois descobriram acidentalmente lá na semana passada?</td></tr><tr><td></td><td>Você e ____________________ tiveram uma discussão acalorada sobre seu envolvimento com os esquemas de um vampiro ancião. Que falsa promessa você fez para mantê-lo(a) longe do seu pé?</td></tr><tr><td></td><td>Você entrou recentemente no comércio de artefatos no centro e decidiu pegar mais do que sua parte nos lucros do seu revendedor lobisomem. Por que ____________________ está te cobrindo?</td></tr></tbody></table>"
+      },
+      "tables": {
+        "label": "Tabelas",
+        "description": "Tabelas para gerar NPCs aleatórios, locais, rumores, facções e Locais neste núcleo",
+        "position": "tables",
+        "type": "LongText",
+        "value": "<p>@UUID[Compendium.urban-shadows-ptbr.tabelas-ptbr.RollTable.DF1F2A3C4T5I6O78]{Facções do Centro}</p><p>@UUID[Compendium.urban-shadows-ptbr.tabelas-ptbr.RollTable.OVPaSg7uk8Bwi1SC]{Locais do Centro}</p><p>@UUID[Compendium.urban-shadows-ptbr.tabelas-ptbr.RollTable.DT1N2P3Q4R5S6T78]{NPCs do Centro}</p><p>@UUID[Compendium.urban-shadows-ptbr.tabelas-ptbr.RollTable.DTR1U2M3O4R5S678]{Rumores do Centro}</p>"
+      },
+      "description": {
+        "label": "Descrição",
+        "value": "<p><em>O Centro só revela sua verdadeira natureza ao pôr do sol — o momento em que os negócios de sempre param e os assuntos da Noite podem ser verdadeiramente tratados. Não importa se você viveu aqui a vida toda ou chegou na semana passada — a agitação do centro garante que você encontrará quase tudo o que procura. Isto é... se os perigos dos becos escuros e das sombras profundas do centro não te encontrarem primeiro.</em></p>",
+        "type": "LongText",
+        "position": "top"
+      },
+      "dominantCircle": {
+        "label": "Círculo Dominante",
+        "description": "Qual Círculo controla principalmente este núcleo?",
+        "customLabel": false,
+        "userLabel": false,
+        "playbook": null,
+        "limited": false,
+        "position": "top",
+        "type": "ListMany",
+        "condition": false,
+        "sort": false,
+        "options": {
+          "0": {
+            "label": "Mortalis",
+            "value": false
+          },
+          "1": {
+            "label": "Noite",
+            "value": true
+          },
+          "2": {
+            "label": "Poder",
+            "value": false
+          },
+          "3": {
+            "label": "Limiar",
+            "value": false
+          }
+        }
+      }
+    },
+    "attrLeft": {},
+    "attrTop": {},
+    "details": {
+      "notes": {
+        "label": "Notas",
+        "value": ""
+      }
+    },
+    "advancements": 0,
+    "playbook": {
+      "name": "",
+      "slug": "",
+      "uuid": ""
+    },
+    "resources": {
+      "forward": {
+        "value": 0
+      },
+      "ongoing": {
+        "value": 0
+      },
+      "hold": {
+        "value": 0
+      },
+      "rollFormula": ""
+    },
+    "customType": "urban-shadows-pbta.city-hub"
+  },
+  "prototypeToken": {
+    "name": "Centro",
+    "displayName": 0,
+    "actorLink": true,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/urban-shadows-pbta/assets/cc-assets/header-bg.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "items": [
+    {
+      "folder": "H9kL2nM5oP8qR3sT",
+      "name": "AO ALCANCE DAS MÃOS",
+      "type": "move",
+      "_id": "ldNAgCUHSM3inO9h",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Quando você <em><strong>quebrar e pegar algo útil das ruas ou lojas do centro</strong></em>, nomeie o que você está procurando e role com <strong>SANGUE</strong>. </p>",
+        "moveType": "hub",
+        "rollFormula": "",
+        "moveResults": {
+          "miss": {
+            "key": "system.moveResults.miss.value",
+            "label": "Falha",
+            "value": "<p>Numa falha, você põe as mãos em algo próximo do que queria, mas a vítima do seu roubo leva para o lado pessoal; um de seus aliados próximos torna-se um alvo adicional da ira dele até que o tempo passe.</p>"
+          },
+          "weakHit": {
+            "key": "system.moveResults.weakHit.value",
+            "label": "Sucesso Parcial",
+            "value": "<p>Num sucesso, você toma o que quer à força. </p><p>Num 7-9, você avista alguém que vai te causar problemas deixando a cena com evidências do seu delito.</p>"
+          },
+          "strongHit": {
+            "key": "system.moveResults.strongHit.value",
+            "label": "Sucesso Total",
+            "value": "<p>Num sucesso, você toma o que quer à força.</p>"
+          }
+        },
+        "uses": 0,
+        "rollType": "blood",
+        "rollMod": 0,
+        "actorType": "urban-shadows-pbta.city-hub",
+        "choices": ""
+      },
+      "effects": [],
+      "sort": 1000000,
+      "ownership": {
+        "default": 0,
+        "tolKXMkOd7JsM4Jk": 3,
+        "WynALakZJf661YU1": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.urban-shadows-ptbr.movimentos-ptbr.Item.J5nO8pP1qS4tT7uV",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.347",
+        "systemId": "pbta",
+        "systemVersion": "1.1.21",
+        "createdTime": 1756435062068,
+        "modifiedTime": 1756435062068,
+        "lastModifiedBy": "WynALakZJf661YU1"
+      },
+      "_key": "!actors.items!6ZdgoYdX2MKJhtE8.ldNAgCUHSM3inO9h"
+    },
+    {
+      "folder": "H9kL2nM5oP8qR3sT",
+      "name": "COMPANHEIROS DE COPO",
+      "type": "move",
+      "_id": "2WUW1tRU70cvJwBh",
+      "img": "icons/svg/aura.svg",
+      "system": {
+        "description": "<p>Quando você <em><strong>for beber no centro na esperança de fazer contatos com os ricos e poderosos</strong></em>, role com <strong>CORAÇÃO</strong>.</p>",
+        "moveType": "hub",
+        "rollFormula": "",
+        "moveResults": {
+          "miss": {
+            "key": "system.moveResults.miss.value",
+            "label": "Falha",
+            "value": "<p>Numa falha, você abusa de qualquer vício que mais te aflige; o MC lhe dirá como suas necessidades tolas te colocam em apuros.</p>"
+          },
+          "weakHit": {
+            "key": "system.moveResults.weakHit.value",
+            "label": "Sucesso Parcial",
+            "value": "<p>Num sucesso, você encontra a pessoa certa — alguém conectado a um NPC de sua escolha; o MC lhe dirá quem é.</p><p>Num 7-9, eles são um pouco mais cautelosos, apenas coçando suas costas se você coçar as deles; receba +1 contínuo para <em><strong>persuadi-los</strong></em> a ajudá-lo se você concordar com um pequeno favor antes de rolar.</p>"
+          },
+          "strongHit": {
+            "key": "system.moveResults.strongHit.value",
+            "label": "Sucesso Total",
+            "value": "<p>Num sucesso, você encontra a pessoa certa — alguém conectado a um NPC de sua escolha; o MC lhe dirá quem é. </p><p>Num 10+, vocês se dão muito bem; você pode contá-los entre seus amigos e eles (bêbados) concordam com um favor que você pedir.</p>"
+          }
+        },
+        "uses": 0,
+        "rollType": "heart",
+        "rollMod": 0,
+        "actorType": "urban-shadows-pbta.city-hub",
+        "choices": ""
+      },
+      "effects": [],
+      "sort": 1100000,
+      "ownership": {
+        "default": 0,
+        "tolKXMkOd7JsM4Jk": 3,
+        "WynALakZJf661YU1": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.urban-shadows-ptbr.movimentos-ptbr.Item.K6oP9qQ2rU5vV8wX",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.347",
+        "systemId": "pbta",
+        "systemVersion": "1.1.21",
+        "createdTime": 1756435065571,
+        "modifiedTime": 1756435065571,
+        "lastModifiedBy": "WynALakZJf661YU1"
+      },
+      "_key": "!actors.items!6ZdgoYdX2MKJhtE8.2WUW1tRU70cvJwBh"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tolKXMkOd7JsM4Jk": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1750883229119,
+    "modifiedTime": 1750883500994,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+  },
+  "_key": "!actors!6ZdgoYdX2MKJhtE8"
+}

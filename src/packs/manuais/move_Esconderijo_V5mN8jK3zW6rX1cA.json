@@ -1,0 +1,48 @@
+{
+  "folder": "F7hJ0lN3oP6qR9tW",
+  "name": "Abrigo",
+  "type": "move",
+  "_id": "V5mN8jK3zW6rX1cA",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Você tem um local seguro onde pode se esconder. Detalhe-o e escolha 3:</p><ul><li>equipamento de vigilância de alta tecnologia</li><li>uma prisão mística ou mágica</li><li>paredes/janelas/portas fortificadas</li><li>estoques de comida e água</li><li>explosivos armados para explodir o lugar</li></ul>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": ""
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Sucesso Parcial",
+        "value": ""
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Sucesso Total",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {},
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.344",
+    "systemId": "pbta",
+    "systemVersion": "1.1.20",
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!V5mN8jK3zW6rX1cA"
+}

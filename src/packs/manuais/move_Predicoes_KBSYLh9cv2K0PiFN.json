@@ -1,0 +1,53 @@
+{
+  "folder": "L3nP6rT9uW2xZ5bC",
+  "name": "Predições",
+  "type": "move",
+  "_id": "KBSYLh9cv2K0PiFN",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Antes de cada turno de facção — ou no início do jogo — role com <strong>ESPÍRITO</strong>.</p>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": "<p>Com uma falha, você recebe uma premonição aterrorizante sobre a profecia que o liga ao seu benfeitor; receba -1 constante nos esforços que fizer para impedir que ela se realize.</p>"
+      },
+      "weakHit": {
+        "key": "system.moveResults.weakHit.value",
+        "label": "Sucesso Parcial",
+        "value": "<p>Com um sucesso, escolha uma das opções abaixo; após o turno de facção, o MC lhe dirá o que suas ferramentas proféticas revelaram:</p><ul><li><p>o destino proporcionou uma oportunidade para cumprir seu papel para seu benfeitor; o MC lhe dirá como aproveitá-la</p></li><li><p>um aliado veio a possuir um item que pode revelar mais sobre sua profecia; o MC lhe dirá onde ele o guarda</p></li><li><p>uma tragédia iminente pode permitir que você escape ou altere seu caminho profetizado; o MC lhe dirá quem sofrerá se você permitir que ela ocorra</p></li></ul>"
+      },
+      "strongHit": {
+        "key": "system.moveResults.strongHit.value",
+        "label": "Sucesso Total",
+        "value": "<p>Com 10+, escolha uma das opções abaixo; após o turno de facção, o MC lhe dirá o que suas ferramentas proféticas revelaram:</p><ul><li><p>o destino proporcionou uma oportunidade para cumprir seu papel para seu benfeitor; o MC lhe dirá como aproveitá-la</p></li><li><p>um aliado veio a possuir um item que pode revelar mais sobre sua profecia; o MC lhe dirá onde ele o guarda</p></li><li><p>uma tragédia iminente pode permitir que você escape ou altere seu caminho profetizado; o MC lhe dirá quem sofrerá se você permitir que ela ocorra</p></li></ul>"
+      }
+    },
+    "uses": 0,
+    "rollType": "spirit",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tolKXMkOd7JsM4Jk": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1757878893963,
+    "modifiedTime": 1757879153039,
+    "lastModifiedBy": "WynALakZJf661YU1",
+    "exportSource": null
+  },
+  "_key": "!items!KBSYLh9cv2K0PiFN"
+}

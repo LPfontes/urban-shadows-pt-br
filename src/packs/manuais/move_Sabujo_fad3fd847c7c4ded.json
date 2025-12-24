@@ -1,0 +1,53 @@
+{
+  "folder": "yB0RDR4bfzvFKjGa",
+  "name": "Sabujo",
+  "type": "move",
+  "_id": "fad3fd847c7c4ded",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Quando você <em><strong>caçar alguém</strong></em>, role com <strong>SANGUE</strong>.</p>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": "<p>Com uma falha, alguém desagradável te encontra primeiro.</p>"
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Sucesso Parcial",
+        "value": "<p>Com um sucesso, você sabe exatamente onde encontrá-los e pode seguir o cheiro deles até conseguir.</p>"
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Sucesso Total",
+        "value": "<p>Com um sucesso, você sabe exatamente onde encontrá-los e pode seguir o cheiro deles até conseguir.</p><p>Com 10+, você os encontra sozinhos ou vulneráveis; receba +1 adiante contra eles.</p>"
+      }
+    },
+    "uses": 0,
+    "rollType": "blood",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.A3bC6dE9fG2hH5iI",
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1733907156058,
+    "modifiedTime": 1756445463067,
+    "lastModifiedBy": "WynALakZJf661YU1",
+    "exportSource": null
+  },
+  "_key": "!items!fad3fd847c7c4ded"
+}

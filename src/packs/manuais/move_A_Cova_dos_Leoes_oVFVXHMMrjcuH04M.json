@@ -1,0 +1,53 @@
+{
+  "folder": "UpKeNQxOrv4nSvGG",
+  "name": "A Cova dos Leões",
+  "type": "move",
+  "_id": "oVFVXHMMrjcuH04M",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Quando você obtiver acesso a uma área segura dentro de um santuário, ponto de encontro ou local de poder, você pode <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.RB6mT8yU2zV5aW1x]{estudá-lo}</strong></em> como se tivesse rolado um 10+. Se o local for controlado por um Círculo diferente do seu, você também encontra evidências incriminatórias envolvendo um PDM poderoso (sua escolha) dentro desse Círculo; entregar os documentos a ele—ou a um de seus inimigos—conta como <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.VF0qX2cY6dZ9eA5b]{cobrar uma Dívida}</strong></em>.</p>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": ""
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Sucesso Parcial",
+        "value": ""
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Sucesso Total",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.344",
+    "systemId": "pbta",
+    "systemVersion": "1.1.20",
+    "createdTime": 1733907149533,
+    "modifiedTime": 1748404229547,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "exportSource": null
+  },
+  "_key": "!items!oVFVXHMMrjcuH04M"
+}

@@ -1,0 +1,53 @@
+{
+  "folder": "B3dF6hJ9kL2mN5pR",
+  "name": "Palavras São Vento",
+  "type": "move",
+  "_id": "Z8p4J7v3Q6kM2nR5",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Você sabe instantaneamente se alguém quebrou sua palavra com você ou renegou um acordo que vocês fizeram; receba uma Dívida sobre ele e +1 contínuo para reivindicar o que você merece dele ou de seus aliados até que ele tenha feito a coisa certa.</p>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": ""
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Sucesso Parcial",
+        "value": ""
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Sucesso Total",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.344",
+    "systemId": "pbta",
+    "systemVersion": "1.1.20",
+    "createdTime": 1733907149533,
+    "modifiedTime": 1748405166299,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "exportSource": null
+  },
+  "_key": "!items!Z8p4J7v3Q6kM2nR5"
+}

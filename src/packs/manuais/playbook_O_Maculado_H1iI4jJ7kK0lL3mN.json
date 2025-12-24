@@ -1,0 +1,795 @@
+{
+  "name": "O Maculado",
+  "type": "playbook",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<section class=\"playbook-description\"><h1 class=\"playbook-title\">O Maculado</h1><p class=\"playbook-intro\">A maioria dos maculados se lembra de uma época antes de tudo isso; antes de suas almas acabarem nas mãos de demônios e diabos. Agora eles são algo mais do que apenas humanos, realizando trabalhos para patronos que nunca estão satisfeitos, que nunca cansam de exigir obediência. Mas um contrato é um contrato...</p><h2>Movimentos do Maculado</h2><p><strong>VOCÊ RECEBE ESTE:</strong></p><div class=\"move\"><p><span class=\"move-name\">O Diabo Interior</span></p><div class=\"move-description\"><p>Quando você assumir sua forma demoníaca, role com Sangue. Com 10+, escolha 3. Com 7-9, escolha 2. Com uma falha, escolha 1 e dê uma Dívida ao seu patrono... ou fique sem sua forma. <br /><br />Se estiver realizando um trabalho para seu patrono, escolha mais 1. Se marcar corrupção, escolha mais 1.</p><ul class=\"abilities-list\"><li>+arma demoníaca (3-dano manual ou 2-dano próximo)</li><li>+movimento demoníaco (voo, moto flamejante, etc.)</li><li>+sentidos demoníacos (visão infravermelha, cheirar mentiras, etc.)</li><li>ganha armadura+1</li><li>cure 2-dano</li><li>receba +1 adiante</li></ul></div></div><p><strong>E ESCOLHA MAIS DOIS:</strong></p><div class=\"move\"><p><span class=\"move-name\">Invocação</span></p><div class=\"move-description\"><p>Você pode cobrar uma Dívida de alguém para aparecer na presença dessa pessoa; outros podem cobrar uma Dívida sua para fazer você aparecer também. Recusar-se a honrar a Dívida com sucesso cancela a invocação completamente.</p></div></div><div class=\"move\"><p><span class=\"move-name\">Língua de Prata</span></p><div class=\"move-description\"><p>Quando você sondar alguém tentando-o com poder, role com Coração em vez de Mente.</p></div></div><div class=\"move\"><p><span class=\"move-name\">Pacto Sombrio</span></p><div class=\"move-description\"><p>Quando você selar um acordo com alguém em fumaça e sangue, role com Coração. Em um sucesso, você infunde o acordo com força demoníaca. Com 10+, escolha 2. Com 7-9, escolha 1.</p><ul class=\"abilities-list\"><li>Todas as partes sabem intuitivamente se o acordo está sendo honrado.</li><li>Todas as partes recebem +1 contínuo para romper os limites enquanto cumprem o acordo.</li><li>Qualquer um que violar o pacto sofre instantaneamente 4-dano (ip).</li></ul><p> Com uma falha, o acordo desagrada os poderes que você invocou para santificá-lo; você deve realizar um ato de contrição antes de poder invocar a influência deles novamente.</p></div></div><div class=\"move\"><p><span class=\"move-name\">Duro na Queda</span></p><div class=\"move-description\"><p>Você recebe armadura-1; fontes abençoadas ou sagradas ignoram essa armadura completamente. Armas projetadas para atordoar ou incapacitar você não têm efeito, a menos que sejam abençoadas ou sagradas. Você não precisa de atenção médica ou assistência mágica para curar danos sofridos, e você limpa dano crítico como se fosse dano leve ou grave—uma caixa a cada poucos dias.</p></div></div><h3>Habilidades de Romper os Limites</h3><ul class=\"abilities-list\"><li>imbuir seu toque com corrupção demoníaca (2-dano manual ip)</li><li>impressionar, consternar ou assustar alguém com uma exibição de fúria demoníaca</li><li>atravessar ou passar por um obstáculo físico criado por mãos mortais</li><li>invocar a atenção do seu patrono sombrio diretamente para sua localização</li></ul><h2>Seu Patrono Sombrio</h2><p>Sua alma caiu nas mãos de um patrono sombrio, um demônio poderoso cuja reputação o precede, mas cujo verdadeiro nome é conhecido por poucos. Eles lhe deram termos de emprego, acesso a um poder terrível e uma visão aterrorizante de sua verdadeira natureza.</p><h3>Escolha 2:</h3><div style=\"margin:15px 0\"><div><p>ele seduz todos que entram em contato com ele com gentilezas, presentes e vícios</p></div><div><p>ele governa sua vasta organização através de regras e punições estritas e severas</p></div><div><p>ele exige deferência de seus lacaios à sua estranha obsessão por um passatempo mortal</p></div><div><p>ele manipula seus amigos, aliados e inimigos igualmente em conflitos que servem aos seus desígnios secretos</p></div><div><p>ele espalhou olhos e ouvidos pela cidade, sempre alerta a qualquer sinal de traição ou oportunidade lucrativa</p></div><div><p>ele emprega apenas lacaios dedicados e leais que estão muito felizes em relatar suas atividades</p></div><div><p>ele demora a se irritar, mas seu compromisso com sua ira é imparável uma vez verdadeiramente provocado</p></div></div><h2>Sua Forma Demoníaca</h2><p>Desde que seu patrono reivindicou sua alma, você tem um novo visual: uma forma demoníaca. Escolha quantos se aplicarem das listas abaixo:</p><div style=\"margin:15px 0\"><p><strong>Cabeça:</strong> osso, côncava, coroa, chamas, halo, chifres, espinhos</p><p><strong>Olhos:</strong> ausentes, animais, vazios, brilhantes, esfumaçados, sem piscar</p><p><strong>Membros:</strong> garras, pesados, com cascos, muitos, decepados, retorcidos</p><p><strong>Asas:</strong> sangue, penas, insetos, couro, metal, papel, nenhuma</p><p><strong>Pele:</strong> quitinosa, marcada, nebulosa, pegajosa, esticada, translúcida</p></div><h2>Trabalhos Demoníacos</h2><p>Seu patrono sombrio o mantém na Terra por um motivo; ele sempre poderia ter decidido arrastá-lo para o inferno. Escolha dois trabalhos que você faz regularmente para ele:</p><div style=\"margin:15px 0\"><div><p>Coletar almas</p></div><div><p>Rastrear demônios renegados</p></div><div><p>Entregar ameaças e mensagens</p></div><div><p>Limpar bagunças horríveis</p></div><div><p>Guardar alguém ou algo</p></div><div><p>Destruir os inimigos do seu patrono</p></div><div><p>Negociar contratos demoníacos</p></div><div><p>Esconder e proteger contrabando demoníaco</p></div><div><p>Operar um estabelecimento demoníaco</p></div><div><p>Policiar os lacaios do seu patrono</p></div></div><h2>Corrupção</h2><div class=\"corruption-track\"><p><strong>CORRUPÇÃO</strong></p><div class=\"corruption-boxes\"><p></p></div></div><p><strong>GATILHO:</strong> Quando você convencer alguém a agir significativamente nos interesses do seu patrono, marque corrupção.</p><div class=\"move\"><p><span class=\"move-name\">Logo Abaixo da Superfície</span></p><div class=\"move-description\"><p>Marque corrupção para assumir sua forma demoníaca sem rolar dados e ganhe todas as opções listadas.</p></div></div><div class=\"move\"><p><span class=\"move-name\">Não Serei Negado</span></p><div class=\"move-description\"><p>Quando alguém obtiver um sucesso enquanto se recusa a honrar uma Dívida que você cobrou dele, você pode marcar corrupção para tornar a rolagem dele uma falha.</p></div></div><div class=\"move\"><p><span class=\"move-name\">Do Inferno</span></p><div class=\"move-description\"><p>Marque corrupção para fazer seu patrono enviar uma pequena gangue de demônios para trabalhar em seu nome por uma cena (2-dano 2-armadura selvagem demoníaco).</p></div></div><div class=\"move\"><p><span class=\"move-name\">Sou um Negociador</span></p><div class=\"move-description\"><p>Marque corrupção para fazer um movimento de cidade adicional quando o tempo passar; se você usar seu Status de Círculo para o movimento, adicione +1 à sua rolagem.</p></div></div><h2>Criação de Personagem</h2><div class=\"stats-grid\"><div class=\"stat-section\"><h3>Atributos Iniciais</h3><p>Sangue 1, Coração 1, Mente -1, Espírito 0</p><h3>Círculos Iniciais</h3><p>Mortalis 1, Noite -1, Poder 0, Limiar 1</p><h3>Status Inicial</h3><p>Mortalis 0, Noite 0, Poder 0, Limiar 1</p></div><div class=\"stat-section\"><h3>Equipamento Inicial</h3><p>Uma casa ou apartamento, um carro, um smartphone.</p><p>Uma arma brutal à escolha:</p><ul class=\"simple-list\"><li>Cassetete (2-dano manual atordoante)</li><li>Beretta 9mm (2-dano próximo barulhenta ocultável)</li><li>Escopeta (3-dano próximo/perto barulhenta recarga brutal)</li><li>Espada (3-dano manual brutal)</li></ul></div></div><div class=\"debt-section\"><h3>Dívidas Iniciais</h3><ul class=\"simple-list\"><li>Você está protegendo alguém de um poder sombrio, um rival e inimigo do seu patrono demoníaco. Seu protegido lhe deve uma Dívida.</li><li>Alguém está tentando salvá-lo da condenação e continua sofrendo por isso. Pergunte a ele por que ele se importa quando ninguém mais se importa. Você deve uma Dívida a ele.</li><li>Você feriu ou matou um bom amigo ou aliado de alguém sob ordens do seu patrono demoníaco. Você deve uma Dívida a ele.</li></ul></div></section>",
+    "slug": "o-maculado",
+    "actorType": "character",
+    "stats": {
+      "blood": {
+        "label": "Sangue",
+        "value": 1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "heart": {
+        "label": "Coração",
+        "value": 1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "mind": {
+        "label": "Mente",
+        "value": -1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "spirit": {
+        "label": "Espírito",
+        "value": 0,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "mortalis": {
+        "label": "Mortalis",
+        "value": 1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "night": {
+        "label": "Noite",
+        "value": -1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "power": {
+        "label": "Poder",
+        "value": 0,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "wild": {
+        "label": "Limiar",
+        "value": 1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      }
+    },
+    "statsDetail": "(Adicione 1 a um dos Atributos e um dos Círculos)",
+    "attributes": {
+      "corruption": {
+        "label": "Corrupção",
+        "description": "GATILHO: Quando você convencer alguém a agir significativamente nos interesses do seu patrono, marque corrupção.",
+        "type": "Clock",
+        "value": 0,
+        "max": 5,
+        "choices": [
+          {
+            "value": 0,
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "options": {}
+      },
+      "letItOut": {
+        "label": "Habilidades de Romper os Limites",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<ul><li><p>imbuir seu toque com corrupção demoníaca (2-dano manual ip)</p></li><li><p>impressionar, consternar ou assustar alguém com uma exibição de fúria demoníaca</p></li><li><p>atravessar ou passar por um obstáculo físico criado por mãos mortais</p></li><li><p>invocar a atenção do seu patrono sombrio diretamente para sua localização</p></li></ul>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "max": null,
+        "options": {},
+        "description": "PARA ATIVAR ESSAS HABILIDADES"
+      },
+      "debts": {
+        "label": "Dívidas",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<ul><li><p>Você está protegendo alguém de um poder sombrio, um rival e inimigo do seu patrono demoníaco. Seu protegido lhe deve uma Dívida.</p></li><li><p>Alguém está tentando salvá-lo da condenação e continua sofrendo por isso. Pergunte a ele por que ele se importa quando ninguém mais se importa. Você deve uma Dívida a ele.</p></li><li><p>Você feriu ou matou um bom amigo ou aliado de alguém sob ordens do seu patrono demoníaco. Você deve uma Dívida a ele.</p></li></ul>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "advancements": {
+        "label": "Avanços",
+        "description": "Disponível no início do jogo:",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "+1 Status (máx+1)",
+            "value": false
+          },
+          "1": {
+            "label": "+1 Status (máx+1)",
+            "value": false
+          },
+          "2": {
+            "label": "+1 Status (máx+1)",
+            "value": false
+          },
+          "3": {
+            "label": "apagar uma cicatriz",
+            "value": false
+          },
+          "4": {
+            "label": "um novo movimento do Maculado",
+            "value": false
+          },
+          "5": {
+            "label": "um movimento de outro manual",
+            "value": false
+          },
+          "6": {
+            "label": "um movimento de outro manual",
+            "value": false
+          },
+          "7": {
+            "label": "mudar seu Círculo",
+            "value": false
+          }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "+1 Status (máx+1)",
+                "value": false
+              },
+              "1": {
+                "label": "+1 Status (máx+1)",
+                "value": false
+              },
+              "2": {
+                "label": "+1 Status (máx+1)",
+                "value": false
+              },
+              "3": {
+                "label": "apagar uma cicatriz",
+                "value": false
+              },
+              "4": {
+                "label": "um novo movimento do Maculado",
+                "value": false
+              },
+              "5": {
+                "label": "um movimento de outro manual",
+                "value": false
+              },
+              "6": {
+                "label": "um movimento de outro manual",
+                "value": false
+              },
+              "7": {
+                "label": "mudar seu Círculo",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "value": "",
+        "max": null
+      },
+      "expertAdvancements": {
+        "label": "Avanços de Especialista",
+        "description": "Após cinco avanços, você pode selecionar:",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "+1 qualquer Círculo (máx+3)",
+            "value": false
+          },
+          "1": {
+            "label": "+1 qualquer Círculo (máx+3)",
+            "value": false
+          },
+          "2": {
+            "label": "obter Status de Círculo-2",
+            "value": false
+          },
+          "3": {
+            "label": "ganhar Lacaios Diabólicos",
+            "value": false
+          },
+          "4": {
+            "label": "apagar um trabalho do seu contrato",
+            "value": false
+          },
+          "5": {
+            "label": "avançar 3 movimentos básicos",
+            "value": false
+          },
+          "6": {
+            "label": "avançar 3 movimentos básicos",
+            "value": false
+          },
+          "7": {
+            "label": "mudar para um novo manual",
+            "value": false
+          }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "value": false,
+                "label": "+1 qualquer Círculo (máx+3)"
+              },
+              "1": {
+                "value": false,
+                "label": "+1 qualquer Círculo (máx+3)"
+              },
+              "2": {
+                "value": false,
+                "label": "obter Status de Círculo-2"
+              },
+              "3": {
+                "value": false,
+                "label": "ganhar Lacaios Diabólicos"
+              },
+              "4": {
+                "value": false,
+                "label": "apagar um trabalho do seu contrato"
+              },
+              "5": {
+                "value": false,
+                "label": "avançar 3 movimentos básicos"
+              },
+              "6": {
+                "value": false,
+                "label": "avançar 3 movimentos básicos"
+              },
+              "7": {
+                "value": false,
+                "label": "mudar para um novo manual"
+              }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "value": "",
+        "max": null
+      },
+      "corruptionAdvances": {
+        "label": "Avanços de Corrupção",
+        "description": "A Corrupção representa seu personagem deslizando em direção às piores partes de sua natureza. Conforme sua corrupção aumenta, seus poderes só crescem...",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "receba +1 em qualquer atributo (máx+3)",
+            "value": false
+          },
+          "1": {
+            "label": "receba +1 em qualquer atributo (máx+3)",
+            "value": false
+          },
+          "2": {
+            "label": "receba um novo movimento de corrupção",
+            "value": false
+          },
+          "3": {
+            "label": "receba um novo movimento de corrupção",
+            "value": false
+          },
+          "4": {
+            "label": "receba um novo movimento de corrupção de outro manual ou do seu próprio",
+            "value": false
+          },
+          "5": {
+            "label": "aposente seu personagem; ele pode retornar como uma Ameaça",
+            "value": false
+          }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "receba +1 em qualquer atributo (máx+3)",
+                "value": false
+              },
+              "1": {
+                "label": "receba +1 em qualquer atributo (máx+3)",
+                "value": false
+              },
+              "2": {
+                "label": "receba um novo movimento de corrupção",
+                "value": false
+              },
+              "3": {
+                "label": "receba um novo movimento de corrupção",
+                "value": false
+              },
+              "4": {
+                "label": "receba um novo movimento de corrupção de outro manual ou do seu próprio",
+                "value": false
+              },
+              "5": {
+                "label": "aposente seu personagem; ele pode retornar como uma Ameaça",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "value": "",
+        "max": null
+      },
+      "lookOne": {
+        "label": "Visual Um",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>andrógino</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>conforme</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>mutável</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>não-conforme</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": "Escolha um"
+      },
+      "lookTwo": {
+        "label": "Visual Dois",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>Asiático ou Sul-Asiático</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Negro</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Hispânico/ Latino</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Indígena</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Oriente Médio</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Branco</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Outro: <preencha você mesmo depois></fill></p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": "Escolha um"
+      },
+      "lookThree": {
+        "label": "Visual Três",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>roupas sujas</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>roupas caras</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>roupas formais</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>roupas da moda</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": "Escolha um"
+      },
+      "demeanor": {
+        "label": "Comportamento",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>corporativo</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>distante</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>paranoico</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>instável</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": "Escolha um"
+      },
+      "questionOne": {
+        "label": "Pergunta Um",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>Por que você negociou sua alma?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "questionTwo": {
+        "label": "Pergunta Dois",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>Há quanto tempo você está na cidade?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "questionThree": {
+        "label": "Pergunta Três",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>Qual agente demoníaco você detesta?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "questionFour": {
+        "label": "Pergunta Quatro",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>Como você lida com seus sonhos e fomes demoníacas?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "questionFive": {
+        "label": "Pergunta Cinco",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>Do que você precisa desesperadamente?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "TheTaintedDarkPatron": {
+        "label": "SEU PATRONO SOMBRIO (Escolha 2):",
+        "description": "Sua alma caiu nas mãos de um patrono sombrio, um demônio poderoso cuja reputação o precede, mas cujo verdadeiro nome é conhecido por poucos. Eles lhe deram termos de emprego, acesso a um poder terrível e uma visão aterrorizante de sua verdadeira natureza.",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "ele seduz todos que entram em contato com ele com gentilezas, presentes e vícios",
+            "value": false
+          },
+          "1": {
+            "label": "ele governa sua vasta organização através de regras e punições estritas e severas",
+            "value": false
+          },
+          "2": {
+            "label": "ele exige deferência de seus lacaios à sua estranha obsessão por um passatempo mortal",
+            "value": false
+          },
+          "3": {
+            "label": "ele manipula seus amigos, aliados e inimigos igualmente em conflitos que servem aos seus desígnios secretos",
+            "value": false
+          },
+          "4": {
+            "label": "ele espalhou olhos e ouvidos pela cidade, sempre alerta a qualquer sinal de traição ou oportunidade lucrativa",
+            "value": false
+          },
+          "5": {
+            "label": "ele emprega apenas lacaios dedicados e leais que estão muito felizes em relatar suas atividades",
+            "value": false
+          },
+          "6": {
+            "label": "ele demora a se irritar, mas seu compromisso com sua ira é imparável uma vez verdadeiramente provocado",
+            "value": false
+          }
+        },
+        "choices": [],
+        "custom": false,
+        "path": "attributes"
+      },
+      "TheTaintedYourDemonForm": {
+        "label": "SUA FORMA DEMONÍACA",
+        "description": "Desde que seu patrono reivindicou sua alma, você tem um novo visual: uma forma demoníaca. Escolha quantos se aplicarem das listas abaixo:",
+        "type": "LongText",
+        "value": "<ul><li><b>Cabeça:</b> osso, côncava, coroa, chamas, halo, chifres, espinhos</li><li><b>Olhos:</b> ausentes, animais, vazios, brilhantes, esfumaçados, sem piscar</li><li><b>Membros:</b> garras, pesados, com cascos, muitos, decepados, retorcidos</li><li><b>Asas:</b> sangue, penas, insetos, couro, metal, papel, nenhuma</li><li><b>Pele:</b> quitinosa, marcada, nebulosa, pegajosa, esticada, translúcida</li></ul>",
+        "choices": [
+          {
+            "value": "<ul><li><b>Cabeça:</b> osso, côncava, coroa, chamas, halo, chifres, espinhos</li><li><b>Olhos:</b> ausentes, animais, vazios, brilhantes, esfumaçados, sem piscar</li><li><b>Membros:</b> garras, pesados, com cascos, muitos, decepados, retorcidos</li><li><b>Asas:</b> sangue, penas, insetos, couro, metal, papel, nenhuma</li><li><b>Pele:</b> quitinosa, marcada, nebulosa, pegajosa, esticada, translúcida</li></ul>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes"
+      },
+      "TheTaintedDemonicJobs": {
+        "label": "TRABALHOS DEMONÍACOS",
+        "description": "Seu patrono sombrio o mantém na Terra por um motivo; ele sempre poderia ter decidido arrastá-lo para o inferno. Escolha dois trabalhos que você faz regularmente para ele da lista abaixo:",
+        "type": "LongText",
+        "value": "<p><il>Coletar almas, rastrear demônios renegados, entregar ameaças e mensagens, limpar bagunças horríveis, guardar alguém ou algo, destruir os inimigos do seu patrono, negociar contratos demoníacos, esconder e proteger contrabando demoníaco, operar um estabelecimento demoníaco, policiar os lacaios do seu patrono</li></p>",
+        "choices": [
+          {
+            "value": "<p><il>Coletar almas, rastrear demônios renegados, entregar ameaças e mensagens, limpar bagunças horríveis, guardar alguém ou algo, destruir os inimigos do seu patrono, negociar contratos demoníacos, esconder e proteger contrabando demoníaco, operar um estabelecimento demoníaco, policiar os lacaios do seu patrono</il></p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes"
+      }
+    },
+    "choiceSets": [
+      {
+        "title": "MOVIMENTOS DO MACULADO",
+        "desc": "VOCÊ RECEBE ESTE:",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.KKpnIjAKDvcHC4cs",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
+      },
+      {
+        "title": "MOVIMENTOS DO MACULADO",
+        "desc": "E ESCOLHA MAIS DOIS:",
+        "type": "multi",
+        "repeatable": false,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.V7wW0xX3yY6zZ9aA",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.HKWmMcz2tRcWGfdr",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.c58a0ae2883f412d",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.XJlC20slukoS8nIH",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 1,
+        "granted": false,
+        "advancement": 0
+      },
+      {
+        "title": "Movimentos Iniciais do MACULADO",
+        "desc": "",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "img": "icons/svg/aura.svg",
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.ha5BS0ndap75Zdz3",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.rLpQT2qDAGUaDOYk",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.XL5zAbgtXMnt7l2Z",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
+      },
+      {
+        "title": "Equipamento Inicial",
+        "desc": "",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.yXC9SxjRxYo6Ww5Z",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/city-car.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.6snXsnjn867AglxW",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/family-house.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.hzja5WHwvYV0N2uk",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/smartphone.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
+      },
+      {
+        "title": "Equipamento Inicial",
+        "desc": "Uma arma brutal à escolha:",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.K4lL7mN0oP3qQ6rS",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/pistol-gun.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.ab37097cce424167",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/sawed-off-shotgun.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.033846e28c11448d",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/katana.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.d8K4s7okdesaLTAM",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/baton.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 1,
+        "granted": false,
+        "advancement": 0
+      }
+    ]
+  },
+  "effects": [],
+  "folder": "O8rS1tT4uU7vV0wW",
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1733907141240,
+    "modifiedTime": 1757882799423,
+    "lastModifiedBy": "WynALakZJf661YU1",
+    "exportSource": null
+  },
+  "_id": "H1iI4jJ7kK0lL3mN",
+  "sort": 100000,
+  "_key": "!items!H1iI4jJ7kK0lL3mN"
+}

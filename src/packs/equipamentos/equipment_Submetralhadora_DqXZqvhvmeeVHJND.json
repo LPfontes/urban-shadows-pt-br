@@ -1,0 +1,36 @@
+{
+  "folder": null,
+  "name": "Submetralhadora",
+  "type": "equipment",
+  "_id": "DqXZqvhvmeeVHJND",
+  "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/mp-40.svg",
+  "system": {
+    "description": "",
+    "uses": 0,
+    "quantity": 1,
+    "weight": 0,
+    "tags": "[{\"value\":\"2-ferimento\"},{\"value\":\"US2E.Tags.equipment.near.value\",\"editable\":false,\"description\":\"US2E.Tags.equipment.near.description\"},{\"value\":\"US2E.Tags.equipment.autofire.value\",\"editable\":false,\"description\":\"US2E.Tags.equipment.autofire.description\"},{\"value\":\"US2E.Tags.equipment.loud.value\",\"editable\":false,\"description\":\"US2E.Tags.equipment.loud.description\"}]",
+    "itemType": "",
+    "equipmentType": "gear",
+    "actorType": "character"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tolKXMkOd7JsM4Jk": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1750889549466,
+    "modifiedTime": 1756448627194,
+    "lastModifiedBy": "WynALakZJf661YU1"
+  },
+  "_key": "!items!DqXZqvhvmeeVHJND"
+}

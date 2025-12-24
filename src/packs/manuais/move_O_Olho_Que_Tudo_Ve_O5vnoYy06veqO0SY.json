@@ -1,0 +1,53 @@
+{
+  "folder": "9jooQvLSqeeFI7bh",
+  "name": "Eu, O Que Tudo Vê",
+  "type": "move",
+  "_id": "O5vnoYy06veqO0SY",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Marca corrupção e sofre 1-dano (ap) para ter uma visão sobre a situação em mãos. Faz uma pergunta ao MC; ele responderá honestamente. Recebe +1 constante para agir com base na informação fornecida.</p>",
+    "moveType": "corruption",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": ""
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Sucesso Parcial",
+        "value": ""
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Sucesso Total",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.344",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": 1733907149533,
+    "modifiedTime": 1733907149533,
+    "lastModifiedBy": "MZpJvwT3EQwBniAB",
+    "exportSource": null
+  },
+  "_key": "!items!O5vnoYy06veqO0SY"
+}

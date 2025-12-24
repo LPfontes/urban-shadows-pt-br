@@ -1,0 +1,53 @@
+{
+  "folder": "L3nP6rT9uW2xZ5bC",
+  "name": "Profeta",
+  "type": "move",
+  "_id": "eZ7wIjFes5d2978m",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Quando você recorrer às suas ferramentas proféticas para ler o futuro de alguém, role com <strong>ESPÍRITO</strong>. </p>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": "<p>Com uma falha, você vê formas vagas do que está por vir, mas algo está obscurecendo seus poderes proféticos; o futuro que você tentou ler está além da sua visão até que você resolva a interferência.</p>"
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Sucesso Parcial",
+        "value": "<p>Com um sucesso, o MC lhe dirá algo novo e interessante sobre o destino dele. </p>"
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Sucesso Total",
+        "value": "<p>Com um sucesso, o MC lhe dirá algo novo e interessante sobre o destino dele.</p><p>Com 10+, você pode fazer uma pergunta de acompanhamento; o MC responderá honestamente. </p>"
+      }
+    },
+    "uses": 0,
+    "rollType": "spirit",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.R9tV2xZ5bC8fE1iJ",
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1733907156058,
+    "modifiedTime": 1756440895347,
+    "lastModifiedBy": "WynALakZJf661YU1",
+    "exportSource": null
+  },
+  "_key": "!items!eZ7wIjFes5d2978m"
+}

@@ -1,0 +1,53 @@
+{
+  "folder": "K6nN9oP2qQ5rS8tT",
+  "name": "Magia de Sangue",
+  "type": "move",
+  "_id": "df4e5a5d22ad4580",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Escolha dois <em><strong>@UUID[Compendium.urban-shadows-pbta.playbooks.Item.k9J4s2L8q1M7v0X3]{Poderes Feéricos}</strong></em>; marque corrupção para usar um sem custos adicionais. Você pode pegar este avanço de corrupção uma segunda vez para ganhar os <em><strong>@UUID[Compendium.urban-shadows-pbta.playbooks.Item.k9J4s2L8q1M7v0X3]{Poderes Feéricos}</strong></em> restantes.</p>",
+    "moveType": "corruption",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": ""
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Sucesso Parcial",
+        "value": ""
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Sucesso Total",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1733907149533,
+    "modifiedTime": 1756442718492,
+    "lastModifiedBy": "WynALakZJf661YU1",
+    "exportSource": null
+  },
+  "_key": "!items!df4e5a5d22ad4580"
+}

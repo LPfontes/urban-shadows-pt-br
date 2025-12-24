@@ -1,0 +1,49 @@
+{
+  "folder": "B3dF6hJ9kL2mN5pR",
+  "name": "Em Nosso Sangue",
+  "type": "move",
+  "_id": "m2W7aK9bH5rL6pT4",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Quando você <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.Lv0gN2sO6tP9uQ5r]{tapear, distrair ou enganar}</strong></em> alguém através de mentiras por omissão ou desorientação esperta, role com <strong>CORAÇÃO</strong> em vez de <strong>MENTE</strong>.</p>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": "<p>O MC lhe diz que coisa interessante acontece.</p>"
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Sucesso Parcial",
+        "value": "<p>Com um sucesso, eles são enganados, pelo menos por um momento. Com 7-9, escolha 2:</p><ul><li>você cria uma oportunidade</li><li>você expõe uma fraqueza ou falha</li><li>você os confunde por algum tempo</li><li>você evita maiores envolvimentos</li></ul>"
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Sucesso Total",
+        "value": "<p>Com um sucesso, eles são enganados, pelo menos por um momento. Com 10+, escolha 3:</p><ul><li>você cria uma oportunidade</li><li>você expõe uma fraqueza ou falha</li><li>você os confunde por algum tempo</li><li>você evita maiores envolvimentos</li></ul>"
+      }
+    },
+    "uses": 0,
+    "rollType": "heart",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {},
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "lastModifiedBy": "WynALakZJf661YU1",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "modifiedTime": 1756440002727
+  },
+  "_key": "!items!m2W7aK9bH5rL6pT4"
+}

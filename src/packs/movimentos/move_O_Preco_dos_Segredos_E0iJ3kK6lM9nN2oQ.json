@@ -1,0 +1,57 @@
+{
+    "folder":  "H9kL2nM5oP8qR3sT",
+    "name":  "O Preço dos Segredos",
+    "type":  "move",
+    "_id":  "E0iJ3kK6lM9nN2oQ",
+    "img":  "icons/svg/aura.svg",
+    "system": {
+    "description": "<p>Quando você <em><strong>chantagear um PDM poderoso com provas de seus atos sujos</strong></em>, role com seu <strong>Status</strong> no Círculo dele. </p>",
+    "moveType": "hub",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": "<p>Com uma falha, eles pagam para ver e fazem você, ou sua fonte, pagar o preço.</p>"
+      },
+      "weakHit": {
+        "key": "system.moveResults.weakHit.value",
+        "label": "Sucesso Parcial",
+        "value": "<p>Com um sucesso, ganhe 2 reserva. </p><p>Gaste seu domínio—1 por 1—como se estivesse gastando uma Dívida (pedindo um favor moderado, adicionando +3 à sua rolagem ao <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.Jt8eL0qM4rN7sO3p]{persuadi-los}</strong></em>, etc.) ao interagir com seu alvo. Uma vez que você tenha usado o último ponto reserva, receba -1 contínuo em movimentos visando eles até que o tempo passe. </p>"
+      },
+      "strongHit": {
+        "key": "system.moveResults.strongHit.value",
+        "label": "Sucesso Total",
+        "value": "<p>Com 10+ ganhe 3 reserva. </p><p>Gaste seu domínio—1 por 1—como se estivesse gastando uma Dívida (pedindo um favor moderado, adicionando +3 à sua rolagem ao persuadi-los, etc.) ao interagir com seu alvo. Uma vez que você tenha usado o último ponto reserva, receba -1 contínuo em movimentos visando eles até que o tempo passe. </p>"
+      }
+    },
+    "uses": 0,
+    "rollType": "ask",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+    "effects":  [
+
+                ],
+    "sort":  400000,
+    "ownership":  {
+                      "default":  0,
+                      "tolKXMkOd7JsM4Jk":  3
+                  },
+    "flags":  {
+
+              },
+    "_stats":  {
+                   "compendiumSource":  null,
+                   "duplicateSource":  null,
+                   "exportSource":  null,
+                   "coreVersion":  "13.347",
+                   "systemId":  "pbta",
+                   "systemVersion":  "1.1.21",
+                   "createdTime":  1748493194026,
+                   "modifiedTime":  1756434252011,
+                   "lastModifiedBy":  "WynALakZJf661YU1"
+               },
+    "_key":  "!items!E0iJ3kK6lM9nN2oQ"
+}

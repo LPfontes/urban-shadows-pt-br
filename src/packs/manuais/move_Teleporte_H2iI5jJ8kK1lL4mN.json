@@ -1,0 +1,53 @@
+{
+  "folder": "v8rCzpKWoYbgqrH6",
+  "name": "Teletransporte",
+  "type": "move",
+  "_id": "H2iI5jJ8kK1lL4mN",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Gaste 1 reserva para se teletransportar uma curta distância dentro de uma cena em que você está.</p>",
+    "moveType": "spells",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": ""
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Sucesso Parcial",
+        "value": ""
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Sucesso Total",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.H2iI5jJ8kK1lL4mN",
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1733907156058,
+    "modifiedTime": 1756442385975,
+    "lastModifiedBy": "WynALakZJf661YU1",
+    "exportSource": null
+  },
+  "_key": "!items!H2iI5jJ8kK1lL4mN"
+}

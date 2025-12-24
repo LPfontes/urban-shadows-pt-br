@@ -1,0 +1,48 @@
+{
+  "folder": "B3dF6hJ9kL2mN5pR",
+  "name": "Magia Feérica",
+  "type": "move",
+  "_id": "k9J4s2L8q1M7v0X3",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Você tem acesso aos dons de sua corte, poderes que invocam a magia e a maravilha de sua terra natal. Selecione seus poderes da lista fornecida. Sempre que você usar um poder feérico, escolha 1:</p><ul><li>sofra 1-dano (ap)</li><li>marque corrupção</li><li>dê uma Dívida ao seu monarca</li></ul>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": ""
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Sucesso Parcial",
+        "value": ""
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Sucesso Total",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {},
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.344",
+    "systemId": "pbta",
+    "systemVersion": "1.1.20",
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!items!k9J4s2L8q1M7v0X3"
+}

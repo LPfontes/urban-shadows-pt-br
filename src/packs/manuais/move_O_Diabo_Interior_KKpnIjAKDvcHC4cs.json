@@ -1,0 +1,53 @@
+{
+  "folder": "67b98e674f1346b5",
+  "name": "O Diabo Interior",
+  "type": "move",
+  "_id": "KKpnIjAKDvcHC4cs",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Quando você assumir sua forma demoníaca, role com <strong>SANGUE</strong>.</p>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": "<p>Com uma falha, escolha 1 e dê uma Dívida ao seu patrono... ou fique sem sua forma.</p>"
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Sucesso Parcial",
+        "value": "<p>Com 7-9, escolha 2.</p>"
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Sucesso Total",
+        "value": "<p>Com 10+, escolha 3.</p>"
+      }
+    },
+    "uses": 0,
+    "rollType": "blood",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": "<ul><li><p>+arma demoníaca (3-dano manual ou 2-dano perto)</p></li><li><p>+movimento demoníaco (voo, motocicleta flamejante, etc.)</p></li><li><p>+sentidos demoníacos (visão infravermelha, cheirar mentiras, etc.)</p></li><li><p>ganhar armadura+1</p></li><li><p>curar 2-dano</p></li><li><p>receber +1 adiante</p></li></ul><p>Se você estiver realizando um trabalho para seu patrono, escolha 1 a mais. Se marcar corrupção, escolha 1 a mais.</p>"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.344",
+    "systemId": "pbta",
+    "systemVersion": "1.1.20",
+    "createdTime": 1733907149533,
+    "modifiedTime": 1748405252876,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "exportSource": null
+  },
+  "_key": "!items!KKpnIjAKDvcHC4cs"
+}

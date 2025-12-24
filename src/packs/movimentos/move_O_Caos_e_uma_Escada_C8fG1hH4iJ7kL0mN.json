@@ -1,0 +1,53 @@
+{
+  "folder": "H9kL2nM5oP8qR3sT",
+  "name": "O Caos é uma Escada",
+  "type": "move",
+  "_id": "C8fG1hH4iJ7kL0mN",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<h3>Movimento do Distrito Artístico</h3><p>Quando você <em><strong>posar por influência </strong></em>na frente de PNJs bem conectados, role com <strong>MENTE</strong>.</p>",
+    "moveType": "hub",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": "<p>Em uma falha, sua auto-promoção atrai a atenção de um rival a quem você deve uma Dívida desconfortavelmente grande; receba -1 adiante ao <em><strong>recusar-se a honrar suas Dívidas</strong></em> com qualquer pessoa do Círculo dele até que o tempo passe.</p>"
+      },
+      "weakHit": {
+        "key": "system.moveResults.weakHit.value",
+        "label": "Sucesso Parcial",
+        "value": "<p>Com um sucesso, eles compram seu estratagema; receba +1 de Status com um Círculo relevante até que o tempo passe ou sua enganação seja revelada. </p><p>Com 7-9, eles exigem que você prove seu valor ou arrisque retribuição. </p>"
+      },
+      "strongHit": {
+        "key": "system.moveResults.strongHit.value",
+        "label": "Sucesso Total",
+        "value": "<p>Com um sucesso, eles compram seu estratagema; receba +1 de Status com um Círculo relevante até que o tempo passe ou sua enganação seja revelada. </p>"
+      }
+    },
+    "uses": 0,
+    "rollType": "mind",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "tolKXMkOd7JsM4Jk": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1748493194026,
+    "modifiedTime": 1756434039925,
+    "lastModifiedBy": "WynALakZJf661YU1"
+  },
+  "_key": "!items!C8fG1hH4iJ7kL0mN"
+}

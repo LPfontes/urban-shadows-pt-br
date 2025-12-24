@@ -1,0 +1,53 @@
+{
+  "folder": "wAX4WZcFQ38pGtjN",
+  "name": "Indo Fundo Demais",
+  "type": "move",
+  "_id": "32p4rVbl0foLCng6",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Marque corrupção para <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.Oy3jQ5vR9wS2xT8u]{atrapalhar}</strong></em> alguém de outro Círculo como se tivesse rolado um 10+.</p>",
+    "moveType": "corruption",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": ""
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Sucesso Parcial",
+        "value": ""
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Sucesso Total",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1733907149533,
+    "modifiedTime": 1756439050982,
+    "lastModifiedBy": "WynALakZJf661YU1",
+    "exportSource": null
+  },
+  "_key": "!items!32p4rVbl0foLCng6"
+}

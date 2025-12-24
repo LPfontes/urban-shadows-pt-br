@@ -1,0 +1,514 @@
+{
+  "name": "O Diabrete",
+  "type": "playbook",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<section class=\"playbook-description\"><h1 class=\"playbook-title\">O Diabrete</h1><p class=\"playbook-intro\">Nem todos os demônios servem aos antigos mestres. Alguns — conhecidos como diabretes — roubaram sua liberdade através de truques e brechas e agora manipulam seus golpes e esquemas em busca de uma vida melhor. Há algumas vantagens em ser subestimado.</p><h2>Movimentos do Diabrete</h2><p><strong>VOCÊ RECEBE ESTE:</strong></p>...",
+    "slug": "the-imp",
+    "actorType": "character",
+    "stats": {
+      "blood": {
+        "label": "Sangue",
+        "value": -1,
+        "steps": { "value": 0, "max": 3 }
+      },
+      "heart": {
+        "label": "Coração",
+        "value": 1,
+        "steps": { "value": 0, "max": 3 }
+      },
+      "mind": {
+        "label": "Mente",
+        "value": 1,
+        "steps": { "value": 0, "max": 3 }
+      },
+      "spirit": {
+        "label": "Espírito",
+        "value": 0,
+        "steps": { "value": 0, "max": 3 }
+      },
+      "mortalis": {
+        "label": "Mortalis",
+        "value": 0,
+        "steps": { "value": 0, "max": 3 }
+      },
+      "night": {
+        "label": "Noite",
+        "value": 1,
+        "steps": { "value": 0, "max": 3 }
+      },
+      "power": {
+        "label": "Poder",
+        "value": -1,
+        "steps": { "value": 0, "max": 3 }
+      },
+      "wild": {
+        "label": "Selva",
+        "value": 1,
+        "steps": { "value": 0, "max": 3 }
+      }
+    },
+    "statsDetail": "(Adicione 1 a um Atributo e um a um Círculo)",
+    "attributes": {
+      "corruption": {
+        "label": "Corrupção",
+        "description": "GATILHO: Quando você faz um acordo que coloca em perigo sua família, amigos ou comunidade, marque corrupção.",
+        "type": "Clock",
+        "value": 0,
+        "max": 5,
+        "choices": [ { "value": 0, "options": {} } ],
+        "custom": false,
+        "path": "attributes",
+        "options": {}
+      },
+      "letItOut": {
+        "label": "Habilidades de Extravasar",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<ul><li><p>farejar um esconderijo secreto, mesmo quando habilmente oculto ou escondido</p></li><li><p>infiltrar-se em uma área hostil parecendo indigno de preocupação</p></li><li><p>teleportar-se para o seu estabelecimento de qualquer distância ou posição</p></li><li><p>causar 4 de dano (perfura armadura) em um alvo vulnerável que subestime você</p></li></ul>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "max": null,
+        "options": {},
+        "description": "PARA ATIVAR ESTAS HABILIDADES"
+      },
+      "debts": {
+        "label": "Dívidas",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<ul><li><p>Alguém é um patrono ou cliente assíduo de seu estabelecimento, confiando regularmente em seus serviços ou assistência. Essa pessoa lhe deve 2 Dívidas.</p></li><li><p>Você ofereceu trabalho a alguém quando ninguém mais dava atenção a essa pessoa. Pergunte se isso resultou a seu favor. De qualquer forma, a pessoa lhe deve uma Dívida.</p></li><li><p>Você é parceiro de alguém em seus esquemas, com ambos lucrando em igual medida. Vocês devem 2 Dívidas um ao outro.</p></li></ul>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "advancements": {
+        "label": "Avanços",
+        "description": "Disponíveis no início do jogo:",
+        "type": "ListMany",
+        "options": {
+          "0": { "label": "+1 Status (máx+1)", "value": false },
+          "1": { "label": "+1 Status (máx+1)", "value": false },
+          "2": { "label": "+1 Status (máx+1)", "value": false },
+          "3": { "label": "um novo movimento de Diabrete", "value": false },
+          "4": { "label": "um novo movimento de Diabrete", "value": false },
+          "5": { "label": "um movimento de outro playbook", "value": false },
+          "6": { "label": "um movimento de outro playbook", "value": false },
+          "7": { "label": "mudar seu Círculo", "value": false }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": { "value": false, "label": "+1 Status (máx+1)" },
+              "1": { "value": false, "label": "+1 Status (máx+1)" },
+              "2": { "value": false, "label": "+1 Status (máx+1)" },
+              "3": { "value": false, "label": "um novo movimento de Diabrete" },
+              "4": { "value": false, "label": "um movimento de outro playbook" },
+              "5": { "value": false, "label": "um movimento de outro playbook" },
+              "6": { "value": false, "label": "mudar seu Círculo" },
+              "7": { "value": false, "label": "mudar seu Círculo" }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "value": "",
+        "max": null
+      },
+      "expertAdvancements": {
+        "label": "Avanços de Especialista",
+        "description": "Após cinco avanços, você pode selecionar:",
+        "type": "ListMany",
+        "options": {
+          "0": { "label": "+1 em qualquer Círculo (máx+3)", "value": false },
+          "1": { "label": "+1 em qualquer Círculo (máx+3)", "value": false },
+          "2": { "label": "obter Status de Círculo-2", "value": false },
+          "3": { "label": "apagar uma cicatriz", "value": false },
+          "4": { "label": "avançar 3 movimentos básicos", "value": false },
+          "5": { "label": "avançar 3 movimentos básicos", "value": false },
+          "6": { "label": "obter O Demônio Interior", "value": false },
+          "7": { "label": "aposentar seu personagem em segurança", "value": false }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": { "value": false, "label": "+1 em qualquer Círculo (máx+3)" },
+              "1": { "value": false, "label": "+1 em qualquer Círculo (máx+3)" },
+              "2": { "value": false, "label": "+1 em qualquer Círculo (máx+3)" },
+              "3": { "value": false, "label": "obter Status de Círculo-2" },
+              "4": { "value": false, "label": "avançar 3 movimentos básicos" },
+              "5": { "value": false, "label": "avançar 3 movimentos básicos" },
+              "6": { "value": false, "label": "obter O Demônio Interior" },
+              "7": { "value": false, "label": "mudar para um novo playbook" }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "value": "",
+        "max": null
+      },
+      "corruptionAdvances": {
+        "label": "Avanços de Corrupção",
+        "description": "A corrupção representa seu personagem deslizando para as piores partes de sua natureza. Conforme sua corrupção aumenta, seus poderes crescem...",
+        "type": "ListMany",
+        "options": {
+          "0": { "label": "ganhe +1 em qualquer atributo (máx+3)", "value": false },
+          "1": { "label": "ganhe +1 em qualquer atributo (máx+3)", "value": false },
+          "2": { "label": "ganhe um novo movimento de corrupção", "value": false },
+          "3": { "label": "ganhe um novo movimento de corrupção", "value": false },
+          "4": { "label": "ganhe um novo movimento de corrupção do seu ou de outro playbook", "value": false },
+          "5": { "label": "aposente seu personagem; ele pode retornar como uma Ameaça", "value": false }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": { "label": "ganhe +1 em qualquer atributo (máx+3)", "value": false },
+              "1": { "label": "ganhe +1 em qualquer atributo (máx+3)", "value": false },
+              "2": { "label": "ganhe um novo movimento de corrupção", "value": false },
+              "3": { "label": "ganhe um novo movimento de corrupção", "value": false },
+              "4": { "label": "ganhe um novo movimento de corrupção do seu ou de outro playbook", "value": false },
+              "5": { "label": "aposente seu personagem; ele pode retornar como uma Ameaça", "value": false }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "value": "",
+        "max": null
+      },
+      "lookOne": {
+        "label": "Aparência Um",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          { "value": "<p>andrógino</p>", "options": {} },
+          { "value": "<p>conformista</p>", "options": {} },
+          { "value": "<p>mutável</p>", "options": {} },
+          { "value": "<p>não-conformista</p>", "options": {} }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": "Escolha um"
+      },
+      "lookTwo": {
+        "label": "Aparência Dois",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          { "value": "<p>Asiático ou Sul-Asiático</p>", "options": {} },
+          { "value": "<p>Negro</p>", "options": {} },
+          { "value": "<p>Hispânico/ Latino</p>", "options": {} },
+          { "value": "<p>Indígena</p>", "options": {} },
+          { "value": "<p>Oriente Médio</p>", "options": {} },
+          { "value": "<p>Branco</p>", "options": {} },
+          { "value": "<p>Outro: <fill in=\"\" yourself=\"\" later=\"\"></fill></p>", "options": {} }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": "Escolha um"
+      },
+      "lookThree": {
+        "label": "Aparência Três",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          { "value": "<p>roupas chamativas</p>", "options": {} },
+          { "value": "<p>roupas formais</p>", "options": {} },
+          { "value": "<p>roupas simples</p>", "options": {} },
+          { "value": "<p>uniforme</p>", "options": {} }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": "Escolha um"
+      },
+      "demeanor": {
+        "label": "Postura",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          { "value": "<p>atribulado</p>", "options": {} },
+          { "value": "<p>encantador</p>", "options": {} },
+          { "value": "<p>frenético</p>", "options": {} },
+          { "value": "<p>perspicaz</p>", "options": {} }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": "Escolha um"
+      },
+      "questionOne": {
+        "label": "Pergunta Um",
+        "value": "",
+        "type": "LongText",
+        "choices": [ { "value": "<p>Como você escapou de sua servidão?</p>", "options": {} } ],
+        "custom": false, "path": "details", "max": null, "options": {}, "description": ""
+      },
+      "questionTwo": {
+        "label": "Pergunta Dois",
+        "value": "",
+        "type": "LongText",
+        "choices": [ { "value": "<p>Há quanto tempo você está na cidade?</p>", "options": {} } ],
+        "custom": false, "path": "details", "max": null, "options": {}, "description": ""
+      },
+      "questionThree": {
+        "label": "Pergunta Três",
+        "value": "",
+        "type": "LongText",
+        "choices": [ { "value": "<p>Quem você chama de família na cidade?</p>", "options": {} } ],
+        "custom": false, "path": "details", "max": null, "options": {}, "description": ""
+      },
+      "questionFour": {
+        "label": "Pergunta Quatro",
+        "value": "",
+        "type": "LongText",
+        "choices": [ { "value": "<p>A quem você recorre quando está em apuros?</p>", "options": {} } ],
+        "custom": false, "path": "details", "max": null, "options": {}, "description": ""
+      },
+      "questionFive": {
+        "label": "Pergunta Cinco",
+        "value": "",
+        "type": "LongText",
+        "choices": [ { "value": "<p>Quem você enganou que ainda guarda rancor?</p>", "options": {} } ],
+        "custom": false, "path": "details", "max": null, "options": {}, "description": ""
+      },
+      "TheImpEstablishmentServices": {
+        "label": "SEU ESTABELECIMENTO",
+        "description": "Você já serviu a um demônio poderoso, mas aproveitou uma brecha em sua lealdade contratual e conquistou sua liberdade. Agora você atende a uma clientela sobrenatural de todos os quatro Círculos, garantindo seu lugar neste mundo... por enquanto. Por padrão, seu estabelecimento tem uma localização permanente, uma equipe pequena, mas leal, e muitos clientes regulares. Escolha dois serviços que você oferece:",
+        "type": "ListMany",
+        "options": {
+          "0": { "label": "Transporte e venda de criaturas de outros mundos", "value": false },
+          "1": { "label": "Avaliação e leilão de relíquias e artefatos mágicos", "value": false },
+          "2": { "label": "Criação de falsificações, disfarces e identidades roubadas", "value": false },
+          "3": { "label": "Fornecimento de notícias, fofocas e boatos para a cidade em geral", "value": false },
+          "4": { "label": "Operação de um local de encontro; nomeie o Círculo relevante", "value": false }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": { "label": "Transporte e venda de criaturas de outros mundos", "value": false },
+              "1": { "label": "Avaliação e leilão de relíquias e artefatos mágicos", "value": false },
+              "2": { "label": "Criação de falsificações, disfarces e identidades roubadas", "value": false },
+              "3": { "label": "Fornecimento de notícias, fofocas e boatos para a cidade em geral", "value": false },
+              "4": { "label": "Operação de um local de encontro; nomeie o Círculo relevante", "value": false }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes"
+      },
+      "TheImpEstablishmentInvestments": {
+        "label": "",
+        "description": "Escolha dois investimentos que você fez ao longo dos anos:",
+        "type": "ListMany",
+        "options": {
+          "0": { "label": "Um guarda-costas habilidoso dedicado exclusivamente à sua segurança", "value": false },
+          "1": { "label": "Uma equipe ampla e especializada, adequada aos seus serviços", "value": false },
+          "2": { "label": "Um local seguro, impenetrável para intrusos e ladrões", "value": false },
+          "3": { "label": "Uma zona morta mágica protegida por selos e rituais", "value": false },
+          "4": { "label": "Um frequentador Status-3 de outro Círculo; tome três Dívidas sobre ele", "value": false }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": { "label": "Um guarda-costas habilidoso dedicado exclusivamente à sua segurança", "value": false },
+              "1": { "label": "Uma equipe ampla e especializada, adequada aos seus serviços", "value": false },
+              "2": { "label": "Um local seguro, impenetrável para intrusos e ladrões", "value": false },
+              "3": { "label": "Uma zona morta mágica protegida por selos e rituais", "value": false },
+              "4": { "label": "Um frequentador Status-3 de outro Círculo; tome três Dívidas sobre ele", "value": false }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes"
+      },
+      "TheImpEstablishmentPlague": {
+        "label": "",
+        "description": "Escolha dois problemas que assolam seu negócio:",
+        "type": "ListMany",
+        "options": {
+          "0": { "label": "Um competidor perigoso avançando em seu mercado", "value": false },
+          "1": { "label": "Uma aquisição difícil de repassar, atraindo atenção indesejada", "value": false },
+          "2": { "label": "Uma reputação manchada que complica novos negócios", "value": false },
+          "3": { "label": "Um ex-suserano demoníaco exigindo seu retorno imediato", "value": false },
+          "4": { "label": "Um estado severo de deterioração colocando sua equipe em perigo", "value": false }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": { "label": "Um competidor perigoso avançando em seu mercado", "value": false },
+              "1": { "label": "Uma aquisição difícil de repassar, atraindo atenção indesejada", "value": false },
+              "2": { "label": "Uma reputação manchada que complica novos negócios", "value": false },
+              "3": { "label": "Um ex-suserano demoníaco exigindo seu retorno imediato", "value": false },
+              "4": { "label": "Um estado severo de deterioração colocando sua equipe em perigo", "value": false }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes"
+      },
+      "TheImpSchemesText": {
+        "label": "SEUS ESQUEMAS",
+        "description": "",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "Esquemas são acordos arriscados e trapaças obscuras projetadas para expandir seus negócios. Quando você gerar um esquema, escolha um Círculo primário, um de seus serviços e duas complicações — o MC dirá qual oportunidade você aproveitou. Quando você realizar um esquema, selecione duas vantagens e um pagamento; o MC detalhará como eles chegam. Gere um esquema sempre que uma vantagem ou um movimento lhe disser para gerar um novo esquema.<h2>COMPLICAÇÕES: </h2><ul> <li>você prometeu a alguém envolvido algo que ainda não tem</li> <li>você precisa de um co-conspirador não confiável ou desonesto</li> <li>você deve enganar ou iludir um PdM poderoso e perigoso</li> <li>você precisa roubar algo de um local seguro</li> <li>você precisa esperar por um tempo ou evento predeterminado</li> <li>você atraiu a atenção de uma oposição perigosa</li> </ul> <h2>VANTAGENS: </h2> <ul> <li>atrair novos negócios; gere um novo esquema</li> <li>pagar suas dívidas; cancele uma Dívida que você deve</li> <li>ostentar seu poder; tome uma Dívida sobre um PdM</li> <li>aumentar sua reputação; marque um Círculo afetado pelo acordo.</li> </ul>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes"
+      },
+      "TheImpSchemePayouts1": {
+        "label": "PAGAMENTOS",
+        "description": "Disponíveis no início do jogo:",
+        "type": "ListMany",
+        "options": {
+          "0": { "label": "+1 em qualquer Círculo (máx+3)", "value": false },
+          "1": { "label": "contratar Subalternos Diabólicos", "value": false },
+          "2": { "label": "adquirir um arsenal", "value": false },
+          "3": { "label": "garantir um novo investimento", "value": false },
+          "4": { "label": "garantir um novo investimento", "value": false },
+          "5": { "label": "resolver um problema", "value": false }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": { "label": "+1 em qualquer Círculo (máx+3)", "value": false },
+              "1": { "label": "contratar Subalternos Diabólicos", "value": false },
+              "2": { "label": "adquirir um arsenal", "value": false },
+              "3": { "label": "garantir um novo investimento", "value": false },
+              "4": { "label": "garantir um novo investimento", "value": false },
+              "5": { "label": "resolver um problema", "value": false }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes"
+      },
+      "TheImpSchemePayouts2": {
+        "label": "",
+        "description": "Após 4+ pagamentos:",
+        "type": "ListMany",
+        "options": {
+          "0": { "label": "+1 em qualquer Círculo (máx+3)", "value": false },
+          "1": { "label": "+1 Status (máx+2)", "value": false },
+          "2": { "label": "adquirir uma arma lendária", "value": false },
+          "3": { "label": "adquirir um santuário", "value": false },
+          "4": { "label": "ganhar 2 novas habilidades de extravasar", "value": false },
+          "5": { "label": "aposentar seu personagem em segurança", "value": false }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": { "label": "+1 em qualquer Círculo (máx+3)", "value": false },
+              "1": { "label": "+1 Status (máx+2)", "value": false },
+              "2": { "label": "adquirir uma arma lendária", "value": false },
+              "3": { "label": "adquirir um santuário", "value": false },
+              "4": { "label": "ganhar 2 novas habilidades de extravasar", "value": false },
+              "5": { "label": "aposentar seu personagem em segurança", "value": false }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes"
+      }
+    },
+    "choiceSets": [
+      {
+        "title": "MOVIMENTOS DE DIABRETE",
+        "desc": "VOCÊ RECEBE ESTE:",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          { "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.X5zA8eF1hH4kK7oP", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 }
+        ],
+        "grantOn": 0, "granted": false, "advancement": 0
+      },
+      {
+        "title": "MOVIMENTOS DE DIABRETE",
+        "desc": "E ESCOLHA MAIS DOIS:",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          { "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.wd2QKswKnQFLy5A7", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
+          { "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.SLiReA93YbXgVQuh", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
+          { "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.n6zfMB7FYPKUAV14", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
+          { "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.ZXbYPxyNKjIsq0YA", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 }
+        ],
+        "grantOn": 1, "granted": false, "advancement": 0
+      },
+      {
+        "title": "Movimentos Iniciais do DIABRETE",
+        "desc": "",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          { "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.c9bd3b4435434c66", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 },
+          { "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.KeuzIAuxaxs6rZPV", "img": "icons/svg/aura.svg", "granted": false, "advancement": 0 }
+        ],
+        "grantOn": 0, "granted": false, "advancement": 0
+      },
+      {
+        "title": "Equipamento Inicial",
+        "desc": "",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          { "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.uVi7v6OrRt5G6VyU", "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/surfer-van.svg", "granted": false, "advancement": 0 },
+          { "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.dQVe5sIDFtrubN0b", "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/ankh.svg", "granted": false, "advancement": 0 },
+          { "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.xybKMTgXDHWRT0Zj", "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/present.svg", "granted": false, "advancement": 0 },
+          { "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.hzja5WHwvYV0N2uk", "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/smartphone.svg", "granted": false, "advancement": 0 },
+          { "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/modern-city.svg", "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.Av08ynED7iLXAQiw", "granted": false, "advancement": 0 }
+        ],
+        "grantOn": 0, "granted": false, "advancement": 0
+      }
+    ]
+  },
+  "effects": [],
+  "folder": "I0kM3oQ6rS9tU2wZ",
+  "ownership": { "default": 0, "MZpJvwT3EQwBniAB": 3 },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1733907141240,
+    "modifiedTime": 1757805452597,
+    "lastModifiedBy": "WynALakZJf661YU1",
+    "exportSource": null
+  },
+  "_id": "i7j8k9l0m1n2o3p4",
+  "sort": 0,
+  "_key": "!items!i7j8k9l0m1n2o3p4"
+}

@@ -1,0 +1,57 @@
+{
+    "folder":  "XH2sZ4eA8fB1gC5d",
+    "name":  "Desenvolver Infraestrutura",
+    "type":  "move",
+    "_id":  "ZJ4uB6gC0hD3iE7f",
+    "img":  "icons/svg/aura.svg",
+    "system": {
+    "description": "<p>Quando os líderes de uma facção desenvolvem infraestrutura, eles comprometem um ativo seguro e rolam com sua Força.</p>",
+    "moveType": "",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": "<p>Em uma falha, seu plano de expansão inflama um cisma dentro da facção; todos os seus ativos são considerados vulneráveis até que um dos lados do conflito tome o controle total.</p>"
+      },
+      "weakHit": {
+        "key": "system.moveResults.weakHit.value",
+        "label": "Sucesso Parcial",
+        "value": "<p>Com um sucesso, o ativo se torna vulnerável e eles escolhem 2:</p><ul><li>eles atraem novos membros; marque recrutamento</li><li>eles adquirem novas posses: marque recursos</li><li>eles solidificam o controle: torne um ativo vulnerável em seguro</li></ul>"
+      },
+      "strongHit": {
+        "key": "system.moveResults.strongHit.value",
+        "label": "Sucesso Total",
+        "value": "<p>Com um sucesso, o ativo se torna vulnerável e eles escolhem 2:</p><ul><li>eles atraem novos membros; marque recrutamento</li><li>eles adquirem novas posses: marque recursos</li><li>eles solidificam o controle: torne um ativo vulnerável em seguro</li></ul><p>Com 10+, uma oportunidade complicada de crescimento também surge; se a facção (ou seus aliados) aproveitá-la antes que o tempo passe, eles marcam recrutamento ou recursos, conforme apropriado.</p>"
+      }
+    },
+    "uses": 0,
+    "rollType": "prompt",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+    "effects":  [
+
+                ],
+    "sort":  0,
+    "ownership":  {
+                      "default":  0,
+                      "tolKXMkOd7JsM4Jk":  3
+                  },
+    "flags":  {
+
+              },
+    "_stats":  {
+                   "compendiumSource":  null,
+                   "duplicateSource":  null,
+                   "exportSource":  null,
+                   "coreVersion":  "13.347",
+                   "systemId":  "pbta",
+                   "systemVersion":  "1.1.21",
+                   "createdTime":  1748493194026,
+                   "modifiedTime":  1756437785180,
+                   "lastModifiedBy":  "WynALakZJf661YU1"
+               },
+    "_key":  "!items!ZJ4uB6gC0hD3iE7f"
+}

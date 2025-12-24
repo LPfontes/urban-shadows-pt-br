@@ -1,0 +1,53 @@
+{
+  "folder": "J3kK6nN9oP2qQ5rS",
+  "name": "Fome Eterna",
+  "type": "move",
+  "_id": "M8oP1qQ4rS7tT0uU",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Você tem fome de sangue humano, carne ou emoções; escolha um. Quando você se alimentar de alguém, role com <strong>SANGUE</strong>.</p>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": "<p>Com uma falha, sua fome leva a melhor sobre você, e todos sofrem.</p>"
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Sucesso Parcial",
+        "value": "<p>Com 7-9, escolha 2:</p><ul><li>Você cura 1-dano ou recebe +1 adiante</li><li>Você aprende um segredo sobre sua presa</li><li>Sua presa não sofre 3-dano (ap)</li></ul>"
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Sucesso Total",
+        "value": "<p>Com 10+, todos os 3:</p><ul><li>Você cura 1-dano ou recebe +1 adiante</li><li>Você aprende um segredo sobre sua presa</li><li>Sua presa não sofre 3-dano (ap)</li></ul>"
+      }
+    },
+    "uses": 0,
+    "rollType": "blood",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.M8oP1qQ4rS7tT0uU",
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1733907156058,
+    "modifiedTime": 1756442845239,
+    "lastModifiedBy": "WynALakZJf661YU1",
+    "exportSource": null
+  },
+  "_key": "!items!M8oP1qQ4rS7tT0uU"
+}

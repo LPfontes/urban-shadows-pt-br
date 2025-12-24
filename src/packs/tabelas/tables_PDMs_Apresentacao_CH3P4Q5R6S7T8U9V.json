@@ -1,0 +1,155 @@
+{
+  "folder": "587G5TbxVekbo8WY",
+  "name": "Apresentação dos PNJs da Prefeitura",
+  "_id": "CH3P4Q5R6S7T8U9V",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+    {
+      "type": "text",
+      "weight": 2,
+      "range": [
+        2,
+        3
+      ],
+      "_id": "ChP1Q2R3S4T5U6V7",
+      "name": "andrógeno",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!CH3P4Q5R6S7T8U9V.ChP1Q2R3S4T5U6V7"
+    },
+    {
+      "type": "text",
+      "weight": 2,
+      "range": [
+        4,
+        5
+      ],
+      "_id": "DhP2Q3R4S5T6U7V8",
+      "name": "não conforme",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!CH3P4Q5R6S7T8U9V.DhP2Q3R4S5T6U7V8"
+    },
+    {
+      "type": "text",
+      "weight": 3,
+      "range": [
+        6,
+        8
+      ],
+      "_id": "EhP3Q4R5S6T7U8V9",
+      "name": "conforme",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!CH3P4Q5R6S7T8U9V.EhP3Q4R5S6T7U8V9"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "_id": "FhP4Q5R6S7T8U9VA",
+      "name": "não conforme",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!CH3P4Q5R6S7T8U9V.FhP4Q5R6S7T8U9VA"
+    },
+    {
+      "type": "text",
+      "weight": 3,
+      "range": [
+        10,
+        12
+      ],
+      "_id": "GhP5Q6R7S8T9UAVB",
+      "name": "fluido",
+      "img": "icons/svg/d20-black.svg",
+      "description": "",
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.344",
+        "systemId": "pbta",
+        "systemVersion": "1.1.20",
+        "lastModifiedBy": null
+      },
+      "documentUuid": null,
+      "_key": "!tables.results!CH3P4Q5R6S7T8U9V.GhP5Q6R7S8T9UAVB"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "sort": 112500,
+  "ownership": {
+    "default": 0,
+    "tolKXMkOd7JsM4Jk": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pbta",
+    "systemVersion": "1.1.20",
+    "createdTime": 1748581947337,
+    "modifiedTime": 1750823710703,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk"
+  },
+  "formula": "2d6",
+  "_key": "!tables!CH3P4Q5R6S7T8U9V"
+}

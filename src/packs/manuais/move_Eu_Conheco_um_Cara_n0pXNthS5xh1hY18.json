@@ -1,0 +1,53 @@
+{
+  "folder": "UpKeNQxOrv4nSvGG",
+  "name": "Eu Conheço um Cara",
+  "type": "move",
+  "_id": "n0pXNthS5xh1hY18",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<div class=\"page\" title=\"Page 1\"><div class=\"layoutArea\"><div class=\"column\"><p>Quando <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.QA5lS7xT1yU4zV0w]{vais para a rua}</strong></em> para obter o que precisas de um membro do teu Círculo, rola com <strong>CORAÇÃO</strong> em vez do Círculo dele.</p></div></div></div>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": "<p>O MC diz-te que coisa interessante acontece.</p>"
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Sucesso Parcial",
+        "value": "<p>Num sucesso, eles estão disponíveis e têm o material.</p><p>Num 7-9, escolhe 1:</p><ul><li>quem procuras está a lidar com problemas próprios</li><li>o que precisas é mais dispendioso do que o previsto</li><li>a forma de os encontrares requer que ofereças uma Dívida a um intermediário</li></ul>"
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Sucesso Total",
+        "value": "<p>Num sucesso, eles estão disponíveis e têm o material.</p>"
+      }
+    },
+    "uses": 0,
+    "rollType": "heart",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.n0pXNthS5xh1hY18",
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1733907156058,
+    "modifiedTime": 1756439497997,
+    "lastModifiedBy": "WynALakZJf661YU1",
+    "exportSource": null
+  },
+  "_key": "!items!n0pXNthS5xh1hY18"
+}

@@ -1,0 +1,53 @@
+{
+  "folder": "67b98e674f1346b5",
+  "name": "Barganha Sombria",
+  "type": "move",
+  "_id": "V7wW0xX3yY6zZ9aA",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Quando você selar um pacto com alguém em fumaça e sangue, role com <strong>CORAÇÃO</strong>.</p>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": "<p>Com uma falha, o pacto desagrada os poderes que você invocou para santificar o acordo; você deve realizar um ato de contrição antes de poder invocar a influência deles novamente.</p>"
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Sucesso Parcial",
+        "value": "<p>Com um sucesso, você infunde o acordo com força demoníaca.</p><p>Com 7-9, escolha 1.</p><ul><li>Todas as partes sabem intuitivamente se o acordo está sendo honrado.</li><li>Todas as partes recebem +1 constante para liberar enquanto cumprem o acordo.</li><li>Qualquer um que violar o pacto sofre instantaneamente 4-dano (ap).</li></ul>"
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Sucesso Total",
+        "value": "<p>Com um sucesso, você infunde o acordo com força demoníaca.</p><p>Com 10+, escolha 2.</p><ul><li>Todas as partes sabem intuitivamente se o acordo está sendo honrado.</li><li>Todas as partes recebem +1 constante para liberar enquanto cumprem o acordo.</li><li>Qualquer um que violar o pacto sofre instantaneamente 4-dano (ap).</li></ul>"
+      }
+    },
+    "uses": 0,
+    "rollType": "heart",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.V7wW0xX3yY6zZ9aA",
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1733907156058,
+    "modifiedTime": 1756444633719,
+    "lastModifiedBy": "WynALakZJf661YU1",
+    "exportSource": null
+  },
+  "_key": "!items!V7wW0xX3yY6zZ9aA"
+}

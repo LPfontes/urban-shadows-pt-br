@@ -1,0 +1,53 @@
+{
+  "folder": "v8rCzpKWoYbgqrH6",
+  "name": "Rastreamento",
+  "type": "move",
+  "_id": "fB4AWqXfpPexEFev",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Gaste 1 reserva para descobrir a localização de uma pessoa específica. Você deve ter um objeto pessoal que pertença ao alvo ou resíduos recentes de seu corpo (uma mecha de cabelo, aparas de unhas, seu sangue, etc.).</p>",
+    "moveType": "spells",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": ""
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Sucesso Parcial",
+        "value": ""
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Sucesso Total",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 150000,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.fB4AWqXfpPexEFev",
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1733907156058,
+    "modifiedTime": 1756442407238,
+    "lastModifiedBy": "WynALakZJf661YU1",
+    "exportSource": null
+  },
+  "_key": "!items!fB4AWqXfpPexEFev"
+}

@@ -1,0 +1,53 @@
+{
+  "folder": "c964cbbeaafc4d29",
+  "name": "Experimentos Sombrios",
+  "type": "move",
+  "_id": "spyjca3e1XREJAN0",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Quando você trabalhar em alguém (vivo ou morto) em sua <em><strong>oficina</strong></em>, marque corrupção para fazer até duas perguntas sobre suas fraquezas ou segredos. Eles devem responder honestamente.</p>",
+    "moveType": "corruption",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": ""
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Sucesso Parcial",
+        "value": ""
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Sucesso Total",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 150000,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1733907149533,
+    "modifiedTime": 1756443093933,
+    "lastModifiedBy": "WynALakZJf661YU1",
+    "exportSource": null
+  },
+  "_key": "!items!spyjca3e1XREJAN0"
+}

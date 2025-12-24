@@ -1,0 +1,53 @@
+{
+  "folder": "F7hJ0lN3oP6qR9tW",
+  "name": "Movimento Final do Caçador",
+  "type": "move",
+  "_id": "13ed0f1b3c434160",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Quando morreres, dá a outro PJ uma das tuas armas personalizadas e um dos teus movimentos de Caçador. Ambos são deles permanentemente.</p>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": ""
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Sucesso Parcial",
+        "value": ""
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Sucesso Total",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": "Item.R9tV2xZ5bC8fE1iJ",
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": 1733907156058,
+    "modifiedTime": 1749878677534,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "exportSource": null
+  },
+  "_key": "!items!13ed0f1b3c434160"
+}

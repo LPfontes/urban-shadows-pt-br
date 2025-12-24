@@ -1,0 +1,57 @@
+{
+    "folder":  "UQj0bckGnGOYfEHA",
+    "name":  "Escapar de uma Situação",
+    "type":  "move",
+    "_id":  "Hs7dK9pL3mN6oQ2r",
+    "img":  "icons/svg/aura.svg",
+    "system": {
+    "description": "<p>Quando você aproveitar uma abertura para <em><strong>escapar de uma situação</strong></em>, role com <strong>SANGUE</strong>.</p>",
+    "moveType": "basic",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": "<p>O MC diz a você que coisa interessante acontece.</p>"
+      },
+      "weakHit": {
+        "key": "system.moveResults.weakHit.value",
+        "label": "Sucesso Parcial",
+        "value": "<p>Com um sucesso, você consegue escapar e escolhe 1. </p><p>Com 7-9, o MC escolhe um também:</p><ul><li>você sofre ferimento durante sua fuga</li><li>você acaba em outra situação perigosa</li><li>você deixa algo importante para trás</li><li>você deve uma Dívida a um PNJ pela ajuda dele</li><li>você cede à sua natureza vil e marca corrupção</li></ul>"
+      },
+      "strongHit": {
+        "key": "system.moveResults.strongHit.value",
+        "label": "Sucesso Total",
+        "value": "<p>Com um sucesso, você consegue escapar e escolhe 1. </p><ul><li>você sofre ferimento durante sua fuga</li><li>você acaba em outra situação perigosa</li><li>você deixa algo importante para trás</li><li>você deve uma Dívida a um PNJ pela ajuda dele</li><li>você cede à sua natureza vil e marca corrupção</li></ul>"
+      }
+    },
+    "uses": 0,
+    "rollType": "blood",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+    "effects":  [
+
+                ],
+    "sort":  0,
+    "ownership":  {
+                      "default":  0,
+                      "tolKXMkOd7JsM4Jk":  3
+                  },
+    "flags":  {
+
+              },
+    "_stats":  {
+                   "compendiumSource":  null,
+                   "duplicateSource":  null,
+                   "exportSource":  null,
+                   "coreVersion":  "13.347",
+                   "systemId":  "pbta",
+                   "systemVersion":  "1.1.21",
+                   "createdTime":  1748493194026,
+                   "modifiedTime":  1756435574992,
+                   "lastModifiedBy":  "WynALakZJf661YU1"
+               },
+    "_key":  "!items!Hs7dK9pL3mN6oQ2r"
+}

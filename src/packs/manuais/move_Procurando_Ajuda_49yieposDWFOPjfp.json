@@ -1,0 +1,53 @@
+{
+  "folder": "L3nP6rT9uW2xZ5bC",
+  "name": "Buscando Ajuda",
+  "type": "move",
+  "_id": "49yieposDWFOPjfp",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Quando você for ao seu benfeitor em busca de ajuda ou recursos, role com seu Status. </p>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": "<p>Numa falha, eles revelam que você negligenciou algo que prejudicou muito o Status deles; eles estão determinados a lembrá-lo do poder que têm sobre você antes mesmo de considerar seu pedido.</p>"
+      },
+      "weakHit": {
+        "key": "system.moveResults.weakHit.value",
+        "label": "Sucesso Parcial",
+        "value": "<p>Num sucesso, eles conseguem o que você precisa, desde que você ofereça uma visão profética sobre um problema que eles têm agora. </p>"
+      },
+      "strongHit": {
+        "key": "system.moveResults.strongHit.value",
+        "label": "Sucesso Total",
+        "value": "<p>Num sucesso, eles conseguem o que você precisa, desde que você ofereça uma visão profética sobre um problema que eles têm agora. </p><p>Com 10+, o apoio que eles dão é excepcionalmente útil. </p>"
+      }
+    },
+    "uses": 0,
+    "rollType": "prompt",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "tolKXMkOd7JsM4Jk": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pbta",
+    "systemVersion": "1.1.9",
+    "createdTime": 1733907156058,
+    "modifiedTime": 1749878707638,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "exportSource": null
+  },
+  "_key": "!items!49yieposDWFOPjfp"
+}

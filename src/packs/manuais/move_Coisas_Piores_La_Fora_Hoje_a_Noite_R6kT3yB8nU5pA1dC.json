@@ -1,0 +1,53 @@
+{
+  "folder": "F7hJ0lN3oP6qR9tW",
+  "name": "Coisas Piores Soltas na Noite",
+  "type": "move",
+  "_id": "R6kT3yB8nU5pA1dC",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Quando você <em><strong>@UUID[Compendium.urban-shadows-pbta.play-materials.Item.Jt8eL0qM4rN7sO3p]{persuadir um PDM}</strong></em> prometendo protegê-lo do perigo, role com <strong>SANGUE</strong> em vez de <strong>CORAÇÃO</strong>.</p>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": "<p>O MC lhe diz que coisa interessante acontece.</p>"
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Sucesso Parcial",
+        "value": "<p>Com um sucesso, eles veem seu ponto de vista e fazem o que você pede. Com 7-9, eles contrapropoem ou exigem pagamento—uma Dívida, um favor, recursos—antes de concordar em seguir adiante.</p><p>Se você cobrar uma Dívida com o PDM antes de rolar, adicione +3 ao seu total (máx +4).</p>"
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Sucesso Total",
+        "value": "<p>Com um sucesso, eles veem seu ponto de vista e fazem o que você pede.</p><p>Se você cobrar uma Dívida com o PDM antes de rolar, adicione +3 ao seu total (máx +4).</p>"
+      }
+    },
+    "uses": 0,
+    "rollType": "blood",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.344",
+    "systemId": "pbta",
+    "systemVersion": "1.1.20",
+    "createdTime": 1733907149533,
+    "modifiedTime": 1748405140223,
+    "lastModifiedBy": "tolKXMkOd7JsM4Jk",
+    "exportSource": null
+  },
+  "_key": "!items!R6kT3yB8nU5pA1dC"
+}

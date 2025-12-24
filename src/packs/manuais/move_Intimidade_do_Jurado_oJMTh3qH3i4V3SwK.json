@@ -1,0 +1,53 @@
+{
+  "folder": "W0aC3fF6gG9hH2iI",
+  "name": "Movimento Intimidade do Jurado",
+  "type": "move",
+  "_id": "oJMTh3qH3i4V3SwK",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "description": "<p>Quando você compartilhar um momento de intimidade—física ou emocional—com outra pessoa, diga a ela se ela importa mais do que seu juramento. Se você disser que sim, marque corrupção e ela recebe 1 reserva; ela pode gastar o domínio a qualquer momento para convocá-lo para a localização dela.</p>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "miss": {
+        "key": "system.moveResults.miss.value",
+        "label": "Falha",
+        "value": ""
+      },
+      "weak-hit": {
+        "key": "system.moveResults.weak-hit.value",
+        "label": "Sucesso Parcial",
+        "value": ""
+      },
+      "strong-hit": {
+        "key": "system.moveResults.strong-hit.value",
+        "label": "Sucesso Total",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1733907149533,
+    "modifiedTime": 1756441926678,
+    "lastModifiedBy": "WynALakZJf661YU1",
+    "exportSource": null
+  },
+  "_key": "!items!oJMTh3qH3i4V3SwK"
+}

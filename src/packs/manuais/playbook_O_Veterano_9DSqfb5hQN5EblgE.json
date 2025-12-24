@@ -1,0 +1,743 @@
+{
+  "name": "O Veterano",
+  "type": "playbook",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": "<section class=\"playbook-description\"><h1 class=\"playbook-title\">O Veterano</h1><p class=\"playbook-intro\">Era uma vez, você foi alguém importante... e perigoso. As pessoas te conheciam e te davam espaço. Você era uma força a ser reconhecida nesta cidade. E então você ficou velho, quebrado, ou ambos.</p><h2>Movimentos do Veterano</h2><p><strong>VOCÊ RECEBE ESTE:</strong></p><div class=\"move\"><p><span class=\"move-name\">Velhos Amigos, Velhos Favores</span></p><div class=\"move-description\"><p>Quando você encontrar um NPC pela primeira vez, pode declará-lo um velho amigo em vez de dar um nome a um rosto e rolar com Mente. Com um sucesso, eles lhe oferecem ajuda, mesmo que isso os exponha ao perigo. Com 7-9, diga ao MC por que você deve uma Dívida a eles. Com uma falha, diga ao MC por que eles provavelmente guardam um antigo rancor contra você por tê-los prejudicado no passado.</p></div></div><p><strong>E ESCOLHA MAIS DOIS:</strong></p><div class=\"move\"><p><span class=\"move-name\">Artista Verdadeiro</span></p><div class=\"move-description\"><p>Quando você apresentar publicamente um presente valioso ou raro que criou para um NPC de Status 2+, eles devem recusar ou aceitar abertamente sua oferta. Se recusarem, eles lhe devem uma Dívida; se aceitarem, receba +1 contínuo para consultar seus contatos, recrutar aliados e recusar-se a honrar Dívidas do Círculo deles até que o tempo passe.</p></div></div><div class=\"move\"><p><span class=\"move-name\">Investido</span></p><div class=\"move-description\"><p>Quando alguém lhe dever 2 ou mais Dívidas e você lhe der uma mão ou ficar no caminho dela, role com Mente em vez de Círculo.</p></div></div><div class=\"move\"><p><span class=\"move-name\">Velho Demais Para Essa Merda!</span></p><div class=\"move-description\"><p>Quando você for pego em uma luta que tentou evitar, você recebe armadura+1 e +1 contínuo para levar a si mesmo e aos outros para a segurança.</p></div></div><div class=\"move\"><p><span class=\"move-name\">Os Planos Mais Bem Elaborados</span></p><div class=\"move-description\"><p>Quando você elaborar um plano com alguém, role com Mente. Com 10+, receba 3 reserva. Com 7-9, receba 2 reserva. Você pode gastar seu domínio—1 por 1—independentemente da distância, enquanto o plano estiver em andamento para:</p><ul class=\"abilities-list\"><li>Adicionar +1 à rolagem de alguém (após rolar)</li><li>Ignorar todo o dano que alguém sofrer de um único ataque</li><li>Garantir que seu pessoal tenha o equipamento exato de que precisa em mãos</li></ul><p> Com uma falha, receba 1 reserva, mas seu plano encontra alguma oposição desastrosa logo no início.</p></div></div><div class=\"move\"><p><span class=\"move-name\">Arma de Fogo em Briga de Faca</span></p><div class=\"move-description\"><p>Quando você recorrer à violência contra alguém escalando seriamente o conflito, role com Mente em vez de Sangue.</p></div></div><h3>Habilidades de Romper os Limites</h3><ul class=\"abilities-list\"><li>surpreender um alvo desavisado com um golpe terrível ou nocauteador</li><li>barricar ou proteger um local usando suprimentos mínimos</li><li>assustar ou intimidar alguém com uma lembrança da pessoa que você costumava ser</li><li>revelar as maneiras como um antigo aliado ou inimigo está moldando um conflito atual</li></ul><h2>Sua Oficina</h2><p>Você tem uma oficina que inclui um grande espaço para suas ferramentas e/ou suprimentos. Quando você vai para sua oficina trabalhar em algo, o MC diz os requisitos, como tempo, materiais ou assistência necessária.</p><p>Itens criados em sua oficina estão a salvo do MC. Eles não podem ser destruídos ou tomados sem sua permissão, mesmo se você os vender ou doar para outro personagem.</p><h3>Escolha e sublinhe 3 recursos que sua oficina inclui:</h3><div style=\"margin:15px 0\"><div><p>guincho e ferramentas automotivas</p></div><div><p>uma câmara escura</p></div><div><p>um ambiente de cultivo regulado</p></div><div><p>dois ou três assistentes qualificados</p></div><div><p>um ferro-velho de matérias-primas</p></div><div><p>ferramentas de usinagem</p></div><div><p>transmissores e receptores</p></div><div><p>um campo de testes</p></div><div><p>armadilhas mortais</p></div><div><p>uma biblioteca de livros antigos</p></div><div><p>um punhado de relíquias antigas</p></div><div><p>um foco místico</p></div><div><p>proteções mágicas</p></div><div><p>uma estação médica</p></div><div><p>uma sala de cirurgia</p></div><div><p>eletrônicos de alta tecnologia e computadores</p></div><div><p>um sistema de vigilância avançado</p></div><div><p>uma forja</p></div><div><p>um laboratório de ciências</p></div><div><p>um portal para outra dimensão</p></div></div><h2>Corrupção</h2><div class=\"corruption-track\"><p><strong>CORRUPÇÃO</strong></p><div class=\"corruption-boxes\"><p></p></div></div><p><strong>GATILHO:</strong> Quando você deliberadamente for direto para o perigo, marque corrupção.</p><div class=\"move\"><p><span class=\"move-name\">De Volta à Ativa</span></p><div class=\"move-description\"><p>Pegue duas habilidades de outro manual. Quando você romper os limites para usar essas habilidades, não pode escolher evitar corrupção com 10+.</p></div></div><div class=\"move\"><p><span class=\"move-name\">Acumulador</span></p><div class=\"move-description\"><p>Você pode marcar corrupção para procurar em seu kit e encontrar exatamente o equipamento que precisa para lidar com sua situação atual.</p></div></div><div class=\"move\"><p><span class=\"move-name\">Peguei Vocês em Má Hora?</span></p><div class=\"move-description\"><p>Marque corrupção para chegar em uma cena. Marque uma corrupção adicional para trazer alguém disposto com você.</p></div></div><div class=\"move\"><p><span class=\"move-name\">Experimentos Sombrios</span></p><div class=\"move-description\"><p>Quando você trabalhar em alguém (vivo ou morto) em sua oficina, marque corrupção para fazer até duas perguntas sobre suas fraquezas ou segredos. Eles devem responder honestamente.</p></div></div><h2>Criação de Personagem</h2><div class=\"stats-grid\"><div class=\"stat-section\"><h3>Atributos Iniciais</h3><p>Sangue -1, Coração 1, Mente 1, Espírito 0</p><h3>Círculos Iniciais</h3><p>Mortalis 1, Noite 0, Poder 0, Limiar 0</p><h3>Status Inicial</h3><p>Mortalis 1, Noite 0, Poder 0, Limiar 0</p></div><div class=\"stat-section\"><h3>Equipamento Inicial</h3><p>Um apartamento ou esconderijo em armazém, um carro prático ou caminhonete velha, um smartphone, uma oficina (detalhe).</p><p>Uma arma confiável à escolha:</p><ul class=\"simple-list\"><li>Beretta 9mm (2-dano próximo barulhenta ocultável)</li><li>Escopeta (3-dano próximo/perto barulhenta recarga brutal)</li><li>Revólver Magnum (3-dano perto barulhenta recarga)</li></ul></div></div><div class=\"debt-section\"><h3>Dívidas Iniciais</h3><ul class=\"simple-list\"><li>Alguém confia em você para treinamento ou conhecimento. Pergunte por que precisam da sua ajuda; diga ao MC o que você forneceu e pergunte quantas Dívidas (1-3) lhe devem.</li><li>Você está trabalhando em algo grande para alguém, e está quase pronto. Eles lhe devem uma Dívida.</li><li>Alguém continua salvando sua pele quando você esquece que está aposentado. Você deve uma Dívida a eles.</li></ul></div></section>",
+    "slug": "o-veterano",
+    "actorType": "character",
+    "stats": {
+      "blood": {
+        "label": "Sangue",
+        "value": -1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "heart": {
+        "label": "Coração",
+        "value": 1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "mind": {
+        "label": "Mente",
+        "value": 1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "spirit": {
+        "label": "Espírito",
+        "value": 0,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "mortalis": {
+        "label": "Mortalis",
+        "value": 1,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "night": {
+        "label": "Noite",
+        "value": 0,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "power": {
+        "label": "Poder",
+        "value": 0,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      },
+      "wild": {
+        "label": "Limiar",
+        "value": 0,
+        "steps": {
+          "value": 0,
+          "max": 3
+        }
+      }
+    },
+    "statsDetail": "(Adicione 1 a um dos Atributos e um dos Círculos)",
+    "attributes": {
+      "corruption": {
+        "label": "Corrupção",
+        "description": "GATILHO: Quando você deliberadamente for direto para o perigo, marque corrupção.",
+        "type": "Clock",
+        "value": 0,
+        "max": 5,
+        "choices": [
+          {
+            "value": 0,
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "options": {}
+      },
+      "letItOut": {
+        "label": "Habilidades de Romper os Limites",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<ul><li><p>surpreender um alvo desavisado com um golpe terrível ou nocauteador</p></li><li><p>barricar ou proteger um local usando suprimentos mínimos</p></li><li><p>assustar ou intimidar alguém com uma lembrança da pessoa que você costumava ser</p></li><li><p>revelar as maneiras como um antigo aliado ou inimigo está moldando um conflito atual</p></li></ul>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "max": null,
+        "options": {},
+        "description": "PARA ATIVAR ESSAS HABILIDADES"
+      },
+      "debts": {
+        "label": "Dívidas",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<ul><li><p>Alguém confia em você para treinamento ou conhecimento. Pergunte por que precisam da sua ajuda; diga ao MC o que você forneceu e pergunte quantas Dívidas (1-3) lhe devem.</p></li><li><p>Você está trabalhando em algo grande para alguém, e está quase pronto. Eles lhe devem uma Dívida.</p></li><li><p>Alguém continua salvando sua pele quando você esquece que está aposentado. Você deve uma Dívida a eles.</p></li></ul>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "advancements": {
+        "label": "Avanços",
+        "description": "Disponível no início do jogo:",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "+1 Status (máx+1)",
+            "value": false
+          },
+          "1": {
+            "label": "+1 Status (máx+1)",
+            "value": false
+          },
+          "2": {
+            "label": "+1 Status (máx+1)",
+            "value": false
+          },
+          "3": {
+            "label": "um novo movimento do Veterano",
+            "value": false
+          },
+          "4": {
+            "label": "um novo movimento do Veterano",
+            "value": false
+          },
+          "5": {
+            "label": "Status Mortalis: 2",
+            "value": false
+          },
+          "6": {
+            "label": "um movimento de outro manual",
+            "value": false
+          },
+          "7": {
+            "label": "mudar seu Círculo",
+            "value": false
+          }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "+1 Status (máx+1)",
+                "value": false
+              },
+              "1": {
+                "label": "+1 Status (máx+1)",
+                "value": false
+              },
+              "2": {
+                "label": "+1 Status (máx+1)",
+                "value": false
+              },
+              "3": {
+                "label": "um novo movimento do Veterano",
+                "value": false
+              },
+              "4": {
+                "label": "um novo movimento do Veterano",
+                "value": false
+              },
+              "5": {
+                "label": "Status Mortalis: 2",
+                "value": false
+              },
+              "6": {
+                "label": "um movimento de outro manual",
+                "value": false
+              },
+              "7": {
+                "label": "mudar seu Círculo",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "value": "",
+        "max": null
+      },
+      "expertAdvancements": {
+        "label": "Avanços de Especialista",
+        "description": "Após cinco avanços, você pode selecionar:",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "+1 qualquer Círculo (máx+3)",
+            "value": false
+          },
+          "1": {
+            "label": "+1 qualquer Círculo (máx+3)",
+            "value": false
+          },
+          "2": {
+            "label": "apagar uma cicatriz",
+            "value": false
+          },
+          "3": {
+            "label": "adicionar 2 recursos à sua oficina",
+            "value": false
+          },
+          "4": {
+            "label": "avançar 3 movimentos básicos",
+            "value": false
+          },
+          "5": {
+            "label": "avançar 3 movimentos básicos",
+            "value": false
+          },
+          "6": {
+            "label": "mudar para um novo manual",
+            "value": false
+          },
+          "7": {
+            "label": "aposentar seu personagem em segurança",
+            "value": false
+          }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "value": false,
+                "label": "+1 qualquer Círculo (máx+3)"
+              },
+              "1": {
+                "value": false,
+                "label": "+1 qualquer Círculo (máx+3)"
+              },
+              "2": {
+                "value": false,
+                "label": "apagar uma cicatriz"
+              },
+              "3": {
+                "value": false,
+                "label": "adicionar 2 recursos à sua oficina"
+              },
+              "4": {
+                "value": false,
+                "label": "avançar 3 movimentos básicos"
+              },
+              "5": {
+                "value": false,
+                "label": "avançar 3 movimentos básicos"
+              },
+              "6": {
+                "value": false,
+                "label": "mudar para um novo manual"
+              },
+              "7": {
+                "value": false,
+                "label": "aposentar seu personagem em segurança"
+              }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "value": "",
+        "max": null
+      },
+      "corruptionAdvances": {
+        "label": "Avanços de Corrupção",
+        "description": "A Corrupção representa seu personagem deslizando em direção às piores partes de sua natureza. Conforme sua corrupção aumenta, seus poderes só crescem...",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "receba +1 em qualquer atributo (máx+3)",
+            "value": false
+          },
+          "1": {
+            "label": "receba +1 em qualquer atributo (máx+3)",
+            "value": false
+          },
+          "2": {
+            "label": "receba um novo movimento de corrupção",
+            "value": false
+          },
+          "3": {
+            "label": "receba um novo movimento de corrupção",
+            "value": false
+          },
+          "4": {
+            "label": "receba um novo movimento de corrupção de outro manual ou do seu próprio",
+            "value": false
+          },
+          "5": {
+            "label": "aposente seu personagem; ele pode retornar como uma Ameaça",
+            "value": false
+          }
+        },
+        "choices": [
+          {
+            "options": {
+              "0": {
+                "label": "receba +1 em qualquer atributo (máx+3)",
+                "value": false
+              },
+              "1": {
+                "label": "receba +1 em qualquer atributo (máx+3)",
+                "value": false
+              },
+              "2": {
+                "label": "receba um novo movimento de corrupção",
+                "value": false
+              },
+              "3": {
+                "label": "receba um novo movimento de corrupção",
+                "value": false
+              },
+              "4": {
+                "label": "receba um novo movimento de corrupção de outro manual ou do seu próprio",
+                "value": false
+              },
+              "5": {
+                "label": "aposente seu personagem; ele pode retornar como uma Ameaça",
+                "value": false
+              }
+            },
+            "value": ""
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "value": "",
+        "max": null
+      },
+      "lookOne": {
+        "label": "Visual Um",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>andrógino</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>conforme</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>mutável</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>não-conforme</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": "Escolha um"
+      },
+      "lookTwo": {
+        "label": "Visual Dois",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>Asiático ou Sul-Asiático</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Negro</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Hispânico/ Latino</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Indígena</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Oriente Médio</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Branco</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>Outro: <preencha você mesmo depois></fill></p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": "Escolha um"
+      },
+      "lookThree": {
+        "label": "Visual Três",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>roupas casuais</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>roupas sujas</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>roupas formais</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>uniforme</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": "Escolha um"
+      },
+      "demeanor": {
+        "label": "Comportamento",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>charmoso</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>grosseiro</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>profissional</p>",
+            "options": {}
+          },
+          {
+            "value": "<p>reservado</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": "Escolha um"
+      },
+      "questionOne": {
+        "label": "Pergunta Um",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>Pelo que você já foi conhecido na cidade?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "questionTwo": {
+        "label": "Pergunta Dois",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>Há quanto tempo você mora aqui?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "questionThree": {
+        "label": "Pergunta Três",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>Qual foi sua maior conquista?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "questionFour": {
+        "label": "Pergunta Quatro",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>Por que você se afastou de quem costumava ser?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "questionFive": {
+        "label": "Pergunta Cinco",
+        "value": "",
+        "type": "LongText",
+        "choices": [
+          {
+            "value": "<p>Do que você precisa desesperadamente?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "details",
+        "max": null,
+        "options": {},
+        "description": ""
+      },
+      "TheVeteranWorkshop": {
+        "label": "SUA OFICINA",
+        "description": "",
+        "type": "LongText",
+        "value": "<p>Você tem uma oficina que inclui um grande espaço para suas ferramentas e/ou suprimentos. Quando você vai para sua oficina trabalhar em algo, o MC diz: \"Claro, sem problemas, mas…\" e então escolhe de 1 a 4 das seguintes opções.</p><ul><li>Vai levar horas/dias/semanas/meses de trabalho ou tempo de recuperação</li><li>Primeiro você terá que invocar/construir/fabricar ________</li><li>Você precisará dos serviços de ________ para completá-lo</li><li>Você precisa de um ingrediente ou material raro e caro</li><li>Só funcionará por pouco tempo e pode não ser confiável</li><li>Vai significar expor qualquer um por perto a sérias consequências</li><li>Sua oficina não tem _______; adicione isso e você poderá completá-lo</li><li>Exigirá uma parte de você mesmo para completar</li><li>Você deve viajar para ________ a fim de completá-lo</li></ul><p>O MC pode combinar qualquer conjunto de requisitos ou oferecer dois conjuntos de custos para a mesma tarefa. Uma vez que os requisitos sejam cumpridos, o trabalho está concluído. O MC irá definir as estatísticas, revelar alguma informação ou o que for necessário agora que você terminou.</p><p>Itens criados em sua oficina estão a salvo do MC. Eles não podem ser destruídos ou tomados sem sua permissão, mesmo se você os vender ou doar para outro personagem. Quando você criar algo especificamente para outro personagem, marque o Círculo dele quando o projeto estiver concluído.</p><p>Escolha e sublinhe 3 recursos que sua oficina inclui: <em>guincho e ferramentas automotivas, uma câmara escura, um ambiente de cultivo regulado, dois ou três assistentes qualificados, um ferro-velho de matérias-primas, ferramentas de usinagem, transmissores e receptores, um campo de testes, armadilhas mortais, uma biblioteca de livros antigos, um punhado de relíquias antigas, um foco místico, proteções mágicas, uma estação médica, uma sala de cirurgia, eletrônicos de alta tecnologia e computadores, um sistema de vigilância avançado, uma forja, um laboratório de ciências, um portal para outra dimensão</em></p>",
+        "choices": [
+          {
+            "value": "<p>Você tem uma oficina que inclui um grande espaço para suas ferramentas e/ou suprimentos. Quando você vai para sua oficina trabalhar em algo, o MC diz: \"Claro, sem problemas, mas…\" e então escolhe de 1 a 4 das seguintes opções.</p><ul><li>Vai levar horas/dias/semanas/meses de trabalho ou tempo de recuperação</li><li>Primeiro você terá que invocar/construir/fabricar ________</li><li>Você precisará dos serviços de ________ para completá-lo</li><li>Você precisa de um ingrediente ou material raro e caro</li><li>Só funcionará por pouco tempo e pode não ser confiável</li><li>Vai significar expor qualquer um por perto a sérias consequências</li><li>Sua oficina não tem _______; adicione isso e você poderá completá-lo</li><li>Exigirá uma parte de você mesmo para completar</li><li>Você deve viajar para ________ a fim de completá-lo</li></ul><p>O MC pode combinar qualquer conjunto de requisitos ou oferecer dois conjuntos de custos para a mesma tarefa. Uma vez que os requisitos sejam cumpridos, o trabalho está concluído. O MC irá definir as estatísticas, revelar alguma informação ou o que for necessário agora que você terminou.</p><p>Itens criados em sua oficina estão a salvo do MC. Eles não podem ser destruídos ou tomados sem sua permissão, mesmo se você os vender ou doar para outro personagem. Quando você criar algo especificamente para outro personagem, marque o Círculo dele quando o projeto estiver concluído.</p><p>Escolha e sublinhe 3 recursos que sua oficina inclui: <em>guincho e ferramentas automotivas, uma câmara escura, um ambiente de cultivo regulado, dois ou três assistentes qualificados, um ferro-velho de matérias-primas, ferramentas de usinagem, transmissores e receptores, um campo de testes, armadilhas mortais, uma biblioteca de livros antigos, um punhado de relíquias antigas, um foco místico, proteções mágicas, uma estação médica, uma sala de cirurgia, eletrônicos de alta tecnologia e computadores, um sistema de vigilância avançado, uma forja, um laboratório de ciências, um portal para outra dimensão</em></p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes"
+      }
+    },
+    "choiceSets": [
+      {
+        "title": "MOVIMENTOS DO VETERANO",
+        "desc": "VOCÊ RECEBE ESTE:",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.plRdZ9kjeGpd8ndu",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
+      },
+      {
+        "title": "MOVIMENTOS DO VETERANO",
+        "desc": "E ESCOLHA MAIS DOIS:",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.JuTlngpZnJDZD9e7",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.I3jJ6kK9lL2mN5oP",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.YXu29TI1KcHjLdAG",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.J4kK7lL0mN3oP6qQ",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.XyJHxjfK3ycPtGTT",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 1,
+        "granted": false,
+        "advancement": 0
+      },
+      {
+        "title": "Movimentos Iniciais do VETERANO",
+        "desc": "",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.M7oP0qQ3rS6tT9uU",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.manuais-ptbr.Item.MCfl1guDNDMDsaDZ",
+            "img": "icons/svg/aura.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
+      },
+      {
+        "title": "Equipamento Inicial",
+        "desc": "",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.KJpK75h5tquVPjLJ",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/flatbed.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.JVrSbjXusGXxQ9mR",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/factory.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.hzja5WHwvYV0N2uk",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/smartphone.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/factory.svg",
+            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.zJHFMoGPOS1qm6oh",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
+      },
+      {
+        "title": "Equipamento Inicial",
+        "desc": "Uma arma confiável à escolha:",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.K4lL7mN0oP3qQ6rS",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/pistol-gun.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.3F6i3djFhxSbolbg",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/revolver.svg",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.urban-shadows-ptbr.equipamentos-ptbr.Item.ab37097cce424167",
+            "img": "modules/urban-shadows-pbta/assets/cc-assets/gear/sawed-off-shotgun.svg",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 1,
+        "granted": false,
+        "advancement": 0
+      }
+    ]
+  },
+  "effects": [],
+  "folder": "qfi6Go2GdMVMrMB1",
+  "ownership": {
+    "default": 0,
+    "MZpJvwT3EQwBniAB": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pbta",
+    "systemVersion": "1.1.21",
+    "createdTime": 1733907141240,
+    "modifiedTime": 1757827673524,
+    "lastModifiedBy": "WynALakZJf661YU1",
+    "exportSource": null
+  },
+  "_id": "9DSqfb5hQN5EblgE",
+  "sort": 100000,
+  "_key": "!items!9DSqfb5hQN5EblgE"
+}
