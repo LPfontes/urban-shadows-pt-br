@@ -1,11 +1,11 @@
 {
-  "folder": "IbSH3P9hNhTyb12s",
-  "name": "Movimento Final do Mago",
+  "folder": "67b98e674f1346b5",
+  "name": "Movimento Derradeiro do Maculado",
   "type": "move",
-  "_id": "3US48kX8kaqUc5Le",
+  "_id": "rLpQT2qDAGUaDOYk",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>Quando você morrer, você pode lançar uma maldição devastadora—uma nova proibição ou fraqueza—em alguém presente na cena.</p>",
+    "description": "<p>Quando você morrer, cobre todas as Dívidas que seu patrono deve a você para voltar, curando todos os danos. Se você não tiver nenhuma, seu patrono pede a outra pessoa para pagar a Dívida por você. Se ela recusar, seu tempo acabou.</p>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {
@@ -43,11 +43,11 @@
     "duplicateSource": null,
     "coreVersion": "13.344",
     "systemId": "pbta",
-    "systemVersion": "1.1.9",
+    "systemVersion": "1.1.20",
     "createdTime": 1733907149533,
-    "modifiedTime": 1748405517374,
+    "modifiedTime": 1748405232977,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk",
     "exportSource": null
   },
-  "_key": "!items!3US48kX8kaqUc5Le"
+  "_key": "!items!rLpQT2qDAGUaDOYk"
 }

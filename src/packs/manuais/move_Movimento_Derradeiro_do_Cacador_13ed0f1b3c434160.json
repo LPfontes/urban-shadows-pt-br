@@ -1,11 +1,11 @@
 {
-  "folder": "SnCfqM8uN9psoa5w",
-  "name": "Movimento Final do Veterano",
+  "folder": "F7hJ0lN3oP6qR9tW",
+  "name": "Movimento Derradeiro do Caçador",
   "type": "move",
-  "_id": "M7oP0qQ3rS6tT9uU",
+  "_id": "13ed0f1b3c434160",
   "img": "icons/svg/aura.svg",
   "system": {
-    "description": "<p>Quando você morrer ou aposentar seu personagem, escolha um personagem para herdar sua Oficina.</p>",
+    "description": "<p>Quando morreres, dá a outro PJ uma das tuas armas personalizadas e um dos teus movimentos de Caçador. Ambos são deles permanentemente.</p>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {
@@ -32,22 +32,22 @@
     "choices": ""
   },
   "effects": [],
-  "sort": 300000,
+  "sort": 0,
   "ownership": {
     "default": 0,
     "MZpJvwT3EQwBniAB": 3
   },
   "flags": {},
   "_stats": {
-    "compendiumSource": null,
+    "compendiumSource": "Item.R9tV2xZ5bC8fE1iJ",
     "duplicateSource": null,
-    "coreVersion": "13.344",
+    "coreVersion": "13.351",
     "systemId": "pbta",
     "systemVersion": "1.1.9",
-    "createdTime": 1733907149533,
-    "modifiedTime": 1748405423851,
+    "createdTime": 1733907156058,
+    "modifiedTime": 1749878677534,
     "lastModifiedBy": "tolKXMkOd7JsM4Jk",
     "exportSource": null
   },
-  "_key": "!items!M7oP0qQ3rS6tT9uU"
+  "_key": "!items!13ed0f1b3c434160"
 }

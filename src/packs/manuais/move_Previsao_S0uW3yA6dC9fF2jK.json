@@ -1,6 +1,6 @@
 {
   "folder": "L3nP6rT9uW2xZ5bC",
-  "name": "Previsão",
+  "name": "Antevisão",
   "type": "move",
   "_id": "S0uW3yA6dC9fF2jK",
   "img": "icons/svg/aura.svg",
@@ -43,7 +43,7 @@
     "duplicateSource": null,
     "coreVersion": "13.347",
     "systemId": "pbta",
-    "systemVersion": "1.1.21",
+    "systemVersion": "1.1.22",
     "createdTime": 1733907149533,
     "modifiedTime": 1756441460334,
     "lastModifiedBy": "WynALakZJf661YU1",
